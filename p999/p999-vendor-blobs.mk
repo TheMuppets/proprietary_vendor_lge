@@ -43,29 +43,28 @@ PRODUCT_COPY_FILES += \
 
 # GPS
 PRODUCT_COPY_FILES += \
-    vendor/lge/p999/proprietary/lib/liblge-gps.so:obj/lib/libgps.so \
-    vendor/lge/p999/proprietary/lib/liblge-gps.so:system/lib/libgps.so
+    vendor/lge/p999/proprietary/lib/liblge-gps.so:obj/lib/liblge-gps.so \
+    vendor/lge/p999/proprietary/lib/liblge-gps.so:system/lib/liblge-gps.so
 
 # OMX
 PRODUCT_COPY_FILES += \
     vendor/lge/p999/proprietary/etc/pvnvomx.cfg:system/etc/pvnvomx.cfg \
-    vendor/lge/p999/proprietary/lib/libpvnvomx.so:system/lib/libpvnvomx.s \
+    vendor/lge/p999/proprietary/lib/libpvnvomx.so:system/lib/libpvnvomx.so \
     vendor/lge/p999/proprietary/lib/libdivxdrm.so:system/lib/libdivxdrm.so \
     vendor/lge/p999/proprietary/lib/liblge_divxdrm.so:system/lib/liblge_divxdrm.so \
-    vendor/lge/p999/proprietary/lib/libtsparser.so:system/lib/libtsparser.so \
     vendor/lge/p999/proprietary/lib/libhwmediaplugin.so:system/lib/libhwmediaplugin.so \
     vendor/lge/p999/proprietary/lib/libhwmediaplugin.so:obj/lib/libhwmediaplugin.so \
     vendor/lge/p999/proprietary/lib/libhwmediarecorder.so:system/lib/libhwmediarecorder.so \
     vendor/lge/p999/proprietary/lib/libhwmediarecorder.so:obj/lib/libhwmediarecorder.so \
     vendor/lge/p999/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
-    vendor/lge/p999/proprietary/bin/secureclockd:system/bin/secureclockd \
     vendor/lge/p999/proprietary/lib/libsecureclock.so:system/lib/libsecureclock.so \
     vendor/lge/p999/proprietary/lib/libbridge.so:system/lib/libbridge.so
 
 PRODUCT_COPY_FILES += \
     vendor/lge/p999/proprietary/etc/flex/flex.db:system/etc/flex/flex.db \
     vendor/lge/p999/proprietary/etc/flex/flex.xml:system/etc/flex/flex.xml \
-    vendor/lge/p999/proprietary/bin/BCM4329B1_002.002.023.0735.0745.hcd:system/etc/firmware/BCM4329B1_002.002.023.0735.0745.hcd \
+    vendor/lge/p999/proprietary/etc/firmware/BCM4329B1_002.002.023.0735.0745.hcd:system/etc/firmware/BCM4329B1_002.002.023.0735.0745.hcd \
+    vendor/lge/p999/proprietary/bin/lge_signaling_d:system/bin/lge_signaling_d \
     vendor/lge/p999/proprietary/bin/motion:system/bin/motion \
     vendor/lge/p999/proprietary/bin/nvrm_daemon:system/bin/nvrm_daemon \
     vendor/lge/p999/proprietary/bin/nvrm_avp.axf:system/bin/nvrm_avp.axf \
@@ -91,12 +90,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p999/proprietary/bin/nvmm_aacdec.axf:system/bin/nvmm_aacdec.axf \
     vendor/lge/p999/proprietary/bin/nvddk_audiofx_transport.axf:system/bin/nvddk_audiofx_transport.axf \
     vendor/lge/p999/proprietary/bin/nvddk_audiofx_core.axf:system/bin/nvddk_audiofx_core.axf \
-    vendor/lge/p999/proprietary/bin/lgospd_hid:system/bin/lgospd_hid \
-    vendor/lge/p999/proprietary/bin/lgospd:system/bin/lgospd \
-    vendor/lge/p999/proprietary/bin/lgdrmserver:system/bin/lgdrmserver \
-    vendor/lge/p999/proprietary/bin/immvibed:system/bin/immvibed \
     vendor/lge/p999/proprietary/bin/hdmid:system/bin/hdmid \
-    vendor/lge/p999/proprietary/bin/btld:system/bin/btld \
     vendor/lge/p999/proprietary/bin/bridgeutil:system/bin/bridgeutil \
     vendor/lge/p999/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/p999/proprietary/lib/libnvos.so:system/lib/libnvos.so \
@@ -113,17 +107,18 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p999/proprietary/lib/libnvsm.so:system/lib/libnvsm.so \
     vendor/lge/p999/proprietary/lib/libnvmm_utils.so:system/lib/libnvmm_utils.so \
     vendor/lge/p999/proprietary/lib/libnvmm.so:system/lib/libnvmm.so \
+    vendor/lge/p999/proprietary/lib/libnvdispmgr_d.so:obj/lib/libnvdispmgr_d.so \
     vendor/lge/p999/proprietary/lib/libnvdispmgr_d.so:system/lib/libnvdispmgr_d.so \
     vendor/lge/p999/proprietary/lib/liblvvil.so:system/lib/liblvvil.so \
     vendor/lge/p999/proprietary/lib/libnvddk_audiofx.so:system/lib/libnvddk_audiofx.so \
     vendor/lge/p999/proprietary/lib/libnvodm_query.so:system/lib/libnvodm_query.so \
     vendor/lge/p999/proprietary/lib/libnvodm_misc.so:system/lib/libnvodm_misc.so \
+    vendor/lge/p999/proprietary/lib/libnvodm_dtvtuner.so:system/lib/libnvodm_dtvtuner.so \
     vendor/lge/p999/proprietary/lib/libnvrm_channel.so:system/lib/libnvrm_channel.so \
     vendor/lge/p999/proprietary/lib/libnvdispatch_helper.so:system/lib/libnvdispatch_helper.so \
     vendor/lge/p999/proprietary/lib/libnvomxilclient.so:system/lib/libnvomxilclient.so \
     vendor/lge/p999/proprietary/lib/libnvmm_logger.so:system/lib/libnvmm_logger.so \
     vendor/lge/p999/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
-    vendor/lge/p999/proprietary/lib/liblgdrm.so:system/lib/liblgdrm.so \
     vendor/lge/p999/proprietary/lib/libnvmm_audio.so:system/lib/libnvmm_audio.so \
     vendor/lge/p999/proprietary/lib/libnvmm_contentpipe.so:system/lib/libnvmm_contentpipe.so \
     vendor/lge/p999/proprietary/lib/libnvmm_image.so:system/lib/libnvmm_image.so \
