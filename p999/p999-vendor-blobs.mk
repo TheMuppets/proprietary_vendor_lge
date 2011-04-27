@@ -108,6 +108,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p999/proprietary/lib/libnvmm_utils.so:system/lib/libnvmm_utils.so \
     vendor/lge/p999/proprietary/lib/libnvmm.so:system/lib/libnvmm.so \
     vendor/lge/p999/proprietary/lib/libnvdispmgr_d.so:system/lib/libnvdispmgr_d.so \
+    vendor/lge/p999/proprietary/lib/libnvdispmgr_d.so:obj/lib/libnvdispmgr_d.so \
     vendor/lge/p999/proprietary/lib/liblvvil.so:system/lib/liblvvil.so \
     vendor/lge/p999/proprietary/lib/libnvddk_audiofx.so:system/lib/libnvddk_audiofx.so \
     vendor/lge/p999/proprietary/lib/libnvodm_query.so:system/lib/libnvodm_query.so \
