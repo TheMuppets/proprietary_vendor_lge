@@ -26,7 +26,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p999/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
     vendor/lge/p999/proprietary/lib/hw/lights.tegra.so:system/lib/hw/lights.tegra.so \
     vendor/lge/p999/proprietary/lib/hw/overlay.tegra.so:system/lib/hw/overlay.tegra.so \
-    vendor/lge/p999/proprietary/lib/hw/sensors.tegra.so:system/lib/hw/sensors.tegra.so
+    vendor/lge/p999/proprietary/lib/hw/sensors.tegra.so:system/lib/hw/sensors.tegra.so \
+    vendor/lge/p999/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so
 
 # EGL
 PRODUCT_COPY_FILES += \
@@ -40,11 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p999/proprietary/etc/wl/rtecdc-apsta.bin:system/etc/wl/rtecdc-apsta.bin \
     vendor/lge/p999/proprietary/etc/wl/rtecdc-mfgtest.bin:system/etc/wl/rtecdc-mfgtest.bin \
     vendor/lge/p999/proprietary/etc/wl/rtecdc.bin:system/etc/wl/rtecdc.bin
-
-# GPS
-PRODUCT_COPY_FILES += \
-    vendor/lge/p999/proprietary/lib/liblge-gps.so:obj/lib/liblge-gps.so \
-    vendor/lge/p999/proprietary/lib/liblge-gps.so:system/lib/liblge-gps.so
 
 # OMX
 PRODUCT_COPY_FILES += \
