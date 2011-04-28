@@ -44,8 +44,6 @@ PRODUCT_COPY_FILES += \
 
 # OMX
 PRODUCT_COPY_FILES += \
-    vendor/lge/p999/proprietary/etc/pvnvomx.cfg:system/etc/pvnvomx.cfg \
-    vendor/lge/p999/proprietary/lib/libpvnvomx.so:system/lib/libpvnvomx.so \
     vendor/lge/p999/proprietary/lib/libdivxdrm.so:system/lib/libdivxdrm.so \
     vendor/lge/p999/proprietary/lib/liblge_divxdrm.so:system/lib/liblge_divxdrm.so \
     vendor/lge/p999/proprietary/lib/libhwmediaplugin.so:system/lib/libhwmediaplugin.so \
@@ -105,7 +103,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p999/proprietary/lib/libnvmm.so:system/lib/libnvmm.so \
     vendor/lge/p999/proprietary/lib/libnvdispmgr_d.so:system/lib/libnvdispmgr_d.so \
     vendor/lge/p999/proprietary/lib/libnvdispmgr_d.so:obj/lib/libnvdispmgr_d.so \
-    vendor/lge/p999/proprietary/lib/liblvvil.so:system/lib/liblvvil.so \
     vendor/lge/p999/proprietary/lib/libnvddk_audiofx.so:system/lib/libnvddk_audiofx.so \
     vendor/lge/p999/proprietary/lib/libnvodm_query.so:system/lib/libnvodm_query.so \
     vendor/lge/p999/proprietary/lib/libnvodm_misc.so:system/lib/libnvodm_misc.so \
