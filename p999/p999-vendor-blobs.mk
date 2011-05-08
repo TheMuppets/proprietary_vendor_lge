@@ -58,7 +58,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p999/proprietary/etc/flex/flex.db:system/etc/flex/flex.db \
     vendor/lge/p999/proprietary/etc/flex/flex.xml:system/etc/flex/flex.xml \
     vendor/lge/p999/proprietary/etc/firmware/BCM4329B1_002.002.023.0735.0745.hcd:system/etc/firmware/BCM4329B1_002.002.023.0735.0745.hcd \
-    vendor/lge/p999/proprietary/bin/lge_signaling_d:system/bin/lge_signaling_d \
     vendor/lge/p999/proprietary/bin/motion:system/bin/motion \
     vendor/lge/p999/proprietary/bin/nvrm_daemon:system/bin/nvrm_daemon \
     vendor/lge/p999/proprietary/bin/nvrm_avp.axf:system/bin/nvrm_avp.axf \
@@ -126,4 +125,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p999/proprietary/lib/libnvmm_service.so:system/lib/libnvmm_service.so \
     vendor/lge/p999/proprietary/lib/libnvomx.so:system/lib/libnvomx.so \
     vendor/lge/p999/proprietary/lib/libnvwsi.so:system/lib/libnvwsi.so
+
+# Wi-Fi Calling
+PRODUCT_COPY_FILES += \
+    vendor/lge/p999/proprietary/app/Kineto.apk:system/app/Kineto.apk \
+    vendor/lge/p999/proprietary/lib/libganril.so:system/lib/libganril.apk \
+    vendor/lge/p999/proprietary/lib/libkineto.so:system/lib/libkineto.apk \
+    vendor/lge/p999/proprietary/lib/librilswitch.so:system/lib/librilswitch.so
 
