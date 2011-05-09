@@ -129,7 +129,7 @@ PRODUCT_COPY_FILES += \
 # Wi-Fi Calling
 PRODUCT_COPY_FILES += \
     vendor/lge/p999/proprietary/app/Kineto.apk:system/app/Kineto.apk \
-    vendor/lge/p999/proprietary/lib/libganril.so:system/lib/libganril.apk \
-    vendor/lge/p999/proprietary/lib/libkineto.so:system/lib/libkineto.apk \
+    vendor/lge/p999/proprietary/lib/libganril.so:system/lib/libganril.so \
+    vendor/lge/p999/proprietary/lib/libkineto.so:system/lib/libkineto.so \
     vendor/lge/p999/proprietary/lib/librilswitch.so:system/lib/librilswitch.so
 
