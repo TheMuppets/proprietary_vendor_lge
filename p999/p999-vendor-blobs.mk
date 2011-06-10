@@ -124,7 +124,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p999/proprietary/lib/libnvmm_writer.so:system/lib/libnvmm_writer.so \
     vendor/lge/p999/proprietary/lib/libnvmm_service.so:system/lib/libnvmm_service.so \
     vendor/lge/p999/proprietary/lib/libnvomx.so:system/lib/libnvomx.so \
-    vendor/lge/p999/proprietary/lib/libnvwsi.so:system/lib/libnvwsi.so
+    vendor/lge/p999/proprietary/lib/libnvwsi.so:system/lib/libnvwsi.so \
+    vendor/lge/p999/proprietary/lib/liblgeswcodecs.so:system/lib/liblgeswcodecs.so \
+    vendor/lge/p999/proprietary/lib/liblgemmevrc.so:system/lib/liblgemmevrc.so \
+    vendor/lge/p999/proprietary/lib/liblgemmqcelp.so:system/lib/liblgemmqcelp.so \
+    vendor/lge/p999/proprietary/lib/liblgemmec3.so:system/lib/liblgemmec3.so
 
 # Wi-Fi Calling
 PRODUCT_COPY_FILES += \
