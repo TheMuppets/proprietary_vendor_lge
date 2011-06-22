@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!---/******************************************************************************
+* @file   wiperconfig.xml
+* @brief   Store configuration settings for Wiper Application
+*  Coppyright (C) 2009 QUALCOMM Incorporated.
+*  All Rights Reserved. QUALCOMM Proprietary and Confidential.
+*  *****************************************************************************-->
+<wiperconfig>
+    <configparam
+        username="test"
+        realm="qualcomm.com"
+        highFreqPeriodMs="3500"
+        lowFreqPeriodMs="5000"
+        tilingPath="/data/wpstiles/"
+        maxDataSizePerSession="100000"
+        maxDataSizeTotal="100000000" />
+</wiperconfig>
+
