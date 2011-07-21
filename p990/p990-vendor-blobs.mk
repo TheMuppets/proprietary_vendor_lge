@@ -42,9 +42,9 @@ PRODUCT_COPY_FILES += \
 
 # GPS
 PRODUCT_COPY_FILES += \
-    vendor/lge/p990/proprietary/lib/libgps.so:obj/lib/libgps.so \
-    vendor/lge/p990/proprietary/lib/libgps.so:system/lib/libgps.so \
-    vendor/lge/p990/proprietary/bin/glgps:system/bin/glgps
+    vendor/lge/p990/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
+    vendor/lge/p990/proprietary/bin/glgps:system/bin/glgps \
+    vendor/lge/p990/proprietary/etc/cert/lge.cer:system/etc/cert/lge.cer
 
 # OMX
 PRODUCT_COPY_FILES += \
