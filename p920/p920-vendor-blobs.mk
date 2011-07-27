@@ -49,9 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p920/proprietary/etc/wifi/firmware.bin:system/etc/wifi/firmware.bin \
     vendor/lge/p920/proprietary/etc/wifi/tiwlan.ini:system/etc/wifi/tiwlan.ini \
     vendor/lge/p920/proprietary/etc/wifi/softap/firmware_ap.bin:system/etc/wifi/softap/firmware_ap.bin \
-    vendor/lge/p920/proprietary/etc/wifi/softap/tiwlan_ap.ini:system/etc/wifi/softap/tiwlan_ap.ini \
-    vendor/lge/p920/proprietary/etc/wifi/tiwlan_drv.ko:system/etc/wifi/tiwlan_drv.ko \
-    vendor/lge/p920/proprietary/etc/wifi/softap/tiap_drv.ko:system/etc/wifi/softap/tiap_drv.ko
+    vendor/lge/p920/proprietary/etc/wifi/softap/tiwlan_ap.ini:system/etc/wifi/softap/tiwlan_ap.ini
 
 # RIL
 PRODUCT_COPY_FILES += \
