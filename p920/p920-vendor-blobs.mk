@@ -17,7 +17,6 @@
 # HAL
 PRODUCT_COPY_FILES += \
     vendor/lge/p920/proprietary/lib/hw/gralloc.omap4430.so:system/lib/hw/gralloc.omap4430.so \
-    vendor/lge/p920/proprietary/lib/hw/overlay.omap4.so:system/lib/hw/overlay.omap4.so \
     vendor/lge/p920/proprietary/lib/hw/lights.omap4.so:system/lib/hw/lights.omap4.so \
     vendor/lge/p920/proprietary/lib/hw/sensors.omap4.so:system/lib/hw/sensors.omap4.so
 
@@ -67,8 +66,6 @@ PRODUCT_COPY_FILES += \
 
 ## IVA Firmware
 PRODUCT_COPY_FILES += \
-    vendor/lge/p920/proprietary/lib/libsysmgr.so:system/lib/libsysmgr.so \
-    vendor/lge/p920/proprietary/lib/libmemmgr.so:system/lib/libmemmgr.so \
     vendor/lge/p920/proprietary/base_image_sys_m3.xem3:system/base_image_sys_m3.xem3 \
     vendor/lge/p920/proprietary/base_image_app_m3.xem3:system/base_image_app_m3.xem3
 
