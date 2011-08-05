@@ -52,14 +52,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p920/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/p920/proprietary/lib/libini.so:system/lib/libini.so
 
-# Audio
-PRODUCT_COPY_FILES += \
-    vendor/lge/p920/proprietary/lib/libaudio.so:system/lib/libaudio.so \
-    vendor/lge/p920/proprietary/lib/libmmclient.so:system/lib/libmmclient.so \
-    vendor/lge/p920/proprietary/lib/libaudiomodemgeneric.so:system/lib/libaudiomodemgeneric.so \
-    vendor/lge/p920/proprietary/lib/libacousticengine.so:system/lib/libacousticengine.so \
-    vendor/lge/p920/proprietary/lib/hw/alsa.omap4.so:system/lib/hw/alsa.omap4.so
-
 ## IVA Firmware
 PRODUCT_COPY_FILES += \
     vendor/lge/p920/proprietary/base_image_sys_m3.xem3:system/base_image_sys_m3.xem3 \
