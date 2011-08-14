@@ -55,6 +55,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p920/proprietary/base_image_sys_m3.xem3:system/base_image_sys_m3.xem3 \
     vendor/lge/p920/proprietary/base_image_app_m3.xem3:system/base_image_app_m3.xem3
 
+## Bluetooth firmware
+PRODUCT_COPY_FILES += \
+    vendor/lge/p920/proprietary/etc/firmware/TIInit_7.2.31.bts:system/etc/firmware/TIInit_7.2.31.bts
+
 ## GPS
 PRODUCT_COPY_FILES += \
     vendor/lge/p920/proprietary/etc/cert/lge.cer:system/etc/cert/lge.cer \
