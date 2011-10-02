@@ -139,9 +139,3 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p970/proprietary/lib/libOMX.ITTIAM.AAC.decode.so:system/lib/libOMX.ITTIAM.AAC.decode.so \
     vendor/lge/p970/proprietary/lib/libOMX.TI.h264.splt.Encoder.so:system/lib/libOMX.TI.h264.splt.Encoder.so
 
-## Audio HALs (temporary)
-PRODUCT_COPY_FILES += \
-    vendor/lge/p970/proprietary/lib/libaudio.so:obj/lib/libaudio.so \
-    vendor/lge/p970/proprietary/lib/libaudio.so:system/lib/libaudio.so \
-    vendor/lge/p970/proprietary/lib/hw/alsa.omap3.so:system/lib/hw/alsa.omap3.so
-
