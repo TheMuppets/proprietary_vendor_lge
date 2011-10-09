@@ -36,6 +36,7 @@ PRODUCT_COPY_FILES += \
 
 # RIL
 PRODUCT_COPY_FILES += \
+    vendor/lge/p970/proprietary/bin/rild:system/bin/rild \
     vendor/lge/p970/proprietary/lib/lge-ril.so:system/lib/lge-ril.so \
     vendor/lge/p970/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/p970/proprietary/lib/libini.so:system/lib/libini.so
