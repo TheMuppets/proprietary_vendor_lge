@@ -18,7 +18,8 @@
 PRODUCT_COPY_FILES += \
     vendor/lge/p920/proprietary/lib/hw/gralloc.omap4.so:system/lib/hw/gralloc.omap4.so \
     vendor/lge/p920/proprietary/lib/hw/lights.omap4.so:system/lib/hw/lights.omap4.so \
-    vendor/lge/p920/proprietary/lib/hw/sensors.omap4.so:system/lib/hw/sensors.omap4.so
+    vendor/lge/p920/proprietary/lib/hw/sensors.omap4.so:system/lib/hw/sensors.omap4.so \
+    vendor/lge/p920/proprietary/lib/hw/overlay.omap4.so:system/lib/hw/overlay.omap4.so
 
 # PVRSGX
 PRODUCT_COPY_FILES += \
@@ -116,4 +117,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p920/proprietary/etc/omapcam/R05_MVEN001_LD2_ND0_IR0_SH0_FL0_SVEN001_DCCID1040/cid1040_imx072_vnf_cfg_dcc.bin:system/etc/omapcam/R05_MVEN001_LD2_ND0_IR0_SH0_FL0_SVEN001_DCCID1040/cid1040_imx072_vnf_cfg_dcc.bin \
     vendor/lge/p920/proprietary/etc/omapcam/R05_MVEN001_LD2_ND0_IR0_SH0_FL0_SVEN001_DCCID1040/cid1040_imx072_vss_sac_smac_cfg_dcc.bin:system/etc/omapcam/R05_MVEN001_LD2_ND0_IR0_SH0_FL0_SVEN001_DCCID1040/cid1040_imx072_vss_sac_smac_cfg_dcc.bin
 
+# Camera (hopefully temporary)
+PRODUCT_COPY_FILES += \
+    vendor/lge/p920/proprietary/lib/libcamera.so:system/lib/libcamera.so \
+    vendor/lge/p920/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
+    vendor/lge/p920/proprietary/lib/libomxcameraadapter.so:system/lib/libomxcameraadapter.so
 
