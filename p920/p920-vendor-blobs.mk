@@ -18,8 +18,7 @@
 PRODUCT_COPY_FILES += \
     vendor/lge/p920/proprietary/lib/hw/gralloc.omap4.so:system/lib/hw/gralloc.omap4.so \
     vendor/lge/p920/proprietary/lib/hw/lights.omap4.so:system/lib/hw/lights.omap4.so \
-    vendor/lge/p920/proprietary/lib/hw/sensors.omap4.so:system/lib/hw/sensors.omap4.so \
-    vendor/lge/p920/proprietary/lib/hw/overlay.omap4.so:system/lib/hw/overlay.omap4.so
+    vendor/lge/p920/proprietary/lib/hw/sensors.omap4.so:system/lib/hw/sensors.omap4.so
 
 # PVRSGX
 PRODUCT_COPY_FILES += \
@@ -120,6 +119,5 @@ PRODUCT_COPY_FILES += \
 # Camera (hopefully temporary)
 PRODUCT_COPY_FILES += \
     vendor/lge/p920/proprietary/lib/libcamera.so:system/lib/libcamera.so \
-    vendor/lge/p920/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
     vendor/lge/p920/proprietary/lib/libomxcameraadapter.so:system/lib/libomxcameraadapter.so
 
