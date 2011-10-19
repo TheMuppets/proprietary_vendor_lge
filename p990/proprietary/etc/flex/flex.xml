@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Flexinfo>
-<Flexinfo   
+<Flexinfo  
+	FLEX_AUTOPROFILE="true"
 	FLEX_COUNTRY_CODE="COM"
 	FLEX_OPERATOR_CODE="OPEN"
 	FLEX_MCC_CODE="000"

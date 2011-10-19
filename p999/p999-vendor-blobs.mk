@@ -43,15 +43,14 @@ PRODUCT_COPY_FILES += \
 
 # OMX
 PRODUCT_COPY_FILES += \
+    vendor/lge/p999/proprietary/lib/liblgdrm.so:system/lib/liblgdrm.so \
     vendor/lge/p999/proprietary/lib/libdivxdrm.so:system/lib/libdivxdrm.so \
     vendor/lge/p999/proprietary/lib/liblge_divxdrm.so:system/lib/liblge_divxdrm.so \
     vendor/lge/p999/proprietary/lib/libhwmediaplugin.so:system/lib/libhwmediaplugin.so \
     vendor/lge/p999/proprietary/lib/libhwmediaplugin.so:obj/lib/libhwmediaplugin.so \
     vendor/lge/p999/proprietary/lib/libhwmediarecorder.so:system/lib/libhwmediarecorder.so \
     vendor/lge/p999/proprietary/lib/libhwmediarecorder.so:obj/lib/libhwmediarecorder.so \
-    vendor/lge/p999/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
-    vendor/lge/p999/proprietary/lib/libsecureclock.so:system/lib/libsecureclock.so \
-    vendor/lge/p999/proprietary/lib/libbridge.so:system/lib/libbridge.so
+    vendor/lge/p999/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so
 
 PRODUCT_COPY_FILES += \
     vendor/lge/p999/proprietary/etc/flex/flex.db:system/etc/flex/flex.db \
@@ -83,7 +82,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p999/proprietary/bin/nvddk_audiofx_transport.axf:system/bin/nvddk_audiofx_transport.axf \
     vendor/lge/p999/proprietary/bin/nvddk_audiofx_core.axf:system/bin/nvddk_audiofx_core.axf \
     vendor/lge/p999/proprietary/bin/hdmid:system/bin/hdmid \
-    vendor/lge/p999/proprietary/bin/bridgeutil:system/bin/bridgeutil \
+    vendor/lge/p999/proprietary/bin/lgdrmserver:system/bin/lgdrmserver \
     vendor/lge/p999/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/p999/proprietary/lib/libnvos.so:system/lib/libnvos.so \
     vendor/lge/p999/proprietary/lib/libnvrm.so:system/lib/libnvrm.so \
@@ -127,7 +126,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p999/proprietary/lib/liblgeswcodecs.so:system/lib/liblgeswcodecs.so \
     vendor/lge/p999/proprietary/lib/liblgemmevrc.so:system/lib/liblgemmevrc.so \
     vendor/lge/p999/proprietary/lib/liblgemmqcelp.so:system/lib/liblgemmqcelp.so \
-    vendor/lge/p999/proprietary/lib/liblgemmec3.so:system/lib/liblgemmec3.so
+    vendor/lge/p999/proprietary/lib/liblgemmec3.so:system/lib/liblgemmec3.so \
+    vendor/lge/p999/proprietary/lib/libnvodm_hdmi.so:system/lib/libnvodm_hdmi.so \
+    vendor/lge/p999/proprietary/lib/liblvvil.so:system/lib/liblvvil.so
 
 # Wi-Fi Calling
 PRODUCT_COPY_FILES += \
