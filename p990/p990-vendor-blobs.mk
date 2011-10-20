@@ -132,6 +132,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p990/proprietary/lib/liblgemmevrc.so:system/lib/liblgemmevrc.so \
     vendor/lge/p990/proprietary/lib/liblgemmqcelp.so:system/lib/liblgemmqcelp.so \
     vendor/lge/p990/proprietary/lib/liblgemmec3.so:system/lib/liblgemmec3.so \
+    vendor/lge/p990/proprietary/lib/liblgemmdts.so:system/lib/liblgemmdts.so \
     vendor/lge/p990/proprietary/lib/libnvodm_hdmi.so:system/lib/libnvodm_hdmi.so \
     vendor/lge/p990/proprietary/lib/liblvvil.so:system/lib/liblvvil.so
 
