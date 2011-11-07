@@ -26,7 +26,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p999/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
     vendor/lge/p999/proprietary/lib/hw/overlay.tegra.so:system/lib/hw/overlay.tegra.so \
     vendor/lge/p999/proprietary/lib/hw/sensors.tegra.so:system/lib/hw/sensors.tegra.so \
-    vendor/lge/p999/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so
+    vendor/lge/p999/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
+    vendor/lge/p999/proprietary/etc/SuplRootCert:system/etc/SuplRootCert
 
 # EGL
 PRODUCT_COPY_FILES += \
