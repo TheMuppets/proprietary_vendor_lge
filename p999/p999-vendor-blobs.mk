@@ -19,7 +19,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p999/proprietary/lib/libaudio.so:obj/lib/libaudio.so \
     vendor/lge/p999/proprietary/lib/libaudiopolicy.so:obj/lib/libaudiopolicy.so \
     vendor/lge/p999/proprietary/lib/libaudio.so:system/lib/libaudio.so \
-    vendor/lge/p999/proprietary/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so
+    vendor/lge/p999/proprietary/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so \
+    vendor/lge/p999/proprietary/lib/liba2dp.so:system/lib/liba2dp.so
 
 # HAL
 PRODUCT_COPY_FILES += \
@@ -87,6 +88,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p999/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/p999/proprietary/lib/libnvos.so:system/lib/libnvos.so \
     vendor/lge/p999/proprietary/lib/libnvrm.so:system/lib/libnvrm.so \
+    vendor/lge/p999/proprietary/bin/rild:system/bin/rild \
     vendor/lge/p999/proprietary/lib/lge-ril.so:system/lib/lge-ril.so \
     vendor/lge/p999/proprietary/lib/libnvapputil.so:system/lib/libnvapputil.so \
     vendor/lge/p999/proprietary/lib/libnvmm_camera.so:system/lib/libnvmm_camera.so \
