@@ -37,7 +37,19 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_COPY_FILES += \
-    vendor/lge/p920/proprietary/bin/mpld:system/bin/mpld
+    vendor/lge/p920/proprietary/lib/libmpl.so:system/lib/libmpl.so \
+    vendor/lge/p920/proprietary/lib/libmllite.so:system/lib/libmllite.so \
+    vendor/lge/p920/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so
+
+# Audio
+PRODUCT_COPY_FILES += \
+    vendor/lge/p920/proprietary/lib/hw/alsa.omap4.so:system/lib/hw/alsa.omap4.so \
+    vendor/lge/p920/proprietary/lib/libacousticengine.so:system/lib/libacousticengine.so \
+    vendor/lge/p920/proprietary/lib/libmmclient.so:system/lib/libmmclient.so \
+    vendor/lge/p920/proprietary/lib/libaudiomodemgeneric.so:system/lib/libaudiomodemgeneric.so \
+    vendor/lge/p920/proprietary/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so \
+    vendor/lge/p920/proprietary/lib/libaudio.so:obj/lib/libaudio.so \
+    vendor/lge/p920/proprietary/lib/libaudio.so:system/lib/libaudio.so
 
 # Wifi
 PRODUCT_COPY_FILES += \
@@ -65,7 +77,7 @@ PRODUCT_COPY_FILES += \
 ## GPS
 PRODUCT_COPY_FILES += \
     vendor/lge/p920/proprietary/etc/cert/lge.cer:system/etc/cert/lge.cer \
-    vendor/lge/p920/proprietary/lib/hw/gps.p920.so:system/lib/hw/gps.p920.so \
+    vendor/lge/p920/proprietary/lib/hw/gps.omap4.so:system/lib/hw/gps.omap4.so \
     vendor/lge/p920/proprietary/bin/glgps:system/bin/glgps
 
 ## Camera firmware
