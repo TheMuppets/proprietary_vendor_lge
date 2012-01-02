@@ -1,0 +1,20 @@
+Header,Mode,Band Ncoeff1,Band NCoeff2,Band NCoeff3,Band NCoeff4,Band NCoeff5,Band NCoeff6,Band NCoeff7,Band NCoeff8,Band NCoeff9,Band NCoeff10,Band NCoeff11,Band NCoeff12,Band NCoeff13,Band NCoeff14,Band NCoeff15,Band NCoeff16,Band NCoeff17,Band NCoeff18,Band NCoeff19,Band NCoeff20,Band NCoeff21,Band NCoeff22,Band NCoeff23,Band NCoeff24,Band MCoeff1,Band MCoeff2,Band MCoeff3,Band MCoeff4,Band MCoeff5,Band MCoeff6,Band MCoeff7,Band MCoeff8,Band MCoeff9,Band MCoeff10,Band MCoeff11,Band MCoeff12,Band MCoeff13,Band MCoeff14,Band MCoeff15,Band MCoeff16,SF1,SF2,SF3,SF4,CS1,CS2,CS3,CS4,enable,Number of Band
+A1,AUDFMT IIR,3d51,46bb,855d,728b,3d51,46bb,4000,0,0,0,0,0,4000,0,0,0,0,0,4000,0,0,0,0,0,854e,7ba0,3aea,64f4,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,0,0,0,0,FFFF,4
+Header,Mode,Enable,compress threshold,compress slope,RMS,Attack const1,Attack const2,release const1,release const2,system delay,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+B1,AUDFMT ADRC,ffff,1780,b333,106,7f7d,3096,7ff7,4356,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Header,Mode,Band Ncoeff1,Band NCoeff2,Band NCoeff3,Band NCoeff4,Band NCoeff5,Band NCoeff6,Band NCoeff7,Band NCoeff8,Band NCoeff9,Band NCoeff10,Band NCoeff11,Band NCoeff12,Band NCoeff13,Band NCoeff14,Band NCoeff15,Band NCoeff16,Band NCoeff17,Band NCoeff18,Band NCoeff19,Band NCoeff20,Band NCoeff21,Band NCoeff22,Band NCoeff23,Band NCoeff24,Band MCoeff1,Band MCoeff2,Band MCoeff3,Band MCoeff4,Band MCoeff5,Band MCoeff6,Band MCoeff7,Band MCoeff8,Band MCoeff9,Band MCoeff10,Band MCoeff11,Band MCoeff12,Band MCoeff13,Band MCoeff14,Band MCoeff15,Band MCoeff16,SF1,SF2,SF3,SF4,CS1,CS2,CS3,CS4,enable,Number of Band
+A2,AUDFMT IIR,4000,0,75,5782,c278,603c,3fb4,d295,8382,a619,3cf8,c8c3,3fb4,d295,82c7,39b7,3e5d,3a9b,4000,0,81c0,11a9,3fa5,53f3,de,8d73,c2df,e9e6,8365,3492,3cd1,71f9,826b,6a9a,3d70,808b,81d6,06d5,3f90,67da,2,2,2,2,0,0,0,0,FFFF,4
+Header,Mode,Enable,compress threshold,compress slope,RMS,Attack const1,Attack const2,release const1,release const2,system delay,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+B2,AUDFMT ADRC,0,1780,b333,106,7f7d,3096,7ff7,4356,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Header,Mode,Band Ncoeff1,Band NCoeff2,Band NCoeff3,Band NCoeff4,Band NCoeff5,Band NCoeff6,Band NCoeff7,Band NCoeff8,Band NCoeff9,Band NCoeff10,Band NCoeff11,Band NCoeff12,Band NCoeff13,Band NCoeff14,Band NCoeff15,Band NCoeff16,Band NCoeff17,Band NCoeff18,Band NCoeff19,Band NCoeff20,Band NCoeff21,Band NCoeff22,Band NCoeff23,Band NCoeff24,Band MCoeff1,Band MCoeff2,Band MCoeff3,Band MCoeff4,Band MCoeff5,Band MCoeff6,Band MCoeff7,Band MCoeff8,Band MCoeff9,Band MCoeff10,Band MCoeff11,Band MCoeff12,Band MCoeff13,Band MCoeff14,Band MCoeff15,Band MCoeff16,SF1,SF2,SF3,SF4,CS1,CS2,CS3,CS4,enable,Number of Band
+A3,AUDFMT IIR,4000,0,75,5782,c278,603c,3fb4,d295,8382,a619,3cf8,c8c3,3fb4,d295,82c7,39b7,3e5d,3a9b,4000,0,81c0,11a9,3fa5,53f3,de,8d73,c2df,e9e6,8365,3492,3cd1,71f9,826b,6a9a,3d70,808b,81d6,06d5,3f90,67da,2,2,2,2,0,0,0,0,FFFF,4
+Header,Mode,Enable,compress threshold,compress slope,RMS,Attack const1,Attack const2,release const1,release const2,system delay,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+B3,AUDFMT ADRC,0,1780,b333,106,7f7d,3096,7ff7,4356,16,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Header,Mode,Enable,BAND1 gain,BAND1 freq,BAND1 type,BAND1 qf,BAND2 gain,BAND2 freq,BAND2 type,BAND2 qf,BAND3 gain,BAND3 freq,BAND3 type,BAND3 qf,BAND4 gain,BAND4 freq,BAND4 type,BAND4 qf,BAND5 gain,BAND5 freq,BAND5 type,BAND5 qf,BAND6 gain,BAND6 freq,BAND6 type,BAND6 qf,BAND7 gain,BAND7 freq,BAND7 type,BAND7 qf,BAND8 gain,BAND8freq,BAND8 type,BAND8 qf,,,,,,,,,,,,,,,,,
+C1,AUDFMT EQ,0,FFF4,190,1,016A,6,1F4,3,016A,3,7D0,3,016A,3,FA0,3,016A,FFFD,1388,3,016A,0,1F40,3,016A,3,2328,3,016A,FFF4,4650,2,016A,0,,,,,,,,,,,,,,,,
+Header,Mode,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+D1,AUDPRE IIR,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Header,Mode,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+E1,AUDPRE AGC,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Header,Mode,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+F1,AUDPRE NS,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
