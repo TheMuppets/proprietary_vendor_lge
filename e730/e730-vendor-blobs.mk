@@ -24,9 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e730/proprietary/chargerlogo:/sbin/chargerlogo \
     vendor/lge/e730/proprietary/wallpaper:/sbin/wallpaper \
     vendor/lge/e730/proprietary/ami304d:/system/bin/ami304d \
-    vendor/lge/e730/proprietary/atd:/system/bin/atd \
-    vendor/lge/e730/proprietary/cnd:/system/bin/cnd \
-    vendor/lge/e730/proprietary/lgdrmserver:/system/bin/lgdrmserver  \
     vendor/lge/e730/proprietary/rmt_storage:/system/bin/rmt_storage \
     vendor/lge/e730/proprietary/wpa_supplicant:/system/bin/wpa_supplicant \
     vendor/lge/e730/proprietary/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
@@ -43,7 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e730/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
     vendor/lge/e730/proprietary/sensors.default.so:/system/lib/hw/sensors.default.so \
     vendor/lge/e730/proprietary/netmgrd:/system/bin/netmgrd \
-    vendor/lge/e730/proprietary/port-bridge:/system/bin/port-bridge \
     vendor/lge/e730/proprietary/qmuxd:/system/bin/qmuxd \
     vendor/lge/e730/proprietary/rild:/system/bin/rild \
     vendor/lge/e730/proprietary/libauth.so:/system/lib/libauth.so \
