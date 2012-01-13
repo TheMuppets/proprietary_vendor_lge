@@ -57,7 +57,6 @@ PRODUCT_COPY_FILES += \
 
 ## HAL
 PRODUCT_COPY_FILES += \
-    vendor/lge/p500/proprietary/lib/hw/copybit.msm7k.so:system/lib/hw/copybit.msm7k.so \
     vendor/lge/p500/proprietary/lib/hw/lights.thunderg.so:system/lib/hw/lights.thunderg.so \
     vendor/lge/p500/proprietary/lib/hw/sensors.thunderg.so:system/lib/hw/sensors.thunderg.so \
     vendor/lge/p500/proprietary/lib/hw/gralloc.thunderg.so:system/lib/hw/gralloc.thunderg.so
