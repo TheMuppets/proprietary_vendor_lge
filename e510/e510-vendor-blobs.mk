@@ -60,6 +60,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/lge/e510/proprietary/lib/hw/copybit.msm7k.so:system/lib/hw/copybit.msm7k.so \
     vendor/lge/e510/proprietary/lib/hw/lights.msm7k.so:system/lib/hw/lights.msm7k.so \
+    vendor/lge/e510/proprietary/lib/hw/gralloc.e510.so:system/lib/hw/gralloc.e510.so \
     vendor/lge/e510/proprietary/lib/hw/sensors.msm7k.so:system/lib/hw/sensors.msm7k.so
 
 ## EGL
