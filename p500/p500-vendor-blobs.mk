@@ -39,6 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p500/proprietary/lib/libqueue.so:system/lib/libqueue.so \
     vendor/lge/p500/proprietary/lib/liblgerft.so:system/lib/liblgerft.so \
     vendor/lge/p500/proprietary/lib/libdss.so:system/lib/libdss.so \
+    vendor/lge/p500/proprietary/lib/libdll.so:system/lib/libdll.so \
     vendor/lge/p500/proprietary/lib/libbcmwl.so:system/lib/libbcmwl.so \
     vendor/lge/p500/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
     vendor/lge/p500/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
@@ -48,6 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p500/proprietary/lib/libril.so:obj/lib/libril.so \
     vendor/lge/p500/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/p500/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/lge/p500/proprietary/bin/rild:system/bin/rild \
     vendor/lge/p500/proprietary/etc/flex/flex.xml:system/etc/flex/flex.xml
 
 ## Audio
@@ -57,7 +59,6 @@ PRODUCT_COPY_FILES += \
 
 ## HAL
 PRODUCT_COPY_FILES += \
-    vendor/lge/p500/proprietary/lib/hw/lights.thunderg.so:system/lib/hw/lights.thunderg.so \
     vendor/lge/p500/proprietary/lib/hw/sensors.thunderg.so:system/lib/hw/sensors.thunderg.so \
     vendor/lge/p500/proprietary/lib/hw/gralloc.thunderg.so:system/lib/hw/gralloc.thunderg.so
 
