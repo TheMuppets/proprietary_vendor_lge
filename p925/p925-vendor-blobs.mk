@@ -41,16 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p925/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/lge/p925/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so
 
-# Audio
-PRODUCT_COPY_FILES += \
-    vendor/lge/p925/proprietary/lib/hw/alsa.omap4.so:system/lib/hw/alsa.omap4.so \
-    vendor/lge/p925/proprietary/lib/libacousticengine.so:system/lib/libacousticengine.so \
-    vendor/lge/p925/proprietary/lib/libmmclient.so:system/lib/libmmclient.so \
-    vendor/lge/p925/proprietary/lib/libaudiomodemgeneric.so:system/lib/libaudiomodemgeneric.so \
-    vendor/lge/p925/proprietary/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so \
-    vendor/lge/p925/proprietary/lib/libaudio.so:obj/lib/libaudio.so \
-    vendor/lge/p925/proprietary/lib/libaudio.so:system/lib/libaudio.so
-
 # Wifi
 PRODUCT_COPY_FILES += \
     vendor/lge/p925/proprietary/etc/wifi/firmware.bin:system/etc/wifi/firmware.bin \
