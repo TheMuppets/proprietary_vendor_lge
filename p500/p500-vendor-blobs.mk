@@ -97,8 +97,6 @@ PRODUCT_COPY_FILES += \
 
 ## Camera
 PRODUCT_COPY_FILES += \
-    vendor/lge/p500/proprietary/lib/libcamera.so:system/lib/libcamera.so \
-    vendor/lge/p500/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
     vendor/lge/p500/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/lge/p500/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/lge/p500/proprietary/lib/libmmipl.so:system/lib/libmmipl.so
