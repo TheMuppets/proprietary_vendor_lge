@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e730/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
     vendor/lge/e730/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
     vendor/lge/e730/proprietary/libgsl.so:/system/lib/libgsl.so \
+    vendor/lge/e730/proprietary/libC2D2.so:/system/lib/libC2D2.so \
     vendor/lge/e730/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/lge/e730/proprietary/libcamera.so:/system/lib/libcamera.so \
     vendor/lge/e730/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
