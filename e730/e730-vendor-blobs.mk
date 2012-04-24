@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e730/proprietary/wallpaper:/sbin/wallpaper \
     vendor/lge/e730/proprietary/ami304d:/system/bin/ami304d \
     vendor/lge/e730/proprietary/rmt_storage:/system/bin/rmt_storage \
-    vendor/lge/e730/proprietary/wpa_supplicant:/system/bin/wpa_supplicant \
     vendor/lge/e730/proprietary/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
     vendor/lge/e730/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/lge/e730/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
