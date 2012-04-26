@@ -95,4 +95,4 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e739/proprietary/firmware/nvram.txt:system/etc/wl/nvram.txt \
     vendor/lge/e739/proprietary/firmware/rtecdc-apsta.bin:system/etc/firmware/rtecdc-apsta.bin \
     vendor/lge/e739/proprietary/firmware/rtecdc.bin:system/etc/firmware/rtecdc.bin \
-    vendor/lge/e739/proprietary/firmware/bcm4330.hcd:system/vendor/firmware/bcm4330.hcd
+    vendor/lge/e739/proprietary/firmware/BCM4330B1_002.001.003.0243.0305.hcd:system/etc/firmware/BCM4330B1_002.001.003.0243.0305.hcd
