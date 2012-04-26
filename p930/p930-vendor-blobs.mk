@@ -112,3 +112,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/lge/p930/proprietary/bin/ami304d:system/bin/ami304d
 
+## QCOM prop webkit improvements
+PRODUCT_COPY_FILES += \
+    vendor/lge/p930/proprietary/lib/libv8.so:obj/lib/libv8.so \
+    vendor/lge/p930/proprietary/lib/libv8.so:system/lib/libv8.so
+
