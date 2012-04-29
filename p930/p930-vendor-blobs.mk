@@ -68,6 +68,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p930/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/lge/p930/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
     vendor/lge/p930/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
+    vendor/lge/p930/proprietary/lib/liboncrpc.so:obj/lib/liboncrpc.so \
+    vendor/lge/p930/proprietary/lib/libnv.so:system/lib/libnv.so \
+    vendor/lge/p930/proprietary/lib/libnv.so:obj/lib/libnv.so \
     vendor/lge/p930/proprietary/lib/libdsm.so:system/lib/libdsm.so \
     vendor/lge/p930/proprietary/lib/libqueue.so:system/lib/libqueue.so \
     vendor/lge/p930/proprietary/lib/libtime_remote_atom.so:system/lib/libtime_remote_atom.so
