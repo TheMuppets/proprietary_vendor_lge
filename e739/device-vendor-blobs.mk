@@ -62,8 +62,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e739/proprietary/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/lge/e739/proprietary/libnfc.so:system/lib/libnfc.so \
     vendor/lge/e739/proprietary/libnv.so:system/lib/libnv.so \
+    vendor/lge/e739/proprietary/libnv.so:obj/lib/libnv.so \
     vendor/lge/e739/proprietary/liboem_rapi.so:system/lib/liboem_rapi.so \
     vendor/lge/e739/proprietary/liboncrpc.so:system/lib/liboncrpc.so \
+    vendor/lge/e739/proprietary/liboncrpc.so:obj/lib/liboncrpc.so \
     vendor/lge/e739/proprietary/libpbmlib.so:system/lib/libpbmlib.so \
     vendor/lge/e739/proprietary/libqmi.so:system/lib/libqmi.so \
     vendor/lge/e739/proprietary/libqdp.so:system/lib/libqdp.so \
