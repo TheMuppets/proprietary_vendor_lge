@@ -16,7 +16,6 @@
 
 # HAL
 PRODUCT_COPY_FILES += \
-    vendor/lge/p930/proprietary/lib/hw/lights.msm8660.so:system/lib/hw/lights.msm8660.so \
     vendor/lge/p930/proprietary/lib/hw/sensors.msm8660.so:system/lib/hw/sensors.msm8660.so
 
 # OMX FW
