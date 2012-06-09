@@ -139,3 +139,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p999/proprietary/lib/libkineto.so:system/lib/libkineto.so \
     vendor/lge/p999/proprietary/lib/librilswitch.so:system/lib/librilswitch.so
 
+# Older baseband support
+PRODUCT_COPY_FILES += \
+    vendor/lge/p999/proprietary/etc/firmware/older-radio.tar:system/etc/firmware/older-radio.tar
