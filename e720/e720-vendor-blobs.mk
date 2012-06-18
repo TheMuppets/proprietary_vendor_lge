@@ -55,7 +55,6 @@ PRODUCT_COPY_FILES += \
 
 ## HAL
 PRODUCT_COPY_FILES += \
-    vendor/lge/e720/proprietary/lib/hw/lights.alessi.so:system/lib/hw/lights.alessi.so \
     vendor/lge/e720/proprietary/lib/hw/sensors.alessi.so:system/lib/hw/sensors.alessi.so \
     vendor/lge/e720/proprietary/lib/hw/gralloc.alessi.so:system/lib/hw/gralloc.alessi.so
 
