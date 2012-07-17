@@ -18,7 +18,9 @@
 PRODUCT_COPY_FILES := \
     vendor/lge/p930/proprietary/lib/liboncrpc.so:obj/lib/liboncrpc.so \
     vendor/lge/p930/proprietary/lib/libnv.so:obj/lib/libnv.so \
-    vendor/lge/p930/proprietary/lib/libaudio.so:obj/lib/libaudio.so \
+    vendor/lge/p930/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/lge/p930/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
+    vendor/lge/p930/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
     vendor/lge/p930/proprietary/lib/libv8.so:obj/lib/libv8.so
 
 PRODUCT_COPY_FILES += \
@@ -30,6 +32,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p930/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/lge/p930/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/lge/p930/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
+    vendor/lge/p930/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
+    vendor/lge/p930/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
+    vendor/lge/p930/proprietary/etc/firmware/fw_bcmdhd_p2p.bin:system/etc/firmware/fw_bcmdhd_p2p.bin \
     vendor/lge/p930/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/lge/p930/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/lge/p930/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
@@ -70,10 +75,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p930/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/p930/proprietary/lib/libthermal_mitigation_fusion.so:system/lib/libthermal_mitigation_fusion.so \
     vendor/lge/p930/proprietary/lib/libthermal_mitigation.so:system/lib/libthermal_mitigation.so \
-    vendor/lge/p930/proprietary/etc/wl/rtecdc.bin:system/etc/wl/rtecdc.bin \
-    vendor/lge/p930/proprietary/etc/wl/rtecdc-apsta.bin:system/etc/wl/rtecdc-apsta.bin \
     vendor/lge/p930/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/lge/p930/proprietary/lib/libaudio.so:system/lib/libaudio.so \
     vendor/lge/p930/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/lge/p930/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
     vendor/lge/p930/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
@@ -81,6 +83,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p930/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
     vendor/lge/p930/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/lge/p930/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
+    vendor/lge/p930/proprietary/lib/libOlaFaceDetector.so:system/lib/libOlaFaceDetector.so \
     vendor/lge/p930/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/lge/p930/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
     vendor/lge/p930/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
@@ -90,4 +93,5 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p930/proprietary/lib/libchromatix_imx105_preview.so:system/lib/libchromatix_imx105_preview.so \
     vendor/lge/p930/proprietary/lib/hw/camera.msm8660.so:system/lib/hw/camera.msm8660.so \
     vendor/lge/p930/proprietary/bin/ami304d:system/bin/ami304d \
-    vendor/lge/p930/proprietary/lib/libv8.so:system/lib/libv8.so
+    vendor/lge/p930/proprietary/lib/libv8.so:system/lib/libv8.so \
+    vendor/lge/p930/proprietary/lib/hw/audio.primary.msm8660.so:system/lib/hw/audio.primary.msm8660.so
