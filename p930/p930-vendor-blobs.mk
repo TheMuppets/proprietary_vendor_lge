@@ -40,6 +40,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p930/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/lge/p930/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/lge/p930/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+    vendor/lge/p930/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/lge/p930/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/lge/p930/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/lge/p930/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
@@ -54,7 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p930/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/p930/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/lge/p930/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-    vendor/lge/p930/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/lge/p930/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/p930/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/lge/p930/proprietary/lib/libqmi.so:system/lib/libqmi.so \
