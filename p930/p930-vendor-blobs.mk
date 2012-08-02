@@ -94,4 +94,5 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p930/proprietary/lib/hw/camera.msm8660.so:system/lib/hw/camera.msm8660.so \
     vendor/lge/p930/proprietary/bin/ami304d:system/bin/ami304d \
     vendor/lge/p930/proprietary/lib/libv8.so:system/lib/libv8.so \
-    vendor/lge/p930/proprietary/lib/hw/audio.primary.msm8660.so:system/lib/hw/audio.primary.msm8660.so
+    vendor/lge/p930/proprietary/lib/hw/audio.primary.msm8660.so:system/lib/hw/audio.primary.msm8660.so \
+    vendor/lge/p930/proprietary/lib/hw/audio_policy.msm8660.so:system/lib/hw/audio_policy.msm8660.so
