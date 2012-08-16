@@ -1,4 +1,4 @@
-# Copyright (C) 2011 The CyanogenMod Project
+# Copyright (C) 2012 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -25,5 +25,8 @@ PRODUCT_PACKAGES := \
 # Publish that we support the live wallpaper feature.
 PRODUCT_COPY_FILES := \
     packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
+
+# Pick up overlay for features that depend on non-open-source files
+DEVICE_PACKAGE_OVERLAYS := vendor/lge/p970/overlay
 
 $(call inherit-product, vendor/lge/p970/p970-vendor-blobs.mk)

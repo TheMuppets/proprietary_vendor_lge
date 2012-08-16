@@ -1,7 +1,7 @@
 ******************************************************************************
           TMS320C6x COFF Linker Unix v6.0.7                    
 ******************************************************************************
->> Linked Sat Apr  9 18:35:10 2011
+>> Linked Mon Jul 11 21:52:48 2011
 
 OUTPUT FILE NAME:   <out/omap3430/release/baseimage.o64P>
 ENTRY POINT SYMBOL: "hwi0"  address: 20255c00
