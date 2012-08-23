@@ -94,7 +94,5 @@ PRODUCT_COPY_FILES += \
     vendor/lge/su640/proprietary/lib/hw/camera.msm8660.so:system/lib/hw/camera.msm8660.so \
     vendor/lge/su640/proprietary/bin/ami304d:system/bin/ami304d \
     vendor/lge/su640/proprietary/lib/libv8.so:system/lib/libv8.so \
-    vendor/lge/su640/proprietary/lib/hw/audio.primary.msm8660.so:system/lib/hw/audio.primary.msm8660.so \
-    vendor/lge/su640/proprietary/lib/hw/audio_policy.msm8660.so:system/lib/hw/audio_policy.msm8660.so \
     vendor/lge/su640/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
     vendor/lge/su640/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
