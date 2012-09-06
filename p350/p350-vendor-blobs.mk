@@ -21,6 +21,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p350/proprietary/lib/hw/lights.pecan.so:system/lib/hw/lights.pecan.so \
     vendor/lge/p350/proprietary/bin/ami304d:system/bin/ami304d \
 
+## HAL
+PRODUCT_COPY_FILES += \
+    vendor/lge/p350/proprietary/lib/hw/gralloc.pecan.so:system/lib/hw/gralloc.pecan.so
+
 # 3D
 PRODUCT_COPY_FILES += \
     vendor/lge/p350/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
