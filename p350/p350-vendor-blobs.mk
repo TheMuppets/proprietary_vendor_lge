@@ -103,8 +103,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p350/proprietary/lib/liblgerft.so:system/lib/liblgerft.so \
     vendor/lge/p350/proprietary/lib/libbcmwl.so:system/lib/libbcmwl.so \
     vendor/lge/p350/proprietary/lib/libdss.so:system/lib/libdss.so \
-    vendor/lge/p350/proprietary/bin/rild:system/bin/rild \
-    vendor/lge/p350/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/p350/proprietary/lib/libloc-rpc.so:system/lib/libloc-rpc.so \
     vendor/lge/p350/proprietary/lib/libloc.so:system/lib/libloc.so \
     vendor/lge/p350/proprietary/lib/libcommondefs.so:system/lib/libcommondefs.so \
