@@ -131,7 +131,7 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_COPY_FILES += \
-    vendor/lge/p350/proprietary/bin/BCM43291A0_003.001.013.0060.Pecan.hcd:system/bin/BCM43291A0_003.001.013.0060.Pecan.hcd
+    vendor/lge/p350/proprietary/bin/BCM43291A0_003.001.013.0060.pecan.hcd:system/bin/BCM43291A0_003.001.013.0060.pecan.hcd
 
 # Key Character Map
 PRODUCT_COPY_FILES += \
