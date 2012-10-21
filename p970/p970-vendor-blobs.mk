@@ -23,19 +23,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p970/proprietary/etc/omapcam/imx072_dtp.dat:system/etc/omapcam/imx072_dtp.dat \
     vendor/lge/p970/proprietary/etc/omapcam/imx072.rev:system/etc/omapcam/imx072.rev \
     vendor/lge/p970/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/lge/p970/proprietary/lib/libOMX.ITTIAM.AAC.encode.so:system/lib/libOMX.ITTIAM.AAC.encode.so \
     vendor/lge/p970/proprietary/lib/libcapl.so:system/lib/libcapl.so \
-    vendor/lge/p970/proprietary/lib/libOMX.TI.720P.Decoder.so:system/lib/libOMX.TI.720P.Decoder.so \
-    vendor/lge/p970/proprietary/lib/libOMX.TI.mp4.splt.Encoder.so:system/lib/libOMX.TI.mp4.splt.Encoder.so \
     vendor/lge/p970/proprietary/lib/libyuvfastconvert.so:system/lib/libyuvfastconvert.so \
-    vendor/lge/p970/proprietary/lib/libOMX.TI.720P.Encoder.so:system/lib/libOMX.TI.720P.Encoder.so \
     vendor/lge/p970/proprietary/lib/libicamera.so:system/lib/libicamera.so \
-    vendor/lge/p970/proprietary/lib/libOMX.ITTIAM.AAC.decode.so:system/lib/libOMX.ITTIAM.AAC.decode.so \
     vendor/lge/p970/proprietary/lib/libaf_lg_2.0.so:system/lib/libaf_lg_2.0.so \
     vendor/lge/p970/proprietary/lib/hw/sensors.omap3.so:system/lib/hw/sensors.omap3.so \
     vendor/lge/p970/proprietary/lib/hw/gps.omap3.so:system/lib/hw/gps.omap3.so \
     vendor/lge/p970/proprietary/lib/hw/camera.omap3.so:system/lib/hw/camera.omap3.so \
-    vendor/lge/p970/proprietary/lib/hw/lights.omap3.so:system/lib/hw/lights.omap3.so \
     vendor/lge/p970/proprietary/lib/libini.so:system/lib/libini.so \
     vendor/lge/p970/proprietary/lib/dsp/g729enc_sn.dll64P:system/lib/dsp/g729enc_sn.dll64P \
     vendor/lge/p970/proprietary/lib/dsp/nbamrdec_sn.dll64P:system/lib/dsp/nbamrdec_sn.dll64P \
@@ -92,7 +86,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p970/proprietary/lib/libaffw_2.0.so:system/lib/libaffw_2.0.so \
     vendor/lge/p970/proprietary/lib/libImagePipeline.so:system/lib/libImagePipeline.so \
     vendor/lge/p970/proprietary/lib/libicapture.so:system/lib/libicapture.so \
-    vendor/lge/p970/proprietary/lib/libOMX.TI.h264.splt.Encoder.so:system/lib/libOMX.TI.h264.splt.Encoder.so \
     vendor/lge/p970/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/lge/p970/proprietary/vendor/lib/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
     vendor/lge/p970/proprietary/vendor/lib/libsrv_init.so:system/vendor/lib/libsrv_init.so \
@@ -122,37 +115,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p970/proprietary/lib/libmpl.so:system/lib/libmpl.so \
     vendor/lge/p970/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/lge/p970/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
-    vendor/lge/p970/proprietary/bin/cexec.out:system/bin/cexec.out \
-    vendor/lge/p970/proprietary/lib/libbridge.so:system/lib/libbridge.so \
-    vendor/lge/p970/proprietary/lib/libPERF.so:system/lib/libPERF.so \
-    vendor/lge/p970/proprietary/lib/libOMX_Core.so:system/lib/libOMX_Core.so \
-    vendor/lge/p970/proprietary/lib/libLCML.so:system/lib/libLCML.so \
-    vendor/lge/p970/proprietary/lib/libOMX.TI.WMA.decode.so:system/lib/libOMX.TI.WMA.decode.so \
-    vendor/lge/p970/proprietary/lib/libOMX.TI.MP3.decode.so:system/lib/libOMX.TI.MP3.decode.so \
-    vendor/lge/p970/proprietary/lib/libOMX.TI.AAC.encode.so:system/lib/libOMX.TI.AAC.encode.so \
-    vendor/lge/p970/proprietary/lib/libOMX.TI.AAC.decode.so:system/lib/libOMX.TI.AAC.decode.so \
-    vendor/lge/p970/proprietary/lib/libOMX.TI.WBAMR.encode.so:system/lib/libOMX.TI.WBAMR.encode.so \
-    vendor/lge/p970/proprietary/lib/libOMX.TI.WBAMR.decode.so:system/lib/libOMX.TI.WBAMR.decode.so \
-    vendor/lge/p970/proprietary/lib/libOMX.TI.AMR.encode.so:system/lib/libOMX.TI.AMR.encode.so \
-    vendor/lge/p970/proprietary/lib/libOMX.TI.AMR.decode.so:system/lib/libOMX.TI.AMR.decode.so \
-    vendor/lge/p970/proprietary/lib/libOMX.TI.G722.encode.so:system/lib/libOMX.TI.G722.encode.so \
-    vendor/lge/p970/proprietary/lib/libOMX.TI.G722.decode.so:system/lib/libOMX.TI.G722.decode.so \
-    vendor/lge/p970/proprietary/lib/libOMX.TI.G711.encode.so:system/lib/libOMX.TI.G711.encode.so \
-    vendor/lge/p970/proprietary/lib/libOMX.TI.G711.decode.so:system/lib/libOMX.TI.G711.decode.so \
-    vendor/lge/p970/proprietary/lib/libOMX.TI.G726.encode.so:system/lib/libOMX.TI.G726.encode.so \
-    vendor/lge/p970/proprietary/lib/libOMX.TI.G726.decode.so:system/lib/libOMX.TI.G726.decode.so \
-    vendor/lge/p970/proprietary/lib/libOMX.TI.ILBC.encode.so:system/lib/libOMX.TI.ILBC.encode.so \
-    vendor/lge/p970/proprietary/lib/libOMX.TI.ILBC.decode.so:system/lib/libOMX.TI.ILBC.decode.so \
-    vendor/lge/p970/proprietary/lib/libOMX.TI.G729.encode.so:system/lib/libOMX.TI.G729.encode.so \
-    vendor/lge/p970/proprietary/lib/libOMX.TI.G729.decode.so:system/lib/libOMX.TI.G729.decode.so \
-    vendor/lge/p970/proprietary/lib/libOMX.TI.Video.encoder.so:system/lib/libOMX.TI.Video.encoder.so \
-    vendor/lge/p970/proprietary/lib/libOMX.TI.JPEG.encoder.so:system/lib/libOMX.TI.JPEG.encoder.so \
-    vendor/lge/p970/proprietary/lib/libion.so:system/lib/libion.so \
-    vendor/lge/p970/proprietary/lib/libOMX.TI.Video.Decoder.so:system/lib/libOMX.TI.Video.Decoder.so \
     vendor/lge/p970/proprietary/lib/libOMX.TI.mp4.splt.Encoder.so:system/lib/libOMX.TI.mp4.splt.Encoder.so \
     vendor/lge/p970/proprietary/lib/libOMX.TI.h264.splt.Encoder.so:system/lib/libOMX.TI.h264.splt.Encoder.so \
     vendor/lge/p970/proprietary/lib/libOMX.TI.720P.Encoder.so:system/lib/libOMX.TI.720P.Encoder.so \
     vendor/lge/p970/proprietary/lib/libOMX.TI.720P.Decoder.so:system/lib/libOMX.TI.720P.Decoder.so \
     vendor/lge/p970/proprietary/lib/libOMX.ITTIAM.AAC.encode.so:system/lib/libOMX.ITTIAM.AAC.encode.so \
-    vendor/lge/p970/proprietary/lib/libOMX.ITTIAM.AAC.decode.so:system/lib/libOMX.ITTIAM.AAC.decode.so \
-    vendor/lge/p970/proprietary/lib/libtiutils.so:system/lib/libtiutils.so
+    vendor/lge/p970/proprietary/lib/libOMX.ITTIAM.AAC.decode.so:system/lib/libOMX.ITTIAM.AAC.decode.so
