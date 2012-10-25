@@ -18,7 +18,6 @@
 # Sensors
 PRODUCT_COPY_FILES += \
     vendor/lge/p350/proprietary/lib/hw/sensors.pecan.so:system/lib/hw/sensors.pecan.so \
-    vendor/lge/p350/proprietary/lib/hw/lights.pecan.so:system/lib/hw/lights.pecan.so \
     vendor/lge/p350/proprietary/bin/ami304d:system/bin/ami304d \
 
 # 3D
