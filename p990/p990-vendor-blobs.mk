@@ -99,6 +99,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p990/proprietary/lib/libnvomxilclient.so:system/lib/libnvomxilclient.so \
     vendor/lge/p990/proprietary/lib/liblvvewrapper.so:system/lib/liblvvewrapper.so \
     vendor/lge/p990/proprietary/lib/libasound.so:system/lib/libasound.so \
+    vendor/lge/p990/proprietary/lib/libasound_module_rate_speexrate.so:system/lib/libasound_module_rate_speexrate.so \
     vendor/lge/p990/proprietary/lib/libnvmm_writer.so:system/lib/libnvmm_writer.so \
     vendor/lge/p990/proprietary/lib/libnvodm_misc.so:system/lib/libnvodm_misc.so \
     vendor/lge/p990/proprietary/lib/libnvmm_audio.so:system/lib/libnvmm_audio.so \
