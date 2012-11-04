@@ -82,7 +82,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p990/proprietary/lib/libaudioservice.so:system/lib/libaudioservice.so \
     vendor/lge/p990/proprietary/lib/libnvddk_2d.so:system/lib/libnvddk_2d.so \
     vendor/lge/p990/proprietary/lib/libsktdrm_sf.so:system/lib/libsktdrm_sf.so \
-    vendor/lge/p990/proprietary/lib/lge-ril.so:system/lib/lge-ril.so \
+    vendor/lge/p990/proprietary/lib/liblgeril.so:system/lib/liblgeril.so \
     vendor/lge/p990/proprietary/lib/libnvmm_parser.so:system/lib/libnvmm_parser.so \
     vendor/lge/p990/proprietary/lib/libnvomx.so:system/lib/libnvomx.so \
     vendor/lge/p990/proprietary/lib/liblgemmqcelp.so:system/lib/liblgemmqcelp.so \
