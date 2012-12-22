@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p720/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/p720/proprietary/lib/hw/audio.primary.omap4.so:system/lib/hw/audio.primary.omap4.so \
     vendor/lge/p720/proprietary/lib/hw/gps.omap4.so:system/lib/hw/gps.omap4.so \
+    vendor/lge/p720/proprietary/lib/hw/lights.omap4.so:system/lib/hw/lights.omap4.so \
     vendor/lge/p720/proprietary/lib/hw/sensors.omap4.so:system/lib/hw/sensors.omap4.so \
     vendor/lge/p720/proprietary/lib/hw/camera.omap4.so:system/lib/hw/camera.omap4.so \
     vendor/lge/p720/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
