@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/mako/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/mako/proprietary/bin/nl_listener:system/bin/nl_listener \
-    vendor/lge/mako/proprietary/bin/PktRspTest:system/bin/PktRspTest \
     vendor/lge/mako/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/lge/mako/proprietary/bin/qcks:system/bin/qcks \
     vendor/lge/mako/proprietary/bin/qmuxd:system/bin/qmuxd \
@@ -37,12 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/bin/radish:system/bin/radish \
     vendor/lge/mako/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/mako/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/lge/mako/proprietary/bin/sns_cm_conc_test:system/bin/sns_cm_conc_test \
-    vendor/lge/mako/proprietary/bin/sns_cm_test:system/bin/sns_cm_test \
-    vendor/lge/mako/proprietary/bin/sns_debug_file_test:system/bin/sns_debug_file_test \
-    vendor/lge/mako/proprietary/bin/sns_dsps_tc0001:system/bin/sns_dsps_tc0001 \
-    vendor/lge/mako/proprietary/bin/sns_smr_loopback_test:system/bin/sns_smr_loopback_test \
-    vendor/lge/mako/proprietary/bin/test_diag:system/bin/test_diag \
     vendor/lge/mako/proprietary/bin/thermald:system/bin/thermald \
     vendor/lge/mako/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/lge/mako/proprietary/bin/usbhub_init:system/bin/usbhub_init \
@@ -164,7 +157,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
     vendor/lge/mako/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/lge/mako/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
-    vendor/lge/mako/proprietary/lib/libsensor_test.so:system/lib/libsensor_test.so \
     vendor/lge/mako/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
     vendor/lge/mako/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/lge/mako/proprietary/lib/libxml.so:system/lib/libxml.so \
@@ -176,4 +168,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/vendor/firmware/discretix/dxhdcp2.b02:system/vendor/firmware/discretix/dxhdcp2.b02 \
     vendor/lge/mako/proprietary/vendor/firmware/discretix/dxhdcp2.b03:system/vendor/firmware/discretix/dxhdcp2.b03 \
     vendor/lge/mako/proprietary/vendor/firmware/discretix/dxhdcp2.mdt:system/vendor/firmware/discretix/dxhdcp2.mdt \
-    vendor/lge/mako/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so
+    vendor/lge/mako/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
+    vendor/lge/mako/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/lge/mako/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/lge/mako/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/lge/mako/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so
