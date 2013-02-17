@@ -1,0 +1,2 @@
+dev_mount sdcard /mnt/sdcard auto /devices/platform/goldfish_mmc.0 /devices/platform/msm_sdcc.1/mmc_host/mmc0
+
