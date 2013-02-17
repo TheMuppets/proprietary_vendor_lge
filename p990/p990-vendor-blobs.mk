@@ -55,8 +55,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p990/proprietary/lib/libhwmediaplugin.so:system/lib/libhwmediaplugin.so \
     vendor/lge/p990/proprietary/lib/libhwmediaplugin.so:obj/lib/libhwmediaplugin.so \
     vendor/lge/p990/proprietary/lib/libhwmediarecorder.so:system/lib/libhwmediarecorder.so \
-    vendor/lge/p990/proprietary/lib/libhwmediarecorder.so:obj/lib/libhwmediarecorder.so \
-    vendor/lge/p990/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so
+    vendor/lge/p990/proprietary/lib/libhwmediarecorder.so:obj/lib/libhwmediarecorder.so
 
 PRODUCT_COPY_FILES += \
     vendor/lge/p990/proprietary/etc/flex/flex.db:system/etc/flex/flex.db \
