@@ -19,13 +19,14 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p880/proprietary/bin/lgdrmserver:system/bin/lgdrmserver \
     vendor/lge/p880/proprietary/bin/lgsecclkserver:system/bin/lgsecclkserver \
     vendor/lge/p880/proprietary/bin/nvcpud:system/bin/nvcpud \
+    vendor/lge/p880/proprietary/bin/rild:system/bin/rild \
     vendor/lge/p880/proprietary/bin/tf_daemon:system/bin/tf_daemon \
     vendor/lge/p880/proprietary/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \
     vendor/lge/p880/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
     vendor/lge/p880/proprietary/lib/hw/lights.x3.so:system/lib/hw/lights.x3.so \
-    vendor/lge/p880/proprietary/lib/hw/sensors.x3.so:system/lib/hw/sensors.x3.so \
-    vendor/lge/p880/proprietary/lib/hw/audio_policy.x3.so:system/lib/hw/audio_policy.x3.so \
-    vendor/lge/p880/proprietary/lib/hw/audio.primary.x3.so:system/lib/hw/audio.primary.x3.so \
+    vendor/lge/p880/proprietary/lib/hw/sensors.tegra.so:system/lib/hw/sensors.tegra.so \
+    vendor/lge/p880/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
+    vendor/lge/p880/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
     vendor/lge/p880/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
     vendor/lge/p880/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
     vendor/lge/p880/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
@@ -34,10 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p880/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
     vendor/lge/p880/proprietary/lib/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
     vendor/lge/p880/proprietary/lib/libasound.so:system/lib/libasound.so \
-    vendor/lge/p880/proprietary/lib/libasound_module_rate_speexrate_best.so:system/lib/libasound_module_rate_speexrate_best.so \
-    vendor/lge/p880/proprietary/lib/libasound_module_rate_speexrate_medium.so:system/lib/libasound_module_rate_speexrate_medium.so \
-    vendor/lge/p880/proprietary/lib/libasound_module_rate_speexrate.so:system/lib/libasound_module_rate_speexrate.so \
-    vendor/lge/p880/proprietary/lib/libaudioservice.so:system/lib/libaudioservice.so \
     vendor/lge/p880/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
     vendor/lge/p880/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
     vendor/lge/p880/proprietary/lib/liblgdrm.so:system/lib/liblgdrm.so \
@@ -56,7 +53,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p880/proprietary/lib/libnvcpud.so:system/lib/libnvcpud.so \
     vendor/lge/p880/proprietary/lib/libnvddk_2d.so:system/lib/libnvddk_2d.so \
     vendor/lge/p880/proprietary/lib/libnvddk_2d_v2.so:system/lib/libnvddk_2d_v2.so \
-    vendor/lge/p880/proprietary/lib/libnvdispmgr_d.so:system/lib/libnvdispmgr_d.so \
     vendor/lge/p880/proprietary/lib/libnvmm_manager.so:system/lib/libnvmm_manager.so \
     vendor/lge/p880/proprietary/lib/libnvmm_service.so:system/lib/libnvmm_service.so \
     vendor/lge/p880/proprietary/lib/libnvmm.so:system/lib/libnvmm.so \
@@ -87,36 +83,23 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p880/proprietary/lib/libnvmmlite_image.so:system/lib/libnvmmlite_image.so \
     vendor/lge/p880/proprietary/lib/libnvmmlite_msaudio.so:system/lib/libnvmmlite_msaudio.so \
     vendor/lge/p880/proprietary/lib/libnvparser.so:system/lib/libnvparser.so \
-    vendor/lge/p880/proprietary/etc/firmware/nvavp_os_00001000.bin:system/etc/firmware/nvavp_os_00001000.bin \
-    vendor/lge/p880/proprietary/etc/firmware/nvmm_jpegdec.axf:system/etc/firmware/nvmm_jpegdec.axf \
-    vendor/lge/p880/proprietary/etc/firmware/nvmm_wavdec.axf:system/etc/firmware/nvmm_wavdec.axf \
+    vendor/lge/p880/proprietary/etc/firmware/nvavp_aud_ucode.bin:system/etc/firmware/nvavp_aud_ucode.bin \
     vendor/lge/p880/proprietary/etc/firmware/nvavp_os_0ff00000.bin:system/etc/firmware/nvavp_os_0ff00000.bin \
-    vendor/lge/p880/proprietary/etc/firmware/nvmm_jpegenc.axf:system/etc/firmware/nvmm_jpegenc.axf \
-    vendor/lge/p880/proprietary/etc/firmware/nvmm_wmadec.axf:system/etc/firmware/nvmm_wmadec.axf \
-    vendor/lge/p880/proprietary/etc/firmware/nvavp_os_e0000000.bin:system/etc/firmware/nvavp_os_e0000000.bin \
-    vendor/lge/p880/proprietary/etc/firmware/nvmm_manager.axf:system/etc/firmware/nvmm_manager.axf \
-    vendor/lge/p880/proprietary/etc/firmware/nvmm_wmaprodec.axf:system/etc/firmware/nvmm_wmaprodec.axf \
     vendor/lge/p880/proprietary/etc/firmware/nvavp_os_eff00000.bin:system/etc/firmware/nvavp_os_eff00000.bin \
-    vendor/lge/p880/proprietary/etc/firmware/nvmm_mp3dec.axf:system/etc/firmware/nvmm_mp3dec.axf \
-    vendor/lge/p880/proprietary/etc/firmware/nvrm_avp_0ff00000.bin:system/etc/firmware/nvrm_avp_0ff00000.bin \
     vendor/lge/p880/proprietary/etc/firmware/nvavp_vid_ucode_alt.bin:system/etc/firmware/nvavp_vid_ucode_alt.bin \
-    vendor/lge/p880/proprietary/etc/firmware/nvmm_mpeg2dec.axf:system/etc/firmware/nvmm_mpeg2dec.axf \
-    vendor/lge/p880/proprietary/etc/firmware/nvrm_avp_8e000000.bin:system/etc/firmware/nvrm_avp_8e000000.bin \
     vendor/lge/p880/proprietary/etc/firmware/nvavp_vid_ucode.bin:system/etc/firmware/nvavp_vid_ucode.bin \
-    vendor/lge/p880/proprietary/etc/firmware/nvmm_mpeg4dec.axf:system/etc/firmware/nvmm_mpeg4dec.axf \
-    vendor/lge/p880/proprietary/etc/firmware/nvrm_avp_9e000000.bin:system/etc/firmware/nvrm_avp_9e000000.bin \
-    vendor/lge/p880/proprietary/etc/firmware/nvmm_aacdec.axf:system/etc/firmware/nvmm_aacdec.axf \
-    vendor/lge/p880/proprietary/etc/firmware/nvmm_reference.axf:system/etc/firmware/nvmm_reference.axf \
-    vendor/lge/p880/proprietary/etc/firmware/nvrm_avp_be000000.bin:system/etc/firmware/nvrm_avp_be000000.bin \
-    vendor/lge/p880/proprietary/etc/firmware/nvmm_adtsdec.axf:system/etc/firmware/nvmm_adtsdec.axf \
-    vendor/lge/p880/proprietary/etc/firmware/nvmm_service.axf:system/etc/firmware/nvmm_service.axf \
-    vendor/lge/p880/proprietary/etc/firmware/nvrm_avp_eff00000.bin:system/etc/firmware/nvrm_avp_eff00000.bin \
-    vendor/lge/p880/proprietary/etc/firmware/nvmm_h264dec2x.axf:system/etc/firmware/nvmm_h264dec2x.axf \
-    vendor/lge/p880/proprietary/etc/firmware/nvmm_vc1dec_2x.axf:system/etc/firmware/nvmm_vc1dec_2x.axf \
-    vendor/lge/p880/proprietary/etc/firmware/nvmm_h264dec.axf:system/etc/firmware/nvmm_h264dec.axf \
-    vendor/lge/p880/proprietary/etc/firmware/nvmm_vc1dec.axf:system/etc/firmware/nvmm_vc1dec.axf \
     vendor/lge/p880/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
     vendor/lge/p880/proprietary/etc/firmware/fw_bcmdhd_p2p.bin:system/etc/firmware/fw_bcmdhd_p2p.bin \
     vendor/lge/p880/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
     vendor/lge/p880/proprietary/etc/firmware/BCM4330B1_002.001.003.0550.0633.hcd:system/etc/firmware/BCM4330B1_002.001.003.0550.0633.hcd \
-    vendor/lge/p880/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
+    vendor/lge/p880/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
+    vendor/lge/p880/proprietary/lib/egl/libEGL_tegra_impl.so:system/lib/egl/libEGL_tegra_impl.so \
+    vendor/lge/p880/proprietary/lib/egl/libGLESv2_tegra_impl.so:system/lib/egl/libGLESv2_tegra_impl.so \
+    vendor/lge/p880/proprietary/lib/egl/libGLESv1_CM_tegra_impl.so:system/lib/egl/libGLESv1_CM_tegra_impl.so \
+    vendor/lge/p880/proprietary/lib/libnvglsi.so:system/lib/libnvglsi.so \
+    vendor/lge/p880/proprietary/lib/libnvcamerahdr.so:system/lib/libnvcamerahdr.so \
+    vendor/lge/p880/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
+    vendor/lge/p880/proprietary/lib/libnvaudioservice.so:system/lib/libnvaudioservice.so \
+    vendor/lge/p880/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
+    vendor/lge/p880/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so \
+    vendor/lge/p880/proprietary/lib/lgejpeg.so:system/lib/lgejpeg.so
