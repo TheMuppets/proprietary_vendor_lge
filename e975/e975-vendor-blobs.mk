@@ -105,6 +105,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e975/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/lge/e975/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
     vendor/lge/e975/proprietary/lib/libdss.so:system/lib/libdss.so \
+    vendor/lge/e975/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
+    vendor/lge/e975/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
     vendor/lge/e975/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/lge/e975/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
     vendor/lge/e975/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
