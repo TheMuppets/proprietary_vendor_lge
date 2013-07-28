@@ -59,6 +59,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
     vendor/lge/mako/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/lge/mako/proprietary/lib/libacdbdata.so:system/lib/libacdbdata.so \
+    vendor/lge/mako/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/lge/mako/proprietary/lib/libAKM.so:system/lib/libAKM.so \
     vendor/lge/mako/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/lge/mako/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
@@ -162,4 +163,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
     vendor/lge/mako/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
     vendor/lge/mako/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
-    vendor/lge/mako/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so
+    vendor/lge/mako/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
+    vendor/lge/mako/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/lge/mako/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/lge/mako/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/lge/mako/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so
