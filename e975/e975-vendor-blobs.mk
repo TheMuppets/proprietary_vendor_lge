@@ -110,6 +110,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e975/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
     vendor/lge/e975/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/lge/e975/proprietary/lib/lib_dlb_msd.so:system/lib/lib_dlb_msd.so \
+    vendor/lge/e975/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/lge/e975/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/lge/e975/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
     vendor/lge/e975/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
