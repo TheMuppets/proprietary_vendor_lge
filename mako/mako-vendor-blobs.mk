@@ -148,7 +148,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
     vendor/lge/mako/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
     vendor/lge/mako/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
+    vendor/lge/mako/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/lge/mako/proprietary/lib/libxml.so:system/lib/libxml.so \
+    vendor/lge/mako/proprietary/lib/soundfx/libfmas.so:system/lib/soundfx/libfmas.so \
     vendor/lge/mako/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
     vendor/lge/mako/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
     vendor/lge/mako/proprietary/vendor/firmware/bcm2079x_firmware.ncd:system/vendor/firmware/bcm2079x_firmware.ncd \
@@ -167,4 +169,5 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/lge/mako/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/lge/mako/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/lge/mako/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so
+    vendor/lge/mako/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/lge/mako/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
