@@ -136,7 +136,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e975/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/e975/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/e975/proprietary/bin/qosmgr:system/bin/qosmgr \
-    vendor/lge/e975/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/lge/e975/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
     vendor/lge/e975/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
     vendor/lge/e975/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
@@ -166,3 +165,23 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e975/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/lge/e975/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
     vendor/lge/e975/proprietary/lib/libgsl.so:system/lib/libgsl.so
+
+ifeq ($(TARGET_DEVICE),e975)
+PRODUCT_COPY_FILES += \
+    vendor/lge/e975/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
+endif
+
+ifeq ($(TARGET_DEVICE),e973)
+PRODUCT_COPY_FILES += \
+    vendor/lge/e975/proprietary/vendor/firmware/libpn544_fw_e973.so:system/vendor/firmware/libpn544_fw.so
+endif
+
+ifeq ($(TARGET_DEVICE),e970)
+PRODUCT_COPY_FILES += \
+    vendor/lge/e975/proprietary/vendor/firmware/libpn544_fw_e970.so:system/vendor/firmware/libpn544_fw.so
+endif
+
+ifeq ($(TARGET_DEVICE),ls970)
+PRODUCT_COPY_FILES += \
+    vendor/lge/e975/proprietary/vendor/firmware/libpn544_fw_ls970.so:system/vendor/firmware/libpn544_fw.so
+endif
