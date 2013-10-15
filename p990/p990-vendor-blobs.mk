@@ -61,7 +61,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p990/proprietary/lib/hw/audio.primary.star.so:system/lib/hw/audio.primary.star.so \
     vendor/lge/p990/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
     vendor/lge/p990/proprietary/lib/hw/sensors.tegra.so:system/lib/hw/sensors.tegra.so \
-    vendor/lge/p990/proprietary/lib/hw/vendor-camera.tegra.so:system/lib/hw/vendor-camera.tegra.so \
+    vendor/lge/p990/proprietary/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \
     vendor/lge/p990/proprietary/lib/hw/audio_policy.star.so:system/lib/hw/audio_policy.star.so \
     vendor/lge/p990/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
     vendor/lge/p990/proprietary/lib/libini.so:system/lib/libini.so \
