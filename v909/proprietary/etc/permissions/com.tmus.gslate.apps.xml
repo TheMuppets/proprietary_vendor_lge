@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<permissions>
-    <library name="com.tmus.gslate.apps"
-        file="/system/framework/com.tmus.gslate.apps.jar"
-    />
-</permissions>
