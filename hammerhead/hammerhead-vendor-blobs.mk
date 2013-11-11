@@ -88,10 +88,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/lge/hammerhead/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/lge/hammerhead/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
+    vendor/lge/hammerhead/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/lge/hammerhead/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/lge/hammerhead/proprietary/vendor/bin/vss_init:system/vendor/bin/vss_init \
-    vendor/lge/hammerhead/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
-    vendor/lge/hammerhead/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
     vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b00:system/vendor/firmware/adsp.b00 \
     vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b01:system/vendor/firmware/adsp.b01 \
     vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b02:system/vendor/firmware/adsp.b02 \
@@ -106,6 +105,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b11:system/vendor/firmware/adsp.b11 \
     vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.b12:system/vendor/firmware/adsp.b12 \
     vendor/lge/hammerhead/proprietary/vendor/firmware/adsp.mdt:system/vendor/firmware/adsp.mdt \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
     vendor/lge/hammerhead/proprietary/vendor/firmware/bcm2079x-b5_firmware.ncd:system/vendor/firmware/bcm2079x-b5_firmware.ncd \
     vendor/lge/hammerhead/proprietary/vendor/firmware/bcm2079x-b5_pre_firmware.ncd:system/vendor/firmware/bcm2079x-b5_pre_firmware.ncd \
     vendor/lge/hammerhead/proprietary/vendor/firmware/bcm4335c0.hcd:system/vendor/firmware/bcm4335c0.hcd \
@@ -141,7 +142,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/vendor/firmware/widevine.b01:system/vendor/firmware/widevine.b01 \
     vendor/lge/hammerhead/proprietary/vendor/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
     vendor/lge/hammerhead/proprietary/vendor/firmware/widevine.b03:system/vendor/firmware/widevine.b03 \
-    vendor/lge/hammerhead/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/widevine.mdt \
+    vendor/lge/hammerhead/proprietary/vendor/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt \
+    vendor/lge/hammerhead/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -223,4 +225,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/vendor/lib/libvss_common_iface.so:system/vendor/lib/libvss_common_iface.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libvss_nv_core.so:system/vendor/lib/libvss_nv_core.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libvss_nv_idl.so:system/vendor/lib/libvss_nv_idl.so \
-    vendor/lge/hammerhead/proprietary/vendor/lib/libvss_nv_iface.so:system/vendor/lib/libvss_nv_iface.so
+    vendor/lge/hammerhead/proprietary/vendor/lib/libvss_nv_iface.so:system/vendor/lib/libvss_nv_iface.so \
+    vendor/lge/hammerhead/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/lge/hammerhead/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/lge/hammerhead/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/lge/hammerhead/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
