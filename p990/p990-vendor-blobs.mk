@@ -52,6 +52,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p990/proprietary/lib/libnvmm_service.so:system/lib/libnvmm_service.so \
     vendor/lge/p990/proprietary/lib/liblgdmbomxcore.so:system/lib/liblgdmbomxcore.so \
     vendor/lge/p990/proprietary/lib/libdivxdrm.so:system/lib/libdivxdrm.so \
+    vendor/lge/p990/proprietary/lib/libemoji.so:system/lib/libemoji.so \
     vendor/lge/p990/proprietary/lib/libnvcontrol_jni.so:system/lib/libnvcontrol_jni.so \
     vendor/lge/p990/proprietary/lib/libnvddk_2d_v2.so:system/lib/libnvddk_2d_v2.so \
     vendor/lge/p990/proprietary/lib/libnvavp.so:system/lib/libnvavp.so \
