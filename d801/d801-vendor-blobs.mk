@@ -56,7 +56,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d801/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/d801/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/d801/proprietary/bin/rild:system/bin/rild \
-    vendor/lge/d801/proprietary/lib/liblgderp.so:system/lib/liblgderp.so \
     vendor/lge/d801/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/d801/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/d801/proprietary/bin/thermald:system/bin/thermald \
