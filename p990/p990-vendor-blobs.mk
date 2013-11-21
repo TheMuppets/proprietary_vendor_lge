@@ -30,10 +30,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p990/proprietary/etc/firmware/nvmm_jpegenc.axf:system/etc/firmware/nvmm_jpegenc.axf \
     vendor/lge/p990/proprietary/etc/firmware/nvmm_service.axf:system/etc/firmware/nvmm_service.axf \
     vendor/lge/p990/proprietary/etc/firmware/nvmm_h264dec.axf:system/etc/firmware/nvmm_h264dec.axf \
-    vendor/lge/p990/proprietary/etc/wl/nvram.txt:system/etc/wl/nvram.txt \
-    vendor/lge/p990/proprietary/etc/wl/rtecdc.bin:system/etc/wl/rtecdc.bin \
-    vendor/lge/p990/proprietary/etc/wl/rtecdc-mfgtest.bin:system/etc/wl/rtecdc-mfgtest.bin \
-    vendor/lge/p990/proprietary/etc/wl/rtecdc-apsta.bin:system/etc/wl/rtecdc-apsta.bin \
+    vendor/lge/p990/proprietary/etc/wl/nvram.txt:system/etc/nvram_4329.txt \
+    vendor/lge/p990/proprietary/vendor/firmware/bcm4329/fw_bcmdhd.bin:system/vendor/firmware/bcm4329/fw_bcmdhd.bin \
+    vendor/lge/p990/proprietary/vendor/firmware/bcm4329/fw_bcmdhd_apsta.bin:system/vendor/firmware/bcm4329/fw_bcmdhd_apsta.bin \
     vendor/lge/p990/proprietary/etc/cert/lge.cer:system/etc/cert/lge.cer \
     vendor/lge/p990/proprietary/lib/liblgdrm.so:system/lib/liblgdrm.so \
     vendor/lge/p990/proprietary/lib/libril.so:system/lib/libril.so \
@@ -52,7 +51,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p990/proprietary/lib/libnvmm_service.so:system/lib/libnvmm_service.so \
     vendor/lge/p990/proprietary/lib/liblgdmbomxcore.so:system/lib/liblgdmbomxcore.so \
     vendor/lge/p990/proprietary/lib/libdivxdrm.so:system/lib/libdivxdrm.so \
-    vendor/lge/p990/proprietary/lib/libemoji.so:system/lib/libemoji.so \
     vendor/lge/p990/proprietary/lib/libnvcontrol_jni.so:system/lib/libnvcontrol_jni.so \
     vendor/lge/p990/proprietary/lib/libnvddk_2d_v2.so:system/lib/libnvddk_2d_v2.so \
     vendor/lge/p990/proprietary/lib/libnvavp.so:system/lib/libnvavp.so \
