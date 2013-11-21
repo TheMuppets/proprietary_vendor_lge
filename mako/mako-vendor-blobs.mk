@@ -1,4 +1,4 @@
-# Copyright (C) 2012 The CyanogenMod Project
+# Copyright (C) 2013 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -39,33 +39,33 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/lge/mako/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/lge/mako/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
-    vendor/lge/mako/proprietary/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
     vendor/lge/mako/proprietary/etc/firmware/tzapps.b00:system/etc/firmware/tzapps.b00 \
     vendor/lge/mako/proprietary/etc/firmware/tzapps.b01:system/etc/firmware/tzapps.b01 \
     vendor/lge/mako/proprietary/etc/firmware/tzapps.b02:system/etc/firmware/tzapps.b02 \
     vendor/lge/mako/proprietary/etc/firmware/tzapps.b03:system/etc/firmware/tzapps.b03 \
     vendor/lge/mako/proprietary/etc/firmware/tzapps.mdt:system/etc/firmware/tzapps.mdt \
+    vendor/lge/mako/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
     vendor/lge/mako/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/lge/mako/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
     vendor/lge/mako/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
     vendor/lge/mako/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
     vendor/lge/mako/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
-    vendor/lge/mako/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
     vendor/lge/mako/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/lge/mako/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/lge/mako/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/lge/mako/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/lge/mako/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+    vendor/lge/mako/proprietary/lib/egl/libEGL_adreno.so:system/lib/egl/libEGL_adreno.so \
+    vendor/lge/mako/proprietary/lib/egl/libGLESv1_CM_adreno.so:system/lib/egl/libGLESv1_CM_adreno.so \
+    vendor/lge/mako/proprietary/lib/egl/libGLESv2_adreno.so:system/lib/egl/libGLESv2_adreno.so \
+    vendor/lge/mako/proprietary/lib/egl/libplayback_adreno.so:system/lib/egl/libplayback_adreno.so \
+    vendor/lge/mako/proprietary/lib/egl/libq3dtools_adreno.so:system/lib/egl/libq3dtools_adreno.so \
+    vendor/lge/mako/proprietary/lib/hw/flp.msm8960.so:system/lib/hw/flp.msm8960.so \
     vendor/lge/mako/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
     vendor/lge/mako/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
-    vendor/lge/mako/proprietary/lib/libacdbdata.so:system/lib/libacdbdata.so \
-    vendor/lge/mako/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
-    vendor/lge/mako/proprietary/lib/libAKM.so:system/lib/libAKM.so \
+    vendor/lge/mako/proprietary/lib/libadreno_utils.so:system/lib/libadreno_utils.so \
     vendor/lge/mako/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/lge/mako/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/lge/mako/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-    vendor/lge/mako/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
-    vendor/lge/mako/proprietary/lib/libcamera_fast_af.so:system/lib/libcamera_fast_af.so \
+    vendor/lge/mako/proprietary/lib/libc2d30-a3xx.so:system/lib/libc2d30-a3xx.so \
+    vendor/lge/mako/proprietary/lib/libc2d30.so:system/lib/libc2d30.so \
+    vendor/lge/mako/proprietary/lib/libCB.so:system/lib/libCB.so \
     vendor/lge/mako/proprietary/lib/libchromatix_imx111_default_video.so:system/lib/libchromatix_imx111_default_video.so \
     vendor/lge/mako/proprietary/lib/libchromatix_imx111_preview.so:system/lib/libchromatix_imx111_preview.so \
     vendor/lge/mako/proprietary/lib/libchromatix_imx111_zsl.so:system/lib/libchromatix_imx111_zsl.so \
@@ -97,9 +97,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/lib/libdss.so:system/lib/libdss.so \
     vendor/lge/mako/proprietary/lib/libdsucsd.so:system/lib/libdsucsd.so \
     vendor/lge/mako/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
-    vendor/lge/mako/proprietary/lib/libDxHdcp.so:system/lib/libDxHdcp.so \
     vendor/lge/mako/proprietary/lib/libgemini.so:system/lib/libgemini.so \
-    vendor/lge/mako/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
     vendor/lge/mako/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/lge/mako/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/lge/mako/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
@@ -108,66 +106,83 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/lge/mako/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/lge/mako/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
-    vendor/lge/mako/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
-    vendor/lge/mako/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/lge/mako/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/lge/mako/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/lge/mako/proprietary/lib/libmercury.so:system/lib/libmercury.so \
-    vendor/lge/mako/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/lge/mako/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/lge/mako/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/lge/mako/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     vendor/lge/mako/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
     vendor/lge/mako/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/lge/mako/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
+    vendor/lge/mako/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/lge/mako/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/mako/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/lge/mako/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
-    vendor/lge/mako/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
     vendor/lge/mako/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
+    vendor/lge/mako/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
     vendor/lge/mako/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
-    vendor/lge/mako/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
     vendor/lge/mako/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/lge/mako/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/lge/mako/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
     vendor/lge/mako/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/lge/mako/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/lge/mako/proprietary/lib/libqdp.so:system/lib/libqdp.so \
-    vendor/lge/mako/proprietary/lib/libqmi.so:system/lib/libqmi.so \
-    vendor/lge/mako/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/lge/mako/proprietary/lib/libqmi_cci.so:system/lib/libqmi_cci.so \
     vendor/lge/mako/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     vendor/lge/mako/proprietary/lib/libqmi_common_so.so:system/lib/libqmi_common_so.so \
     vendor/lge/mako/proprietary/lib/libqmi_csi.so:system/lib/libqmi_csi.so \
     vendor/lge/mako/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
     vendor/lge/mako/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
+    vendor/lge/mako/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
+    vendor/lge/mako/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/lge/mako/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/lge/mako/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/lge/mako/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
+    vendor/lge/mako/proprietary/lib/librs_adreno_sha1.so:system/lib/librs_adreno_sha1.so \
+    vendor/lge/mako/proprietary/lib/librs_adreno.so:system/lib/librs_adreno.so \
+    vendor/lge/mako/proprietary/lib/libRSDriver_adreno.so:system/lib/libRSDriver_adreno.so \
     vendor/lge/mako/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
     vendor/lge/mako/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/lge/mako/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
     vendor/lge/mako/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
     vendor/lge/mako/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
-    vendor/lge/mako/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/lge/mako/proprietary/lib/libxml.so:system/lib/libxml.so \
-    vendor/lge/mako/proprietary/lib/soundfx/libfmas.so:system/lib/soundfx/libfmas.so \
     vendor/lge/mako/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
     vendor/lge/mako/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
+    vendor/lge/mako/proprietary/vendor/firmware/dsps.b00:system/vendor/firmware/dsps.b00 \
+    vendor/lge/mako/proprietary/vendor/firmware/dsps.b01:system/vendor/firmware/dsps.b01 \
+    vendor/lge/mako/proprietary/vendor/firmware/dsps.b02:system/vendor/firmware/dsps.b02 \
+    vendor/lge/mako/proprietary/vendor/firmware/dsps.b03:system/vendor/firmware/dsps.b03 \
+    vendor/lge/mako/proprietary/vendor/firmware/dsps.b04:system/vendor/firmware/dsps.b04 \
+    vendor/lge/mako/proprietary/vendor/firmware/dsps.b05:system/vendor/firmware/dsps.b05 \
+    vendor/lge/mako/proprietary/vendor/firmware/dsps.mdt:system/vendor/firmware/dsps.mdt \
+    vendor/lge/mako/proprietary/vendor/firmware/q6.b00:system/vendor/firmware/q6.b00 \
+    vendor/lge/mako/proprietary/vendor/firmware/q6.b01:system/vendor/firmware/q6.b01 \
+    vendor/lge/mako/proprietary/vendor/firmware/q6.b03:system/vendor/firmware/q6.b03 \
+    vendor/lge/mako/proprietary/vendor/firmware/q6.b04:system/vendor/firmware/q6.b04 \
+    vendor/lge/mako/proprietary/vendor/firmware/q6.b05:system/vendor/firmware/q6.b05 \
+    vendor/lge/mako/proprietary/vendor/firmware/q6.b06:system/vendor/firmware/q6.b06 \
+    vendor/lge/mako/proprietary/vendor/firmware/q6.mdt:system/vendor/firmware/q6.mdt \
+    vendor/lge/mako/proprietary/vendor/firmware/wcnss.b00:system/vendor/firmware/wcnss.b00 \
+    vendor/lge/mako/proprietary/vendor/firmware/wcnss.b01:system/vendor/firmware/wcnss.b01 \
+    vendor/lge/mako/proprietary/vendor/firmware/wcnss.b02:system/vendor/firmware/wcnss.b02 \
+    vendor/lge/mako/proprietary/vendor/firmware/wcnss.b04:system/vendor/firmware/wcnss.b04 \
+    vendor/lge/mako/proprietary/vendor/firmware/wcnss.b05:system/vendor/firmware/wcnss.b05 \
+    vendor/lge/mako/proprietary/vendor/firmware/wcnss.mdt:system/vendor/firmware/wcnss.mdt \
+    vendor/lge/mako/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
+    vendor/lge/mako/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
+    vendor/lge/mako/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+    vendor/lge/mako/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
+    vendor/lge/mako/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
     vendor/lge/mako/proprietary/vendor/firmware/bcm2079x_firmware.ncd:system/vendor/firmware/bcm2079x_firmware.ncd \
     vendor/lge/mako/proprietary/vendor/firmware/bcm2079x_pre_firmware.ncd:system/vendor/firmware/bcm2079x_pre_firmware.ncd \
-    vendor/lge/mako/proprietary/vendor/firmware/discretix/dxhdcp2.b00:system/vendor/firmware/discretix/dxhdcp2.b00 \
-    vendor/lge/mako/proprietary/vendor/firmware/discretix/dxhdcp2.b01:system/vendor/firmware/discretix/dxhdcp2.b01 \
-    vendor/lge/mako/proprietary/vendor/firmware/discretix/dxhdcp2.b02:system/vendor/firmware/discretix/dxhdcp2.b02 \
-    vendor/lge/mako/proprietary/vendor/firmware/discretix/dxhdcp2.b03:system/vendor/firmware/discretix/dxhdcp2.b03 \
-    vendor/lge/mako/proprietary/vendor/firmware/discretix/dxhdcp2.mdt:system/vendor/firmware/discretix/dxhdcp2.mdt \
+    vendor/lge/mako/proprietary/lib/libacdbdata.so:system/lib/libacdbdata.so \
+    vendor/lge/mako/proprietary/lib/libAKM.so:system/lib/libAKM.so \
+    vendor/lge/mako/proprietary/lib/libcamera_fast_af.so:system/lib/libcamera_fast_af.so \
+    vendor/lge/mako/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
     vendor/lge/mako/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
     vendor/lge/mako/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
     vendor/lge/mako/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
     vendor/lge/mako/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
-    vendor/lge/mako/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
-    vendor/lge/mako/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
-    vendor/lge/mako/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-    vendor/lge/mako/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/lge/mako/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/lge/mako/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/lge/mako/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+    vendor/lge/mako/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt
