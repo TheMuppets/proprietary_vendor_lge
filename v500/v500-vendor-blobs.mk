@@ -145,6 +145,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v500/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/v500/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/v500/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/lge/v500/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/lge/v500/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/lge/v500/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
     vendor/lge/v500/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
@@ -163,6 +164,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v500/proprietary/lib/liblgftmitem.so:system/lib/liblgftmitem.so \
     vendor/lge/v500/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
     vendor/lge/v500/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/lge/v500/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
+    vendor/lge/v500/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/lge/v500/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/lge/v500/proprietary/lib/libxt_v02.so:system/lib/libxt_v02.so \
+    vendor/lge/v500/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
+    vendor/lge/v500/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
     vendor/lge/v500/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/lge/v500/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
     vendor/lge/v500/proprietary/lib/libgsl.so:system/lib/libgsl.so
