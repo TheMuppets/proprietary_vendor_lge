@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v500/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/lge/v500/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/lge/v500/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
-    vendor/lge/v500/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
     vendor/lge/v500/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/lge/v500/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/lge/v500/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
@@ -37,12 +36,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v500/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/lge/v500/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     vendor/lge/v500/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
-    vendor/lge/v500/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
     vendor/lge/v500/proprietary/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
     vendor/lge/v500/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/lge/v500/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
-    vendor/lge/v500/proprietary/lib/libmmcamera_tintless_algo.so:system/lib/libmmcamera_tintless_algo.so \
-    vendor/lge/v500/proprietary/lib/libmmcamera_tintless_wrapper.so:system/lib/libmmcamera_tintless_wrapper.so \
     vendor/lge/v500/proprietary/lib/libmorpho_movie_stabilization.so:system/lib/libmorpho_movie_stabilization.so \
     vendor/lge/v500/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
     vendor/lge/v500/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
