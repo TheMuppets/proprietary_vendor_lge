@@ -29,4 +29,13 @@ PRODUCT_COPY_FILES := \
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS := vendor/lge/hammerhead/overlay
 
+# Apps
+PRODUCT_PACKAGES += \
+    OmaDmclient \
+    qcrilmsgtunnel \
+    SprintHiddenMenu \
+    shutdownlistener \
+    TimeService \
+    UpdateSetting
+
 $(call inherit-product, vendor/lge/hammerhead/hammerhead-vendor-blobs.mk)
