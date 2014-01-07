@@ -148,17 +148,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v500/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
     vendor/lge/v500/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
     vendor/lge/v500/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-    vendor/lge/v500/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/lge/v500/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    vendor/lge/v500/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/lge/v500/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/lge/v500/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/lge/v500/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/lge/v500/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/lge/v500/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-    vendor/lge/v500/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
+    vendor/lge/v500/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
+    vendor/lge/v500/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
     vendor/lge/v500/proprietary/lib/liblgftmitem.so:system/lib/liblgftmitem.so \
-    vendor/lge/v500/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
     vendor/lge/v500/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lge/v500/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
     vendor/lge/v500/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
@@ -166,6 +158,20 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v500/proprietary/lib/libxt_v02.so:system/lib/libxt_v02.so \
     vendor/lge/v500/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
     vendor/lge/v500/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
-    vendor/lge/v500/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-    vendor/lge/v500/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
-    vendor/lge/v500/proprietary/lib/libgsl.so:system/lib/libgsl.so
+    vendor/lge/v500/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
+    vendor/lge/v500/proprietary/lib/egl/libEGL_adreno.so:system/lib/egl/libEGL_adreno.so \
+    vendor/lge/v500/proprietary/lib/egl/libGLESv1_CM_adreno.so:system/lib/egl/libGLESv1_CM_adreno.so \
+    vendor/lge/v500/proprietary/lib/egl/libGLESv2_adreno.so:system/lib/egl/libGLESv2_adreno.so \
+    vendor/lge/v500/proprietary/lib/egl/libplayback_adreno.so:system/lib/egl/libplayback_adreno.so \
+    vendor/lge/v500/proprietary/lib/egl/libq3dtools_adreno.so:system/lib/egl/libq3dtools_adreno.so \
+    vendor/lge/v500/proprietary/lib/librs_adreno_sha1.so:system/lib/librs_adreno_sha1.so \
+    vendor/lge/v500/proprietary/lib/librs_adreno.so:system/lib/librs_adreno.so \
+    vendor/lge/v500/proprietary/lib/libRSDriver_adreno.so:system/lib/libRSDriver_adreno.so \
+    vendor/lge/v500/proprietary/lib/libadreno_utils.so:system/lib/libadreno_utils.so \
+    vendor/lge/v500/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+    vendor/lge/v500/proprietary/lib/libc2d30-a3xx.so:system/lib/libc2d30-a3xx.so \
+    vendor/lge/v500/proprietary/lib/libc2d30.so:system/lib/libc2d30.so \
+    vendor/lge/v500/proprietary/lib/libCB.so:system/lib/libCB.so \
+    vendor/lge/v500/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+    vendor/lge/v500/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
+    vendor/lge/v500/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so
