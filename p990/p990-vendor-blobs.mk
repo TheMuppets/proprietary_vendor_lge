@@ -31,8 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p990/proprietary/etc/firmware/nvmm_service.axf:system/etc/firmware/nvmm_service.axf \
     vendor/lge/p990/proprietary/etc/firmware/nvmm_h264dec.axf:system/etc/firmware/nvmm_h264dec.axf \
     vendor/lge/p990/proprietary/etc/wl/nvram.txt:system/etc/nvram_4329.txt \
-    vendor/lge/p990/proprietary/vendor/firmware/bcm4329/fw_bcmdhd.bin:system/vendor/firmware/bcm4329/fw_bcmdhd.bin \
-    vendor/lge/p990/proprietary/vendor/firmware/bcm4329/fw_bcmdhd_apsta.bin:system/vendor/firmware/bcm4329/fw_bcmdhd_apsta.bin \
     vendor/lge/p990/proprietary/etc/cert/lge.cer:system/etc/cert/lge.cer \
     vendor/lge/p990/proprietary/lib/liblgdrm.so:system/lib/liblgdrm.so \
     vendor/lge/p990/proprietary/lib/libril.so:system/lib/libril.so \
