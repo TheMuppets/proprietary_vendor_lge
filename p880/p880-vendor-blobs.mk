@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p880/proprietary/bin/lgdrmserver:system/bin/lgdrmserver \
     vendor/lge/p880/proprietary/bin/lgsecclkserver:system/bin/lgsecclkserver \
     vendor/lge/p880/proprietary/bin/nvcpud:system/bin/nvcpud \
+    vendor/lge/p880/proprietary/bin/rild:system/bin/rild \
     vendor/lge/p880/proprietary/bin/tf_daemon:system/bin/tf_daemon \
     vendor/lge/p880/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
     vendor/lge/p880/proprietary/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
@@ -90,6 +91,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p880/proprietary/etc/firmware/nvavp_os_0ff00000.bin:system/etc/firmware/nvavp_os_0ff00000.bin \
     vendor/lge/p880/proprietary/etc/firmware/nvavp_os_eff00000.bin:system/etc/firmware/nvavp_os_eff00000.bin \
     vendor/lge/p880/proprietary/etc/firmware/nvavp_vid_ucode.bin:system/etc/firmware/nvavp_vid_ucode.bin \
+    vendor/lge/p880/proprietary/etc/firmware/nvavp_vid_ucode_alt.bin:system/etc/firmware/nvavp_vid_ucode_alt.bin \
     vendor/lge/p880/proprietary/etc/firmware/BCM4330B1_002.001.003.0550.0633.hcd:system/etc/firmware/BCM4330B1_002.001.003.0550.0633.hcd \
     vendor/lge/p880/proprietary/lib/libddp_omx.so:system/lib/libddp_omx.so \
     vendor/lge/p880/proprietary/lib/libstagefright_soft_ddpdec.so:system/lib/libstagefright_soft_ddpdec.so \
