@@ -20,7 +20,9 @@
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ######################    DEPENDENCY SECTION  #######################
 PRODUCT_COPY_FILES += \
-    vendor/lge/e610/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so
+    vendor/lge/e610/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so \
+    vendor/lge/e610/proprietary/lib/liboncrpc.so:obj/lib/liboncrpc.so \
+    vendor/lge/e610/proprietary/lib/libnv.so:obj/lib/libnv.so
 
 PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/bin/sensord:system/bin/sensord \
@@ -41,7 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/lge/e610/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/lge/e610/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/lge/e610/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/lge/e610/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/lge/e610/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/lge/e610/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
@@ -52,11 +53,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/lge/e610/proprietary/lib/hw/lights.msm7x27a.so:system/lib/hw/lights.msm7x27a.so \
     vendor/lge/e610/proprietary/lib/hw/sensors.m4.so:system/lib/hw/sensors.m4.so \
+    vendor/lge/e610/proprietary/lib/libbtnv.so:system/lib/libbtnv.so \
     vendor/lge/e610/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/lge/e610/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/e610/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/lge/e610/proprietary/lib/libchromatix_hi542_preview.so:system/lib/libchromatix_hi542_preview.so \
-    vendor/lge/e610/proprietary/lib/hw/vendor-camera.msm7x27a.so:system/lib/hw/vendor-camera.msm7x27a.so \
     vendor/lge/e610/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
     vendor/lge/e610/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/lge/e610/proprietary/lib/libwfcu.so:system/lib/libwfcu.so \
@@ -113,7 +114,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
     vendor/lge/e610/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/lge/e610/proprietary/lib/libOmxAc3HwDec.so:system/lib/libOmxAc3HwDec.so \
-    vendor/lge/e610/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
     vendor/lge/e610/proprietary/lib/libOmxIttiamVenc.so:system/lib/libOmxIttiamVenc.so \
     vendor/lge/e610/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
     vendor/lge/e610/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
@@ -125,11 +125,14 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/lge/e610/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     vendor/lge/e610/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
-    vendor/lge/e610/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
     vendor/lge/e610/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/lge/e610/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/lge/e610/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/lge/e610/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/lge/e610/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/lge/e610/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-    vendor/lge/e610/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
+    vendor/lge/e610/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
+    vendor/lge/e610/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
+    vendor/lge/e610/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
+    vendor/lge/e610/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
+    vendor/lge/e610/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so

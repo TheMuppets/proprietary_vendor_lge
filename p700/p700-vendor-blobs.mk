@@ -29,6 +29,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/hw/sensors.u0.so:system/lib/hw/sensors.u0.so \
     vendor/lge/p700/proprietary/bin/sensord:system/bin/sensord \
     vendor/lge/p700/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/lge/p700/proprietary/bin/fmconfig:system/bin/fmconfig \
+    vendor/lge/p700/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/lge/p700/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/lge/p700/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/lge/p700/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
@@ -56,6 +58,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/libwcnftm.so:system/lib/libwcnftm.so \
     vendor/lge/p700/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/lge/p700/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
+	vendor/lge/p700/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/lge/p700/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     vendor/lge/p700/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
     vendor/lge/p700/proprietary/lib/libqueue.so:system/lib/libqueue.so \
@@ -120,8 +123,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/libchromatix_hi542_default_video.so:system/lib/libchromatix_hi542_default_video.so \
     vendor/lge/p700/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/lge/p700/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
-    vendor/lge/p700/proprietary/lib/libcommondefs.so:system/lib/libcommondefs.so \
-    vendor/lge/p700/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
     vendor/lge/p700/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/lge/p700/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/lge/p700/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
@@ -133,4 +134,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/lge/p700/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/lge/p700/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-    vendor/lge/p700/proprietary/lib/librpc.so:system/lib/librpc.so
+    vendor/lge/p700/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
+    vendor/lge/p700/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
+    vendor/lge/p700/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
+    vendor/lge/p700/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+    vendor/lge/p700/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so
+
