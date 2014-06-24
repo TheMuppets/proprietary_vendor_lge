@@ -185,6 +185,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/vendor/firmware/discretix/dxhdcp2.b03:system/vendor/firmware/discretix/dxhdcp2.b03 \
     vendor/lge/mako/proprietary/vendor/firmware/discretix/dxhdcp2.mdt:system/vendor/firmware/discretix/dxhdcp2.mdt \
     vendor/lge/mako/proprietary/lib/libacdbdata.so:system/lib/libacdbdata.so \
+    vendor/lge/mako/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/lge/mako/proprietary/lib/libAKM.so:system/lib/libAKM.so \
     vendor/lge/mako/proprietary/lib/libcamera_fast_af.so:system/lib/libcamera_fast_af.so \
     vendor/lge/mako/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
