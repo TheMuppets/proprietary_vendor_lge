@@ -263,3 +263,20 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d801/proprietary/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd:system/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd \
     vendor/lge/d801/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
     vendor/lge/d801/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw
+
+# Include known-good ADSP to prevent compatibility issues for users with bad/incompatible firmware images
+PRODUCT_COPY_FILES += \
+    vendor/lge/d801/firmware/adsp.b00:system/vendor/firmware/adsp.b00 \
+    vendor/lge/d801/firmware/adsp.b01:system/vendor/firmware/adsp.b01 \
+    vendor/lge/d801/firmware/adsp.b02:system/vendor/firmware/adsp.b02 \
+    vendor/lge/d801/firmware/adsp.b03:system/vendor/firmware/adsp.b03 \
+    vendor/lge/d801/firmware/adsp.b04:system/vendor/firmware/adsp.b04 \
+    vendor/lge/d801/firmware/adsp.b05:system/vendor/firmware/adsp.b05 \
+    vendor/lge/d801/firmware/adsp.b06:system/vendor/firmware/adsp.b06 \
+    vendor/lge/d801/firmware/adsp.b08:system/vendor/firmware/adsp.b08 \
+    vendor/lge/d801/firmware/adsp.b09:system/vendor/firmware/adsp.b09 \
+    vendor/lge/d801/firmware/adsp.b10:system/vendor/firmware/adsp.b10 \
+    vendor/lge/d801/firmware/adsp.b11:system/vendor/firmware/adsp.b11 \
+    vendor/lge/d801/firmware/adsp.b12:system/vendor/firmware/adsp.b12 \
+    vendor/lge/d801/firmware/adsp.mdt:system/vendor/firmware/adsp.mdt
+
