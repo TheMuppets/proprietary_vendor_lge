@@ -33,25 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/e610/proprietary/bin/rild:system/bin/rild \
     vendor/lge/e610/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/lge/e610/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
-    vendor/lge/e610/proprietary/etc/firmware/wlan/volans/WCN1314_cfg.dat:system/etc/firmware/wlan/volans/WCN1314_cfg.dat \
-    vendor/lge/e610/proprietary/etc/firmware/wlan/volans/WCN1314_qcom_wlan_nv.bin:system/etc/firmware/wlan/volans/WCN1314_qcom_wlan_nv.bin \
-    vendor/lge/e610/proprietary/etc/firmware/wlan/volans/WCN1314_qcom_fw.bin:system/etc/firmware/wlan/volans/WCN1314_qcom_fw.bin \
-    vendor/lge/e610/proprietary/etc/firmware/wlan/volans/WCN1314_qcom_cfg.ini:system/etc/firmware/wlan/volans/WCN1314_qcom_cfg.ini \
-    vendor/lge/e610/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
-    vendor/lge/e610/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
-    vendor/lge/e610/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/lge/e610/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/lge/e610/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/lge/e610/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/lge/e610/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/lge/e610/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
-    vendor/lge/e610/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-    vendor/lge/e610/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
-    vendor/lge/e610/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
-    vendor/lge/e610/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-    vendor/lge/e610/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-    vendor/lge/e610/proprietary/lib/hw/lights.msm7x27a.so:system/lib/hw/lights.msm7x27a.so \
     vendor/lge/e610/proprietary/lib/hw/sensors.m4.so:system/lib/hw/sensors.m4.so \
     vendor/lge/e610/proprietary/lib/libbtnv.so:system/lib/libbtnv.so \
     vendor/lge/e610/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
@@ -115,7 +96,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/lge/e610/proprietary/lib/libOmxAc3HwDec.so:system/lib/libOmxAc3HwDec.so \
     vendor/lge/e610/proprietary/lib/libOmxIttiamVenc.so:system/lib/libOmxIttiamVenc.so \
-    vendor/lge/e610/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
+    vendor/lge/e610/proprietary/lib/hw/nfc.msm7x27a.so:system/lib/hw/nfc.msm7x27a.so \
     vendor/lge/e610/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
     vendor/lge/e610/proprietary/lib/libchromatix_hi542_default_video.so:system/lib/libchromatix_hi542_default_video.so \
     vendor/lge/e610/proprietary/lib/libgemini.so:system/lib/libgemini.so \
