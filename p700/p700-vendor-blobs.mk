@@ -25,40 +25,20 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/libnv.so:obj/lib/libnv.so
 
 PRODUCT_COPY_FILES += \
-    vendor/lge/p700/proprietary/lib/hw/lights.msm7x27a.so:system/lib/hw/lights.msm7x27a.so \
     vendor/lge/p700/proprietary/lib/hw/sensors.u0.so:system/lib/hw/sensors.u0.so \
     vendor/lge/p700/proprietary/bin/sensord:system/bin/sensord \
     vendor/lge/p700/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/lge/p700/proprietary/bin/fmconfig:system/bin/fmconfig \
-    vendor/lge/p700/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
-    vendor/lge/p700/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/lge/p700/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/lge/p700/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/lge/p700/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/lge/p700/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
-    vendor/lge/p700/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
-    vendor/lge/p700/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
-    vendor/lge/p700/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-    vendor/lge/p700/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
-    vendor/lge/p700/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
-    vendor/lge/p700/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-    vendor/lge/p700/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/lge/p700/proprietary/lib/libbtnv.so:system/lib/libbtnv.so \
     vendor/lge/p700/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/lge/p700/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/p700/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/lge/p700/proprietary/lib/libchromatix_hi542_preview.so:system/lib/libchromatix_hi542_preview.so \
-    vendor/lge/p700/proprietary/etc/firmware/wlan/volans/WCN1314_cfg.dat:system/etc/firmware/wlan/volans/WCN1314_cfg.dat \
-    vendor/lge/p700/proprietary/etc/firmware/wlan/volans/WCN1314_qcom_wlan_nv.bin:system/etc/firmware/wlan/volans/WCN1314_qcom_wlan_nv.bin \
-    vendor/lge/p700/proprietary/etc/firmware/wlan/volans/WCN1314_qcom_fw.bin:system/etc/firmware/wlan/volans/WCN1314_qcom_fw.bin \
-    vendor/lge/p700/proprietary/etc/firmware/wlan/volans/WCN1314_qcom_cfg.ini:system/etc/firmware/wlan/volans/WCN1314_qcom_cfg.ini \
     vendor/lge/p700/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
     vendor/lge/p700/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/lge/p700/proprietary/lib/libwfcu.so:system/lib/libwfcu.so \
     vendor/lge/p700/proprietary/lib/libwcnftm.so:system/lib/libwcnftm.so \
     vendor/lge/p700/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/lge/p700/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
-	vendor/lge/p700/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/lge/p700/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     vendor/lge/p700/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
     vendor/lge/p700/proprietary/lib/libqueue.so:system/lib/libqueue.so \
@@ -115,7 +95,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/libOmxAc3HwDec.so:system/lib/libOmxAc3HwDec.so \
     vendor/lge/p700/proprietary/lib/libOmxIttiamVenc.so:system/lib/libOmxIttiamVenc.so \
     vendor/lge/p700/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/lge/p700/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
+    vendor/lge/p700/proprietary/lib/hw/nfc.msm7x27a.so:system/lib/hw/nfc.msm7x27a.so \
     vendor/lge/p700/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/lge/p700/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
     vendor/lge/p700/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
@@ -133,10 +113,4 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/lge/p700/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/lge/p700/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
-    vendor/lge/p700/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-    vendor/lge/p700/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
-    vendor/lge/p700/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
-    vendor/lge/p700/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
-    vendor/lge/p700/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
-    vendor/lge/p700/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so
-
+    vendor/lge/p700/proprietary/lib/libaudcal.so:system/lib/libaudcal.so
