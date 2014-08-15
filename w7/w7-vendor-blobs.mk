@@ -195,16 +195,14 @@ PRODUCT_COPY_FILES += \
     vendor/lge/w7/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/lge/w7/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/lge/w7/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
-    vendor/lge/w7/proprietary/№:system/№ \
-    vendor/lge/w7/proprietary/Adsp:system/Adsp \
     vendor/lge/w7/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/lge/w7/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/lge/w7/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/lge/w7/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
-    vendor/lge/w7/proprietary/vendor/lib/rfsa/libadsp_denoise_skel.so:system/vendor/lib/rfsa/libadsp_denoise_skel.so \
-    vendor/lge/w7/proprietary/vendor/lib/rfsa/libdspCV_skel.so:system/vendor/lib/rfsa/libdspCV_skel.so \
-    vendor/lge/w7/proprietary/vendor/lib/rfsa/libfastcvadsp_skel.so:system/vendor/lib/rfsa/libfastcvadsp_skel.so \
-    vendor/lge/w7/proprietary/vendor/lib/rfsa/libfastcvadsp.so:system/vendor/lib/rfsa/libfastcvadsp.so \
+    vendor/lge/w7/proprietary/vendor/lib/rfsa/adsp/libadsp_denoise_skel.so:system/vendor/lib/rfsa/adsp/libadsp_denoise_skel.so \
+    vendor/lge/w7/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
+    vendor/lge/w7/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
+    vendor/lge/w7/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
     vendor/lge/w7/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/lge/w7/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/lge/w7/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
