@@ -212,6 +212,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/w7/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lge/w7/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/lge/w7/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/lge/w7/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/lge/w7/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/lge/w7/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/lge/w7/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \

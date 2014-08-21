@@ -20,9 +20,9 @@ DEVICE_PACKAGE_OVERLAYS := vendor/lge/w7/overlay
 # Apps
 PRODUCT_PACKAGES += \
     TimeService \
-    qcrilmsgtunnel
+    qcrilmsgtunnel \
+    com.qualcomm.location
 
 
-#com.qualcomm.location
 #com.qualcomm.services.location
 $(call inherit-product, vendor/lge/w7/w7-vendor-blobs.mk)
