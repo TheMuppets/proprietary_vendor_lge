@@ -192,6 +192,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
+    vendor/lge/hammerhead/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
