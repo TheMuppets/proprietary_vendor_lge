@@ -35,21 +35,21 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/hammerhead/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/lge/hammerhead/proprietary/bin/usbhub_init:system/bin/usbhub_init \
-    vendor/lge/hammerhead/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
+    vendor/lge/hammerhead/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/lge/hammerhead/proprietary/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
     vendor/lge/hammerhead/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/lge/hammerhead/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/lge/hammerhead/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/lge/hammerhead/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
-    vendor/lge/hammerhead/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
-    vendor/lge/hammerhead/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
-    vendor/lge/hammerhead/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
-    vendor/lge/hammerhead/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
+    vendor/lge/hammerhead/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
+    vendor/lge/hammerhead/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
+    vendor/lge/hammerhead/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
+    vendor/lge/hammerhead/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
+    vendor/lge/hammerhead/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/lge/hammerhead/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lge/hammerhead/proprietary/etc/permissions/serviceitems.xml:system/etc/permissions/serviceitems.xml \
     vendor/lge/hammerhead/proprietary/etc/qcril.db:system/etc/qcril.db \
     vendor/lge/hammerhead/proprietary/etc/sensor_def_hh.conf:system/etc/sensor_def_hh.conf \
-    vendor/lge/hammerhead/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
+    vendor/lge/hammerhead/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
     vendor/lge/hammerhead/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/lge/hammerhead/proprietary/framework/serviceitems.jar:system/framework/serviceitems.jar \
     vendor/lge/hammerhead/proprietary/lib/hw/flp.msm8974.so:system/lib/hw/flp.msm8974.so \
@@ -151,6 +151,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
+	vendor/lge/hammerhead/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
@@ -169,7 +170,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
-    vendor/lge/hammerhead/proprietary/vendor/lib/libllvm-a3xx.so:system/vendor/lib/libllvm-a3xx.so \
+    vendor/lge/hammerhead/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
