@@ -81,6 +81,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
     vendor/lge/hammerhead/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/lge/hammerhead/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
+    vendor/lge/hammerhead/proprietary/lib/librpmb.so:system/lib/librpmb.so \
+    vendor/lge/hammerhead/proprietary/lib/libssd.so:system/lib/libssd.so \
     vendor/lge/hammerhead/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/lge/hammerhead/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/lge/hammerhead/proprietary/lib/libxml.so:system/lib/libxml.so \
