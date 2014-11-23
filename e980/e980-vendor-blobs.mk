@@ -115,7 +115,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e980/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
     vendor/lge/e980/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/lge/e980/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
-    vendor/lge/e980/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+    vendor/lge/e980/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
     vendor/lge/e980/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
     vendor/lge/e980/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/lge/e980/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
@@ -157,20 +157,22 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e980/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
     vendor/lge/e980/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
     vendor/lge/e980/proprietary/etc/firmware/fw_bcmdhd_p2p.bin:system/etc/firmware/fw_bcmdhd_p2p.bin \
-    vendor/lge/e980/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/lge/e980/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/lge/e980/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/lge/e980/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/lge/e980/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/lge/e980/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-    vendor/lge/e980/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
+    vendor/lge/e980/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
+    vendor/lge/e980/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
+    vendor/lge/e980/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
+    vendor/lge/e980/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+    vendor/lge/e980/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/lge/e980/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+    vendor/lge/e980/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+    vendor/lge/e980/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
+    vendor/lge/e980/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
+    vendor/lge/e980/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/lge/e980/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/lge/e980/proprietary/lib/liblgftmitem.so:system/lib/liblgftmitem.so \
-    vendor/lge/e980/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
-    vendor/lge/e980/proprietary/lib/libllvm-arm.so:system/lib/libllvm-arm.so \
     vendor/lge/e980/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/lge/e980/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-    vendor/lge/e980/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
-    vendor/lge/e980/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+    vendor/lge/e980/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/lge/e980/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
+    vendor/lge/e980/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/lge/e980/proprietary/vendor/firmware/CE170F00.bin:system/vendor/firmware/CE170F00.bin \
     vendor/lge/e980/proprietary/vendor/firmware/CE170F01.bin:system/vendor/firmware/CE170F01.bin \
     vendor/lge/e980/proprietary/vendor/firmware/CE170F02.bin:system/vendor/firmware/CE170F02.bin \
