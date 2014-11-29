@@ -73,6 +73,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v500/proprietary/lib/libchromatix_ov2720_preview.so:system/lib/libchromatix_ov2720_preview.so \
     vendor/lge/v500/proprietary/lib/libchromatix_ov2720_zsl.so:system/lib/libchromatix_ov2720_zsl.so \
     vendor/lge/v500/proprietary/lib/libchromatix_ov5647_default_video.so:system/lib/libchromatix_ov5647_default_video.so \
+    vendor/lge/v500/proprietary/lib/libchromatix_ov5647_video_hfr.so:system/lib/libchromatix_ov5647_video_hfr.so \
     vendor/lge/v500/proprietary/lib/libchromatix_ov5647_preview.so:system/lib/libchromatix_ov5647_preview.so \
     vendor/lge/v500/proprietary/lib/libchromatix_ov8825_default_video.so:system/lib/libchromatix_ov8825_default_video.so \
     vendor/lge/v500/proprietary/lib/libchromatix_ov8825_preview.so:system/lib/libchromatix_ov8825_preview.so \
@@ -117,6 +118,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v500/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
     vendor/lge/v500/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/lge/v500/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
+    vendor/lge/v500/proprietary/lib/libWVStreamControlAPI_L1.so:system/lib/libWVStreamControlAPI_L1.so \
     vendor/lge/v500/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
     vendor/lge/v500/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/lge/v500/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
@@ -156,11 +158,14 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v500/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/lge/v500/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/lge/v500/proprietary/lib/libxt_v02.so:system/lib/libxt_v02.so \
+    vendor/lge/v500/proprietary/lib/libwvm.so:system/lib/libwvm.so \
     vendor/lge/v500/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
     vendor/lge/v500/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
     vendor/lge/v500/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/lge/v500/proprietary/lib/egl/libEGL_adreno.so:system/lib/egl/libEGL_adreno.so \
     vendor/lge/v500/proprietary/lib/egl/libGLESv1_CM_adreno.so:system/lib/egl/libGLESv1_CM_adreno.so \
+    vendor/lge/v500/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
+    vendor/lge/v500/proprietary/lib/egl/libGLESv2S3D_adreno.so:system/lib/egl/libGLESv2S3D_adreno.so \
     vendor/lge/v500/proprietary/lib/egl/libGLESv2_adreno.so:system/lib/egl/libGLESv2_adreno.so \
     vendor/lge/v500/proprietary/lib/egl/libplayback_adreno.so:system/lib/egl/libplayback_adreno.so \
     vendor/lge/v500/proprietary/lib/egl/libq3dtools_adreno.so:system/lib/egl/libq3dtools_adreno.so \
