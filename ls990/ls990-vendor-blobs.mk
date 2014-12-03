@@ -18,6 +18,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ls990/proprietary/etc/firmware/BCM4335_003.001.009.0025.0000_LGIT_TWCS-B221D_TESTONLY.hcd:system/etc/firmware/BCM4335_003.001.009.0025.0000_LGIT_TWCS-B221D_TESTONLY.hcd \
     vendor/lge/ls990/proprietary/etc/firmware/BCM4339_003.001.009.0061.0313_FM_I2S.hcd:system/etc/firmware/BCM4339_003.001.009.0061.0313_FM_I2S.hcd \
     vendor/lge/ls990/proprietary/etc/firmware/BCM4339_003.001.009.0061.0312.hcd:system/etc/firmware/BCM4339_003.001.009.0061.0312.hcd \
+    vendor/lge/ls990/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/lge/ls990/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/lge/ls990/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/lge/ls990/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
