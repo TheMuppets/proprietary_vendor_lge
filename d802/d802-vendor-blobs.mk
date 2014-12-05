@@ -48,8 +48,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d802/proprietary/lib/libvss_common_core.so:system/lib/libvss_common_core.so \
     vendor/lge/d802/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/lge/d802/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/lge/d802/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
+    vendor/lge/d802/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     vendor/lge/d802/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
+    vendor/lge/d802/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
     vendor/lge/d802/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/d802/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/d802/proprietary/lib/libril.so:system/lib/libril.so \
@@ -68,6 +69,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d802/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/d802/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lge/d802/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
+    vendor/lge/d802/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
     vendor/lge/d802/proprietary/lib/libHDR.so:system/lib/libHDR.so \
     vendor/lge/d802/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
     vendor/lge/d802/proprietary/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
@@ -125,8 +127,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d802/proprietary/vendor/lib/libcsd-client.so:system/vendor/lib/libcsd-client.so \
     vendor/lge/d802/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/lge/d802/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
-    vendor/lge/d802/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/lge/d802/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
+    vendor/lge/d802/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/lge/d802/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/lge/d802/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/lge/d802/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
@@ -259,6 +261,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d802/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/lge/d802/proprietary/vendor/lib/pp_proc_plugin.so:system/vendor/lib/pp_proc_plugin.so \
     vendor/lge/d802/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/lge/d802/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/lge/d802/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_I2C_NCD_Signed_ORC.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_I2C_NCD_Signed_ORC.ncd \
     vendor/lge/d802/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_PreI2C_NCD_Signed_ORC.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_PreI2C_NCD_Signed_ORC.ncd \
     vendor/lge/d802/proprietary/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd:system/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd \
