@@ -70,6 +70,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d850/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/lge/d850/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/lge/d850/proprietary/etc/apns-conf.xml:system/etc/apns-conf.xml \
+    vendor/lge/d850/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/lge/d850/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/lge/d850/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
     vendor/lge/d850/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
