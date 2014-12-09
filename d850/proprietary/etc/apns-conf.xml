@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<!-- use empty string to specify no proxy or port -->
+
+<!-- If you edit this version, also edit the version in the partner-supplied
+    apns-conf.xml configuration file -->
+<apns version="8">
+
+<!-- ATnT  -->
+
+<apn carrier="ATT Nextgenphone"
+    mcc="310"
+    mnc="410"
+    apn="nxtgenphone"
+    user=""
+    password=""
+    authtype="0"
+    server=""
+    proxy=""
+    port=""
+    mmsc="http://mmsc.mobile.att.net"
+    mmsproxy="proxy.mobile.att.net"
+    mmsport="80"
+    type="default,mms,supl"
+    protocol="IP"
+    preferapp="" />
+
+<apn carrier="ATT Nextgenphone"
+    mcc="310"
+    mnc="410"
+    apn="nxtgenphone"
+    user=""
+    password=""
+    authtype="0"
+    server=""
+    proxy=""
+    port=""
+    mmsc="http://mmsc.mobile.att.net"
+    mmsproxy="proxy.mobile.att.net"
+    mmsport="80"
+    type="xcap"
+    protocol="IP"
+    defaultflag="2"
+    preferapp="" />
+
+<apn carrier="IMS"
+    mcc="310"
+    mnc="410"
+    apn="ims"
+    user=""
+    password=""
+    authtype="0"
+    server=""
+    proxy=""
+    port=""
+    mmsc=""
+    mmsproxy=""
+    mmsport=""
+    type="ims"
+    protocol="IPV4V6"
+    defaultflag="2"
+    preferapp="" />
+
+<apn carrier="Emergency"
+    mcc="310"
+    mnc="410"
+    apn="sos"
+    user=""
+    password=""
+    authtype="0"
+    server=""
+    proxy=""
+    port=""
+    mmsc=""
+    mmsproxy=""
+    mmsport=""
+    type="emergency"
+    protocol="IPV4V6"
+    defaultflag="2"
+    preferapp="" />
+
+<!-- AIO US -->
+<apn carrier="ATT Phone"
+    mcc="310"
+    mnc="150"
+    apn="phone"
+    user=""
+    password=""
+    authtype="0"
+    server=""
+    proxy=""
+    port=""
+    mmsc="http://mmsc.mobile.att.net"
+    mmsproxy="proxy.mobile.att.net"
+    mmsport="80"
+    type="default,mms,supl,hipri,fota"
+    protocol="IP"
+    preferapp="" />
+
+<!-- LG Testbed  -->
+<apn carrier="LGE DEFAULT"
+    mcc="450"
+    mnc="00"
+    apn="lte"
+    user="lge"
+    password="lge"
+    authtype="1"
+    server=""
+    proxy=""
+    port=""
+    mmsc="http://203.229.247.19/mm1"
+    mmsproxy="203.229.247.28"
+    mmsport="8000"
+    type="default,mms,supl,hipri,fota"
+    defaultflag="0"
+    preferapp="" />
+
+</apns>
