@@ -217,4 +217,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/lge/g3-common/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/lge/g3-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so
+    vendor/lge/g3-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
+    vendor/lge/g3-common/proprietary/vendor/firmware/wcnss.b00:system/vendor/firmware/wcnss.b00 \
+    vendor/lge/g3-common/proprietary/vendor/firmware/wcnss.b01:system/vendor/firmware/wcnss.b01 \
+    vendor/lge/g3-common/proprietary/vendor/firmware/wcnss.b02:system/vendor/firmware/wcnss.b02 \
+    vendor/lge/g3-common/proprietary/vendor/firmware/wcnss.b04:system/vendor/firmware/wcnss.b04 \
+    vendor/lge/g3-common/proprietary/vendor/firmware/wcnss.b06:system/vendor/firmware/wcnss.b06 \
+    vendor/lge/g3-common/proprietary/vendor/firmware/wcnss.b07:system/vendor/firmware/wcnss.b07 \
+    vendor/lge/g3-common/proprietary/vendor/firmware/wcnss.b08:system/vendor/firmware/wcnss.b08 \
+    vendor/lge/g3-common/proprietary/vendor/firmware/wcnss.b09:system/vendor/firmware/wcnss.b09 \
+    vendor/lge/g3-common/proprietary/vendor/firmware/wcnss.mdt:system/vendor/firmware/wcnss.mdt
