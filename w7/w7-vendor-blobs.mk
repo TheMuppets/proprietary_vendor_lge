@@ -238,3 +238,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/w7/proprietary/lib/libirrcClient.so:system/lib/libirrcClient.so \
     vendor/lge/w7/proprietary/lib/libirrcJni.so:system/lib/libirrcJni.so \
     vendor/lge/w7/proprietary/lib/liblgewg.so:system/lib/liblgewg.so \
+    vendor/lge/w7/proprietary/lib/libatd_corelib.so:system/lib/libatd_corelib.so \
+    vendor/lge/w7/proprietary/lib/libbtnv.so:system/lib/libbtnv.so \
+    vendor/lge/w7/proprietary/lib/liblgftmitem.so:system/lib/liblgftmitem.so\
+    vendor/lge/w7/proprietary/bin/bdaddr_loader:system/bin/bdaddr_loader \
+    vendor/lge/w7/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/lge/w7/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init
