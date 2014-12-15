@@ -81,7 +81,15 @@ PRODUCT_COPY_FILES += \
     vendor/lge/w7/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/lge/w7/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/lge/w7/proprietary/vendor/lib/libdsnetutils.so:system/vendor/lib/libdsnetutils.so \
+    vendor/lge/w7/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/lge/w7/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
+    vendor/lge/w7/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+    vendor/lge/w7/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
+    vendor/lge/w7/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
+    vendor/lge/w7/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+    vendor/lge/w7/proprietary/lib/libuicc.so:system/lib/libuicc.so \
+    vendor/lge/w7/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
+    vendor/lge/w7/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/lge/w7/proprietary/lib/libvss_common_iface.so:system/lib/libvss_common_iface.so \
     vendor/lge/w7/proprietary/lib/libvss_common_idl.so:system/lib/libvss_common_idl.so \
     vendor/lge/w7/proprietary/lib/libvss_nv_iface.so:system/lib/libvss_nv_iface.so \
@@ -107,16 +115,21 @@ PRODUCT_COPY_FILES += \
     vendor/lge/w7/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/lge/w7/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/lge/w7/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-    vendor/lge/w7/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
     vendor/lge/w7/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/lge/w7/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/lge/w7/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-    vendor/lge/w7/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
     vendor/lge/w7/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/lge/w7/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/lge/w7/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+    vendor/lge/w7/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/lge/w7/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/lge/w7/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/lge/w7/proprietary/bin/bdaddr_loader:system/bin/bdaddr_loader \
+    vendor/lge/w7/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/lge/w7/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/lge/w7/proprietary/lib/libatd_corelib.so:system/lib/libatd_corelib.so \
+    vendor/lge/w7/proprietary/lib/libbtnv.so:system/lib/libbtnv.so \
+    vendor/lge/w7/proprietary/lib/liblgftmitem.so:system/lib/liblgftmitem.so \
     vendor/lge/w7/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/w7/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.msm8226.so \
     vendor/lge/w7/proprietary/lib/libchromatix_hi543_common.so:system/lib/libchromatix_hi543_common.so \
@@ -221,6 +234,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/w7/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/w7/proprietary/lib/hw/lights.msm8226.so:system/lib/hw/lights.msm8226.so \
     vendor/lge/w7/proprietary/vendor/lib/libbmc050.so:system/vendor/lib/libbmc050.so \
+    vendor/lge/w7/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/w7/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/lge/w7/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/lge/w7/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
