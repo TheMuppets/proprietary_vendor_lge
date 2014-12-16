@@ -46,6 +46,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/lge/hammerhead/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/lge/hammerhead/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/lge/hammerhead/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/lge/hammerhead/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lge/hammerhead/proprietary/etc/permissions/serviceitems.xml:system/etc/permissions/serviceitems.xml \
     vendor/lge/hammerhead/proprietary/etc/qcril.db:system/etc/qcril.db \
@@ -79,7 +80,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/lge/hammerhead/proprietary/lib/libmmQSM.so:system/lib/libmmQSM.so \
     vendor/lge/hammerhead/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
-    vendor/lge/hammerhead/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/lge/hammerhead/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/lge/hammerhead/proprietary/lib/librpmb.so:system/lib/librpmb.so \
     vendor/lge/hammerhead/proprietary/lib/libssd.so:system/lib/libssd.so \
@@ -171,6 +171,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
+    vendor/lge/hammerhead/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
@@ -205,6 +206,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
+    vendor/lge/hammerhead/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
