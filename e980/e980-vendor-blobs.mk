@@ -173,6 +173,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e980/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/lge/e980/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/lge/e980/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
+    vendor/lge/e980/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/lge/e980/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
+    vendor/lge/e980/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/lge/e980/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/lge/e980/proprietary/vendor/firmware/CE170F00.bin:system/vendor/firmware/CE170F00.bin \
     vendor/lge/e980/proprietary/vendor/firmware/CE170F01.bin:system/vendor/firmware/CE170F01.bin \
     vendor/lge/e980/proprietary/vendor/firmware/CE170F02.bin:system/vendor/firmware/CE170F02.bin \
