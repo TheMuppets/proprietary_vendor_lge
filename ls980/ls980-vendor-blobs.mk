@@ -48,7 +48,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ls980/proprietary/lib/libvss_common_core.so:system/lib/libvss_common_core.so \
     vendor/lge/ls980/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/lge/ls980/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/lge/ls980/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
+    vendor/lge/ls980/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
+    vendor/lge/ls980/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
     vendor/lge/ls980/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/lge/ls980/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/ls980/proprietary/bin/qmuxd:system/bin/qmuxd \
@@ -257,9 +258,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ls980/proprietary/vendor/lib/libwfduibcsrc.so:system/vendor/lib/libwfduibcsrc.so \
     vendor/lge/ls980/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/lge/ls980/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/lge/ls980/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     vendor/lge/ls980/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/lge/ls980/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/lge/ls980/proprietary/vendor/lib/pp_proc_plugin.so:system/vendor/lib/pp_proc_plugin.so \
+    vendor/lge/ls980/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+    vendor/lge/ls980/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/lge/ls980/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/lge/ls980/proprietary/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd:system/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd \
     vendor/lge/ls980/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
