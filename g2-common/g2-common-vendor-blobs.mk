@@ -22,11 +22,15 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/lge/g2-common/proprietary/bin/cnd:system/bin/cnd \
     vendor/lge/g2-common/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/lge/g2-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/g2-common/proprietary/bin/mpdecision:system/bin/mpdecision \
+    vendor/lge/g2-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/g2-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/g2-common/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/lge/g2-common/proprietary/bin/rild:system/bin/rild \
     vendor/lge/g2-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/g2-common/proprietary/bin/thermald:system/bin/thermald \
+    vendor/lge/g2-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/lge/g2-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/g2-common/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/lge/g2-common/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
@@ -38,6 +42,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/lge/g2-common/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/lge/g2-common/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/lge/g2-common/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
+    vendor/lge/g2-common/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
     vendor/lge/g2-common/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/lge/g2-common/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
     vendor/lge/g2-common/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
