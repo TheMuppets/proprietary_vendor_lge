@@ -16,13 +16,9 @@
 
 PRODUCT_PACKAGES += \
     TimeService \
-    qcrilmsgtunnel \
     shutdownlistener \
-    com.google.widevine.software.drm \
     qcnvitems \
-    qcrilhook \
-    com.qualcomm.location \
-    com.qualcomm.services.location \
-    libtime_genoff
+    libtime_genoff \
+    libTimeService
 
 $(call inherit-product, vendor/lge/g2-common/g2-common-vendor-blobs.mk)
