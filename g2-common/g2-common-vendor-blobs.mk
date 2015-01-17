@@ -18,6 +18,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/lge/g2-common/proprietary/bin/cnd:system/bin/cnd \
     vendor/lge/g2-common/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/lge/g2-common/proprietary/bin/hvdcp:system/bin/hvdcp \
     vendor/lge/g2-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/g2-common/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/g2-common/proprietary/bin/netmgrd:system/bin/netmgrd \
