@@ -25,8 +25,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p880/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
     vendor/lge/p880/proprietary/lib/hw/lights.x3.so:system/lib/hw/lights.x3.so \
     vendor/lge/p880/proprietary/lib/hw/sensors.tegra.so:system/lib/hw/sensors.tegra.so \
-    vendor/lge/p880/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
-    vendor/lge/p880/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
+    vendor/lge/p880/proprietary/lib/hw/audio_policy.vendor.tegra.so:system/lib/hw/audio_policy.vendor.tegra.so \
+    vendor/lge/p880/proprietary/lib/hw/audio.primary_vendor.tegra.so:system/lib/hw/audio.primary_vendor.tegra.so \
     vendor/lge/p880/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
     vendor/lge/p880/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
     vendor/lge/p880/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
