@@ -19,9 +19,24 @@ DEVICE_PACKAGE_OVERLAYS := vendor/lge/w7/overlay
 
 # Apps
 PRODUCT_PACKAGES += \
-    TimeService \
+    com.qualcomm.location \
+    QuickBoot \
     qcrilmsgtunnel \
-    com.qualcomm.location
+    shutdownlistener
+
+PRODUCT_PACKAGES += \
+    libtime_genoff \
+    libTimeService \
+    TimeService
+
+PRODUCT_PACKAGES += \
+    libscale \
+
+PRODUCT_PACKAGES += \
+    libwvdrmengine \
+    libwvdrm_L3 \
+    libwvm \
+    libWVStreamControlAPI_L3
 
 
 #com.qualcomm.services.location
