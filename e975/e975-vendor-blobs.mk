@@ -166,5 +166,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e975/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lge/e975/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/lge/e975/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
-    vendor/lge/e975/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so
-
+    vendor/lge/e975/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
+    vendor/lge/e975/proprietary/lib/hw/flp.msm8960.so:system/lib/hw/flp.msm8960.so \
+    vendor/lge/e975/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
+    vendor/lge/e975/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
+    vendor/lge/e975/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/lge/e975/proprietary/lib/libizat_core.so:system/lib/libizat_core.so \
+    vendor/lge/e975/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/lge/e975/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/lge/e975/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so
