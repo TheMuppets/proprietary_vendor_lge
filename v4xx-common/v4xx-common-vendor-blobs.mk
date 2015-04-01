@@ -108,6 +108,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v4xx-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lge/v4xx-common/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
     vendor/lge/v4xx-common/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
+    vendor/lge/v4xx-common/proprietary/vendor/firmware/widevine.b00:system/vendor/firmware/widevine.b00 \
+    vendor/lge/v4xx-common/proprietary/vendor/firmware/widevine.b01:system/vendor/firmware/widevine.b01 \
+    vendor/lge/v4xx-common/proprietary/vendor/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
+    vendor/lge/v4xx-common/proprietary/vendor/firmware/widevine.b03:system/vendor/firmware/widevine.b03 \
+    vendor/lge/v4xx-common/proprietary/vendor/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt \
     vendor/lge/v4xx-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
