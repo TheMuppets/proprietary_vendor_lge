@@ -25,6 +25,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerheadcaf/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/hammerheadcaf/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/hammerheadcaf/proprietary/bin/nl_listener:system/bin/nl_listener \
+    vendor/lge/hammerheadcaf/proprietary/bin/perfd:system/bin/perfd \
     vendor/lge/hammerheadcaf/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/lge/hammerheadcaf/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/hammerheadcaf/proprietary/bin/qseecomd:system/bin/qseecomd \
@@ -205,7 +206,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
-    vendor/lge/hammerheadcaf/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
@@ -217,6 +217,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/lge/hammerheadcaf/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
