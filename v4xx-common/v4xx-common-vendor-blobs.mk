@@ -192,10 +192,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v4xx-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/v4xx-common/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/lge/v4xx-common/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/lge/v4xx-common/proprietary/bin/rild:system/bin/rild \
     vendor/lge/v4xx-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/lge/v4xx-common/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/lge/v4xx-common/proprietary/lib/liblgderp.so:system/lib/liblgderp.so \
+    vendor/lge/v4xx-common/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/lge/v4xx-common/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/lge/v4xx-common/proprietary/lib/libuicc.so:system/lib/libuicc.so \
     vendor/lge/v4xx-common/proprietary/lib/libvss_common_core.so:system/lib/libvss_common_core.so \
     vendor/lge/v4xx-common/proprietary/lib/libvss_common_idl.so:system/lib/libvss_common_idl.so \
     vendor/lge/v4xx-common/proprietary/lib/libvss_common_iface.so:system/lib/libvss_common_iface.so \
@@ -208,6 +210,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v4xx-common/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
+    vendor/lge/v4xx-common/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
@@ -216,6 +219,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
+    vendor/lge/v4xx-common/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
@@ -228,4 +232,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
-    vendor/lge/v4xx-common/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so
+    vendor/lge/v4xx-common/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
+    vendor/lge/v4xx-common/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
+    vendor/lge/v4xx-common/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
+    vendor/lge/v4xx-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so
