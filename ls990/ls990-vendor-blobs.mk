@@ -57,14 +57,23 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ls990/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/ls990/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/lge/ls990/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/lge/ls990/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
+    vendor/lge/ls990/proprietary/lib/libconfigdb.so:system/lib/libconfigdb.so \
+    vendor/lge/ls990/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/lge/ls990/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/lge/ls990/proprietary/lib/libuicc.so:system/lib/libuicc.so \
     vendor/lge/ls990/proprietary/lib/libvss_common_idl.so:system/lib/libvss_common_idl.so \
     vendor/lge/ls990/proprietary/lib/libvss_common_iface.so:system/lib/libvss_common_iface.so \
     vendor/lge/ls990/proprietary/lib/libvss_nv_idl.so:system/lib/libvss_nv_idl.so \
     vendor/lge/ls990/proprietary/lib/libvss_nv_iface.so:system/lib/libvss_nv_iface.so \
+    vendor/lge/ls990/proprietary/lib/libxml.so:system/lib/libxml.so \
+    vendor/lge/ls990/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/lge/ls990/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
+    vendor/lge/ls990/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/lge/ls990/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/lge/ls990/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
+    vendor/lge/ls990/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
+    vendor/lge/ls990/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/lge/ls990/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/ls990/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
     vendor/lge/ls990/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
