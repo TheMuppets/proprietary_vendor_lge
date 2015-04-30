@@ -210,7 +210,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/lge/g3-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/lge/g3-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/lge/g3-common/proprietary/lib/liblgderp.so:system/lib/liblgderp.so \
     vendor/lge/g3-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/lge/g3-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
