@@ -16,4 +16,4 @@
 
 # Pick up overlay for features that depend on non-open-source files
 
-$(call inherit-product, vendor/lge/ls990/ls990-vendor-blobs.mk)
+$(call inherit-product, vendor/lge/us990/us990-vendor-blobs.mk)
