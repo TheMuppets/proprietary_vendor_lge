@@ -90,4 +90,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/us990/proprietary/etc/firmware/fw_bcmdhd_mfg.bin:system/etc/firmware/fw_bcmdhd_mfg.bin \
     vendor/lge/us990/proprietary/etc/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal \
     vendor/lge/us990/proprietary/etc/wifi/bcmdhd_lgit.cal:system/etc/wifi/bcmdhd_lgit.cal \
-    vendor/lge/us990/proprietary/etc/wifi/bcmdhd_murata.cal:system/etc/wifi/bcmdhd_murata.cal
+    vendor/lge/us990/proprietary/etc/wifi/bcmdhd_murata.cal:system/etc/wifi/bcmdhd_murata.cal \
+    vendor/lge/us990/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
+    vendor/lge/us990/proprietary/lib/hw/nfc_lg.default.so:system/lib/hw/nfc_lg.default.so
