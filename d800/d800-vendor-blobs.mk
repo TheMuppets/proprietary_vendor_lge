@@ -53,8 +53,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d800/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/d800/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/d800/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/lge/d800/proprietary/bin/rild:system/bin/rild \
-    vendor/lge/d800/proprietary/lib/liblgderp.so:system/lib/liblgderp.so \
     vendor/lge/d800/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/d800/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/d800/proprietary/bin/thermald:system/bin/thermald \
