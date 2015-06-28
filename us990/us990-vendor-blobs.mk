@@ -53,12 +53,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/us990/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
     vendor/lge/us990/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/lge/us990/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/lge/us990/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/lge/us990/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/us990/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/us990/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/lge/us990/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/lge/us990/proprietary/lib/hw/nfc_lg.default.so:system/lib/hw/nfc_lg.default.so \
     vendor/lge/us990/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/lge/us990/proprietary/lib/libconfigdb.so:system/lib/libconfigdb.so \
     vendor/lge/us990/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
@@ -78,6 +76,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/us990/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/lge/us990/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/us990/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
+    vendor/lge/us990/proprietary/vendor/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
+    vendor/lge/us990/proprietary/vendor/lib/hw/nfc.lg.so:system/lib/hw/nfc.lg.so \
     vendor/lge/us990/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/lge/us990/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/lge/us990/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
