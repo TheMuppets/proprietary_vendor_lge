@@ -53,10 +53,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ls990/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
     vendor/lge/ls990/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/lge/ls990/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
+    vendor/lge/ls990/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/lge/ls990/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/ls990/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/ls990/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/lge/ls990/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/lge/ls990/proprietary/lib/hw/nfc_lg.default.so:system/lib/hw/nfc_lg.default.so \
     vendor/lge/ls990/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/lge/ls990/proprietary/lib/libconfigdb.so:system/lib/libconfigdb.so \
     vendor/lge/ls990/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
