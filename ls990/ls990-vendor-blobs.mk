@@ -67,6 +67,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ls990/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/lge/ls990/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/ls990/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
+    vendor/lge/ls990/proprietary/vendor/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
+    vendor/lge/ls990/proprietary/vendor/lib/hw/nfc.lg.so:system/lib/hw/nfc.lg.so \
     vendor/lge/ls990/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/lge/ls990/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/lge/ls990/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
