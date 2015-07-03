@@ -67,6 +67,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ls990/proprietary/lib/libvss_nv_idl.so:system/lib/libvss_nv_idl.so \
     vendor/lge/ls990/proprietary/lib/libvss_nv_iface.so:system/lib/libvss_nv_iface.so \
     vendor/lge/ls990/proprietary/lib/libxml.so:system/lib/libxml.so \
+    vendor/lge/ls990/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
+    vendor/lge/ls990/proprietary/lib/hw/nfc.lg.so:system/lib/hw/nfc.lg.so \
     vendor/lge/ls990/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/lge/ls990/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/lge/ls990/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
@@ -76,8 +78,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ls990/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/lge/ls990/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/ls990/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
-    vendor/lge/ls990/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
-    vendor/lge/ls990/proprietary/lib/hw/nfc.lg.so:system/lib/hw/nfc.lg.so \
     vendor/lge/ls990/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/lge/ls990/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/lge/ls990/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
