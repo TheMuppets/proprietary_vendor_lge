@@ -19,12 +19,14 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vk810/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/lge/vk810/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/lge/vk810/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+    vendor/lge/vk810/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/lge/vk810/proprietary/lib/libmercury.so:system/lib/libmercury.so \
     vendor/lge/vk810/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/lge/vk810/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/lge/vk810/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/lge/vk810/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/lge/vk810/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/lge/vk810/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/lge/vk810/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/lge/vk810/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/lge/vk810/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
@@ -108,6 +110,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vk810/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/lge/vk810/proprietary/bin/efsks:system/bin/efsks \
     vendor/lge/vk810/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/lge/vk810/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/lge/vk810/proprietary/bin/ks:system/bin/ks \
     vendor/lge/vk810/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/vk810/proprietary/bin/port-bridge:system/bin/port-bridge \
@@ -174,6 +177,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vk810/proprietary/vendor/lib/libdsnetutils.so:system/vendor/lib/libdsnetutils.so \
     vendor/lge/vk810/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/lge/vk810/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
+    vendor/lge/vk810/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/lge/vk810/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/lge/vk810/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/lge/vk810/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
@@ -186,12 +190,15 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vk810/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/lge/vk810/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/lge/vk810/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+    vendor/lge/vk810/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/lge/vk810/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/lge/vk810/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/lge/vk810/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/lge/vk810/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/lge/vk810/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/lge/vk810/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
+    vendor/lge/vk810/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
+    vendor/lge/vk810/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/lge/vk810/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
     vendor/lge/vk810/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
     vendor/lge/vk810/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
