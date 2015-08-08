@@ -297,6 +297,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/w7/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/w7/proprietary/lib/hw/lights.msm8226.so:system/lib/hw/lights.msm8226.so \
     vendor/lge/w7/proprietary/vendor/lib/libbmc050.so:system/vendor/lib/libbmc050.so \
+    vendor/lge/w7/proprietary/vendor/lib/libsensor_test.so:system/vendor/lib/libsensor_test.so \
+    vendor/lge/w7/proprietary/vendor/lib/libsensor_thresh.so:system/vendor/lib/libsensor_thresh.so \
+    vendor/lge/w7/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
     vendor/lge/w7/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/w7/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/lge/w7/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
