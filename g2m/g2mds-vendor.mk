@@ -22,7 +22,9 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location \
     QuickBoot \
     qcrilmsgtunnel \
-    shutdownlistener
+    shutdownlistener \
+    webview \
+    LGCalculator
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
