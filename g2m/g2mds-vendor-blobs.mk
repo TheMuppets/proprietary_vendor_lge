@@ -18,6 +18,9 @@ PRODUCT_COPY_FILES := \
 
 PRODUCT_COPY_FILES += \
     vendor/lge/g2m/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/lge/g2m/proprietary/lib/libwebviewchromium_loader.so:system/lib/libwebviewchromium_loader.so \
+    vendor/lge/g2m/proprietary/lib/libwebviewchromium_plat_support.so:system/lib/libwebviewchromium_plat_support.so \
+    vendor/lge/g2m/proprietary/lib/libwebviewchromium.so:system/lib/libwebviewchromium.so \
     vendor/lge/g2m/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
     vendor/lge/g2m/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
     vendor/lge/g2m/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
@@ -265,7 +268,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2m/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/lge/g2m/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/lge/g2m/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/lge/g2m/proprietary/lib/hw/lights.msm8226.so:system/lib/hw/lights.msm8226.so \
     vendor/lge/g2m/proprietary/vendor/lib/libsensor_test.so:system/vendor/lib/libsensor_test.so \
     vendor/lge/g2m/proprietary/vendor/lib/libsensor_thresh.so:system/vendor/lib/libsensor_thresh.so \
     vendor/lge/g2m/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
