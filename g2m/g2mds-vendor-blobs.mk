@@ -138,9 +138,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2m/proprietary/lib/libchromatix_imx179_default_video.so:system/lib/libchromatix_imx179_default_video.so \
     vendor/lge/g2m/proprietary/lib/libchromatix_imx179_preview.so:system/lib/libchromatix_imx179_preview.so \
     vendor/lge/g2m/proprietary/lib/libchromatix_imx179_snapshot.so:system/lib/libchromatix_imx179_snapshot.so \
-    vendor/lge/g2m/proprietary/lib/libfilterfw.so:system/lib/libfilterfw.so \
-    vendor/lge/g2m/proprietary/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
-    vendor/lge/g2m/proprietary/lib/libfilterpack_imageproc.so:system/lib/libfilterpack_imageproc.so \
     vendor/lge/g2m/proprietary/lib/libHDR.so:system/lib/libHDR.so \
     vendor/lge/g2m/proprietary/lib/libmmcamera_imx179.so:system/lib/libmmcamera_imx179.so \
     vendor/lge/g2m/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
@@ -150,26 +147,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2m/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
     vendor/lge/g2m/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lge/g2m/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/lge/g2m/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/lge/g2m/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
-    vendor/lge/g2m/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
-    vendor/lge/g2m/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
-    vendor/lge/g2m/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
-    vendor/lge/g2m/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
-    vendor/lge/g2m/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
-    vendor/lge/g2m/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
-    vendor/lge/g2m/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
-    vendor/lge/g2m/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
     vendor/lge/g2m/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/lge/g2m/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/lge/g2m/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/lge/g2m/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/lge/g2m/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/lge/g2m/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
-    vendor/lge/g2m/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
-    vendor/lge/g2m/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
-    vendor/lge/g2m/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
-    vendor/lge/g2m/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/lge/g2m/proprietary/vendor/lib/libchromatix_imx119_common.so:system/vendor/lib/libchromatix_imx119_common.so \
     vendor/lge/g2m/proprietary/vendor/lib/libchromatix_imx119_default_video.so:system/vendor/lib/libchromatix_imx119_default_video.so \
     vendor/lge/g2m/proprietary/vendor/lib/libchromatix_imx119_preview.so:system/vendor/lib/libchromatix_imx119_preview.so \
