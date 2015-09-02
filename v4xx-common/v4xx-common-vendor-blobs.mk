@@ -192,6 +192,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v4xx-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/v4xx-common/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/lge/v4xx-common/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/lge/v4xx-common/proprietary/bin/radish:system/bin/radish \
     vendor/lge/v4xx-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/v4xx-common/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/lge/v4xx-common/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
