@@ -208,6 +208,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/lge/g3-common/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/lge/g3-common/proprietary/bin/radish:system/bin/radish \
     vendor/lge/g3-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/lge/g3-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lge/g3-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
