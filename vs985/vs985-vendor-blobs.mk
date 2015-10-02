@@ -83,4 +83,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vs985/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
     vendor/lge/vs985/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/lge/vs985/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/lge/vs985/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt
+    vendor/lge/vs985/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/lge/vs985/proprietary/lib/libbson.so:system/lib/libbson.so \
+    vendor/lge/vs985/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so
