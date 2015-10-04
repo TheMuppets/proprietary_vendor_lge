@@ -17,8 +17,6 @@
 PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/lge/g2-common/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/lge/g2-common/proprietary/bin/diag_klog:system/bin/diag_klog \
-    vendor/lge/g2-common/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
     vendor/lge/g2-common/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/lge/g2-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lge/g2-common/proprietary/bin/hvdcp:system/bin/hvdcp \
@@ -27,7 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/lge/g2-common/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/lge/g2-common/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
-    vendor/lge/g2-common/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/lge/g2-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/g2-common/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/g2-common/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -38,29 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/g2-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/lge/g2-common/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/lge/g2-common/proprietary/bin/usbhub:system/bin/usbhub \
-    vendor/lge/g2-common/proprietary/bin/usbhub_init:system/bin/usbhub_init \
-    vendor/lge/g2-common/proprietary/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb \
-    vendor/lge/g2-common/proprietary/etc/acdbdata/Fluid/Fluid_General_cal.acdb:system/etc/acdbdata/Fluid/Fluid_General_cal.acdb \
-    vendor/lge/g2-common/proprietary/etc/acdbdata/Fluid/Fluid_Global_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Global_cal.acdb \
-    vendor/lge/g2-common/proprietary/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb \
-    vendor/lge/g2-common/proprietary/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb \
-    vendor/lge/g2-common/proprietary/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb \
-    vendor/lge/g2-common/proprietary/etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb \
-    vendor/lge/g2-common/proprietary/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb \
-    vendor/lge/g2-common/proprietary/etc/acdbdata/Liquid/Liquid_General_cal.acdb:system/etc/acdbdata/Liquid/Liquid_General_cal.acdb \
-    vendor/lge/g2-common/proprietary/etc/acdbdata/Liquid/Liquid_Global_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Global_cal.acdb \
-    vendor/lge/g2-common/proprietary/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb \
-    vendor/lge/g2-common/proprietary/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb \
-    vendor/lge/g2-common/proprietary/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb \
-    vendor/lge/g2-common/proprietary/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb \
-    vendor/lge/g2-common/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
-    vendor/lge/g2-common/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
-    vendor/lge/g2-common/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
-    vendor/lge/g2-common/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
-    vendor/lge/g2-common/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
-    vendor/lge/g2-common/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
-    vendor/lge/g2-common/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
     vendor/lge/g2-common/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/lge/g2-common/proprietary/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
     vendor/lge/g2-common/proprietary/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
@@ -68,11 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/etc/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/Hdmi_cal.acdb \
     vendor/lge/g2-common/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
     vendor/lge/g2-common/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
-    vendor/lge/g2-common/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-    vendor/lge/g2-common/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-    vendor/lge/g2-common/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-    vendor/lge/g2-common/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/lge/g2-common/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/lge/g2-common/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/lge/g2-common/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/lge/g2-common/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
@@ -82,8 +51,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
     vendor/lge/g2-common/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
     vendor/lge/g2-common/proprietary/etc/firmware/fw_bcmdhd_mfg.bin:system/etc/firmware/fw_bcmdhd_mfg.bin \
-    vendor/lge/g2-common/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    vendor/lge/g2-common/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/lge/g2-common/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/lge/g2-common/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
     vendor/lge/g2-common/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
@@ -117,20 +84,21 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/lib/libmorpho_panorama_wa_viewer.so:system/lib/libmorpho_panorama_wa_viewer.so \
     vendor/lge/g2-common/proprietary/lib/libmorpho_sensor_fusion_4.so:system/lib/libmorpho_sensor_fusion_4.so \
     vendor/lge/g2-common/proprietary/lib/libmorpho_video_denoiser.so:system/lib/libmorpho_video_denoiser.so \
+    vendor/lge/g2-common/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/lge/g2-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lge/g2-common/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/g2-common/proprietary/lib/libuicc.so:system/lib/libuicc.so \
     vendor/lge/g2-common/proprietary/lib/libVDObjectTrackerAPI.so:system/lib/libVDObjectTrackerAPI.so \
+    vendor/lge/g2-common/proprietary/lib/libvss_bsp_qcci.so:system/lib/libvss_bsp_qcci.so \
     vendor/lge/g2-common/proprietary/lib/libvss_common_core.so:system/lib/libvss_common_core.so \
     vendor/lge/g2-common/proprietary/lib/libvss_common_idl.so:system/lib/libvss_common_idl.so \
     vendor/lge/g2-common/proprietary/lib/libvss_common_iface.so:system/lib/libvss_common_iface.so \
     vendor/lge/g2-common/proprietary/lib/libvss_dmi_qcci.so:system/lib/libvss_dmi_qcci.so \
+    vendor/lge/g2-common/proprietary/lib/libvss_gnss_qcci.so:system/lib/libvss_gnss_qcci.so \
     vendor/lge/g2-common/proprietary/lib/libvss_ims_qcci.so:system/lib/libvss_ims_qcci.so \
     vendor/lge/g2-common/proprietary/lib/libvss_nv_core.so:system/lib/libvss_nv_core.so \
     vendor/lge/g2-common/proprietary/lib/libvss_nv_idl.so:system/lib/libvss_nv_idl.so \
     vendor/lge/g2-common/proprietary/lib/libvss_nv_iface.so:system/lib/libvss_nv_iface.so \
-    vendor/lge/g2-common/proprietary/lib/libvss_bsp_qcci.so:system/lib/libvss_bsp_qcci.so \
-    vendor/lge/g2-common/proprietary/lib/libvss_gnss_qcci.so:system/lib/libvss_gnss_qcci.so \
     vendor/lge/g2-common/proprietary/lib/libvss_resim_core.so:system/lib/libvss_resim_core.so \
     vendor/lge/g2-common/proprietary/lib/libvss_resim_idl.so:system/lib/libvss_resim_idl.so \
     vendor/lge/g2-common/proprietary/lib/libvss_resim_iface.so:system/lib/libvss_resim_iface.so \
@@ -182,6 +150,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/lge/g2-common/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libchromatix_imx132_common.so:system/vendor/lib/libchromatix_imx132_common.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libchromatix_imx132_default_video.so:system/vendor/lib/libchromatix_imx132_default_video.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libchromatix_imx132_mms_video.so:system/vendor/lib/libchromatix_imx132_mms_video.so \
@@ -199,7 +168,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/vendor/lib/libchromatix_imx135_video_hdr.so:system/vendor/lib/libchromatix_imx135_video_hdr.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libchromatix_imx135_video_hd.so:system/vendor/lib/libchromatix_imx135_video_hd.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libchromatix_imx135_video_qtr.so:system/vendor/lib/libchromatix_imx135_video_qtr.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
@@ -221,6 +189,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/lge/g2-common/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
@@ -272,7 +241,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/vendor/lib/libmsapm_jni.so:system/vendor/lib/libmsapm_jni.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/lge/g2-common/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
@@ -329,7 +297,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
+    vendor/lge/g2-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
