@@ -32,6 +32,7 @@ DEVICE_PACKAGE_OVERLAYS := vendor/lge/hammerheadcaf/overlay
 # Apps
 PRODUCT_PACKAGES += \
     PPPreference \
+    QuickBoot \
     qcrilmsgtunnel \
     shutdownlistener \
     TimeService \
