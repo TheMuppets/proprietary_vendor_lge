@@ -63,7 +63,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/lge/g2-common/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     vendor/lge/g2-common/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
+    vendor/lge/g2-common/proprietary/lib/hw/consumerir.msm8974.so:system/lib/hw/consumerir.msm8974.so \
     vendor/lge/g2-common/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
+    vendor/lge/g2-common/proprietary/lib/libcir_driver.so:system/lib/libcir_driver.so \
     vendor/lge/g2-common/proprietary/lib/libdivxdrm_jni.so:system/lib/libdivxdrm_jni.so \
     vendor/lge/g2-common/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
     vendor/lge/g2-common/proprietary/lib/libdrmframework.so:system/lib/libdrmframework.so \
