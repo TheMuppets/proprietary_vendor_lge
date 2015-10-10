@@ -31,10 +31,12 @@ DEVICE_PACKAGE_OVERLAYS := vendor/lge/hammerheadcaf/overlay
 
 # Apps
 PRODUCT_PACKAGES += \
+    OmaDmclient \
     PPPreference \
     QuickBoot \
     qcrilmsgtunnel \
     shutdownlistener \
+    SprintHiddenMenu \
     TimeService \
     UpdateSetting
 
