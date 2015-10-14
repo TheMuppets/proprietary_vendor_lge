@@ -23,8 +23,7 @@ PRODUCT_PACKAGES += \
     qcrilhook
 
 PRODUCT_PACKAGES += \
-    com.qualcomm.location \
-    com.qualcomm.services.location
+    com.qualcomm.location
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
