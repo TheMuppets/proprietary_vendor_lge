@@ -18,30 +18,35 @@ PRODUCT_COPY_FILES := \
 
 PRODUCT_COPY_FILES += \
     vendor/lge/w7/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/lge/w7/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
+    vendor/lge/w7/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/lge/w7/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+    vendor/lge/w7/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+    vendor/lge/w7/proprietary/vendir/firmware/keymaster/keymaster.b00:system/vendir/firmware/keymaster/keymaster.b00 \
     vendor/lge/w7/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
     vendor/lge/w7/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
     vendor/lge/w7/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
     vendor/lge/w7/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
-    vendor/lge/w7/proprietary/vendor/firmware/leia_pfp_470.fw:system/vendor/firmware/leia_pfp_470.fw \
-    vendor/lge/w7/proprietary/vendor/firmware/leia_pm4_470.fw:system/vendor/firmware/leia_pm4_470.fw \
-    vendor/lge/w7/proprietary/vendor/firmware/a225p5_pm4.fw:system/vendor/firmware/a225p5_pm4.fw \
-    vendor/lge/w7/proprietary/vendor/firmware/venus.b01:system/vendor/firmware/venus.b01 \
-    vendor/lge/w7/proprietary/vendor/firmware/venus.b03:system/vendor/firmware/venus.b03 \
-    vendor/lge/w7/proprietary/vendor/firmware/venus.mbn:system/vendor/firmware/venus.mbn \
-    vendor/lge/w7/proprietary/vendor/firmware/venus.b00:system/vendor/firmware/venus.b00 \
-    vendor/lge/w7/proprietary/vendor/firmware/venus.b02:system/vendor/firmware/venus.b02 \
-    vendor/lge/w7/proprietary/vendor/firmware/venus.b04:system/vendor/firmware/venus.b04 \
-    vendor/lge/w7/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt \
-    vendor/lge/w7/proprietary/vendor/firmware/a225_pm4.fw:system/vendor/firmware/a225_pm4.fw \
-    vendor/lge/w7/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
-    vendor/lge/w7/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
-    vendor/lge/w7/proprietary/vendor/firmware/a225_pfp.fw:system/vendor/firmware/a225_pfp.fw \
-    vendor/lge/w7/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
-    vendor/lge/w7/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
-    vendor/lge/w7/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:system/vendor/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/lge/w7/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:system/vendor/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/lge/w7/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/lge/w7/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
+    vendor/lge/w7/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
+    vendor/lge/w7/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
+    vendor/lge/w7/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
+    vendor/lge/w7/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
+    vendor/lge/w7/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
+    vendor/lge/w7/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/lge/w7/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+    vendor/lge/w7/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
+    vendor/lge/w7/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
+    vendor/lge/w7/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+    vendor/lge/w7/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+    vendor/lge/w7/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
+    vendor/lge/w7/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/lge/w7/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/lge/w7/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/lge/w7/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin \
+    vendor/lge/w7/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
+    vendor/lge/w7/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
+    vendor/lge/w7/proprietary/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin \
+    vendor/lge/w7/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
     vendor/lge/w7/proprietary/etc/ACDB/Bluetooth_cal.acdb:system/etc/ACDB/Bluetooth_cal.acdb \
     vendor/lge/w7/proprietary/etc/ACDB/General_cal.acdb:system/etc/ACDB/General_cal.acdb \
     vendor/lge/w7/proprietary/etc/ACDB/Global_cal.acdb:system/etc/ACDB/Global_cal.acdb \
