@@ -149,17 +149,16 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/etc/firmware/DLdata_rev28B_data2.ecl:system/etc/firmware/DLdata_rev28B_data2.ecl \
     vendor/lge/g3-common/proprietary/etc/firmware/DLdata_rev28B_data3.ecl:system/etc/firmware/DLdata_rev28B_data3.ecl \
     vendor/lge/g3-common/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/lge/g3-common/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
+    vendor/lge/g3-common/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
+    vendor/lge/g3-common/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
     vendor/lge/g3-common/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
+    vendor/lge/g3-common/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
+    vendor/lge/g3-common/proprietary/lib/librpmb.so:system/lib/librpmb.so \
+    vendor/lge/g3-common/proprietary/lib/libssd.so:system/lib/libssd.so \
     vendor/lge/g3-common/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
     vendor/lge/g3-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
