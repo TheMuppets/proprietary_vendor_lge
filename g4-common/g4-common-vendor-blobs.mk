@@ -92,8 +92,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib/liblgmda.so:system/lib/liblgmda.so \
     vendor/lge/g4-common/proprietary/lib64/libqdMetaData.so:system/lib64/libqdMetaData.so \
     vendor/lge/g4-common/proprietary/lib/libqdMetaData.so:system/lib/libqdMetaData.so \
-    vendor/lge/g4-common/proprietary/lib64/libn2pm.so:system/lib64/libn2pm.so \
-    vendor/lge/g4-common/proprietary/lib/libn2pm.so:system/lib/libn2pm.so \
     vendor/lge/g4-common/proprietary/lib/hw/camera.vendor.msm8992.so:system/lib/hw/camera.msm8992.so \
     vendor/lge/g4-common/proprietary/lib/hw/wbc_hal.default.so:system/lib/hw/wbc_hal.default.so \
     vendor/lge/g4-common/proprietary/lib64/hw/wbc_hal.default.so:system/lib64/hw/wbc_hal.default.so \
