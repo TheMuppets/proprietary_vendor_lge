@@ -1,0 +1,915 @@
+<WorkSpace_Data WSVersID="Badger_3">
+  <ACDBFile_Paths>
+    <ACDBFile_Paths path="Bluetooth_cal.acdb" />
+    <ACDBFile_Paths path="General_cal.acdb" />
+    <ACDBFile_Paths path="Global_cal.acdb" />
+    <ACDBFile_Paths path="Handset_cal.acdb" />
+    <ACDBFile_Paths path="Hdmi_cal.acdb" />
+    <ACDBFile_Paths path="Headset_cal.acdb" />
+    <ACDBFile_Paths path="Speaker_cal.acdb" />
+  </ACDBFile_Paths>
+  <GUI_Data />
+  <OpenDSP MajorMinor="1_0">
+    <AREA_LIST>
+      <AREA name="AUDIO_COPP_TX" type="TX">
+        <TOPOLOGY name="VPM_TX_SM_LVVEFQ" ID="0x1000BFF0" type="TX" NewAdded="true">
+          <Block name="TX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F11" type="TX" />
+          <Block name="TX_VOICE_MIC_GAIN" dataView_ID="0x00000018" ID="0x00010EF7" type="TX" />
+          <Block name="TX_VOICE_SLOPE_FILTER" dataView_ID="0x00000019" ID="0x00010EFE" type="TX" />
+          <Block name="TX_VOICE_ELLIPTICAL_FILTER" dataView_ID="0x00000019" ID="0x00010EFD" type="TX" />
+          <Block name="TX_VOICE_ENC_GAIN" dataView_ID="0x00000018" ID="0x00010EF8" type="TX" />
+          <Block name="TX_VOICE_IIR_MIC1" dataView_ID="0x0000004E" ID="0x00010EF0" type="TX" />
+          <Block name="VOICE_MODULE_LVVEFQ_TX" ID="0x1000B500" type="TX" NewAdded="true" dataView_ID="0xFFFF0001" />
+          <Block name="VOICE_MODULE_LVVEFQ_TX_INJECTION" ID="0x1000B502" type="TX" NewAdded="true" dataView_ID="0xFFFF0003" />
+          <Block name="TX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EE9" type="TX" />
+          <Block name="TX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE7" type="TX" />
+          <Block name="TX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010F00" type="TX" />
+          <Block name="TX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF3" type="TX" />
+          <Block name="TX_VOICE_VOL" dataView_ID="0x0000000F" ID="0x00010EF4" type="TX" />
+        </TOPOLOGY>
+        <TOPOLOGY name="VPM_TX_DM_LVVEFQ" ID="0x1000BFF1" type="TX" NewAdded="true">
+          <Block name="TX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F11" type="TX" />
+          <Block name="TX_VOICE_MIC_GAIN" dataView_ID="0x00000018" ID="0x00010EF7" type="TX" />
+          <Block name="TX_VOICE_SLOPE_FILTER" dataView_ID="0x00000019" ID="0x00010EFE" type="TX" />
+          <Block name="TX_VOICE_ELLIPTICAL_FILTER" dataView_ID="0x00000019" ID="0x00010EFD" type="TX" />
+          <Block name="TX_VOICE_ENC_GAIN" dataView_ID="0x00000018" ID="0x00010EF8" type="TX" />
+          <Block name="TX_VOICE_IIR_MIC1" dataView_ID="0x0000004E" ID="0x00010EF0" type="TX" />
+          <Block name="TX_VOICE_IIR_MIC2" dataView_ID="0x0000004E" ID="0x00010EF1" type="TX" />
+          <Block name="VOICE_MODULE_LVVEFQ_TX" ID="0x1000B500" type="TX" NewAdded="true" dataView_ID="0xFFFF0001" />
+          <Block name="VOICE_MODULE_LVVEFQ_TX_INJECTION" ID="0x1000B502" type="TX" NewAdded="true" dataView_ID="0xFFFF0003" />
+          <Block name="TX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EE9" type="TX" />
+          <Block name="TX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE7" type="TX" />
+          <Block name="TX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010F00" type="TX" />
+          <Block name="TX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF3" type="TX" />
+          <Block name="TX_VOICE_VOL" dataView_ID="0x0000000F" ID="0x00010EF4" type="TX" />
+        </TOPOLOGY>
+        <TOPOLOGY name="AUDIO_TX_DM" ID="0x11000011" type="TX" NewAdded="true">
+          <Block name="AUDIO_EANS" dataView_ID="0x0000001F" ID="0x00010C4A" type="BOTH" />
+          <Block name="AUDIO_TX_IIR" dataView_ID="0x0000004F" ID="0x00010C41" type="TX" />
+          <Block name="AUDIO_TX_HPF_IIR" dataView_ID="0x00000031" ID="0x00010C3D" type="TX" />
+          <Block name="AUDIO_TX_AIG" dataView_ID="0x00000056" ID="0x00010716" type="TX" />
+          <Block name="AUDIO_MBDRC" dataView_ID="0x00000012" ID="0x00010C06" type="BOTH" />
+          <Block name="AUDIO_MIC_GAIN" dataView_ID="0x0000001B" ID="0x00010C35" type="TX" />
+        </TOPOLOGY>
+      </AREA>
+      <AREA name="AUDIO_COPP_RX" type="RX">
+        <TOPOLOGY name="AUDIO_DS2_CUSTOM_TOPOLOGY" ID="0x1301033B" type="RX" NewAdded="true">
+          <Block name="AUDIO_DS1AP" ID="0x00010775" type="RX" />
+          <Block name="AUDIO_CHMIXER" ID="0x00010341" type="BOTH" />
+          <Block name="AUDIO_HIGH_THD_RESAMPLER" dataView_ID="0x00000079" ID="0x00010719" type="BOTH" />
+          <Block name="AUDIO_PBE" dataView_ID="0x00000015" ID="0x00010C2A" type="RX" />
+          <Block name="AUDIO_IIR" dataView_ID="0x00000011" ID="0x00010C02" type="RX" gain_dependant="Yes" />
+          <Block name="AUDIO_MBDRC" dataView_ID="0x00000012" ID="0x00010C06" type="BOTH" gain_dependant="Yes" />
+          <Block name="AUDIO_RX_CODEC_GAIN" dataView_ID="0x00000024" ID="0x00010C37" type="RX" />
+          <Block name="AUDIO_SOFT_STEP_VOLUME" dataView_ID="0x00000020" ID="0x00010BFE" type="BOTH" />
+        </TOPOLOGY>
+        <TOPOLOGY name="AUDIO_RX_STEREO_COPP_MBDRC_V3" ID="0x11000000" type="RX" NewAdded="true">
+          <Block name="AUDIO_IIR" dataView_ID="0x00000011" ID="0x00010C02" type="RX" gain_dependant="Yes" />
+          <Block name="AUDIO_PBE" dataView_ID="0x00000015" ID="0x00010C2A" type="RX" />
+          <Block name="AUDIO_RX_CODEC_GAIN" dataView_ID="0x00000024" ID="0x00010C37" type="RX" />
+          <Block name="AUDIO_HIGH_THD_RESAMPLER" dataView_ID="0x00000079" ID="0x00010719" type="BOTH" />
+          <Block name="AUDIO_MBDRC_V3" dataView_ID="0x000000B1" ID="0x0001090B" type="BOTH" gain_dependant="Yes" />
+        </TOPOLOGY>
+        <TOPOLOGY name="AUDIO_RX_MONO_COPP_MBDRC_V3" ID="0x11000001" type="RX" NewAdded="true">
+          <Block name="AUDIO_IIR" dataView_ID="0x00000011" ID="0x00010C02" type="RX" gain_dependant="Yes" />
+          <Block name="AUDIO_PBE" dataView_ID="0x00000015" ID="0x00010C2A" type="RX" />
+          <Block name="AUDIO_RX_CODEC_GAIN" dataView_ID="0x00000024" ID="0x00010C37" type="RX" />
+          <Block name="AUDIO_HIGH_THD_RESAMPLER" dataView_ID="0x00000079" ID="0x00010719" type="BOTH" />
+          <Block name="AUDIO_MBDRC_V3" dataView_ID="0x000000B1" ID="0x0001090B" type="BOTH" gain_dependant="Yes" />
+        </TOPOLOGY>
+        <TOPOLOGY name="VOICE_RX_NGATE_LVVEFQ" ID="0x1000C200" type="RX" NewAdded="true">
+          <Block name="RX_VOICE_FNS" dataView_ID="0x00000009" ID="0x00010EEB" type="RX" dynamicModule="true" />
+          <Block name="RX_VOICE_WV" dataView_ID="0x00000003" ID="0x00010EE2" type="RX" />
+          <Block name="VOICE_MODULE_LVVEFQ_RX" ID="0x1000B501" type="RX" NewAdded="true" dataView_ID="0xFFFF0005" />
+          <Block name="VOICE_MODULE_LVVEFQ_RX_INJECTION" ID="0x1000B503" type="RX" NewAdded="true" dataView_ID="0xFFFF0007" />
+          <Block name="VOICE_MODULE_NGATE_RX" ID="0x0100C100" type="RX" NewAdded="true" dataView_ID="0xFFFF0008" />
+          <Block name="RX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010EFF" type="RX" />
+          <Block name="RX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF2" type="RX" />
+          <Block name="RX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EEA" type="RX" />
+          <Block name="RX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE8" type="RX" />
+          <Block name="RX_VOICE_VOL" dataView_ID="0x00000054" ID="0x00010EF5" type="RX" volumeModule="true" />
+          <Block name="RX_VOICE_AVC_RVE" dataView_ID="0x00000005" ID="0x00010EE4" type="RX" />
+          <Block name="RX_VOICE_DEC_GAIN" dataView_ID="0x00000018" ID="0x00010EFA" type="RX" />
+          <Block name="RX_VOICE_PBE" dataView_ID="0x00000006" ID="0x00010EE5" type="RX" />
+          <Block name="RX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F12" type="RX" />
+          <Block name="RX_VOICE_MBDRC" dataView_ID="0x00000007" ID="0x00010EE6" type="RX" dynamicModule="true" />
+          <Block name="RX_VOICE_SPKR_GAIN" dataView_ID="0x00000018" ID="0x00010EF9" type="RX" />
+        </TOPOLOGY>
+        <TOPOLOGY name="VPM_RX_STABILIZER_NGATE_LVVEFQ" ID="0x1000B904" type="RX" NewAdded="true">
+          <Block name="RX_VOICE_WV" dataView_ID="0x00000003" ID="0x00010EE2" type="RX" />
+          <Block name="VOICE_MODULE_NGATE_RX" ID="0x0100C100" type="RX" NewAdded="true" dataView_ID="0xFFFF0008" />
+          <Block name="VOICE_MODULE_LVVEFQ_RX" ID="0x1000B501" type="RX" NewAdded="true" dataView_ID="0xFFFF0002" />
+          <Block name="VOICE_MODULE_LVVEFQ_RX_INJECTION" ID="0x1000B503" type="RX" NewAdded="true" dataView_ID="0xFFFF0004" />
+          <Block name="VOICE_MODULE_STABILIZER_RX" ID="0x1000B903" type="RX" NewAdded="true" dataView_ID="0xFFFF000D" />
+          <Block name="RX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010EFF" type="RX" gain_dependant="Yes" />
+          <Block name="RX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF2" type="RX" gain_dependant="Yes" />
+          <Block name="RX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EEA" type="RX" gain_dependant="Yes" />
+          <Block name="RX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE8" type="RX" gain_dependant="Yes" />
+          <Block name="RX_VOICE_VOL" dataView_ID="0x00000054" ID="0x00010EF5" type="RX" volumeModule="true" gain_dependant="Yes" />
+          <Block name="RX_VOICE_AVC_RVE" dataView_ID="0x000000AC" ID="0x00010EE4" type="RX" />
+          <Block name="RX_VOICE_DEC_GAIN" dataView_ID="0x00000018" ID="0x00010EFA" type="RX" />
+          <Block name="RX_VOICE_PBE" dataView_ID="0x00000006" ID="0x00010EE5" type="RX" />
+          <Block name="RX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F12" type="RX" />
+          <Block name="RX_VOICE_MBDRC" dataView_ID="0x00000007" ID="0x00010EE6" type="RX" />
+          <Block name="RX_VOICE_SPKR_GAIN" dataView_ID="0x00000018" ID="0x00010EF9" type="RX" />
+        </TOPOLOGY>
+      </AREA>
+      <AREA name="AUDIO_POPP_RX" type="RX">
+        <TOPOLOGY name="AUDPROC_OFFLOAD_EFFECTS" ID="0x1000FFFF" type="RX" NewAdded="true">
+          <Block name="AUDIO_HIGH_THD_RESAMPLER" dataView_ID="0x00000079" ID="0x00010719" type="BOTH" />
+          <Block name="AUDIO_SOFT_STEP_VOLUME" dataView_ID="0x00000020" ID="0x00010BFE" type="BOTH" />
+          <Block name="AUDIO_VIRTUALIZER" dataView_ID="0x0000009A" ID="0x000108A5" type="RX" />
+          <Block name="AUDIO_REVERB" dataView_ID="0x0000009B" ID="0x000108AA" type="RX" />
+          <Block name="AUDIO_BASS_BOOST" dataView_ID="0x0000009C" ID="0x000108A1" type="RX" />
+          <Block name="AUDIO_POPLESS_EQUALIZER" ID="0x000108BA" type="RX" />
+        </TOPOLOGY>
+        <TOPOLOGY name="AUDIO_STREAM_DEFAULT_LGE" ID="0x10009009" type="RX" NewAdded="true">
+          <Block name="AUDIO_DOWNMIX" ID="0x00010721" type="BOTH" />
+          <Block name="AUDIO_HIGH_THD_RESAMPLER" dataView_ID="0x00000079" ID="0x00010719" type="BOTH" />
+          <Block name="AUDIO_UPMIX" ID="0x000108D6" type="BOTH" NewAdded="true" dataView_ID="0xFFFF000C" />
+          <Block name="LGE_SOUND_EFFECT" ID="0x10009010" type="RX" NewAdded="true" dataView_ID="0xFFFF0009" />
+          <Block name="LGE_SOUND_NORMALIZER" ID="0x1000A010" type="RX" NewAdded="true" dataView_ID="0xFFFF000A" />
+          <Block name="LGE_MABL" ID="0x1000B010" type="RX" NewAdded="true" dataView_ID="0xFFFF000B" />
+          <Block name="AUDIO_SOFT_STEP_VOLUME" dataView_ID="0x00000020" ID="0x00010BFE" type="BOTH" />
+        </TOPOLOGY>
+        <TOPOLOGY name="AUDIO_STREAM_OFFLOAD_LGE" ID="0x10009010" type="RX" NewAdded="true">
+          <Block name="AUDIO_DOWNMIX" ID="0x00010721" type="BOTH" />
+          <Block name="AUDIO_HIGH_THD_RESAMPLER" dataView_ID="0x00000079" ID="0x00010719" type="BOTH" />
+          <Block name="AUDIO_UPMIX" ID="0x000108D6" type="BOTH" NewAdded="true" dataView_ID="0xFFFF000C" />
+          <Block name="LGE_SOUND_EFFECT" ID="0x10009010" type="RX" NewAdded="true" dataView_ID="0xFFFF0009" />
+          <Block name="LGE_SOUND_NORMALIZER" ID="0x1000A010" type="RX" NewAdded="true" dataView_ID="0xFFFF000A" />
+          <Block name="LGE_MABL" ID="0x1000B010" type="RX" NewAdded="true" dataView_ID="0xFFFF000B" />
+          <Block name="AUDIO_SOFT_STEP_VOLUME" dataView_ID="0x00000020" ID="0x00010BFE" type="BOTH" />
+          <Block name="AUDIO_VIRTUALIZER" dataView_ID="0x0000009A" ID="0x000108A5" type="RX" />
+          <Block name="AUDIO_REVERB" dataView_ID="0x0000009B" ID="0x000108AA" type="RX" />
+          <Block name="AUDIO_BASS_BOOST" dataView_ID="0x0000009C" ID="0x000108A1" type="RX" />
+          <Block name="AUDIO_POPLESS_EQUALIZER" ID="0x000108BA" type="RX" />
+        </TOPOLOGY>
+      </AREA>
+      <AREA name="VOICE_COPP_TX" type="TX">
+        <TOPOLOGY name="VPM_TX_SM_LVVEFQ" ID="0x1000BFF0" type="TX" NewAdded="true">
+          <Block name="TX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F11" type="TX" />
+          <Block name="TX_VOICE_MIC_GAIN" dataView_ID="0x00000018" ID="0x00010EF7" type="TX" />
+          <Block name="TX_VOICE_SLOPE_FILTER" dataView_ID="0x00000019" ID="0x00010EFE" type="TX" />
+          <Block name="TX_VOICE_ELLIPTICAL_FILTER" dataView_ID="0x00000019" ID="0x00010EFD" type="TX" />
+          <Block name="TX_VOICE_ENC_GAIN" dataView_ID="0x00000018" ID="0x00010EF8" type="TX" />
+          <Block name="TX_VOICE_IIR_MIC1" dataView_ID="0x0000004E" ID="0x00010EF0" type="TX" />
+          <Block name="VOICE_MODULE_LVVEFQ_TX" ID="0x1000B500" type="TX" NewAdded="true" dataView_ID="0xFFFF0001" />
+          <Block name="VOICE_MODULE_LVVEFQ_TX_INJECTION" ID="0x1000B502" type="TX" NewAdded="true" dataView_ID="0xFFFF0003" />
+          <Block name="TX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EE9" type="TX" dynamicModule="true" />
+          <Block name="TX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE7" type="TX" dynamicModule="true" />
+          <Block name="TX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010F00" type="TX" />
+          <Block name="TX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF3" type="TX" dynamicModule="true" />
+          <Block name="TX_VOICE_VOL" dataView_ID="0x0000000F" ID="0x00010EF4" type="TX" />
+        </TOPOLOGY>
+        <TOPOLOGY name="VPM_TX_DM_LVVEFQ" ID="0x1000BFF1" type="TX" NewAdded="true">
+          <Block name="TX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F11" type="TX" />
+          <Block name="TX_VOICE_MIC_GAIN" dataView_ID="0x00000018" ID="0x00010EF7" type="TX" />
+          <Block name="TX_VOICE_SLOPE_FILTER" dataView_ID="0x00000019" ID="0x00010EFE" type="TX" />
+          <Block name="TX_VOICE_ELLIPTICAL_FILTER" dataView_ID="0x00000019" ID="0x00010EFD" type="TX" />
+          <Block name="TX_VOICE_ENC_GAIN" dataView_ID="0x00000018" ID="0x00010EF8" type="TX" />
+          <Block name="TX_VOICE_IIR_MIC1" dataView_ID="0x0000004E" ID="0x00010EF0" type="TX" />
+          <Block name="TX_VOICE_IIR_MIC2" dataView_ID="0x0000004E" ID="0x00010EF1" type="TX" />
+          <Block name="VOICE_MODULE_LVVEFQ_TX" ID="0x1000B500" type="TX" NewAdded="true" dataView_ID="0xFFFF0001" />
+          <Block name="VOICE_MODULE_LVVEFQ_TX_INJECTION" ID="0x1000B502" type="TX" NewAdded="true" dataView_ID="0xFFFF0003" />
+          <Block name="TX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EE9" type="TX" dynamicModule="true" />
+          <Block name="TX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE7" type="TX" dynamicModule="true" />
+          <Block name="TX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010F00" type="TX" />
+          <Block name="TX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF3" type="TX" dynamicModule="true" />
+          <Block name="TX_VOICE_VOL" dataView_ID="0x0000000F" ID="0x00010EF4" type="TX" />
+        </TOPOLOGY>
+      </AREA>
+      <AREA name="VOICE_COPP_RX" type="RX">
+        <TOPOLOGY name="VPM_RX_LVVEFQ" ID="0x1000BFF2" type="RX" NewAdded="true">
+          <Block name="RX_VOICE_WV" dataView_ID="0x00000003" ID="0x00010EE2" type="RX" />
+          <Block name="RX_VOICE_FNS" dataView_ID="0x00000009" ID="0x00010EEB" type="RX" dynamicModule="true" />
+          <Block name="RX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010EFF" type="RX" gain_dependant="Yes" />
+          <Block name="RX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF2" type="RX" gain_dependant="Yes" />
+          <Block name="RX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EEA" type="RX" gain_dependant="Yes" />
+          <Block name="RX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE8" type="RX" gain_dependant="Yes" />
+          <Block name="RX_VOICE_VOL" dataView_ID="0x00000054" ID="0x00010EF5" type="RX" volumeModule="true" gain_dependant="Yes" />
+          <Block name="RX_VOICE_AVC_RVE" dataView_ID="0x00000005" ID="0x00010EE4" type="RX" />
+          <Block name="RX_VOICE_DEC_GAIN" dataView_ID="0x00000018" ID="0x00010EFA" type="RX" />
+          <Block name="RX_VOICE_PBE" dataView_ID="0x00000006" ID="0x00010EE5" type="RX" />
+          <Block name="RX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F12" type="RX" />
+          <Block name="RX_VOICE_MBDRC" dataView_ID="0x00000007" ID="0x00010EE6" type="RX" dynamicModule="true" />
+          <Block name="RX_VOICE_SPKR_GAIN" dataView_ID="0x00000018" ID="0x00010EF9" type="RX" />
+          <Block name="VOICE_MODULE_LVVEFQ_RX" ID="0x1000B501" type="RX" NewAdded="true" dataView_ID="0xFFFF0002" />
+          <Block name="VOICE_MODULE_LVVEFQ_RX_INJECTION" ID="0x1000B503" type="RX" NewAdded="true" dataView_ID="0xFFFF0004" />
+        </TOPOLOGY>
+        <TOPOLOGY name="VOICE_RX_NGATE" ID="0x1000C300" type="RX" NewAdded="true">
+          <Block name="RX_VOICE_WV" dataView_ID="0x00000003" ID="0x00010EE2" type="RX" />
+          <Block name="RX_VOICE_FNS" dataView_ID="0x00000009" ID="0x00010EEB" type="RX" dynamicModule="true" />
+          <Block name="VOICE_MODULE_NGATE_RX" ID="0x0100C100" type="RX" NewAdded="true" dataView_ID="0xFFFF0008" />
+          <Block name="RX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010EFF" type="RX" gain_dependant="Yes" />
+          <Block name="RX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF2" type="RX" gain_dependant="Yes" />
+          <Block name="RX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EEA" type="RX" gain_dependant="Yes" />
+          <Block name="RX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE8" type="RX" gain_dependant="Yes" />
+          <Block name="RX_VOICE_VOL" dataView_ID="0x00000054" ID="0x00010EF5" type="RX" volumeModule="true" gain_dependant="Yes" />
+          <Block name="RX_VOICE_AVC_RVE" dataView_ID="0x00000005" ID="0x00010EE4" type="RX" />
+          <Block name="RX_VOICE_ECRX" dataView_ID="0x0000000B" ID="0x00010EED" type="RX" />
+          <Block name="RX_VOICE_DEC_GAIN" dataView_ID="0x00000018" ID="0x00010EFA" type="RX" />
+          <Block name="RX_VOICE_PBE" dataView_ID="0x00000006" ID="0x00010EE5" type="RX" />
+          <Block name="RX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F12" type="RX" />
+          <Block name="RX_VOICE_MBDRC" dataView_ID="0x00000007" ID="0x00010EE6" type="RX" dynamicModule="true" />
+          <Block name="RX_VOICE_SPKR_GAIN" dataView_ID="0x00000018" ID="0x00010EF9" type="RX" />
+        </TOPOLOGY>
+        <TOPOLOGY name="VOICE_RX_NGATE_LVVEFQ" ID="0x1000C200" type="RX" NewAdded="true">
+          <Block name="RX_VOICE_FNS" dataView_ID="0x00000009" ID="0x00010EEB" type="RX" dynamicModule="true" />
+          <Block name="RX_VOICE_WV" dataView_ID="0x00000003" ID="0x00010EE2" type="RX" />
+          <Block name="VOICE_MODULE_LVVEFQ_RX" ID="0x1000B501" type="RX" NewAdded="true" dataView_ID="0xFFFF0002" />
+          <Block name="VOICE_MODULE_LVVEFQ_RX_INJECTION" ID="0x1000B503" type="RX" NewAdded="true" dataView_ID="0xFFFF0004" />
+          <Block name="VOICE_MODULE_NGATE_RX" ID="0x0100C100" type="RX" NewAdded="true" dataView_ID="0xFFFF0008" />
+          <Block name="RX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010EFF" type="RX" gain_dependant="Yes" />
+          <Block name="RX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF2" type="RX" gain_dependant="Yes" />
+          <Block name="RX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EEA" type="RX" gain_dependant="Yes" />
+          <Block name="RX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE8" type="RX" gain_dependant="Yes" />
+          <Block name="RX_VOICE_VOL" dataView_ID="0x00000054" ID="0x00010EF5" type="RX" volumeModule="true" gain_dependant="Yes" />
+          <Block name="RX_VOICE_AVC_RVE" dataView_ID="0x00000005" ID="0x00010EE4" type="RX" />
+          <Block name="RX_VOICE_DEC_GAIN" dataView_ID="0x00000018" ID="0x00010EFA" type="RX" />
+          <Block name="RX_VOICE_PBE" dataView_ID="0x00000006" ID="0x00010EE5" type="RX" />
+          <Block name="RX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F12" type="RX" />
+          <Block name="RX_VOICE_MBDRC" dataView_ID="0x00000007" ID="0x00010EE6" type="RX" dynamicModule="true" />
+          <Block name="RX_VOICE_SPKR_GAIN" dataView_ID="0x00000018" ID="0x00010EF9" type="RX" />
+        </TOPOLOGY>
+        <TOPOLOGY name="VPM_RX_STABILIZER_NGATE_LVVEFQ" ID="0x1000B904" type="RX" NewAdded="true">
+          <Block name="RX_VOICE_WV" dataView_ID="0x00000003" ID="0x00010EE2" type="RX" />
+          <Block name="VOICE_MODULE_NGATE_RX" ID="0x0100C100" type="RX" NewAdded="true" dataView_ID="0xFFFF0008" />
+          <Block name="VOICE_MODULE_LVVEFQ_RX" ID="0x1000B501" type="RX" NewAdded="true" dataView_ID="0xFFFF0002" />
+          <Block name="VOICE_MODULE_LVVEFQ_RX_INJECTION" ID="0x1000B503" type="RX" NewAdded="true" dataView_ID="0xFFFF0004" />
+          <Block name="VOICE_MODULE_STABILIZER_RX" ID="0x1000B903" type="RX" NewAdded="true" dataView_ID="0xFFFF000D" />
+          <Block name="RX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010EFF" type="RX" gain_dependant="Yes" />
+          <Block name="RX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF2" type="RX" gain_dependant="Yes" />
+          <Block name="RX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EEA" type="RX" gain_dependant="Yes" />
+          <Block name="RX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE8" type="RX" gain_dependant="Yes" />
+          <Block name="RX_VOICE_VOL" dataView_ID="0x00000054" ID="0x00010EF5" type="RX" volumeModule="true" gain_dependant="Yes" />
+          <Block name="RX_VOICE_AVC_RVE" dataView_ID="0x000000AC" ID="0x00010EE4" type="RX" />
+          <Block name="RX_VOICE_DEC_GAIN" dataView_ID="0x00000018" ID="0x00010EFA" type="RX" />
+          <Block name="RX_VOICE_PBE" dataView_ID="0x00000006" ID="0x00010EE5" type="RX" />
+          <Block name="RX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F12" type="RX" />
+          <Block name="RX_VOICE_MBDRC" dataView_ID="0x00000007" ID="0x00010EE6" type="RX" />
+          <Block name="RX_VOICE_SPKR_GAIN" dataView_ID="0x00000018" ID="0x00010EF9" type="RX" />
+        </TOPOLOGY>
+      </AREA>
+    </AREA_LIST>
+    <TOPOLOGY_LIST>
+      <TOPOLOGY name="AUDPROC_OFFLOAD_EFFECTS" ID="0x1000FFFF" type="RX" NewAdded="true">
+        <Block name="AUDIO_HIGH_THD_RESAMPLER" dataView_ID="0x00000079" ID="0x00010719" type="BOTH" />
+        <Block name="AUDIO_SOFT_STEP_VOLUME" dataView_ID="0x00000020" ID="0x00010BFE" type="BOTH" />
+        <Block name="AUDIO_VIRTUALIZER" dataView_ID="0x0000009A" ID="0x000108A5" type="RX" />
+        <Block name="AUDIO_REVERB" dataView_ID="0x0000009B" ID="0x000108AA" type="RX" />
+        <Block name="AUDIO_BASS_BOOST" dataView_ID="0x0000009C" ID="0x000108A1" type="RX" />
+        <Block name="AUDIO_POPLESS_EQUALIZER" ID="0x000108BA" type="RX" />
+      </TOPOLOGY>
+      <TOPOLOGY name="VPM_TX_SM_LVVEFQ" ID="0x1000BFF0" type="TX" NewAdded="true">
+        <Block name="TX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F11" type="TX" />
+        <Block name="TX_VOICE_MIC_GAIN" dataView_ID="0x00000018" ID="0x00010EF7" type="TX" />
+        <Block name="TX_VOICE_SLOPE_FILTER" dataView_ID="0x00000019" ID="0x00010EFE" type="TX" />
+        <Block name="TX_VOICE_ELLIPTICAL_FILTER" dataView_ID="0x00000019" ID="0x00010EFD" type="TX" />
+        <Block name="TX_VOICE_ENC_GAIN" dataView_ID="0x00000018" ID="0x00010EF8" type="TX" />
+        <Block name="TX_VOICE_IIR_MIC1" dataView_ID="0x0000004E" ID="0x00010EF0" type="TX" />
+        <Block name="VOICE_MODULE_LVVEFQ_TX" ID="0x1000B500" type="TX" NewAdded="true" dataView_ID="0xFFFF0001" />
+        <Block name="VOICE_MODULE_LVVEFQ_TX_INJECTION" ID="0x1000B502" type="TX" NewAdded="true" dataView_ID="0xFFFF0003" />
+        <Block name="TX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EE9" type="TX" />
+        <Block name="TX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE7" type="TX" />
+        <Block name="TX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010F00" type="TX" />
+        <Block name="TX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF3" type="TX" />
+        <Block name="TX_VOICE_VOL" dataView_ID="0x0000000F" ID="0x00010EF4" type="TX" />
+      </TOPOLOGY>
+      <TOPOLOGY name="VPM_TX_DM_LVVEFQ" ID="0x1000BFF1" type="TX" NewAdded="true">
+        <Block name="TX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F11" type="TX" />
+        <Block name="TX_VOICE_MIC_GAIN" dataView_ID="0x00000018" ID="0x00010EF7" type="TX" />
+        <Block name="TX_VOICE_SLOPE_FILTER" dataView_ID="0x00000019" ID="0x00010EFE" type="TX" />
+        <Block name="TX_VOICE_ELLIPTICAL_FILTER" dataView_ID="0x00000019" ID="0x00010EFD" type="TX" />
+        <Block name="TX_VOICE_ENC_GAIN" dataView_ID="0x00000018" ID="0x00010EF8" type="TX" />
+        <Block name="TX_VOICE_IIR_MIC1" dataView_ID="0x0000004E" ID="0x00010EF0" type="TX" />
+        <Block name="TX_VOICE_IIR_MIC2" dataView_ID="0x0000004E" ID="0x00010EF1" type="TX" />
+        <Block name="VOICE_MODULE_LVVEFQ_TX" ID="0x1000B500" type="TX" NewAdded="true" dataView_ID="0xFFFF0001" />
+        <Block name="VOICE_MODULE_LVVEFQ_TX_INJECTION" ID="0x1000B502" type="TX" NewAdded="true" dataView_ID="0xFFFF0003" />
+        <Block name="TX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EE9" type="TX" />
+        <Block name="TX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE7" type="TX" />
+        <Block name="TX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010F00" type="TX" />
+        <Block name="TX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF3" type="TX" />
+        <Block name="TX_VOICE_VOL" dataView_ID="0x0000000F" ID="0x00010EF4" type="TX" />
+      </TOPOLOGY>
+      <TOPOLOGY name="VPM_RX_LVVEFQ" ID="0x1000BFF2" type="RX" NewAdded="true">
+        <Block name="RX_VOICE_WV" dataView_ID="0x00000003" ID="0x00010EE2" type="RX" />
+        <Block name="RX_VOICE_FNS" dataView_ID="0x00000009" ID="0x00010EEB" type="RX" />
+        <Block name="RX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010EFF" type="RX" gain_dependant="Yes" />
+        <Block name="RX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF2" type="RX" gain_dependant="Yes" />
+        <Block name="RX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EEA" type="RX" gain_dependant="Yes" />
+        <Block name="RX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE8" type="RX" gain_dependant="Yes" />
+        <Block name="RX_VOICE_VOL" dataView_ID="0x00000054" ID="0x00010EF5" type="RX" volumeModule="true" gain_dependant="Yes" />
+        <Block name="RX_VOICE_AVC_RVE" dataView_ID="0x00000005" ID="0x00010EE4" type="RX" />
+        <Block name="RX_VOICE_DEC_GAIN" dataView_ID="0x00000018" ID="0x00010EFA" type="RX" />
+        <Block name="RX_VOICE_PBE" dataView_ID="0x00000006" ID="0x00010EE5" type="RX" />
+        <Block name="RX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F12" type="RX" />
+        <Block name="RX_VOICE_MBDRC" dataView_ID="0x00000007" ID="0x00010EE6" type="RX" />
+        <Block name="RX_VOICE_SPKR_GAIN" dataView_ID="0x00000018" ID="0x00010EF9" type="RX" />
+        <Block name="VOICE_MODULE_LVVEFQ_RX" ID="0x1000B501" type="RX" NewAdded="true" dataView_ID="0xFFFF0002" />
+        <Block name="VOICE_MODULE_LVVEFQ_RX_INJECTION" ID="0x1000B503" type="RX" NewAdded="true" dataView_ID="0xFFFF0004" />
+      </TOPOLOGY>
+      <TOPOLOGY name="VOICE_RX_NGATE" ID="0x1000C300" type="RX" NewAdded="true">
+        <Block name="RX_VOICE_WV" dataView_ID="0x00000003" ID="0x00010EE2" type="RX" />
+        <Block name="RX_VOICE_FNS" dataView_ID="0x00000009" ID="0x00010EEB" type="RX" />
+        <Block name="VOICE_MODULE_NGATE_RX" ID="0x0100C100" type="RX" NewAdded="true" dataView_ID="0xFFFF0008" />
+        <Block name="RX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010EFF" type="RX" gain_dependant="Yes" />
+        <Block name="RX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF2" type="RX" gain_dependant="Yes" />
+        <Block name="RX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EEA" type="RX" gain_dependant="Yes" />
+        <Block name="RX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE8" type="RX" gain_dependant="Yes" />
+        <Block name="RX_VOICE_VOL" dataView_ID="0x00000054" ID="0x00010EF5" type="RX" volumeModule="true" gain_dependant="Yes" />
+        <Block name="RX_VOICE_AVC_RVE" dataView_ID="0x00000005" ID="0x00010EE4" type="RX" />
+        <Block name="RX_VOICE_ECRX" dataView_ID="0x0000000B" ID="0x00010EED" type="RX" />
+        <Block name="RX_VOICE_DEC_GAIN" dataView_ID="0x00000018" ID="0x00010EFA" type="RX" gain_dependant="No" />
+        <Block name="RX_VOICE_PBE" dataView_ID="0x00000006" ID="0x00010EE5" type="RX" />
+        <Block name="RX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F12" type="RX" />
+        <Block name="RX_VOICE_MBDRC" dataView_ID="0x00000007" ID="0x00010EE6" type="RX" />
+        <Block name="RX_VOICE_SPKR_GAIN" dataView_ID="0x00000018" ID="0x00010EF9" type="RX" />
+      </TOPOLOGY>
+      <TOPOLOGY name="VOICE_RX_NGATE_LVVEFQ" ID="0x1000C200" type="RX" NewAdded="true">
+        <Block name="RX_VOICE_FNS" dataView_ID="0x00000009" ID="0x00010EEB" type="RX" />
+        <Block name="RX_VOICE_WV" dataView_ID="0x00000003" ID="0x00010EE2" type="RX" />
+        <Block name="VOICE_MODULE_LVVEFQ_RX" ID="0x1000B501" type="RX" NewAdded="true" dataView_ID="0xFFFF0002" />
+        <Block name="VOICE_MODULE_LVVEFQ_RX_INJECTION" ID="0x1000B503" type="RX" NewAdded="true" dataView_ID="0xFFFF0004" />
+        <Block name="VOICE_MODULE_NGATE_RX" ID="0x0100C100" type="RX" NewAdded="true" dataView_ID="0xFFFF0008" />
+        <Block name="RX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010EFF" type="RX" gain_dependant="Yes" />
+        <Block name="RX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF2" type="RX" gain_dependant="Yes" />
+        <Block name="RX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EEA" type="RX" gain_dependant="Yes" />
+        <Block name="RX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE8" type="RX" gain_dependant="Yes" />
+        <Block name="RX_VOICE_VOL" dataView_ID="0x00000054" ID="0x00010EF5" type="RX" volumeModule="true" gain_dependant="Yes" />
+        <Block name="RX_VOICE_AVC_RVE" dataView_ID="0x00000005" ID="0x00010EE4" type="RX" />
+        <Block name="RX_VOICE_DEC_GAIN" dataView_ID="0x00000018" ID="0x00010EFA" type="RX" />
+        <Block name="RX_VOICE_PBE" dataView_ID="0x00000006" ID="0x00010EE5" type="RX" />
+        <Block name="RX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F12" type="RX" />
+        <Block name="RX_VOICE_MBDRC" dataView_ID="0x00000007" ID="0x00010EE6" type="RX" />
+        <Block name="RX_VOICE_SPKR_GAIN" dataView_ID="0x00000018" ID="0x00010EF9" type="RX" />
+      </TOPOLOGY>
+      <TOPOLOGY name="AUDIO_TX_DM" ID="0x11000011" type="TX" NewAdded="true">
+        <Block name="AUDIO_EANS" dataView_ID="0x0000001F" ID="0x00010C4A" type="BOTH" />
+        <Block name="AUDIO_TX_IIR" dataView_ID="0x0000004F" ID="0x00010C41" type="TX" />
+        <Block name="AUDIO_TX_HPF_IIR" dataView_ID="0x00000031" ID="0x00010C3D" type="TX" />
+        <Block name="AUDIO_TX_AIG" dataView_ID="0x00000056" ID="0x00010716" type="TX" />
+        <Block name="AUDIO_MBDRC" dataView_ID="0x00000012" ID="0x00010C06" type="BOTH" />
+        <Block name="AUDIO_MIC_GAIN" dataView_ID="0x0000001B" ID="0x00010C35" type="TX" />
+      </TOPOLOGY>
+      <TOPOLOGY name="AUDIO_DS2_CUSTOM_TOPOLOGY" ID="0x1301033B" type="RX" NewAdded="true">
+        <Block name="AUDIO_DS1AP" ID="0x00010775" type="RX" />
+        <Block name="AUDIO_CHMIXER" ID="0x00010341" type="BOTH" />
+        <Block name="AUDIO_HIGH_THD_RESAMPLER" dataView_ID="0x00000079" ID="0x00010719" type="BOTH" />
+        <Block name="AUDIO_PBE" dataView_ID="0x00000015" ID="0x00010C2A" type="RX" />
+        <Block name="AUDIO_IIR" dataView_ID="0x00000011" ID="0x00010C02" type="RX" />
+        <Block name="AUDIO_MBDRC" dataView_ID="0x00000012" ID="0x00010C06" type="BOTH" />
+        <Block name="AUDIO_RX_CODEC_GAIN" dataView_ID="0x00000024" ID="0x00010C37" type="RX" />
+        <Block name="AUDIO_SOFT_STEP_VOLUME" dataView_ID="0x00000020" ID="0x00010BFE" type="BOTH" />
+      </TOPOLOGY>
+      <TOPOLOGY name="AUDIO_RX_STEREO_COPP_MBDRC_V3" ID="0x11000000" type="RX" NewAdded="true">
+        <Block name="AUDIO_IIR" dataView_ID="0x00000011" ID="0x00010C02" type="RX" />
+        <Block name="AUDIO_PBE" dataView_ID="0x00000015" ID="0x00010C2A" type="RX" />
+        <Block name="AUDIO_RX_CODEC_GAIN" dataView_ID="0x00000024" ID="0x00010C37" type="RX" />
+        <Block name="AUDIO_HIGH_THD_RESAMPLER" dataView_ID="0x00000079" ID="0x00010719" type="BOTH" />
+        <Block name="AUDIO_MBDRC_V3" dataView_ID="0x000000B1" ID="0x0001090B" type="BOTH" />
+      </TOPOLOGY>
+      <TOPOLOGY name="AUDIO_RX_MONO_COPP_MBDRC_V3" ID="0x11000001" type="RX" NewAdded="true">
+        <Block name="AUDIO_IIR" dataView_ID="0x00000011" ID="0x00010C02" type="RX" />
+        <Block name="AUDIO_PBE" dataView_ID="0x00000015" ID="0x00010C2A" type="RX" />
+        <Block name="AUDIO_RX_CODEC_GAIN" dataView_ID="0x00000024" ID="0x00010C37" type="RX" />
+        <Block name="AUDIO_HIGH_THD_RESAMPLER" dataView_ID="0x00000079" ID="0x00010719" type="BOTH" />
+        <Block name="AUDIO_MBDRC_V3" dataView_ID="0x000000B1" ID="0x0001090B" type="BOTH" />
+      </TOPOLOGY>
+      <TOPOLOGY name="AUDIO_STREAM_DEFAULT_LGE" ID="0x10009009" type="RX" NewAdded="true">
+        <Block name="AUDIO_DOWNMIX" ID="0x00010721" type="BOTH" />
+        <Block name="AUDIO_HIGH_THD_RESAMPLER" dataView_ID="0x00000079" ID="0x00010719" type="BOTH" />
+        <Block name="AUDIO_UPMIX" ID="0x000108D6" type="BOTH" NewAdded="true" dataView_ID="0xFFFF000C" />
+        <Block name="LGE_SOUND_EFFECT" ID="0x10009010" type="RX" NewAdded="true" dataView_ID="0xFFFF0009" />
+        <Block name="LGE_SOUND_NORMALIZER" ID="0x1000A010" type="RX" NewAdded="true" dataView_ID="0xFFFF000A" />
+        <Block name="LGE_MABL" ID="0x1000B010" type="RX" NewAdded="true" dataView_ID="0xFFFF000B" />
+        <Block name="AUDIO_SOFT_STEP_VOLUME" dataView_ID="0x00000020" ID="0x00010BFE" type="BOTH" />
+      </TOPOLOGY>
+      <TOPOLOGY name="VPM_RX_STABILIZER_NGATE_LVVEFQ" ID="0x1000B904" type="RX" NewAdded="true">
+        <Block name="RX_VOICE_WV" dataView_ID="0x00000003" ID="0x00010EE2" type="RX" />
+        <Block name="VOICE_MODULE_NGATE_RX" ID="0x0100C100" type="RX" NewAdded="true" dataView_ID="0xFFFF0008" />
+        <Block name="VOICE_MODULE_LVVEFQ_RX" ID="0x1000B501" type="RX" NewAdded="true" dataView_ID="0xFFFF0002" />
+        <Block name="VOICE_MODULE_LVVEFQ_RX_INJECTION" ID="0x1000B503" type="RX" NewAdded="true" dataView_ID="0xFFFF0004" />
+        <Block name="VOICE_MODULE_STABILIZER_RX" ID="0x1000B903" type="RX" NewAdded="true" dataView_ID="0xFFFF000D" />
+        <Block name="RX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010EFF" type="RX" gain_dependant="Yes" />
+        <Block name="RX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF2" type="RX" gain_dependant="Yes" />
+        <Block name="RX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EEA" type="RX" gain_dependant="Yes" />
+        <Block name="RX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE8" type="RX" gain_dependant="Yes" />
+        <Block name="RX_VOICE_VOL" dataView_ID="0x00000054" ID="0x00010EF5" type="RX" volumeModule="true" gain_dependant="Yes" />
+        <Block name="RX_VOICE_AVC_RVE" dataView_ID="0x000000AC" ID="0x00010EE4" type="RX" />
+        <Block name="RX_VOICE_DEC_GAIN" dataView_ID="0x00000018" ID="0x00010EFA" type="RX" />
+        <Block name="RX_VOICE_PBE" dataView_ID="0x00000006" ID="0x00010EE5" type="RX" />
+        <Block name="RX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F12" type="RX" />
+        <Block name="RX_VOICE_MBDRC" dataView_ID="0x00000007" ID="0x00010EE6" type="RX" />
+        <Block name="RX_VOICE_SPKR_GAIN" dataView_ID="0x00000018" ID="0x00010EF9" type="RX" />
+      </TOPOLOGY>
+      <TOPOLOGY name="AUDIO_STREAM_OFFLOAD_LGE" ID="0x10009010" type="RX" NewAdded="true">
+        <Block name="AUDIO_DOWNMIX" ID="0x00010721" type="BOTH" />
+        <Block name="AUDIO_HIGH_THD_RESAMPLER" dataView_ID="0x00000079" ID="0x00010719" type="BOTH" />
+        <Block name="AUDIO_UPMIX" ID="0x000108D6" type="BOTH" NewAdded="true" dataView_ID="0xFFFF000C" />
+        <Block name="LGE_SOUND_EFFECT" ID="0x10009010" type="RX" NewAdded="true" dataView_ID="0xFFFF0009" />
+        <Block name="LGE_SOUND_NORMALIZER" ID="0x1000A010" type="RX" NewAdded="true" dataView_ID="0xFFFF000A" />
+        <Block name="LGE_MABL" ID="0x1000B010" type="RX" NewAdded="true" dataView_ID="0xFFFF000B" />
+        <Block name="AUDIO_SOFT_STEP_VOLUME" dataView_ID="0x00000020" ID="0x00010BFE" type="BOTH" />
+        <Block name="AUDIO_VIRTUALIZER" dataView_ID="0x0000009A" ID="0x000108A5" type="RX" />
+        <Block name="AUDIO_REVERB" dataView_ID="0x0000009B" ID="0x000108AA" type="RX" />
+        <Block name="AUDIO_BASS_BOOST" dataView_ID="0x0000009C" ID="0x000108A1" type="RX" />
+        <Block name="AUDIO_POPLESS_EQUALIZER" ID="0x000108BA" type="RX" />
+      </TOPOLOGY>
+    </TOPOLOGY_LIST>
+    <BLOCK_LIST>
+      <Block name="VOICE_MODULE_LVVEFQ_TX" ID="0x1000B500" type="TX" NewAdded="true" dataView_ID="0xFFFF0001" />
+      <Block name="VOICE_MODULE_LVVEFQ_RX" ID="0x1000B501" type="RX" NewAdded="true" dataView_ID="0xFFFF0002" />
+      <Block name="VOICE_MODULE_LVVEFQ_TX_INJECTION" ID="0x1000B502" type="TX" NewAdded="true" dataView_ID="0xFFFF0003" />
+      <Block name="VOICE_MODULE_LVVEFQ_RX_INJECTION" ID="0x1000B503" type="RX" NewAdded="true" dataView_ID="0xFFFF0004" />
+      <Block name="VOICE_MODULE_NGATE_RX" ID="0x0100C100" type="RX" NewAdded="true" dataView_ID="0xFFFF0008" />
+      <Block name="LGE_SOUND_EFFECT" ID="0x10009010" type="RX" NewAdded="true" dataView_ID="0xFFFF0009" />
+      <Block name="LGE_SOUND_NORMALIZER" ID="0x1000A010" type="RX" NewAdded="true" dataView_ID="0xFFFF000A" />
+      <Block name="LGE_MABL" ID="0x1000B010" type="RX" NewAdded="true" dataView_ID="0xFFFF000B" />
+      <Block name="AUDIO_UPMIX" ID="0x000108D6" type="BOTH" NewAdded="true" dataView_ID="0xFFFF000C" />
+      <Block name="VOICE_MODULE_STABILIZER_RX" ID="0x1000B903" type="RX" NewAdded="true" dataView_ID="0xFFFF000D" />
+    </BLOCK_LIST>
+    <AB_VIEW_LIST>
+      <AB_VIEW dataView_ID="0xFFFF0001" name="VOICE_MODULE_LVVEFQ_TX" NewAdded="true">
+        <DATA_VIEW name="Data" display="true">
+          <INTERFACE I_id="0x00010E00" />
+          <INTERFACE I_id="0x1000B00A" />
+          <INTERFACE I_id="0x1000B000" />
+          <INTERFACE I_id="0x1000B001" />
+          <INTERFACE I_id="0x1000B002" />
+          <INTERFACE I_id="0x1000B003" />
+          <INTERFACE I_id="0x1000B004" />
+          <INTERFACE I_id="0x1000B005" />
+          <INTERFACE I_id="0x1000B006" />
+          <INTERFACE I_id="0x1000B007" />
+          <INTERFACE I_id="0x1000B009" />
+        </DATA_VIEW>
+      </AB_VIEW>
+      <AB_VIEW dataView_ID="0xFFFF0002" name="VOICE_MODULE_LVVEFQ_RX" NewAdded="true">
+        <DATA_VIEW name="Data" display="true">
+          <INTERFACE I_id="0x00010E00" />
+          <INTERFACE I_id="0x1000B100" />
+          <INTERFACE I_id="0x1000B101" />
+          <INTERFACE I_id="0x1000B102" />
+          <INTERFACE I_id="0x1000B10D" />
+          <INTERFACE I_id="0x1000B104" />
+          <INTERFACE I_id="0x1000B105" />
+          <INTERFACE I_id="0x1000B106" />
+          <INTERFACE I_id="0x1000B107" />
+          <INTERFACE I_id="0x1000B108" />
+          <INTERFACE I_id="0x1000B109" />
+          <INTERFACE I_id="0x1000B10A" />
+          <INTERFACE I_id="0x1000B10B" />
+          <INTERFACE I_id="0x1000B10C" />
+        </DATA_VIEW>
+      </AB_VIEW>
+      <AB_VIEW dataView_ID="0xFFFF0003" name="VOICE_MODULE_LVVEFQ_TX_INJECTION" NewAdded="true">
+        <DATA_VIEW name="Data" display="true">
+          <INTERFACE I_id="0x1000B301" />
+          <INTERFACE I_id="0x1000B302" />
+        </DATA_VIEW>
+      </AB_VIEW>
+      <AB_VIEW dataView_ID="0xFFFF0004" name="VOICE_MODULE_LVVEFQ_RX_INJECTION" NewAdded="true">
+        <DATA_VIEW name="Data" display="true">
+          <INTERFACE I_id="0x1000B301" />
+          <INTERFACE I_id="0x1000B302" />
+        </DATA_VIEW>
+      </AB_VIEW>
+      <AB_VIEW dataView_ID="0xFFFF0008" name="VOICE_MODULE_NGATE_RX" NewAdded="true">
+        <DATA_VIEW name="Data" display="true">
+          <INTERFACE I_id="0x00010E00" />
+          <INTERFACE I_id="0x0100C000" />
+          <INTERFACE I_id="0x0100C001" />
+        </DATA_VIEW>
+      </AB_VIEW>
+      <AB_VIEW dataView_ID="0xFFFF0009" name="LGE_SOUND_EFFECT" NewAdded="true">
+        <DATA_VIEW name="Data" display="true">
+          <INTERFACE I_id="0x10009011" />
+          <INTERFACE I_id="0x10009012" />
+          <INTERFACE I_id="0x10009013" />
+          <INTERFACE I_id="0x10009014" />
+          <INTERFACE I_id="0x10009015" />
+          <INTERFACE I_id="0x10009016" />
+        </DATA_VIEW>
+      </AB_VIEW>
+      <AB_VIEW dataView_ID="0xFFFF000A" name="LGE_SOUND_NORMALIZER" NewAdded="true">
+        <DATA_VIEW name="Data" display="true">
+          <INTERFACE I_id="0x1000A011" />
+          <INTERFACE I_id="0x1000A012" />
+          <INTERFACE I_id="0x1000A013" />
+          <INTERFACE I_id="0x1000A014" />
+          <INTERFACE I_id="0x1000A015" />
+          <INTERFACE I_id="0x1000A016" />
+          <INTERFACE I_id="0x1000A017" />
+          <INTERFACE I_id="0x1000A018" />
+          <INTERFACE I_id="0x1000A019" />
+          <INTERFACE I_id="0x1000A01A" />
+        </DATA_VIEW>
+      </AB_VIEW>
+      <AB_VIEW dataView_ID="0xFFFF000B" name="LGE_MABL" NewAdded="true">
+        <DATA_VIEW name="Data" display="true">
+          <INTERFACE I_id="0x1000B011" />
+          <INTERFACE I_id="0x1000B012" />
+          <INTERFACE I_id="0x1000B013" />
+          <INTERFACE I_id="0x1000B014" />
+        </DATA_VIEW>
+      </AB_VIEW>
+      <AB_VIEW dataView_ID="0xFFFF000C" name="AUDIO_UPMIX" NewAdded="true">
+        <DATA_VIEW name="Data" display="true">
+          <INTERFACE I_id="0x000108D7" />
+        </DATA_VIEW>
+      </AB_VIEW>
+      <AB_VIEW dataView_ID="0xFFFF000D" name="VOICE_MODULE_STABILIZER_RX" NewAdded="true">
+        <DATA_VIEW name="Data" display="true">
+          <INTERFACE I_id="0x00010E00" />
+          <INTERFACE I_id="0x1000B902" />
+          <INTERFACE I_id="0x1000B900" />
+        </DATA_VIEW>
+      </AB_VIEW>
+    </AB_VIEW_LIST>
+    <INTERFACE_LIST>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_TX_BUFFERING" I_id="0x1000B00A" hexStr="00000000" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="buffering_enable" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_TX_CONTROL" I_id="0x1000B000" hexStr="0000000000000000000000000000000000000000" NewAdded="true" maxSize="20">
+        <CONFIG_ELEMENT name="MicrophoneRouting" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="Mute" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="BD_OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="BulkDelay" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="BD_Gain" type="int16" min="0x8000" max="0x7FFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_TX_VOL" I_id="0x1000B001" hexStr="0000000000000000" NewAdded="true" maxSize="8">
+        <CONFIG_ELEMENT name="VOL_OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="VOL_Gain" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_TX_HPF" I_id="0x1000B002" hexStr="0000000000000000" NewAdded="true" maxSize="8">
+        <CONFIG_ELEMENT name="HPF_OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="MIC_HPF_CornerFreq" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_TX_LPF" I_id="0x1000B003" hexStr="0000000000000000" NewAdded="true" maxSize="8">
+        <CONFIG_ELEMENT name="LPF_OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="MIC_LPF_CornerFreq" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_TX_LVHF" I_id="0x1000B004" hexStr="00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" NewAdded="true" maxSize="88">
+        <CONFIG_ELEMENT name="OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="Mode" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="TuningMode" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="InputGain" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="OutputGain" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS_limit" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS_LB_taps" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="NLMS_LB_two_alpha" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS_LB_erl" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS_HB_taps" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="NLMS_HB_two_alpha" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS_HB_erl" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS_preset_coefs" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS_offset" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_tail_alpha_LB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_tail_portion_LB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_gamma_e_high_LB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_gamma_e_dt_LB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_gamma_e_low_LB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_NL_atten_LB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_tail_alpha_HB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_tail_portion_HB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_gamma_e_high_HB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_gamma_e_dt_HB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_gamma_e_low_HB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_NL_atten_HB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_gamma_e_alpha" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_gamma_n" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_spdet_near" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_spdet_act" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_limit_ns" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_CNI_Gain" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_NFE_blocksize" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="SPDET_far" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="SPDET_mic" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="SPDET_x_clip" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="PCD_threshold" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="PCD_taps" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="PCD_erl" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="PCD_minimum_erl" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="PCD_erl_step" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="PCD_gamma_e_rescue" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_TX_LVNV" I_id="0x1000B005" hexStr="0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" NewAdded="true" maxSize="176">
+        <CONFIG_ELEMENT name="OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="Config" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="Mode" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="Tuning_mode" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="MicDistance" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="Input_Gain_Mic0" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="Input_Gain_Mic1" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="Output_Gain" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS0_LB_taps" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="NLMS0_LB_twoalpha" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS0_LB_erl" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS0_HB_taps" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="NLMS0_HB_twoalpha" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS0_HB_erl" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS0_preset_coefs" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS0_offset" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS1_LB_taps" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="NLMS1_LB_twoalpha" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS1_LB_erl" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS1_HB_taps" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="NLMS1_HB_twoalpha" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS1_HB_erl" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS1_preset_coefs" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS1_offset" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="MicGainComp" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="PCD_Taps" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="PCD_Erl" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="PCD_Threshold" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="PCD_MinimumErl" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="PCD_ErlStep" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="PCD_GammaERescue" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="SPDET_far" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="CAL_micPowFloorMin" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="IMCOH_broadside_level_scale" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT_ARRAY name="FSB_init_table0" length="8" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT_ARRAY name="FSB_init_table1" length="8" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="FSB_taps" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="GSC_taps" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="GSC_erl" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_EchoGammaHi_LB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_EchoGammaLo_LB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_EchoGammaDt_LB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_EchoAlphaRev_LB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_EchoTailPortion_LB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_NlAtten_LB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_EchoGammaHi_HB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_EchoGammaLo_HB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_EchoGammaDt_HB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_EchoAlphaRev_HB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_EchoTailPortion_HB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_NlAtten_HB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_NlAtten_LF" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_CNILevel" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_MusicalTone_Sensitivity" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_GainEta" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_SPDET_near" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_AcThreshold" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_Gamma_nn_max" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_Constrained_nn_lo" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_Constrained_nn_hi" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_Constrained_nn_highband" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_FE_SPPB_SNR_min" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_UGF_MG_SNR_min" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_UGF_MG_SNR_max" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_UGF_MG_highSNR" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_UGF_MG_lowSNR" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_UGF_MG_max" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_UGF_MG_rel" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_GAINDET_Sensitivity" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_NGS_Smoothing" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="SpeechRecovery" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_TX_LVWM" I_id="0x1000B006" hexStr="0000000000000000000000000000000000000000" NewAdded="true" maxSize="20">
+        <CONFIG_ELEMENT name="OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="mode" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="AVL_Target_level_lin" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_MinGainLin" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_MaxGainLin" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_Attack" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_Release" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_Limit_MaxOutputLin" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="SpDetect_Threshold" type="int16" min="0x8000" max="0x7FFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_TX_EQ" I_id="0x1000B007" hexStr="00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" NewAdded="true" maxSize="136">
+        <CONFIG_ELEMENT name="EQ_OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="EQ_Length" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT_ARRAY name="pEQ_Coefs" length="64" type="int16" min="0x8000" max="0x7FFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_TX_DRC" I_id="0x1000B009" hexStr="0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" NewAdded="true" maxSize="44">
+        <CONFIG_ELEMENT name="OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="NumKnees" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT_ARRAY name="CompressorCurveInputLevels" length="5" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT_ARRAY name="CompressorCurveOutputLevels" length="5" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AttackTime" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="ReleaseTime" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="LimiterOperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="LimitLevel" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_RX_CONTROL" I_id="0x1000B100" hexStr="0000000000000000" NewAdded="true" maxSize="8">
+        <CONFIG_ELEMENT name="OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="Mute" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_RX_VOL" I_id="0x1000B101" hexStr="0000000000000000" NewAdded="true" maxSize="8">
+        <CONFIG_ELEMENT name="VOL_OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="VOL_Gain" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_RX_LVFENS" I_id="0x1000B102" hexStr="000000000000000000000000" NewAdded="true" maxSize="12">
+        <CONFIG_ELEMENT name="OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="FENS_limit_NS" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="FENS_NoiseThreshold" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="Mode" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_RX_LVWBE" I_id="0x1000B10D" hexStr="000000000000000000000000000000000000000000000000" NewAdded="true" maxSize="24">
+        <CONFIG_ELEMENT name="OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="Mode" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="MidBandGain" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="UpperBandGain" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="UpperBandCornerFreq" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="UpperBandDetectorThreshold" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="VoiceActivityThreshold" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="PostProcessorGainMin" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="PostProcessorFreqHigh" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="PostProcessorFreqLow" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_RX_LVHF" I_id="0x1000B104" hexStr="0000000000000000" NewAdded="true" maxSize="8">
+        <CONFIG_ELEMENT name="NLPP_OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="NLPP_Limit" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLPP_HPF_CornerFreq" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_RX_LVVC" I_id="0x1000B105" hexStr="00000000000000000000000000000000000000000000000000000000" NewAdded="true" maxSize="28">
+        <CONFIG_ELEMENT name="OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="mode" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="Gain_Lin_Max" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="Noise_Sensitivity" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_Target_level_lin" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_MinGainLin" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_MaxGainLin" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_NominalGain" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_Attack" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_Release" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_ReleaseMax" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_Limit_MaxOutputLin" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="SpDetect_Threshold" type="int16" min="0x8000" max="0x7FFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_RX_EQ" I_id="0x1000B106" hexStr="00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" NewAdded="true" maxSize="136">
+        <CONFIG_ELEMENT name="EQ_OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="EQ_Length" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT_ARRAY name="pEQ_Coefs" length="64" type="int16" min="0x8000" max="0x7FFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_RX_DRC" I_id="0x1000B107" hexStr="0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" NewAdded="true" maxSize="44">
+        <CONFIG_ELEMENT name="OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="NumKnees" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT_ARRAY name="CompressorCurveInputLevels" length="5" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT_ARRAY name="CompressorCurveOutputLevels" length="5" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AttackTime" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="ReleaseTime" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="LimiterOperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="LimitLevel" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_RX_HPF" I_id="0x1000B108" hexStr="0000000000000000" NewAdded="true" maxSize="8">
+        <CONFIG_ELEMENT name="HPF_OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="HPF_CornerFreq" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_RX_CNG" I_id="0x1000B109" hexStr="0000000000000000" NewAdded="true" maxSize="8">
+        <CONFIG_ELEMENT name="CNG_OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="CNG_Volume" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_RX_AGC" I_id="0x1000B10A" hexStr="0000000000000000000000000000000000000000" NewAdded="true" maxSize="20">
+        <CONFIG_ELEMENT name="OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="mode" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="AVL_Target_level_lin" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_MinGainLin" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_MaxGainLin" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_Attack" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_Release" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_Limit_MaxOutputLin" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="SpDetect_Threshold" type="int16" min="0x8000" max="0x7FFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_RX_LVNG" I_id="0x1000B10B" hexStr="000000000000000000000000000000000000000000000000000000000000000000000000" NewAdded="true" maxSize="36">
+        <CONFIG_ELEMENT name="OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="NumKnees" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT_ARRAY name="CompressorCurveInputLevels" length="5" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT_ARRAY name="CompressorCurveOutputLevels" length="5" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AttackTime" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="ReleaseTime" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_RX_NF" I_id="0x1000B10C" hexStr="000000000000000000000000" NewAdded="true" maxSize="12">
+        <CONFIG_ELEMENT name="NF_OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="NF_Attenuation" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NF_Frequency" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="NF_QFactor" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_INJECTION_IN" I_id="0x1000B301" hexStr="00000000" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="enable" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="shift_bit" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_INJECTION_OUT" I_id="0x1000B302" hexStr="00000000" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="enable" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="shift_bit" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_NGATE_RX_TUNING" I_id="0x0100C000" hexStr="0000410000002D0005000000" NewAdded="true" maxSize="12">
+        <CONFIG_ELEMENT name="ngate_mode" type="int16" min="0x0" max="0x1" />
+        <CONFIG_ELEMENT name="Attack" type="int16" min="0x1" max="0x64" />
+        <CONFIG_ELEMENT name="Release" type="int16" min="0x0" max="0x64" />
+        <CONFIG_ELEMENT name="Thr" type="int16" min="0x0" max="0xC8" />
+        <CONFIG_ELEMENT name="time_smoothing_factor" type="int16" min="0x1" max="0xA" />
+        <CONFIG_ELEMENT name="Gain" type="int16" min="0x0" max="0xC" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_CNG_RX_TUNING" I_id="0x0100C001" hexStr="0000060000084B00" NewAdded="true" maxSize="8">
+        <CONFIG_ELEMENT name="cng_mode" type="int16" min="0x0" max="0x1" />
+        <CONFIG_ELEMENT name="max_diff" type="int16" min="0x0" max="0x32" />
+        <CONFIG_ELEMENT name="Noise_gain" type="int16" min="0x0" max="0x7FFF" />
+        <CONFIG_ELEMENT name="LP_coeff" type="int16" min="0x0" max="0x7FFF" />
+      </INTERFACE>
+      <INTERFACE name="LGE_Soundeffect_Enables" I_id="0x10009011" hexStr="00000000" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="Enables" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+      </INTERFACE>
+      <INTERFACE name="LGE_Soundeffect_Effectmode_Params" I_id="0x10009012" hexStr="00000000" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="Effectmode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+      </INTERFACE>
+      <INTERFACE name="LGE_Soundeffect_Outputdevice_Params" I_id="0x10009013" hexStr="00000000" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="Outputdevice" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+      </INTERFACE>
+      <INTERFACE name="LGE_Soundeffect_Meditype_Params" I_id="0x10009014" hexStr="00000000" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="Meditype" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+      </INTERFACE>
+      <INTERFACE name="LGE_Soundeffect_Geq_Params" I_id="0x10009015" hexStr="00000000" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="Geq_Param" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+      </INTERFACE>
+      <INTERFACE name="LGE_Soundeffect_All_Param" I_id="0x10009016" hexStr="00000000" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="AllParam" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+      </INTERFACE>
+      <INTERFACE name="LGE_Normalizer_DeviceSpeaker" I_id="0x1000A011" hexStr="00000000" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="DeviceSpeaker" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+      </INTERFACE>
+      <INTERFACE name="LGE_Normalizer_Enables" I_id="0x1000A012" hexStr="00000000" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="Enables" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+      </INTERFACE>
+      <INTERFACE name="LGE_Normalizer_MAKEUP_GAIN" I_id="0x1000A013" hexStr="00000000" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="MakeupGain" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+      </INTERFACE>
+      <INTERFACE name="LGE_Normalizer_PreFilter" I_id="0x1000A014" hexStr="00000000" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="PreFilter" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+      </INTERFACE>
+      <INTERFACE name="LGE_Normalizer_Limiter_Threshold" I_id="0x1000A015" hexStr="00000000" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="Limiter_Threshold" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+      </INTERFACE>
+      <INTERFACE name="LGE_Normalizer_Limiter_Slope" I_id="0x1000A016" hexStr="00000000" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="Limiter_slope" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+      </INTERFACE>
+      <INTERFACE name="LGE_Normalizer_Compressor_Threshold" I_id="0x1000A017" hexStr="00000000" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="Compressor_Threshold" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+      </INTERFACE>
+      <INTERFACE name="LGE_Normalizer_Compressor_Slope" I_id="0x1000A018" hexStr="00000000" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="Compressor_Slope" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+      </INTERFACE>
+      <INTERFACE name="LGE_Normalizer_On_Off" I_id="0x1000A019" hexStr="00000000" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="OnOff" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+      </INTERFACE>
+      <INTERFACE name="LGE_Normalizer_All_Param" I_id="0x1000A01A" hexStr="00000000" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="AllParam" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+      </INTERFACE>
+      <INTERFACE name="LGE_MABL_DeviceSpeaker" I_id="0x1000B011" hexStr="00000000" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="DeviceSpeaker" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+      </INTERFACE>
+      <INTERFACE name="LGE_MABL_MonoEnable" I_id="0x1000B012" hexStr="00000000" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="MonoEnable" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+      </INTERFACE>
+      <INTERFACE name="LGE_MABL_LR_Balance" I_id="0x1000B013" hexStr="00000000" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="LRbalance" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+      </INTERFACE>
+      <INTERFACE name="LGE_MABL_All_Param" I_id="0x1000B014" hexStr="00000000" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="AllParam" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+      </INTERFACE>
+      <INTERFACE name="AUDPROC_PARAM_ID_MONO2STEREO_UPMIX_ENABLE" I_id="0x000108D7" hexStr="01000000" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="enable_flag" type="uint32" min="0x0" max="0x1" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_STABILIZER_CONTROL" I_id="0x1000B902" hexStr="007D10270000A861" NewAdded="true" maxSize="8">
+        <CONFIG_ELEMENT name="max_sample" type="int16" min="0x0" max="0x7FFF" />
+        <CONFIG_ELEMENT name="max_sample_clipping" type="int16" min="0x0" max="0x7FFF" />
+        <CONFIG_ELEMENT name="pre_emphasis" type="int16" min="0x0" max="0x1" />
+        <CONFIG_ELEMENT name="soft_limit" type="int16" min="0x0" max="0x7FFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_STABILIZER_GAIN" I_id="0x1000B900" hexStr="0100070000000000" NewAdded="true" maxSize="8">
+        <CONFIG_ELEMENT name="gain_mode" type="int16" min="0x0" max="0x1" />
+        <CONFIG_ELEMENT name="input_gain" type="int16" min="0x0" max="0x0C" />
+        <CONFIG_ELEMENT name="RESERVE_param0" type="int16" min="0x0" max="0x7FFF" />
+        <CONFIG_ELEMENT name="RESERVE_param1" type="int16" min="0x0" max="0x7FFF" />
+      </INTERFACE>
+    </INTERFACE_LIST>
+  </OpenDSP>
+</WorkSpace_Data>
