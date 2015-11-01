@@ -756,6 +756,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/pittpatt/models/recognition/face.face.y0-y0-71-N-tree_7-wmd.bin:system/vendor/pittpatt/models/recognition/face.face.y0-y0-71-N-tree_7-wmd.bin \
     vendor/lge/g4-common/proprietary/etc/firmware/BCM4335_003.001.009.0025.0000_LGIT_TWCS-B221D_TESTONLY.hcd:system/etc/firmware/BCM4335_003.001.009.0025.0000_LGIT_TWCS-B221D_TESTONLY.hcd
 
+# IR
+PRODUCT_COPY_FILES += \
+    vendor/lge/g4-common/proprietary/lib/libcir_driver.so:system/lib/libcir_driver.so \
+    vendor/lge/g4-common/proprietary/lib/hw/consumerir.msm8992.so:system/lib/hw/consumerir.msm8992.so \
+    vendor/lge/g4-common/proprietary/lib64/libcir_driver.so:system/lib64/libcir_driver.so \
+    vendor/lge/g4-common/proprietary/lib64/hw/consumerir.msm8992.so:system/lib64/hw/consumerir.msm8992.so
+
 #GPS
 PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
