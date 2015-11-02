@@ -17,7 +17,6 @@
 PRODUCT_COPY_FILES += \
     vendor/lge/d855/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lge/d855/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
-    vendor/lge/d855/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/lge/d855/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/lge/d855/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
     vendor/lge/d855/proprietary/bin/quipc_main:system/bin/quipc_main \
@@ -38,7 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d855/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
     vendor/lge/d855/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/lge/d855/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
-    vendor/lge/d855/proprietary/vendor/lib/libdsnetutils.so:system/vendor/lib/libdsnetutils.so \
     vendor/lge/d855/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/lge/d855/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/lge/d855/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
@@ -57,7 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d855/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/lge/d855/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/d855/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
-    vendor/lge/d855/proprietary/lib/libconfigdb.so:system/lib/libconfigdb.so \
     vendor/lge/d855/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/lge/d855/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/d855/proprietary/lib/libuicc.so:system/lib/libuicc.so \
@@ -65,14 +62,15 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d855/proprietary/lib/libvss_common_iface.so:system/lib/libvss_common_iface.so \
     vendor/lge/d855/proprietary/lib/libvss_nv_idl.so:system/lib/libvss_nv_idl.so \
     vendor/lge/d855/proprietary/lib/libvss_nv_iface.so:system/lib/libvss_nv_iface.so \
-    vendor/lge/d855/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/lge/d855/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+    vendor/lge/d855/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/lge/d855/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/lge/d855/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/lge/d855/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/lge/d855/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/lge/d855/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/lge/d855/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
+    vendor/lge/d855/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/lge/d855/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/d855/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
     vendor/lge/d855/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
