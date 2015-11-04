@@ -20,12 +20,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerheadcaf/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
     vendor/lge/hammerheadcaf/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/lge/hammerheadcaf/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/lge/hammerheadcaf/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/lge/hammerheadcaf/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/hammerheadcaf/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/hammerheadcaf/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/hammerheadcaf/proprietary/bin/nl_listener:system/bin/nl_listener \
-    vendor/lge/hammerheadcaf/proprietary/bin/perfd:system/bin/perfd \
     vendor/lge/hammerheadcaf/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/lge/hammerheadcaf/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/hammerheadcaf/proprietary/bin/qseecomd:system/bin/qseecomd \
@@ -83,6 +81,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerheadcaf/proprietary/lib/libssd.so:system/lib/libssd.so \
     vendor/lge/hammerheadcaf/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/lge/hammerheadcaf/proprietary/lib/libxml.so:system/lib/libxml.so \
+    vendor/lge/hammerheadcaf/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
+    vendor/lge/hammerheadcaf/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/lge/hammerheadcaf/proprietary/vendor/bin/vss_init:system/vendor/bin/vss_init \
     vendor/lge/hammerheadcaf/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
     vendor/lge/hammerheadcaf/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
