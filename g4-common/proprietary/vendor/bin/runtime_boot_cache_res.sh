@@ -5,15 +5,9 @@ COUNTRY=`getprop ro.build.target_country`
 BUILD_TYPE=`getprop ro.build.type`
 DCOUNTRY=`getprop ro.build.default_country`
 UI_BASE_CA=`getprop ro.build.ui_base_ca`
-MCC=`getprop persist.sys.ntcode`
-FIRSTPOWERON=`getprop persist.radio.first-mccmnc`
+MCC=`getprop ro.lge.ntcode_mcc`
 LGBOOTANIM=`getprop ro.lge.firstboot.openani`
-CUPSS_ROOT_DIR=`getprop ro.lge.capp_cupss.rootdir`
-CUPSS_PROP_FILE=`getprop persist.sys.cupss.subca-prop`
-CUPSS_CHANGED=`getprop persist.sys.cupss.changed`
 IS_MULTISIM=`getprop ro.lge.sim_num`
-MCC=${MCC#*,}
-MCC=${MCC:1:3}
 
 SYSTEM_BOOTANIMATION_FILE=/system/media/bootanimation.zip
 SYSTEM_BOOTANIMATION_SOUND_FILE=/system/media/audio/ui/PowerOn.ogg
@@ -29,8 +23,14 @@ if [ $DCOUNTRY != "" ]; then
     else
         if [ $IS_MULTISIM == "2" ]; then
             SUBCA_FILE=${OPERATOR}_${COUNTRY}_DS/${DCOUNTRY}
+            if [ ! -d /cust/${SUBCA_FILE} ]; then
+                SUBCA_FILE=${OPERATOR}_${COUNTRY}/${DCOUNTRY}
+            fi
         elif [ $IS_MULTISIM == "3" ]; then
             SUBCA_FILE=${OPERATOR}_${COUNTRY}_TS/${DCOUNTRY}
+            if [ ! -d /cust/${SUBCA_FILE} ]; then
+                SUBCA_FILE=${OPERATOR}_${COUNTRY}/${DCOUNTRY}
+            fi
         else
             SUBCA_FILE=${OPERATOR}_${COUNTRY}/${DCOUNTRY}
         fi
@@ -41,8 +41,14 @@ else
     else
         if [ $IS_MULTISIM == "2" ]; then
             SUBCA_FILE=${OPERATOR}_${COUNTRY}_DS
+            if [ ! -d /cust/${SUBCA_FILE} ]; then
+                SUBCA_FILE=${OPERATOR}_${COUNTRY}
+            fi
         elif [ $IS_MULTISIM == "3" ]; then
             SUBCA_FILE=${OPERATOR}_${COUNTRY}_TS
+            if [ ! -d /cust/${SUBCA_FILE} ]; then
+                SUBCA_FILE=${OPERATOR}_${COUNTRY}
+            fi
         else
             SUBCA_FILE=${OPERATOR}_${COUNTRY}
         fi
@@ -53,79 +59,9 @@ fi
 #/system/bin/chown -R system:sytem /persist-lg/poweron
 #/system/bin/chmod -R 0775 /persist-lg/poweron
 
-if [ $CUPSS_ROOT_DIR == "/data/local/cust" ]; then
-    if [ ! -d ${CUPSS_ROOT_DIR} ]; then
-        mkdir ${CUPSS_ROOT_DIR}
-        /system/bin/chmod 755 ${CUPSS_ROOT_DIR}
-    fi
-
-    if [ ${CUPSS_CHANGED} == "1" ]; then
-        if [ ! -d ${CUPSS_ROOT_DIR}/prev ]; then
-            mkdir ${CUPSS_ROOT_DIR}/prev
-            /system/bin/chmod 755 ${CUPSS_ROOT_DIR}/prev
-        fi
-        mv -f ${CUPSS_ROOT_DIR}/* ${CUPSS_ROOT_DIR}/prev
-    fi
-
-    CUPSS_SUBCA=${CUPSS_PROP_FILE##*cust_}
-    CUPSS_SUBCA=${CUPSS_SUBCA%.prop}
-    if [ $IS_MULTISIM == "2" ]; then
-        OPEN_PATH=/cust/OPEN_COM_DS
-    elif [ $IS_MULTISIM == "3" ]; then
-        OPEN_PATH=/cust/OPEN_COM_TS
-    else
-        OPEN_PATH=/cust/OPEN_COM
-    fi
-
-    DIRLIST=$(ls ${OPEN_PATH})
-    for DIR in ${DIRLIST}; do
-        if [ -d ${OPEN_PATH}/${DIR} ]; then
-            DIRNAME=${DIR#_}
-            if [ -h ${CUPSS_ROOT_DIR}/${DIRNAME} ] || [ ! -d ${CUPSS_ROOT_DIR}/${DIRNAME} ]; then
-                if [ -d ${OPEN_PATH}/${DIR}/${DIRNAME}_${CUPSS_SUBCA} ]; then
-                    ln -sfn ${OPEN_PATH}/${DIR}/${DIRNAME}_${CUPSS_SUBCA} ${CUPSS_ROOT_DIR}/${DIRNAME}
-                else
-                    ln -sfn ${OPEN_PATH}/${DIR}/${DIRNAME}_${OPERATOR}_${COUNTRY} ${CUPSS_ROOT_DIR}/${DIRNAME}
-                fi
-            fi
-        fi
-    done
-fi
-
-if [ $CUPSS_ROOT_DIR == "/data/local/cust" ]; then
-# bootanimation for OPEN_COM
-if [ $(ls ${CUPSS_ROOT_DIR}/config/poweron/bootanimation_${MCC}.zip | grep bootanimation_${MCC}.zip) ]; then
-    if [ $LGBOOTANIM != "" ] && [ $LGBOOTANIM == "true" ]; then
-        if [ $FIRSTPOWERON != "" ]; then
-            DOWNCA_BOOTANIMATION_FILE=${CUPSS_ROOT_DIR}/config/poweron/bootanimation_${MCC}.zip
-        fi
-    else
-        DOWNCA_BOOTANIMATION_FILE=${CUPSS_ROOT_DIR}/config/poweron/bootanimation_${MCC}.zip
-    fi
-else
-    DOWNCA_BOOTANIMATION_FILE=${CUPSS_ROOT_DIR}/config/poweron/bootanimation.zip
-fi
-
-if [ $(ls ${CUPSS_ROOT_DIR}/config/poweron/PowerOn_${MCC}.ogg | grep PowerOn_${MCC}.ogg) ]; then
-    if [ $LGBOOTANIM != "" ] && [ $LGBOOTANIM == "true" ]; then
-        if [ $FIRSTPOWERON != "" ]; then
-            DOWNCA_BOOTANIMATION_SOUND_FILE=${CUPSS_ROOT_DIR}/config/poweron/PowerOn_${MCC}.ogg
-        fi
-    else
-        DOWNCA_BOOTANIMATION_SOUND_FILE=${CUPSS_ROOT_DIR}/config/poweron/PowerOn_${MCC}.ogg
-    fi
-
-else
-    DOWNCA_BOOTANIMATION_SOUND_FILE=${CUPSS_ROOT_DIR}/config/poweron/PowerOn.ogg
-fi
-
-else
-# bootanimaiton for Operators
 if [ $(ls /cust/${SUBCA_FILE}/poweron/bootanimation_${MCC}.zip | grep bootanimation_${MCC}.zip) ]; then
     if [ $LGBOOTANIM != "" ] && [ $LGBOOTANIM == "true" ]; then
-        if [ $FIRSTPOWERON != "" ]; then
-            DOWNCA_BOOTANIMATION_FILE=/cust/${SUBCA_FILE}/poweron/bootanimation_${MCC}.zip
-        fi
+        DOWNCA_BOOTANIMATION_FILE=/cust/${SUBCA_FILE}/poweron/bootanimation_${MCC}.zip
     else
         DOWNCA_BOOTANIMATION_FILE=/cust/${SUBCA_FILE}/poweron/bootanimation_${MCC}.zip
     fi
@@ -135,16 +71,13 @@ fi
 
 if [ $(ls /cust/${SUBCA_FILE}/poweron/PowerOn_${MCC}.ogg | grep PowerOn_${MCC}.ogg) ]; then
     if [ $LGBOOTANIM != "" ] && [ $LGBOOTANIM == "true" ]; then
-        if [ $FIRSTPOWERON != "" ]; then
-            DOWNCA_BOOTANIMATION_SOUND_FILE=/cust/${SUBCA_FILE}/poweron/PowerOn_${MCC}.ogg
-        fi
+        DOWNCA_BOOTANIMATION_SOUND_FILE=/cust/${SUBCA_FILE}/poweron/PowerOn_${MCC}.ogg
     else
         DOWNCA_BOOTANIMATION_SOUND_FILE=/cust/${SUBCA_FILE}/poweron/PowerOn_${MCC}.ogg
     fi
 
 else
     DOWNCA_BOOTANIMATION_SOUND_FILE=/cust/${SUBCA_FILE}/poweron/PowerOn.ogg
-fi
 fi
 
 rm $CACHE_BOOTANIMATION_FILE

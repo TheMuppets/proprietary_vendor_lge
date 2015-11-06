@@ -12,6 +12,15 @@
 ORIGIN_PATH=/system/apps/bootup
 TARGET_PATH=/data/app
 
+tag0=`getprop ro.crypto.state unencrypted`
+case "$tag0" in "encrypted")
+    firstboot=`getprop persist.lge.appman.firstboot 1`
+    case "$firstboot" in "1")
+        setprop persist.lge.appman.installstart 1
+        setprop persist.lge.appman.firstboot 0
+    esac
+esac
+
 tag1=`getprop persist.lge.appman.installstart 1`
 case "$tag1" in "1")
     for file in $(ls -s ${TARGET_PATH})
@@ -51,7 +60,7 @@ case "$tag2" in
             `rm $TARGET_PATH/$apk > /dev/null`
         done
     fi
-
+        
     setprop persist.lge.appman.installstart 0
      ;;
     
@@ -77,30 +86,59 @@ case "$tag2" in
     ;;
 esac
 
+
+CURRENT=`getprop ro.build.version.incremental 0`
 tag3=`getprop persist.lge.appman.errc_done 1`
-case "$tag3" in "1")
-    #if [ -f /system/etc/errc_kk2l.cfg ]; then     	       
-    #for module in $(cat /system/etc/errc_kk2l.cfg); do
-    if [ -f /system/etc/errc_kk2l.cfg ]; then     	       
-        for module in $(cat /system/etc/errc_kk2l.cfg); do
-            rm -rf ${DATA_SYSTEM}/${module}
-            rm -rf ${DATA_SYSTEM}/${module}.apk
-            rm -rf ${DATA_SYSTEM}/${module}-*
-            rm -rf ${DATA_SYSTEM}/${module}-*.apk
+if [ "$tag3" != "$CURRENT" ]; then
+    if [ -f /system/etc/errc_devA.cfg ]; then     	       
+        for module in $(cat /system/etc/errc_devA.cfg); do
+            rm -rf /data/app-system/${module}
+            rm -rf /data/app-system/${module}.apk
+            rm -rf /data/app-system/${module}-*
+            rm -rf /data/app-system/${module}-*.apk
             
             rm -rf /data/app/${module}
             rm -rf /data/app/${module}.apk
+            rm -rf /data/app/${module}-*
             rm -rf /data/app/${module}-*.apk
+			
+            rm -rf /data/preload/${module}
+            rm -rf /data/preload/${module}.apk
+            rm -rf /data/preload/${module}-*
+            rm -rf /data/preload/${module}-*.apk
         done
     fi
-    setprop persist.lge.appman.errc_done 0
-esac
     
-    CARRIER=`getprop ro.build.target_operator`
-
-
-    if [ "$CARRIER" == "SKT" ]; then
-	/system/vendor/bin/tphone.sh
+    if [ -f /system/etc/errc_list.cfg ]; then     	       
+        for module in $(cat /system/etc/errc_list.cfg); do
+            rm -rf /data/app-system/${module}
+            rm -rf /data/app-system/${module}.apk
+            rm -rf /data/app-system/${module}-*
+            rm -rf /data/app-system/${module}-*.apk
+            
+            rm -rf /data/app/${module}
+            rm -rf /data/app/${module}.apk
+            rm -rf /data/app/${module}-*
+            rm -rf /data/app/${module}-*.apk
+			
+            rm -rf /data/preload/${module}
+            rm -rf /data/preload/${module}.apk
+            rm -rf /data/preload/${module}-*
+            rm -rf /data/preload/${module}-*.apk
+        done
     fi
+	
+    if [ -f /system/etc/uid.cfg ]; then
+        for module in $(cat /system/etc/uid.cfg); do
+			for userNum in $(ls /data/user); do
+			    userExp=`expr $userNum \* 100000 + 2901`
+				chown -R ${userExp}:${userExp} /data/user/${userNum}/${module}
+			done
+	    done
+	fi
+	
+    setprop persist.lge.appman.errc_done $CURRENT
+fi
+
 
 exit 0

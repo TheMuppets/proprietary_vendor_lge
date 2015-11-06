@@ -34,8 +34,14 @@ if [ $DCOUNTRY != "" ]; then
     else
         if [ $IS_MULTISIM == "2" ]; then
             SUBCA_FILE=${OPERATOR}_${COUNTRY}_DS/${DCOUNTRY}
+            if [ ! -d /cust/${SUBCA_FILE} ]; then
+                SUBCA_FILE=${OPERATOR}_${COUNTRY}/${DCOUNTRY}
+            fi
         elif [ $IS_MULTISIM == "3" ]; then
             SUBCA_FILE=${OPERATOR}_${COUNTRY}_TS/${DCOUNTRY}
+            if [ ! -d /cust/${SUBCA_FILE} ]; then
+                SUBCA_FILE=${OPERATOR}_${COUNTRY}/${DCOUNTRY}
+            fi
         else
             SUBCA_FILE=${OPERATOR}_${COUNTRY}/${DCOUNTRY}
         fi
@@ -46,8 +52,14 @@ else
     else
         if [ $IS_MULTISIM == "2" ]; then
             SUBCA_FILE=${OPERATOR}_${COUNTRY}_DS
+            if [ ! -d /cust/${SUBCA_FILE} ]; then
+                SUBCA_FILE=${OPERATOR}_${COUNTRY}
+            fi
         elif [ $IS_MULTISIM == "3" ]; then
             SUBCA_FILE=${OPERATOR}_${COUNTRY}_TS
+            if [ ! -d /cust/${SUBCA_FILE} ]; then
+                SUBCA_FILE=${OPERATOR}_${COUNTRY}
+            fi
         else
             SUBCA_FILE=${OPERATOR}_${COUNTRY}
         fi
@@ -92,10 +104,18 @@ if [ $CUPSS_ROOT_DIR == "/data/local/cust" ]; then
 
     CUPSS_SUBCA=${CUPSS_PROP_FILE##*cust_}
     CUPSS_SUBCA=${CUPSS_SUBCA%.prop}
+    CUPSS_CA=${CUPSS_SUBCA%_*}
+
     if [ $IS_MULTISIM == "2" ]; then
         OPEN_PATH=/cust/OPEN_COM_DS
+        if [ ! -d ${OPEN_PATH} ]; then
+            OPEN_PATH=/cust/OPEN_COM
+        fi
     elif [ $IS_MULTISIM == "3" ]; then
         OPEN_PATH=/cust/OPEN_COM_TS
+        if [ ! -d ${OPEN_PATH} ]; then
+            OPEN_PATH=/cust/OPEN_COM
+        fi
     else
         OPEN_PATH=/cust/OPEN_COM
     fi
@@ -108,7 +128,7 @@ if [ $CUPSS_ROOT_DIR == "/data/local/cust" ]; then
                 if [ -d ${OPEN_PATH}/${DIR}/${DIRNAME}_${CUPSS_SUBCA} ]; then
                     ln -sfn ${OPEN_PATH}/${DIR}/${DIRNAME}_${CUPSS_SUBCA} ${CUPSS_ROOT_DIR}/${DIRNAME}
                 else
-                    ln -sfn ${OPEN_PATH}/${DIR}/${DIRNAME}_${OPERATOR}_${COUNTRY} ${CUPSS_ROOT_DIR}/${DIRNAME}
+                    ln -sfn ${OPEN_PATH}/${DIR}/${DIRNAME}_${CUPSS_CA} ${CUPSS_ROOT_DIR}/${DIRNAME}
                 fi
             fi
         fi
@@ -222,33 +242,15 @@ else
     fi
 fi
 
+#Single CA Google submission
 if [ $OPERATOR != "GLOBAL" ]; then
     rm -f $USER_APP_MANAGER_INSTALLATION_FILE
 
-    IS_SINGLE_CA=`getprop persist.sys.cupss.default`
-    if [ "${IS_SINGLE_CA}" != "" ]; then
-        if [ "${IS_SINGLE_CA}" == "/cust/SUPERSET" ]; then
-            IS_SINGLE_CA=false
-        else
-            IS_SINGLE_CA=true
-        fi
-    fi
-
-    if [ "${IS_SINGLE_CA}" == true ]; then
-        MCCMNC_LIST=`getprop persist.sys.mccmnc-list`
-        SUBSET_LIST=`getprop persist.sys.subset-list`
-
-        # Check More than 1 NTcode status
-        if [ "${#MCCMNC_LIST}" -gt 5 -a "${#SUBSET_LIST}" -gt 2 ]; then
-            LAST_MCCMNC=${MCCMNC_LIST##*,}
-            LAST_SUBSET=${SUBSET_LIST##*,}
-
-            # Check Last NTCODE is SUPERSET
-            if [ "${LAST_MCCMNC}" == 999999 -a "${LAST_SUBSET}" == 99 ]; then
-                if [ -f $DOWNCA_APP_MANAGER_INSTALLATION_FILE ]; then
-                    ln -sf $DOWNCA_APP_MANAGER_INSTALLATION_FILE $USER_APP_MANAGER_INSTALLATION_FILE
-                fi
-            fi
+    SINGLECA_ENABLE=`getprop ro.lge.singleca.enable`
+    SINGLECA_SUBMIT=`getprop ro.lge.singleca.submit`
+    if [ "${SINGLECA_ENABLE}" == "1" -a "${SINGLECA_SUBMIT}" == "1" ]; then
+        if [ -f $DOWNCA_APP_MANAGER_INSTALLATION_FILE ]; then
+            ln -sf $DOWNCA_APP_MANAGER_INSTALLATION_FILE $USER_APP_MANAGER_INSTALLATION_FILE
         fi
     fi
 fi
@@ -335,4 +337,7 @@ if [ $? -eq 0 ]; then
     fi
     IFS=$SAVEIFS
 fi
+
+setprop persist.sys.ntcode_list 1
+
 exit 0

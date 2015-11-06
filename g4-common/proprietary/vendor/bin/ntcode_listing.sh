@@ -25,14 +25,11 @@
                 NTCODE_LIST=`getprop persist.sys.ntcode "0","XXX,FFF,FFFFFFFF,FFFFFFFF,FF"`
                 NTCODE=${NTCODE_LIST#*,}
                 NTCODE=${NTCODE:1:3}
-                
-                mkdir /data/app-system
-                chown system:system /data/app-system
-                chmod 771 /data/app-system
     
                 mkdir /data/local/etc
                 chown system:system /data/local/etc
                 chmod 771 /data/local/etc
+                restorecon -R /data/local/etc
     
             CONF=$CUST/config/
             OPNAME=${CUST:6}
@@ -46,7 +43,8 @@
             else
                  OPPATH=${OPERATOR}_${COUNTRY}
             fi        
-                
+
+            CUST_PROPPATH=${CONF}/apps_prop
             if [ "$PRODUCT" == "g3_global_com" -a "$CUST" == "/cust/VDF_COM/CH" ]; then
                 PROPPATH=/data/.OP/${OPNAME}/prop
             else
@@ -65,20 +63,36 @@
     	           
 	           if [ "$TAG2" != "$CURRENT" ]; then 
             
-    	               if [ -d ${PROPPATH}/${NTCODE} ]; then
-    	                   for file1 in $(ls -a ${PROPPATH}/${NTCODE}); do
+    	               if [ -d ${CUST_PROPPATH}/${NTCODE} ]; then
+    	                   for file1 in $(ls -a ${CUST_PROPPATH}/${NTCODE}); do
     	              	    if [ "$file1" != "." -a "$file1" != ".." ]; then
-                                   `cat ${PROPPATH}/${NTCODE}/${file1} > /data/local/etc/${file1}`
+                                   `cat ${CUST_PROPPATH}/${NTCODE}/${file1} > /data/local/etc/${file1}`
                                    chown system:system /data/local/etc/${file1}
                                    chmod 644 /data/local/etc/${file1}
                                fi
                     	done
-    	          	    elif [ -d ${PROPPATH}/FFF ]; then
-    	                   for file2 in $(ls -a ${PROPPATH}/FFF); do
+    	          	    elif [ -d ${CUST_PROPPATH}/FFF ]; then
+    	                   for file2 in $(ls -a ${CUST_PROPPATH}/FFF); do
     	              	    if [ "$file2" != "." -a "$file2" != ".." ]; then
-                                   `cat ${PROPPATH}/${NTCODE}/${file2} > /data/local/etc/${file2}`
-                                   chown system:system /data/local/etc/${file1}
-                                   chmod 644 /data/local/etc/${file1}
+                                   `cat ${CUST_PROPPATH}/${NTCODE}/${file2} > /data/local/etc/${file2}`
+                                   chown system:system /data/local/etc/${file2}
+                                   chmod 644 /data/local/etc/${file2}
+                               fi
+                           done
+    	                elif [ -d ${PROPPATH}/${NTCODE} ]; then
+    	                   for file3 in $(ls -a ${PROPPATH}/${NTCODE}); do
+    	              	    if [ "$file3" != "." -a "$file3" != ".." ]; then
+                                   `cat ${PROPPATH}/${NTCODE}/${file3} > /data/local/etc/${file3}`
+                                   chown system:system /data/local/etc/${file3}
+                                   chmod 644 /data/local/etc/${file3}
+                               fi
+                    	   done
+    	          	    elif [ -d ${PROPPATH}/FFF ]; then
+    	                   for file4 in $(ls -a ${PROPPATH}/FFF); do
+    	              	    if [ "$file4" != "." -a "$file4" != ".." ]; then
+                                   `cat ${PROPPATH}/${NTCODE}/${file4} > /data/local/etc/${file4}`
+                                   chown system:system /data/local/etc/${file4}
+                                   chmod 644 /data/local/etc/${file4}
                                fi
                            done
                        fi

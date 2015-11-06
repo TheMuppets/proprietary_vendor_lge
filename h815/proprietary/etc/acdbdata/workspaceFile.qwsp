@@ -127,19 +127,17 @@
           <Block name="AUDIO_DOWNMIX" ID="0x00010721" type="BOTH" />
           <Block name="AUDIO_HIGH_THD_RESAMPLER" dataView_ID="0x00000079" ID="0x00010719" type="BOTH" />
           <Block name="AUDIO_UPMIX" ID="0x000108D6" type="BOTH" NewAdded="true" dataView_ID="0xFFFF000C" />
-          <Block name="LGE_SOUND_EFFECT" ID="0x10009010" type="RX" NewAdded="true" dataView_ID="0xFFFF0009" />
-          <Block name="LGE_SOUND_NORMALIZER" ID="0x1000A010" type="RX" NewAdded="true" dataView_ID="0xFFFF000A" />
-          <Block name="LGE_MABL" ID="0x1000B010" type="RX" NewAdded="true" dataView_ID="0xFFFF000B" />
           <Block name="AUDIO_SOFT_STEP_VOLUME" dataView_ID="0x00000020" ID="0x00010BFE" type="BOTH" />
+          <Block name="LGE_SOUND_EFFECT" ID="0x10009010" type="RX" NewAdded="true" dataView_ID="0xFFFF0009" />
+          <Block name="LGE_MABL" ID="0x1000B010" type="RX" NewAdded="true" dataView_ID="0xFFFF000B" />
         </TOPOLOGY>
         <TOPOLOGY name="AUDIO_STREAM_OFFLOAD_LGE" ID="0x10009010" type="RX" NewAdded="true">
           <Block name="AUDIO_DOWNMIX" ID="0x00010721" type="BOTH" />
           <Block name="AUDIO_HIGH_THD_RESAMPLER" dataView_ID="0x00000079" ID="0x00010719" type="BOTH" />
           <Block name="AUDIO_UPMIX" ID="0x000108D6" type="BOTH" NewAdded="true" dataView_ID="0xFFFF000C" />
-          <Block name="LGE_SOUND_EFFECT" ID="0x10009010" type="RX" NewAdded="true" dataView_ID="0xFFFF0009" />
-          <Block name="LGE_SOUND_NORMALIZER" ID="0x1000A010" type="RX" NewAdded="true" dataView_ID="0xFFFF000A" />
-          <Block name="LGE_MABL" ID="0x1000B010" type="RX" NewAdded="true" dataView_ID="0xFFFF000B" />
           <Block name="AUDIO_SOFT_STEP_VOLUME" dataView_ID="0x00000020" ID="0x00010BFE" type="BOTH" />
+          <Block name="LGE_SOUND_EFFECT" ID="0x10009010" type="RX" NewAdded="true" dataView_ID="0xFFFF0009" />
+          <Block name="LGE_MABL" ID="0x1000B010" type="RX" NewAdded="true" dataView_ID="0xFFFF000B" />
           <Block name="AUDIO_VIRTUALIZER" dataView_ID="0x0000009A" ID="0x000108A5" type="RX" />
           <Block name="AUDIO_REVERB" dataView_ID="0x0000009B" ID="0x000108AA" type="RX" />
           <Block name="AUDIO_BASS_BOOST" dataView_ID="0x0000009C" ID="0x000108A1" type="RX" />
@@ -376,15 +374,6 @@
         <Block name="AUDIO_HIGH_THD_RESAMPLER" dataView_ID="0x00000079" ID="0x00010719" type="BOTH" />
         <Block name="AUDIO_MBDRC_V3" dataView_ID="0x000000B1" ID="0x0001090B" type="BOTH" />
       </TOPOLOGY>
-      <TOPOLOGY name="AUDIO_STREAM_DEFAULT_LGE" ID="0x10009009" type="RX" NewAdded="true">
-        <Block name="AUDIO_DOWNMIX" ID="0x00010721" type="BOTH" />
-        <Block name="AUDIO_HIGH_THD_RESAMPLER" dataView_ID="0x00000079" ID="0x00010719" type="BOTH" />
-        <Block name="AUDIO_UPMIX" ID="0x000108D6" type="BOTH" NewAdded="true" dataView_ID="0xFFFF000C" />
-        <Block name="LGE_SOUND_EFFECT" ID="0x10009010" type="RX" NewAdded="true" dataView_ID="0xFFFF0009" />
-        <Block name="LGE_SOUND_NORMALIZER" ID="0x1000A010" type="RX" NewAdded="true" dataView_ID="0xFFFF000A" />
-        <Block name="LGE_MABL" ID="0x1000B010" type="RX" NewAdded="true" dataView_ID="0xFFFF000B" />
-        <Block name="AUDIO_SOFT_STEP_VOLUME" dataView_ID="0x00000020" ID="0x00010BFE" type="BOTH" />
-      </TOPOLOGY>
       <TOPOLOGY name="VPM_RX_STABILIZER_NGATE_LVVEFQ" ID="0x1000B904" type="RX" NewAdded="true">
         <Block name="RX_VOICE_WV" dataView_ID="0x00000003" ID="0x00010EE2" type="RX" />
         <Block name="VOICE_MODULE_NGATE_RX" ID="0x0100C100" type="RX" NewAdded="true" dataView_ID="0xFFFF0008" />
@@ -403,14 +392,21 @@
         <Block name="RX_VOICE_MBDRC" dataView_ID="0x00000007" ID="0x00010EE6" type="RX" />
         <Block name="RX_VOICE_SPKR_GAIN" dataView_ID="0x00000018" ID="0x00010EF9" type="RX" />
       </TOPOLOGY>
+      <TOPOLOGY name="AUDIO_STREAM_DEFAULT_LGE" ID="0x10009009" type="RX" NewAdded="true">
+        <Block name="AUDIO_DOWNMIX" ID="0x00010721" type="BOTH" />
+        <Block name="AUDIO_HIGH_THD_RESAMPLER" dataView_ID="0x00000079" ID="0x00010719" type="BOTH" />
+        <Block name="AUDIO_UPMIX" ID="0x000108D6" type="BOTH" NewAdded="true" dataView_ID="0xFFFF000C" />
+        <Block name="AUDIO_SOFT_STEP_VOLUME" dataView_ID="0x00000020" ID="0x00010BFE" type="BOTH" />
+        <Block name="LGE_SOUND_EFFECT" ID="0x10009010" type="RX" NewAdded="true" dataView_ID="0xFFFF0009" />
+        <Block name="LGE_MABL" ID="0x1000B010" type="RX" NewAdded="true" dataView_ID="0xFFFF000B" />
+      </TOPOLOGY>
       <TOPOLOGY name="AUDIO_STREAM_OFFLOAD_LGE" ID="0x10009010" type="RX" NewAdded="true">
         <Block name="AUDIO_DOWNMIX" ID="0x00010721" type="BOTH" />
         <Block name="AUDIO_HIGH_THD_RESAMPLER" dataView_ID="0x00000079" ID="0x00010719" type="BOTH" />
         <Block name="AUDIO_UPMIX" ID="0x000108D6" type="BOTH" NewAdded="true" dataView_ID="0xFFFF000C" />
-        <Block name="LGE_SOUND_EFFECT" ID="0x10009010" type="RX" NewAdded="true" dataView_ID="0xFFFF0009" />
-        <Block name="LGE_SOUND_NORMALIZER" ID="0x1000A010" type="RX" NewAdded="true" dataView_ID="0xFFFF000A" />
-        <Block name="LGE_MABL" ID="0x1000B010" type="RX" NewAdded="true" dataView_ID="0xFFFF000B" />
         <Block name="AUDIO_SOFT_STEP_VOLUME" dataView_ID="0x00000020" ID="0x00010BFE" type="BOTH" />
+        <Block name="LGE_SOUND_EFFECT" ID="0x10009010" type="RX" NewAdded="true" dataView_ID="0xFFFF0009" />
+        <Block name="LGE_MABL" ID="0x1000B010" type="RX" NewAdded="true" dataView_ID="0xFFFF000B" />
         <Block name="AUDIO_VIRTUALIZER" dataView_ID="0x0000009A" ID="0x000108A5" type="RX" />
         <Block name="AUDIO_REVERB" dataView_ID="0x0000009B" ID="0x000108AA" type="RX" />
         <Block name="AUDIO_BASS_BOOST" dataView_ID="0x0000009C" ID="0x000108A1" type="RX" />
@@ -424,7 +420,6 @@
       <Block name="VOICE_MODULE_LVVEFQ_RX_INJECTION" ID="0x1000B503" type="RX" NewAdded="true" dataView_ID="0xFFFF0004" />
       <Block name="VOICE_MODULE_NGATE_RX" ID="0x0100C100" type="RX" NewAdded="true" dataView_ID="0xFFFF0008" />
       <Block name="LGE_SOUND_EFFECT" ID="0x10009010" type="RX" NewAdded="true" dataView_ID="0xFFFF0009" />
-      <Block name="LGE_SOUND_NORMALIZER" ID="0x1000A010" type="RX" NewAdded="true" dataView_ID="0xFFFF000A" />
       <Block name="LGE_MABL" ID="0x1000B010" type="RX" NewAdded="true" dataView_ID="0xFFFF000B" />
       <Block name="AUDIO_UPMIX" ID="0x000108D6" type="BOTH" NewAdded="true" dataView_ID="0xFFFF000C" />
       <Block name="VOICE_MODULE_STABILIZER_RX" ID="0x1000B903" type="RX" NewAdded="true" dataView_ID="0xFFFF000D" />
@@ -490,20 +485,6 @@
           <INTERFACE I_id="0x10009014" />
           <INTERFACE I_id="0x10009015" />
           <INTERFACE I_id="0x10009016" />
-        </DATA_VIEW>
-      </AB_VIEW>
-      <AB_VIEW dataView_ID="0xFFFF000A" name="LGE_SOUND_NORMALIZER" NewAdded="true">
-        <DATA_VIEW name="Data" display="true">
-          <INTERFACE I_id="0x1000A011" />
-          <INTERFACE I_id="0x1000A012" />
-          <INTERFACE I_id="0x1000A013" />
-          <INTERFACE I_id="0x1000A014" />
-          <INTERFACE I_id="0x1000A015" />
-          <INTERFACE I_id="0x1000A016" />
-          <INTERFACE I_id="0x1000A017" />
-          <INTERFACE I_id="0x1000A018" />
-          <INTERFACE I_id="0x1000A019" />
-          <INTERFACE I_id="0x1000A01A" />
         </DATA_VIEW>
       </AB_VIEW>
       <AB_VIEW dataView_ID="0xFFFF000B" name="LGE_MABL" NewAdded="true">
@@ -851,36 +832,6 @@
         <CONFIG_ELEMENT name="Geq_Param" type="int32" min="0x80000000" max="0x7FFFFFFF" />
       </INTERFACE>
       <INTERFACE name="LGE_Soundeffect_All_Param" I_id="0x10009016" hexStr="00000000" NewAdded="true" maxSize="4">
-        <CONFIG_ELEMENT name="AllParam" type="int32" min="0x80000000" max="0x7FFFFFFF" />
-      </INTERFACE>
-      <INTERFACE name="LGE_Normalizer_DeviceSpeaker" I_id="0x1000A011" hexStr="00000000" NewAdded="true" maxSize="4">
-        <CONFIG_ELEMENT name="DeviceSpeaker" type="int32" min="0x80000000" max="0x7FFFFFFF" />
-      </INTERFACE>
-      <INTERFACE name="LGE_Normalizer_Enables" I_id="0x1000A012" hexStr="00000000" NewAdded="true" maxSize="4">
-        <CONFIG_ELEMENT name="Enables" type="int32" min="0x80000000" max="0x7FFFFFFF" />
-      </INTERFACE>
-      <INTERFACE name="LGE_Normalizer_MAKEUP_GAIN" I_id="0x1000A013" hexStr="00000000" NewAdded="true" maxSize="4">
-        <CONFIG_ELEMENT name="MakeupGain" type="int32" min="0x80000000" max="0x7FFFFFFF" />
-      </INTERFACE>
-      <INTERFACE name="LGE_Normalizer_PreFilter" I_id="0x1000A014" hexStr="00000000" NewAdded="true" maxSize="4">
-        <CONFIG_ELEMENT name="PreFilter" type="int32" min="0x80000000" max="0x7FFFFFFF" />
-      </INTERFACE>
-      <INTERFACE name="LGE_Normalizer_Limiter_Threshold" I_id="0x1000A015" hexStr="00000000" NewAdded="true" maxSize="4">
-        <CONFIG_ELEMENT name="Limiter_Threshold" type="int32" min="0x80000000" max="0x7FFFFFFF" />
-      </INTERFACE>
-      <INTERFACE name="LGE_Normalizer_Limiter_Slope" I_id="0x1000A016" hexStr="00000000" NewAdded="true" maxSize="4">
-        <CONFIG_ELEMENT name="Limiter_slope" type="int32" min="0x80000000" max="0x7FFFFFFF" />
-      </INTERFACE>
-      <INTERFACE name="LGE_Normalizer_Compressor_Threshold" I_id="0x1000A017" hexStr="00000000" NewAdded="true" maxSize="4">
-        <CONFIG_ELEMENT name="Compressor_Threshold" type="int32" min="0x80000000" max="0x7FFFFFFF" />
-      </INTERFACE>
-      <INTERFACE name="LGE_Normalizer_Compressor_Slope" I_id="0x1000A018" hexStr="00000000" NewAdded="true" maxSize="4">
-        <CONFIG_ELEMENT name="Compressor_Slope" type="int32" min="0x80000000" max="0x7FFFFFFF" />
-      </INTERFACE>
-      <INTERFACE name="LGE_Normalizer_On_Off" I_id="0x1000A019" hexStr="00000000" NewAdded="true" maxSize="4">
-        <CONFIG_ELEMENT name="OnOff" type="int32" min="0x80000000" max="0x7FFFFFFF" />
-      </INTERFACE>
-      <INTERFACE name="LGE_Normalizer_All_Param" I_id="0x1000A01A" hexStr="00000000" NewAdded="true" maxSize="4">
         <CONFIG_ELEMENT name="AllParam" type="int32" min="0x80000000" max="0x7FFFFFFF" />
       </INTERFACE>
       <INTERFACE name="LGE_MABL_DeviceSpeaker" I_id="0x1000B011" hexStr="00000000" NewAdded="true" maxSize="4">

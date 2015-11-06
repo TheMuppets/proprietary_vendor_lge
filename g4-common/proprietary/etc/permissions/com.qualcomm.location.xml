@@ -16,7 +16,7 @@
     <group gid="net_raw" />
     <group gid="net_admin" />
     <group gid="system" />
-    <group gid="qcom_diag" />
+    <group gid="diag" />
     <group gid="sdcard_rw" />
     <group gid="media_rw" />
     <group gid="wifi" />
