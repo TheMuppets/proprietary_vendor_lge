@@ -786,5 +786,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/lge/g4-common/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/lge/g4-common/proprietary/vendor/lib/hw/gatekeeper.msm8992.so:system/vendor/lib/hw/gatekeeper.msm8992.so \
-    vendor/lge/g4-common/proprietary/vendor/lib64/hw/gatekeeper.msm8992.so:system/vendor/lib64/hw/gatekeeper.msm8992.so
+    vendor/lge/g4-common/proprietary/vendor/lib64/hw/gatekeeper.msm8992.so:system/vendor/lib64/hw/gatekeeper.msm8992.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
+    vendor/lge/g4-common/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so
 
