@@ -77,13 +77,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
     vendor/lge/g4-common/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
     vendor/lge/g4-common/proprietary/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin \
-    vendor/lge/g4-common/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
-    vendor/lge/g4-common/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
-    vendor/lge/g4-common/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
-    vendor/lge/g4-common/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
-    vendor/lge/g4-common/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
-    vendor/lge/g4-common/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/lge/g4-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/lge/g4-common/proprietary/lib64/libcnefeatureconfig.so:system/lib64/libcnefeatureconfig.so \
     vendor/lge/g4-common/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/lge/g4-common/proprietary/lib/libalmcascore.so:system/lib/libalmcascore.so \
