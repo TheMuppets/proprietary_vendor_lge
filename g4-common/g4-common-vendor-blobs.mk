@@ -774,4 +774,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/lge/g4-common/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/lge/g4-common/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
-    vendor/lge/g4-common/proprietary/vendor/qcril.db:system/vendor/qcril.db
+    vendor/lge/g4-common/proprietary/vendor/qcril.db:system/vendor/qcril.db \
+    vendor/lge/g4-common/proprietary/lib/libalmalib.so:system/lib/libalmalib.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
+    vendor/lge/g4-common/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:system/vendor/lib/libmmcamera_stillmore_lib.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:system/vendor/lib/libmmcamera_trueportrait_lib.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:system/vendor/lib/libmmcamera_ubifocus_lib.so
