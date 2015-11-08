@@ -684,6 +684,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/app/TimeService/TimeService.apk:system/app/TimeService/TimeService.apk \
     vendor/lge/g4-common/proprietary/app/shutdownlistener/shutdownlistener.apk:system/app/shutdownlistener/shutdownlistener.apk \
     vendor/lge/g4-common/proprietary/etc/firmware/BCM4339_003.001.009.0117.0620_LGE_P1_EU.hcd:system/etc/firmware/BCM4339_003.001.009.0117.0620_LGE_P1_EU.hcd \
+    vendor/lge/g4-common/proprietary/etc/firmware/BCM4339_003.001.009.0117.0620_LGE_P1_EU.hcd:system/etc/firmware/BCM4335_003.001.009.0117.0620_LGE_P1_EU.hcd \
     vendor/lge/g4-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/lge/g4-common/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/lge/g4-common/proprietary/bin/btnvtool:system/bin/btnvtool \
