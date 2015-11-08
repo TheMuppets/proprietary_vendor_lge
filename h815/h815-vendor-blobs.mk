@@ -18,23 +18,31 @@ LOCAL_PATH := vendor/lge/h815
 
 # acdbloader
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
-	$(LOCAL_PATH)/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
-	$(LOCAL_PATH)/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
-	$(LOCAL_PATH)/proprietary/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
-	$(LOCAL_PATH)/proprietary/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
-	$(LOCAL_PATH)/proprietary/etc/acdbdata/Handset_cal.acdb:system/etc/acdbdata/Handset_cal.acdb \
-	$(LOCAL_PATH)/proprietary/etc/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/Hdmi_cal.acdb \
-	$(LOCAL_PATH)/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
-	$(LOCAL_PATH)/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
-	$(LOCAL_PATH)/proprietary/etc/acdbdata/workspaceFile.qwsp:system/etc/acdbdata/workspaceFile.qwsp
+    $(LOCAL_PATH)/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
+    $(LOCAL_PATH)/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
+    $(LOCAL_PATH)/proprietary/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
+    $(LOCAL_PATH)/proprietary/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
+    $(LOCAL_PATH)/proprietary/etc/acdbdata/Handset_cal.acdb:system/etc/acdbdata/Handset_cal.acdb \
+    $(LOCAL_PATH)/proprietary/etc/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/Hdmi_cal.acdb \
+    $(LOCAL_PATH)/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
+    $(LOCAL_PATH)/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
+    $(LOCAL_PATH)/proprietary/etc/acdbdata/workspaceFile.qwsp:system/etc/acdbdata/workspaceFile.qwsp
 
 # Venus firmware
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
-	$(LOCAL_PATH)/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
-	$(LOCAL_PATH)/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
-	$(LOCAL_PATH)/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
-	$(LOCAL_PATH)/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
-	$(LOCAL_PATH)/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-	$(LOCAL_PATH)/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt
+    $(LOCAL_PATH)/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
+    $(LOCAL_PATH)/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
+    $(LOCAL_PATH)/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
+    $(LOCAL_PATH)/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
+    $(LOCAL_PATH)/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
+    $(LOCAL_PATH)/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
+    $(LOCAL_PATH)/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt
+
+# Keymaster firmware
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/etc/firmware/keymaste.b00:system/etc/firmware/keymaste.b00 \
+    $(LOCAL_PATH)/proprietary/etc/firmware/keymaste.b01:system/etc/firmware/keymaste.b01 \
+    $(LOCAL_PATH)/proprietary/etc/firmware/keymaste.b02:system/etc/firmware/keymaste.b02 \
+    $(LOCAL_PATH)/proprietary/etc/firmware/keymaste.b03:system/etc/firmware/keymaste.b03 \
+    $(LOCAL_PATH)/proprietary/etc/firmware/keymaste.mdt:system/etc/firmware/keymaste.mdt
