@@ -57,7 +57,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/us990/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/us990/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/lge/us990/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/lge/us990/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/lge/us990/proprietary/lib/libconfigdb.so:system/lib/libconfigdb.so \
     vendor/lge/us990/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/lge/us990/proprietary/lib/libril.so:system/lib/libril.so \
