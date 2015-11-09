@@ -684,6 +684,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/app/TimeService/TimeService.apk:system/app/TimeService/TimeService.apk \
     vendor/lge/g4-common/proprietary/app/shutdownlistener/shutdownlistener.apk:system/app/shutdownlistener/shutdownlistener.apk \
     vendor/lge/g4-common/proprietary/etc/firmware/BCM4339_003.001.009.0117.0620_LGE_P1_EU.hcd:system/etc/firmware/BCM4339_003.001.009.0117.0620_LGE_P1_EU.hcd \
+    vendor/lge/g4-common/proprietary/etc/firmware/BCM4339_003.001.009.0117.0620_LGE_P1_EU.hcd:system/etc/firmware/BCM4335_003.001.009.0117.0620_LGE_P1_EU.hcd \
     vendor/lge/g4-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/lge/g4-common/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/lge/g4-common/proprietary/bin/btnvtool:system/bin/btnvtool \
@@ -774,4 +775,29 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/lge/g4-common/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/lge/g4-common/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
-    vendor/lge/g4-common/proprietary/vendor/qcril.db:system/vendor/qcril.db
+    vendor/lge/g4-common/proprietary/vendor/qcril.db:system/vendor/qcril.db \
+    vendor/lge/g4-common/proprietary/lib/libalmalib.so:system/lib/libalmalib.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
+    vendor/lge/g4-common/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:system/vendor/lib/libmmcamera_stillmore_lib.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:system/vendor/lib/libmmcamera_trueportrait_lib.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:system/vendor/lib/libmmcamera_ubifocus_lib.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
+    vendor/lge/g4-common/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
+    vendor/lge/g4-common/proprietary/etc/flp.conf:system/etc/flp.conf \
+    vendor/lge/g4-common/proprietary/vendor/lib/hw/gatekeeper.msm8992.so:system/vendor/lib/hw/gatekeeper.msm8992.so \
+    vendor/lge/g4-common/proprietary/vendor/lib64/hw/gatekeeper.msm8992.so:system/vendor/lib64/hw/gatekeeper.msm8992.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
+    vendor/lge/g4-common/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
+    vendor/lge/g4-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
+    vendor/lge/g4-common/proprietary/vendor/bin/qti:system/vendor/bin/qti \
+    vendor/lge/g4-common/proprietary/vendor/bin/RIDLClient.exe:system/vendor/bin/RIDLClient.exe \
+    vendor/lge/g4-common/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
+    vendor/lge/g4-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/lge/g4-common/proprietary/vendor/bin/fidodaemon:system/vendor/bin/fidodaemon \
+    vendor/lge/g4-common/proprietary/vendor/lib/libavenhancements.so:system/vendor/lib/libavenhancements.so \
+    vendor/lge/g4-common/proprietary/vendor/lib64/libavenhancements.so:system/vendor/lib64/libavenhancements.so \
+    vendor/lge/g4-common/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lge/g4-common/proprietary/vendor/lib64/libqcmaputils.so \
+    vendor/lge/g4-common/proprietary/bin/brcm-uim-sysfs:system/bin/brcm-uim-sysfs
+    

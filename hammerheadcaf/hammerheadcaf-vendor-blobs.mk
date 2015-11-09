@@ -149,7 +149,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
-    vendor/lge/hammerheadcaf/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
@@ -205,6 +204,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+    vendor/lge/hammerheadcaf/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
@@ -224,7 +224,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
-    vendor/lge/hammerheadcaf/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
