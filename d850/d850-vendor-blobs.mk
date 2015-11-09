@@ -56,7 +56,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d850/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/d850/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/lge/d850/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/lge/d850/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/lge/d850/proprietary/lib/libconfigdb.so:system/lib/libconfigdb.so \
     vendor/lge/d850/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/lge/d850/proprietary/lib/libril.so:system/lib/libril.so \
