@@ -38,7 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib/hw/camera.msm8992.so:system/lib/hw/camera.msm8992.so \
     vendor/lge/g4-common/proprietary/lib/hw/wbc_hal.default.so:system/lib/hw/wbc_hal.default.so \
     vendor/lge/g4-common/proprietary/lib/hw/consumerir.msm8992.so:system/lib/hw/consumerir.msm8992.so \
-    vendor/lge/g4-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/lge/g4-common/proprietary/lib/libVDBase.so:system/lib/libVDBase.so \
     vendor/lge/g4-common/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/g4-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
@@ -55,11 +54,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib/libvss_dmi_qcci.so:system/lib/libvss_dmi_qcci.so \
     vendor/lge/g4-common/proprietary/lib/libvss_resim_idl.so:system/lib/libvss_resim_idl.so \
     vendor/lge/g4-common/proprietary/lib/libvss_nv_iface.so:system/lib/libvss_nv_iface.so \
-    vendor/lge/g4-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/lge/g4-common/proprietary/lib/libalmcascore.so:system/lib/libalmcascore.so \
     vendor/lge/g4-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/lge/g4-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/lge/g4-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libmmwfdinterface.so:system/vendor/lib/libmmwfdinterface.so \
@@ -744,8 +740,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/lge/g4-common/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/lge/g4-common/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
-    vendor/lge/g4-common/proprietary/etc/lgodm/gps_sap_pdr.cfg:system/etc/lgodm/gps_sap_pdr.cfg \
-    vendor/lge/g4-common/proprietary/etc/lgodm/gps.cfg:system/etc/lgodm/gps.cfg \
     vendor/lge/g4-common/proprietary/lib64/libvss_common_idl.so:system/lib64/libvss_common_idl.so \
     vendor/lge/g4-common/proprietary/lib64/libvss_ims_qcci.so:system/lib64/libvss_ims_qcci.so \
     vendor/lge/g4-common/proprietary/lib64/libuicc.so:system/lib64/libuicc.so \
@@ -760,7 +754,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
     vendor/lge/g4-common/proprietary/lib64/hw/wbc_hal.default.so:system/lib64/hw/wbc_hal.default.so \
     vendor/lge/g4-common/proprietary/lib64/hw/consumerir.msm8992.so:system/lib64/hw/consumerir.msm8992.so \
-    vendor/lge/g4-common/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/lge/g4-common/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/lge/g4-common/proprietary/lib64/libqdMetaData.so:system/lib64/libqdMetaData.so \
     vendor/lge/g4-common/proprietary/lib64/libvss_nv_core.so:system/lib64/libvss_nv_core.so \
@@ -770,11 +763,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib64/libvss_dmi_qcci.so:system/lib64/libvss_dmi_qcci.so \
     vendor/lge/g4-common/proprietary/lib64/libvss_resim_idl.so:system/lib64/libvss_resim_idl.so \
     vendor/lge/g4-common/proprietary/lib64/libvss_nv_iface.so:system/lib64/libvss_nv_iface.so \
-    vendor/lge/g4-common/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/lge/g4-common/proprietary/lib64/libvss_bsp_qcci.so:system/lib64/libvss_bsp_qcci.so \
     vendor/lge/g4-common/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
-    vendor/lge/g4-common/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
-    vendor/lge/g4-common/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/lge/g4-common/proprietary/vendor/qcril.db:system/vendor/qcril.db \
     vendor/lge/g4-common/proprietary/lib/libalmalib.so:system/lib/libalmalib.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
