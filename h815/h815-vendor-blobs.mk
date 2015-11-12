@@ -38,11 +38,3 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     $(LOCAL_PATH)/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     $(LOCAL_PATH)/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt
-
-# Keymaster firmware
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/etc/firmware/keymaste.b00:system/etc/firmware/keymaste.b00 \
-    $(LOCAL_PATH)/proprietary/etc/firmware/keymaste.b01:system/etc/firmware/keymaste.b01 \
-    $(LOCAL_PATH)/proprietary/etc/firmware/keymaste.b02:system/etc/firmware/keymaste.b02 \
-    $(LOCAL_PATH)/proprietary/etc/firmware/keymaste.b03:system/etc/firmware/keymaste.b03 \
-    $(LOCAL_PATH)/proprietary/etc/firmware/keymaste.mdt:system/etc/firmware/keymaste.mdt
