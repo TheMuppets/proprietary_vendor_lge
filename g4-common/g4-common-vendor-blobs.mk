@@ -775,7 +775,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:system/vendor/lib/libmmcamera_ubifocus_lib.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
-    vendor/lge/g4-common/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/lge/g4-common/proprietary/vendor/lib/hw/gatekeeper.msm8992.so:system/vendor/lib/hw/gatekeeper.msm8992.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/hw/gatekeeper.msm8992.so:system/vendor/lib64/hw/gatekeeper.msm8992.so \
     vendor/lge/g4-common/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
@@ -788,6 +787,5 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/bin/fidodaemon:system/vendor/bin/fidodaemon \
     vendor/lge/g4-common/proprietary/vendor/lib/libavenhancements.so:system/vendor/lib/libavenhancements.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libavenhancements.so:system/vendor/lib64/libavenhancements.so \
-    vendor/lge/g4-common/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lge/g4-common/proprietary/vendor/lib64/libqcmaputils.so \
-    vendor/lge/g4-common/proprietary/bin/brcm-uim-sysfs:system/bin/brcm-uim-sysfs
+    vendor/lge/g4-common/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lge/g4-common/proprietary/vendor/lib64/libqcmaputils.so
     
