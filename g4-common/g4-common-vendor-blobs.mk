@@ -787,5 +787,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/bin/fidodaemon:system/vendor/bin/fidodaemon \
     vendor/lge/g4-common/proprietary/vendor/lib/libavenhancements.so:system/vendor/lib/libavenhancements.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libavenhancements.so:system/vendor/lib64/libavenhancements.so \
-    vendor/lge/g4-common/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lge/g4-common/proprietary/vendor/lib64/libqcmaputils.so
-    
+    vendor/lge/g4-common/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/hw/keystore.msm8992.so:system/vendor/lib/hw/keystore.msm8992.so \
+    vendor/lge/g4-common/proprietary/vendor/lib64/hw/keystore.msm8992.so:system/vendor/lib64/hw/keystore.msm8992.so
