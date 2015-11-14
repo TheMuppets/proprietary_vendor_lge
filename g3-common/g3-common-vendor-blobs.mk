@@ -200,3 +200,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/vendor/firmware/wcnss.b08:system/vendor/firmware/wcnss.b08 \
     vendor/lge/g3-common/proprietary/vendor/firmware/wcnss.b09:system/vendor/firmware/wcnss.b09 \
     vendor/lge/g3-common/proprietary/vendor/firmware/wcnss.mdt:system/vendor/firmware/wcnss.mdt
+
+# IR
+PRODUCT_COPY_FILES += \
+    vendor/lge/g3-common/proprietary/lib/libcir_driver.so:system/lib/libcir_driver.so \
+    vendor/lge/g3-common/proprietary/lib/hw/consumerir.msm8974.so:system/lib/hw/consumerir.msm8974.so
