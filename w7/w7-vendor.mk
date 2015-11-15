@@ -25,9 +25,7 @@ PRODUCT_PACKAGES += \
     shutdownlistener
 
 PRODUCT_PACKAGES += \
-    libtime_genoff \
-    libTimeService \
-    TimeService
+    libtime_genoff
 
 PRODUCT_PACKAGES += \
     libscale \
