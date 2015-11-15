@@ -383,7 +383,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib/libmmcamera_isp_demux40.so:system/vendor/lib/libmmcamera_isp_demux40.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libchromatix_imx234_hfr_120.so:system/vendor/lib/libchromatix_imx234_hfr_120.so \
-    vendor/lge/g4-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libchromatix_t4ka3_default_video.so:system/vendor/lib/libchromatix_t4ka3_default_video.so \
@@ -639,7 +638,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
-    vendor/lge/g4-common/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libFileMux.so:system/vendor/lib64/libFileMux.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
@@ -674,7 +672,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib64/libmmipstreamnetwork.so:system/vendor/lib64/libmmipstreamnetwork.so \
     vendor/lge/g4-common/proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk:system/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk \
     vendor/lge/g4-common/proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk:system/priv-app/com.qualcomm.location/com.qualcomm.location.apk \
-    vendor/lge/g4-common/proprietary/app/TimeService/TimeService.apk:system/app/TimeService/TimeService.apk \
     vendor/lge/g4-common/proprietary/app/shutdownlistener/shutdownlistener.apk:system/app/shutdownlistener/shutdownlistener.apk \
     vendor/lge/g4-common/proprietary/etc/firmware/BCM4339_003.001.009.0117.0620_LGE_P1_EU.hcd:system/etc/firmware/BCM4339_003.001.009.0117.0620_LGE_P1_EU.hcd \
     vendor/lge/g4-common/proprietary/etc/firmware/BCM4339_003.001.009.0117.0620_LGE_P1_EU.hcd:system/etc/firmware/BCM4335_003.001.009.0117.0620_LGE_P1_EU.hcd \
@@ -707,7 +704,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/bin/rild:system/bin/rild \
     vendor/lge/g4-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/g4-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/lge/g4-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/g4-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/lge/g4-common/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/lge/g4-common/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \

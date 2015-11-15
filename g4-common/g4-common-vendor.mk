@@ -33,8 +33,6 @@ PRODUCT_PACKAGES += \
     libmm-abl
 
 PRODUCT_PACKAGES += \
-    libtime_genoff \
-    libTimeService \
-    TimeService
+    libtime_genoff
 
 $(call inherit-product, vendor/lge/g4-common/g4-common-vendor-blobs.mk)
