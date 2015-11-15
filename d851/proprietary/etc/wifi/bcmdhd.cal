@@ -1,4 +1,4 @@
-#LGE B1-KR for 4339 iPA/eLNA 
+#LGE B1-KR for 4339 iPA/eLNA
 #2G CCK Filter / 5G EVM SW Ctrl / Targer power / 131128
 #Boardflags3 / 5G cal / RSSI cal
 
@@ -10,16 +10,16 @@ boardtype=0x06b6
 #boardflags2=0x00000000
 #boardflags3=0x08002180
 
-##Modified by BRCM 
+##Modified by BRCM
 boardflags=0x10081401
 boardflags2=0x00000000
 boardflags3=0x08001188
-#Option : define BFL3_PTW70_WAR 0x010000 /acphy, support PTW70 equipment 
+#Option : define BFL3_PTW70_WAR 0x010000 /acphy, support PTW70 equipment
 #Option : define BFL3_ACPHY_LPMODE_2 0x0100000 / for lpmode_2g choice /
 #boardflags3=0x08111188
 
 
-#boardnum=57410 
+#boardnum=57410
 macaddr=00:90:4c:c5:12:38
 ccode=ALL
 regrev=0
@@ -43,7 +43,7 @@ pdetrange2g=2
 extpagain5g=2
 pdetrange5g=2
 
-##Modified by BRCM : 20130824 
+##Modified by BRCM : 20130824
 rxgains2gelnagaina0=4
 #rxgains2gelnagaina0=3
 
@@ -97,20 +97,20 @@ pdoffsetcckma0=0
 # 11g: 14dBm(54M,48M)/15dBm(36M,24M,18M,12M)/16dBm(6M,9M)
 # 11n: 13dBm(MCS7)/14dBmMCS(5~3)/16dBm(MCS2~0)
 
-maxp2ga0=90
+maxp2ga0=88
 
 cckbw202gpo=0x0000
 cckbw20ul2gpo=0x0000
 cckbw20ul2gpo=0x0
 
-ofdmlrbw202gpo=0x8863
+ofdmlrbw202gpo=0x8862
 dot11agofdmhrbw202gpo=0x8866
 
 mcsbw202gpo=0xaa888884
 mcsbw402gpo=0xaa888882
 
 
-# Default Target Power for 5G 
+# Default Target Power for 5G
 # 11a : 14dBm (54~24M)/16dBm(18~6M)
 # 11n : 13dBm (MCS7) 14dBm(6~3)/16dBm(MCS2~0)
 # 11nHT40 : 13dBm
@@ -118,7 +118,7 @@ mcsbw402gpo=0xaa888882
 # 11ac HT40 : 12dBm(MCS9~8) 13dBm(MCS7~0)
 # 11ac HT80 : 12dBm(MCS9~8) 13dBm(MCS7~0)
 
-maxp5ga0=82,80,80,84
+maxp5ga0=78,80,76,80
 
 tssifloor2g=500
 
@@ -142,7 +142,7 @@ mcslr5glpo=0x0000
 mcslr5gmpo=0x0000
 mcslr5ghpo=0x0000
 
-sb20in40hrrpo=0x0
+sb20in40hrpo=0x0
 sb20in80and160hr5glpo=0x0
 sb40and80hr5glpo=0x0
 sb20in80and160hr5gmpo=0x0
@@ -180,6 +180,3 @@ rssicorrnorm_c0=2,2
 ##5G RSSI compenation Low(36-48):20/40/80, Mid(54-64):20/40/80, High(100-140):20/40/80, X1(149-165):20/40/80
 rssicorrnorm5g_c0=-1,0,0,-2,0,0,0,1,1,1,2,2
 #rssicorrnorm5g_c0=3,3,3,2,2,2,2,2,2,2,2,2
-
-
-
