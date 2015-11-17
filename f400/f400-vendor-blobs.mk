@@ -18,7 +18,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/f400/proprietary/etc/firmware/BCM4335_003.001.009.0025.0000_LGIT_TWCS-B221D_TESTONLY.hcd:system/etc/firmware/BCM4335_003.001.009.0025.0000_LGIT_TWCS-B221D_TESTONLY.hcd \
     vendor/lge/f400/proprietary/etc/firmware/BCM4339_003.001.009.0098.0413_B2_Sprint_ORC.hcd:system/etc/firmware/BCM4339_003.001.009.0098.0413_B2_Sprint_ORC.hcd \
     vendor/lge/f400/proprietary/etc/firmware/BCM4339_003.001.009.0098.0415_B2_KR_ORC.hcd:system/etc/firmware/BCM4339_003.001.009.0098.0415_B2_KR_ORC.hcd \
-    vendor/lge/f400/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/lge/f400/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/lge/f400/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
     vendor/lge/f400/proprietary/bin/quipc_main:system/bin/quipc_main \
@@ -34,12 +33,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/f400/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/lge/f400/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
     vendor/lge/f400/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
+    vendor/lge/f400/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/lge/f400/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/lge/f400/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/lge/f400/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
     vendor/lge/f400/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/lge/f400/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
-    vendor/lge/f400/proprietary/vendor/lib/libdsnetutils.so:system/vendor/lib/libdsnetutils.so \
     vendor/lge/f400/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/lge/f400/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/lge/f400/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
@@ -57,7 +56,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/f400/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/f400/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/lge/f400/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/lge/f400/proprietary/lib/libconfigdb.so:system/lib/libconfigdb.so \
     vendor/lge/f400/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/lge/f400/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/f400/proprietary/lib/libuicc.so:system/lib/libuicc.so \
@@ -65,8 +63,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/f400/proprietary/lib/libvss_common_iface.so:system/lib/libvss_common_iface.so \
     vendor/lge/f400/proprietary/lib/libvss_nv_idl.so:system/lib/libvss_nv_idl.so \
     vendor/lge/f400/proprietary/lib/libvss_nv_iface.so:system/lib/libvss_nv_iface.so \
-    vendor/lge/f400/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/lge/f400/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+    vendor/lge/f400/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/lge/f400/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/lge/f400/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/lge/f400/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
@@ -87,6 +85,4 @@ PRODUCT_COPY_FILES += \
     vendor/lge/f400/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
     vendor/lge/f400/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
     vendor/lge/f400/proprietary/etc/firmware/fw_bcmdhd_mfg.bin:system/etc/firmware/fw_bcmdhd_mfg.bin \
-    vendor/lge/f400/proprietary/etc/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal \
-    vendor/lge/f400/proprietary/etc/wifi/bcmdhd_lgit.cal:system/etc/wifi/bcmdhd_lgit.cal \
-    vendor/lge/f400/proprietary/etc/wifi/bcmdhd_murata.cal:system/etc/wifi/bcmdhd_murata.cal
+    vendor/lge/f400/proprietary/etc/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal
