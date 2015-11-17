@@ -57,7 +57,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/f400/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/f400/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/lge/f400/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/lge/f400/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/lge/f400/proprietary/lib/libconfigdb.so:system/lib/libconfigdb.so \
     vendor/lge/f400/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/lge/f400/proprietary/lib/libril.so:system/lib/libril.so \
