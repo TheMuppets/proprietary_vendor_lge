@@ -28,15 +28,6 @@ LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := com.android.nfc_extras
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := com.android.nfc_extras.jar
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := com.google.widevine.software.drm
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := com.google.widevine.software.drm.jar
