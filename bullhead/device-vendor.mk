@@ -18,9 +18,13 @@ $(call inherit-product, vendor/lge/bullhead/bullhead-vendor-blobs.mk)
 
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
+    atfwd \
     datastatusnotification \
+    HiddenMenu \
     ims \
     qcrilmsgtunnel \
+    RCSBootstraputil \
+    RcsImsBootstrapUtil \
     TimeService
 
 # Prebuilt jars
@@ -31,3 +35,20 @@ PRODUCT_PACKAGES += \
     rcsimssettings \
     rcsservice
 
+# Prebuilt Privileged APKs
+PRODUCT_PACKAGES += \
+    CNEService \
+    ConnMo \
+    DCMO \
+    DiagMon \
+    DMConfigUpdate \
+    DMService \
+    LifeTimerService \
+    SprintDM
+
+# Symlinks
+PRODUCT_PACKAGES += \
+    libimsmedia_jni.so \
+    libimscamera_jni.so \
+    libdmengine.so \
+    libdmjavaplugin.so
