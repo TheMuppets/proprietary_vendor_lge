@@ -60,10 +60,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/lge/bullhead/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/lge/bullhead/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
-    vendor/lge/bullhead/proprietary/etc/diag/Bullhead_radio-general.cfg:system/etc/diag/Bullhead_radio-general.cfg \
-    vendor/lge/bullhead/proprietary/etc/diag/IMS_DS_CM_NAS.cfg:system/etc/diag/IMS_DS_CM_NAS.cfg \
-    vendor/lge/bullhead/proprietary/etc/diag/radio_ims.cfg:system/etc/diag/radio_ims.cfg \
-    vendor/lge/bullhead/proprietary/etc/diag/wlan.cfg:system/etc/diag/wlan.cfg \
     vendor/lge/bullhead/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/lge/bullhead/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/lge/bullhead/proprietary/etc/lowi.conf:system/etc/lowi.conf \
