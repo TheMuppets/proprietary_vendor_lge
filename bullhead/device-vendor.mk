@@ -43,6 +43,7 @@ PRODUCT_PACKAGES += \
     DiagMon \
     DMConfigUpdate \
     DMService \
+    HotwordEnrollment \
     LifeTimerService \
     SprintDM
 
