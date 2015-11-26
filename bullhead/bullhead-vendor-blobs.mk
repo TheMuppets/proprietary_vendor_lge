@@ -60,10 +60,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/lge/bullhead/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/lge/bullhead/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
-    vendor/lge/bullhead/proprietary/etc/diag/Bullhead_radio-general.cfg:system/etc/diag/Bullhead_radio-general.cfg \
-    vendor/lge/bullhead/proprietary/etc/diag/IMS_DS_CM_NAS.cfg:system/etc/diag/IMS_DS_CM_NAS.cfg \
-    vendor/lge/bullhead/proprietary/etc/diag/radio_ims.cfg:system/etc/diag/radio_ims.cfg \
-    vendor/lge/bullhead/proprietary/etc/diag/wlan.cfg:system/etc/diag/wlan.cfg \
     vendor/lge/bullhead/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/lge/bullhead/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/lge/bullhead/proprietary/etc/lowi.conf:system/etc/lowi.conf \
@@ -92,6 +88,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/lib/libdmengine.so:system/lib/libdmengine.so \
     vendor/lge/bullhead/proprietary/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so \
     vendor/lge/bullhead/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/lge/bullhead/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
+    vendor/lge/bullhead/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/lge/bullhead/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lge/bullhead/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/lge/bullhead/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
@@ -105,6 +103,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/lib64/hw/nfc_nci.bullhead.so:system/lib64/hw/nfc_nci.bullhead.so \
     vendor/lge/bullhead/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/lge/bullhead/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
+    vendor/lge/bullhead/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
+    vendor/lge/bullhead/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/lge/bullhead/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/lge/bullhead/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/lge/bullhead/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
