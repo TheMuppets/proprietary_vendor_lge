@@ -13,7 +13,6 @@ MCC=`getprop persist.sys.ntcode`
 IS_MULTISIM=`getprop ro.lge.sim_num`
 MCC=${MCC:5:3}
 
-NAVIGON_FOLDER_PATH=/data/media/0/navigon
 if [ $OPERATOR != "GLOBAL" ]; then
     if [ $CUPSS_ROOT_DIR == "/data/local/cust" ]; then
         CUPSS_SUBCA=${CUPSS_PROP_FILE##*cust_}
@@ -77,20 +76,11 @@ if [ $OPERATOR != "GLOBAL" ]; then
 		fi
 	done
 	rm /data/del_entry
-	if [ $OPERATOR = "TMO" ] && [ $MCC != "262" ]; then
-		if [ -d $NAVIGON_FOLDER_PATH ]; then
-				rm -rf $NAVIGON_FOLDER_PATH
-		fi
-	fi
+
 	setprop persist.data.sbp.update 2
     #fi
 else
-    #Delete navigon data for cts testing
-    if [ $MCC = "999" ]; then
-        if [ -d $NAVIGON_FOLDER_PATH ]; then
-            rm -rf $NAVIGON_FOLDER_PATH
-        fi
-    fi
+
     setprop persist.data.sbp.update 0
 fi
 
