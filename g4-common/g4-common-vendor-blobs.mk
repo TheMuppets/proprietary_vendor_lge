@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib64/libqdMetaData.so:system/lib64/libqdMetaData.so \
     vendor/lge/g4-common/proprietary/lib64/libvss_bsp_qcci.so:system/lib64/libvss_bsp_qcci.so \
     vendor/lge/g4-common/proprietary/lib64/libvss_dmi_qcci.so:system/lib64/libvss_dmi_qcci.so \
-    vendor/lge/g4-common/proprietary/lib64/libcnefeatureconfig.so:system/lib64/libcnefeatureconfig.so \
     vendor/lge/g4-common/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
     vendor/lge/g4-common/proprietary/lib64/hw/consumerir.msm8992.so:system/lib64/hw/consumerir.msm8992.so \
     vendor/lge/g4-common/proprietary/lib64/hw/wbc_hal.default.so:system/lib64/hw/wbc_hal.default.so \
@@ -47,7 +46,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lge/g4-common/proprietary/lib/libvss_dmi_qcci.so:system/lib/libvss_dmi_qcci.so \
     vendor/lge/g4-common/proprietary/lib/libVDHDRAPI.so:system/lib/libVDHDRAPI.so \
-    vendor/lge/g4-common/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/lge/g4-common/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/lge/g4-common/proprietary/lib/hw/consumerir.msm8992.so:system/lib/hw/consumerir.msm8992.so \
     vendor/lge/g4-common/proprietary/lib/hw/wbc_hal.default.so:system/lib/hw/wbc_hal.default.so \

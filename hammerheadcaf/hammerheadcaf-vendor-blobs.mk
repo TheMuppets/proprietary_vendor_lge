@@ -64,9 +64,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerheadcaf/proprietary/lib/libchromatix_mt9m114b_default_video.so:system/lib/libchromatix_mt9m114b_default_video.so \
     vendor/lge/hammerheadcaf/proprietary/lib/libchromatix_mt9m114b_preview.so:system/lib/libchromatix_mt9m114b_preview.so \
     vendor/lge/hammerheadcaf/proprietary/lib/libchromatix_mt9m114b_snapshot.so:system/lib/libchromatix_mt9m114b_snapshot.so \
-    vendor/lge/hammerheadcaf/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
-    vendor/lge/hammerheadcaf/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
-    vendor/lge/hammerheadcaf/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
     vendor/lge/hammerheadcaf/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/lge/hammerheadcaf/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/lge/hammerheadcaf/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
@@ -78,7 +75,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerheadcaf/proprietary/lib/libmmQSM.so:system/lib/libmmQSM.so \
     vendor/lge/hammerheadcaf/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
     vendor/lge/hammerheadcaf/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
-    vendor/lge/hammerheadcaf/proprietary/lib/libssd.so:system/lib/libssd.so \
     vendor/lge/hammerheadcaf/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/lge/hammerheadcaf/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
@@ -149,6 +145,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
+    vendor/lge/hammerheadcaf/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
@@ -157,12 +154,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/lge/hammerheadcaf/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
+    vendor/lge/hammerheadcaf/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
+    vendor/lge/hammerheadcaf/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
+    vendor/lge/hammerheadcaf/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libDxHdcp.so:system/vendor/lib/libDxHdcp.so \
-    vendor/lge/hammerheadcaf/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libFuzzmmstillomxenc.so:system/vendor/lib/libFuzzmmstillomxenc.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
@@ -193,8 +191,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
-    vendor/lge/hammerheadcaf/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
-    vendor/lge/hammerheadcaf/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
@@ -204,8 +200,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
-    vendor/lge/hammerheadcaf/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
+    vendor/lge/hammerheadcaf/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
@@ -224,10 +220,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+    vendor/lge/hammerheadcaf/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
-    vendor/lge/hammerheadcaf/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
+    vendor/lge/hammerheadcaf/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
