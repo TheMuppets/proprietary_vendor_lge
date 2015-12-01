@@ -19,6 +19,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/lge/bullhead/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/lge/bullhead/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
+    vendor/lge/bullhead/proprietary/lib/libdmengine.so:system/priv-app/DMService/lib/arm/libdmengine.so \
+    vendor/lge/bullhead/proprietary/lib/libdmjavaplugin.so:system/priv-app/DMService/lib/arm/libdmjavaplugin.so \
+    vendor/lge/bullhead/proprietary/lib64/libimsmedia_jni.so:system/app/ims/lib/arm64/libimsmedia_jni.so \
+    vendor/lge/bullhead/proprietary/lib64/libimscamera_jni.so:system/app/ims/lib/arm64/libimscamera_jni.so \
     vendor/lge/bullhead/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/lge/bullhead/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/lge/bullhead/proprietary/bin/cnd:system/bin/cnd \
