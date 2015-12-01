@@ -24,7 +24,7 @@ PRODUCT_PACKAGES += \
     ims \
     qcrilmsgtunnel \
     RCSBootstraputil \
-    RcsImsBootstrapUtil \
+    RcsImsBootstraputil \
     TimeService
 
 # Prebuilt jars
@@ -38,7 +38,7 @@ PRODUCT_PACKAGES += \
 # Prebuilt Privileged APKs
 PRODUCT_PACKAGES += \
     CNEService \
-    ConnMo \
+    ConnMO \
     DCMO \
     DiagMon \
     DMConfigUpdate \
