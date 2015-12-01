@@ -73,11 +73,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/lge/bullhead/proprietary/etc/sysconfig/whitelist_com.android.omadm.service.xml:system/etc/sysconfig/whitelist_com.android.omadm.service.xml \
     vendor/lge/bullhead/proprietary/etc/thermal-engine-8992.conf:system/etc/thermal-engine-8992.conf \
-    vendor/lge/bullhead/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/lge/bullhead/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
-    vendor/lge/bullhead/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
-    vendor/lge/bullhead/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
-    vendor/lge/bullhead/proprietary/framework/rcsservice.jar:system/framework/rcsservice.jar \
     vendor/lge/bullhead/proprietary/lib/hw/camera.msm8992.so:system/lib/hw/camera.msm8992.so \
     vendor/lge/bullhead/proprietary/lib/hw/fingerprint.bullhead.so:system/lib/hw/fingerprint.bullhead.so \
     vendor/lge/bullhead/proprietary/lib/hw/gps.msm8992.so:system/lib/hw/gps.msm8992.so \
