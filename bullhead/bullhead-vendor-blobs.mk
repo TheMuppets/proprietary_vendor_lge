@@ -76,7 +76,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/lib/hw/camera.msm8992.so:system/lib/hw/camera.msm8992.so \
     vendor/lge/bullhead/proprietary/lib/hw/fingerprint.bullhead.so:system/lib/hw/fingerprint.bullhead.so \
     vendor/lge/bullhead/proprietary/lib/hw/gps.msm8992.so:system/lib/hw/gps.msm8992.so \
-    vendor/lge/bullhead/proprietary/lib/hw/lights.bullhead.so:system/lib/hw/lights.bullhead.so \
     vendor/lge/bullhead/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
     vendor/lge/bullhead/proprietary/lib/hw/nfc_nci.bullhead.so:system/lib/hw/nfc_nci.bullhead.so \
     vendor/lge/bullhead/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
