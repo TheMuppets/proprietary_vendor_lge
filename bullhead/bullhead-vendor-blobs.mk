@@ -83,8 +83,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/lib/libdmengine.so:system/lib/libdmengine.so \
     vendor/lge/bullhead/proprietary/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so \
     vendor/lge/bullhead/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/lge/bullhead/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
-    vendor/lge/bullhead/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/lge/bullhead/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lge/bullhead/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/lge/bullhead/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
@@ -98,8 +96,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/lib64/hw/nfc_nci.bullhead.so:system/lib64/hw/nfc_nci.bullhead.so \
     vendor/lge/bullhead/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/lge/bullhead/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
-    vendor/lge/bullhead/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
-    vendor/lge/bullhead/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/lge/bullhead/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/lge/bullhead/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/lge/bullhead/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
