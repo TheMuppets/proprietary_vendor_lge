@@ -19,6 +19,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/lge/bullhead/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/lge/bullhead/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
+    vendor/lge/bullhead/proprietary/lib/libdmengine.so:system/priv-app/DMService/lib/arm/libdmengine.so \
+    vendor/lge/bullhead/proprietary/lib/libdmjavaplugin.so:system/priv-app/DMService/lib/arm/libdmjavaplugin.so \
+    vendor/lge/bullhead/proprietary/lib64/libimsmedia_jni.so:system/app/ims/lib/arm64/libimsmedia_jni.so \
+    vendor/lge/bullhead/proprietary/lib64/libimscamera_jni.so:system/app/ims/lib/arm64/libimscamera_jni.so \
     vendor/lge/bullhead/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/lge/bullhead/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/lge/bullhead/proprietary/bin/cnd:system/bin/cnd \
@@ -73,18 +77,16 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/lge/bullhead/proprietary/etc/sysconfig/whitelist_com.android.omadm.service.xml:system/etc/sysconfig/whitelist_com.android.omadm.service.xml \
     vendor/lge/bullhead/proprietary/etc/thermal-engine-8992.conf:system/etc/thermal-engine-8992.conf \
+    vendor/lge/bullhead/proprietary/lib/hw/audio.primary.msm8992.so:system/lib/hw/audio.primary.msm8992.so \
     vendor/lge/bullhead/proprietary/lib/hw/camera.msm8992.so:system/lib/hw/camera.msm8992.so \
     vendor/lge/bullhead/proprietary/lib/hw/fingerprint.bullhead.so:system/lib/hw/fingerprint.bullhead.so \
     vendor/lge/bullhead/proprietary/lib/hw/gps.msm8992.so:system/lib/hw/gps.msm8992.so \
-    vendor/lge/bullhead/proprietary/lib/hw/lights.bullhead.so:system/lib/hw/lights.bullhead.so \
     vendor/lge/bullhead/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
     vendor/lge/bullhead/proprietary/lib/hw/nfc_nci.bullhead.so:system/lib/hw/nfc_nci.bullhead.so \
     vendor/lge/bullhead/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/lge/bullhead/proprietary/lib/libdmengine.so:system/lib/libdmengine.so \
     vendor/lge/bullhead/proprietary/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so \
     vendor/lge/bullhead/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/lge/bullhead/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
-    vendor/lge/bullhead/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/lge/bullhead/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lge/bullhead/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/lge/bullhead/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
@@ -93,13 +95,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lge/bullhead/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lge/bullhead/proprietary/lib/soundfx/libfmas.so:system/lib/soundfx/libfmas.so \
+    vendor/lge/bullhead/proprietary/lib64/hw/audio.primary.msm8992.so:system/lib64/hw/audio.primary.msm8992.so \
     vendor/lge/bullhead/proprietary/lib64/hw/fingerprint.bullhead.so:system/lib64/hw/fingerprint.bullhead.so \
     vendor/lge/bullhead/proprietary/lib64/hw/gps.msm8992.so:system/lib64/hw/gps.msm8992.so \
     vendor/lge/bullhead/proprietary/lib64/hw/nfc_nci.bullhead.so:system/lib64/hw/nfc_nci.bullhead.so \
     vendor/lge/bullhead/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/lge/bullhead/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
-    vendor/lge/bullhead/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
-    vendor/lge/bullhead/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/lge/bullhead/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/lge/bullhead/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/lge/bullhead/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
