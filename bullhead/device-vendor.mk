@@ -47,9 +47,3 @@ PRODUCT_PACKAGES += \
     LifeTimerService \
     SprintDM
 
-# Symlinks
-PRODUCT_PACKAGES += \
-    libimsmedia_jni.so \
-    libimscamera_jni.so \
-    libdmengine.so \
-    libdmjavaplugin.so
