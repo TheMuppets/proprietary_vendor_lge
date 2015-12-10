@@ -59,7 +59,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2m/proprietary/lib/libatd_corelib.so:system/lib/libatd_corelib.so \
     vendor/lge/g2m/proprietary/lib/liblgftmitem.so:system/lib/liblgftmitem.so \
     vendor/lge/g2m/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/lge/g2m/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.msm8226.so \
+    vendor/lge/g2m/proprietary/lib/hw/camera.vendor.msm8226.so:system/lib/hw/camera.vendor.msm8226.so \
     vendor/lge/g2m/proprietary/lib/libmmcamera_imx179.so:system/lib/libmmcamera_imx179.so \
     vendor/lge/g2m/proprietary/lib/libchromatix_imx179_common.so:system/lib/libchromatix_imx179_common.so \
     vendor/lge/g2m/proprietary/lib/libchromatix_imx179_default_video.so:system/lib/libchromatix_imx179_default_video.so \
