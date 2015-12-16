@@ -17,29 +17,8 @@
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS := vendor/lge/g2m/overlay
 
-# Apps
 PRODUCT_PACKAGES += \
-    com.qualcomm.location \
-    QuickBoot \
-    qcrilmsgtunnel \
-    shutdownlistener \
-    webview \
-    LGCalculator
-
-PRODUCT_PACKAGES += \
-    libtime_genoff \
-    libTimeService \
-    TimeService
-
-PRODUCT_PACKAGES += \
-    libscale \
-
-PRODUCT_PACKAGES += \
-    libwvdrmengine \
-    libwvdrm_L3 \
-    libwvm \
-    libWVStreamControlAPI_L3
-
+    libbtnv \
 
 #com.qualcomm.services.location
 $(call inherit-product, vendor/lge/g2m/g2m-vendor-blobs.mk)

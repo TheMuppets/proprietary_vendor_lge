@@ -17,12 +17,8 @@
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS := vendor/lge/w7/overlay
 
-# Apps
 PRODUCT_PACKAGES += \
-    TimeService \
-    qcrilmsgtunnel \
-    com.qualcomm.location
-
+    libbtnv \
 
 #com.qualcomm.services.location
 $(call inherit-product, vendor/lge/w7/w7-vendor-blobs.mk)
