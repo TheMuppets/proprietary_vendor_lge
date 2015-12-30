@@ -32,19 +32,16 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
     vendor/lge/g3-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/g3-common/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
-    vendor/lge/g3-common/proprietary/lib/libAlAisLib.so:system/lib/libAlAisLib.so \
-    vendor/lge/g3-common/proprietary/lib/libAlAisWrap.so:system/lib/libAlAisWrap.so \
-    vendor/lge/g3-common/proprietary/lib/libAlAisTune.so:system/lib/libAlAisTune.so \
+    vendor/lge/g3-common/proprietary/lib/libalmalib.so:system/lib/libalmalib.so \
     vendor/lge/g3-common/proprietary/lib/libalmcascore.so:system/lib/libalmcascore.so \
     vendor/lge/g3-common/proprietary/lib/libalmcaswrap.so:system/lib/libalmcaswrap.so \
+    vendor/lge/g3-common/proprietary/lib/libarcsoft_beauty_shot.so:system/lib/libarcsoft_beauty_shot.so \
     vendor/lge/g3-common/proprietary/lib/libHDR.so:system/lib/libHDR.so \
     vendor/lge/g3-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lge/g3-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lge/g3-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/lge/g3-common/proprietary/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
-    vendor/lge/g3-common/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
     vendor/lge/g3-common/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
-    vendor/lge/g3-common/proprietary/lib/libmorpho_panorama_gp.so:system/lib/libmorpho_panorama_gp.so \
     vendor/lge/g3-common/proprietary/lib/libmorpho_video_denoiser.so:system/lib/libmorpho_video_denoiser.so \
     vendor/lge/g3-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
@@ -72,7 +69,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:system/vendor/lib/libmmcamera_sonyimx135_eeprom.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:system/vendor/lib/libmmcamera_ubifocus_lib.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
@@ -121,23 +117,23 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/etc/firmware/bu24205_LGIT_rev7_1_data1.bin:system/etc/firmware/bu24205_LGIT_rev7_1_data1.bin \
     vendor/lge/g3-common/proprietary/etc/firmware/bu24205_LGIT_rev7_1_data2.bin:system/etc/firmware/bu24205_LGIT_rev7_1_data2.bin \
     vendor/lge/g3-common/proprietary/etc/firmware/bu24205_LGIT_rev7_1_data3.bin:system/etc/firmware/bu24205_LGIT_rev7_1_data3.bin \
-    vendor/lge/g3-common/proprietary/etc/firmware/bu24205_LGIT_rev9_5M.bin:system/etc/firmware/bu24205_LGIT_rev9_5M.bin \
     vendor/lge/g3-common/proprietary/etc/firmware/DLdata_rev28B_data1.ecl:system/etc/firmware/DLdata_rev28B_data1.ecl \
     vendor/lge/g3-common/proprietary/etc/firmware/DLdata_rev28B_data2.ecl:system/etc/firmware/DLdata_rev28B_data2.ecl \
     vendor/lge/g3-common/proprietary/etc/firmware/DLdata_rev28B_data3.ecl:system/etc/firmware/DLdata_rev28B_data3.ecl \
     vendor/lge/g3-common/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/lge/g3-common/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
-    vendor/lge/g3-common/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
-    vendor/lge/g3-common/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
-    vendor/lge/g3-common/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
-    vendor/lge/g3-common/proprietary/lib/librpmb.so:system/lib/librpmb.so \
-    vendor/lge/g3-common/proprietary/lib/libssd.so:system/lib/libssd.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/lge/g3-common/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
+    vendor/lge/g3-common/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
+    vendor/lge/g3-common/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
+    vendor/lge/g3-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/lge/g3-common/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
+    vendor/lge/g3-common/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
+    vendor/lge/g3-common/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
+    vendor/lge/g3-common/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
+    vendor/lge/g3-common/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/lge/g3-common/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
+    vendor/lge/g3-common/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
+    vendor/lge/g3-common/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
@@ -146,7 +142,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/lge/g3-common/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/lge/g3-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-    vendor/lge/g3-common/proprietary/etc/quipc.conf:system/etc/quipc.conf \
     vendor/lge/g3-common/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/lge/g3-common/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/lge/g3-common/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
@@ -155,7 +150,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/lge/g3-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
