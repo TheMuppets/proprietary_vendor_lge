@@ -58,7 +58,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/w5/proprietary/lib/libatd_corelib.so:system/lib/libatd_corelib.so \
     vendor/lge/w5/proprietary/lib/liblgftmitem.so:system/lib/liblgftmitem.so \
     vendor/lge/w5/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/lge/w5/proprietary/lib/hw/camera.msm8610.so:system/lib/hw/camera.msm8610.so \
+    vendor/lge/w5/proprietary/lib/hw/camera.vendor.msm8610.so:system/lib/hw/camera.vendor.msm8610.so \
     vendor/lge/w5/proprietary/lib/libchromatix_hi543_common.so:system/lib/libchromatix_hi543_common.so \
     vendor/lge/w5/proprietary/lib/libchromatix_hi543_default_video.so:system/lib/libchromatix_hi543_default_video.so \
     vendor/lge/w5/proprietary/lib/libchromatix_hi543_preview.so:system/lib/libchromatix_hi543_preview.so \
