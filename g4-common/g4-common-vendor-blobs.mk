@@ -718,26 +718,17 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/bin/cota_update.sh:system/vendor/bin/cota_update.sh \
     vendor/lge/g4-common/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/lge/g4-common/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
-    vendor/lge/g4-common/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
-    vendor/lge/g4-common/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/lge/g4-common/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/lge/g4-common/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/lge/g4-common/proprietary/etc/firmware/fw_bcmdhd_mfg.bin:system/etc/firmware/fw_bcmdhd_mfg.bin \
     vendor/lge/g4-common/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
     vendor/lge/g4-common/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/lge/g4-common/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/lge/g4-common/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/lge/g4-common/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/lge/g4-common/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/lge/g4-common/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
     vendor/lge/g4-common/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/lge/g4-common/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
     vendor/lge/g4-common/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/lge/g4-common/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-    vendor/lge/g4-common/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/lge/g4-common/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/lge/g4-common/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    vendor/lge/g4-common/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
     vendor/lge/g4-common/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/lge/g4-common/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/lge/g4-common/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
@@ -775,4 +766,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/bin/radish:system/bin/radish \
     vendor/lge/g4-common/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/lge/g4-common/proprietary/bin/qseecom_security_test:system/bin/qseecom_security_test \
-    vendor/lge/g4-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client
+    vendor/lge/g4-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
+    vendor/lge/g4-common/proprietary/vendor/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw \
+    vendor/lge/g4-common/proprietary/vendor/firmware/a420_pm4.fw:system/vendor/firmware/a420_pm4.fw \
+    vendor/lge/g4-common/proprietary/vendor/lib/librs.rnr_downscale.so:system/vendor/lib/librs.rnr_downscale.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/librs.rnr_process.so:system/vendor/lib/librs.rnr_process.so
