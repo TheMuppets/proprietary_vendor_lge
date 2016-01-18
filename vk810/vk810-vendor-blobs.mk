@@ -25,11 +25,14 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vk810/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/lge/vk810/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/lge/vk810/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
+    vendor/lge/vk810/proprietary/bin/rild:system/bin/rild \
     vendor/lge/vk810/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/vk810/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/lge/vk810/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/lge/vk810/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/lge/vk810/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
+    vendor/lge/vk810/proprietary/lib/libmmcamera_tintless_algo.so:system/lib/libmmcamera_tintless_algo.so \
+    vendor/lge/vk810/proprietary/lib/libmmcamera_tintless_wrapper.so:system/lib/libmmcamera_tintless_wrapper.so \
     vendor/lge/vk810/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/lge/vk810/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/lge/vk810/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
@@ -49,15 +52,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vk810/proprietary/lib/libchromatix_s5k4e5ya_default_video.so:system/lib/libchromatix_s5k4e5ya_default_video.so \
     vendor/lge/vk810/proprietary/lib/libchromatix_s5k4e5ya_zsl.so:system/lib/libchromatix_s5k4e5ya_zsl.so \
     vendor/lge/vk810/proprietary/lib/libmmcamera_3a_legacy.so:system/lib/libmmcamera_3a_legacy.so \
-    vendor/lge/vk810/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
+    vendor/lge/vk810/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/lge/vk810/proprietary/lib/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
     vendor/lge/vk810/proprietary/lib/libchromatix_imx074_preview.so:system/lib/libchromatix_imx074_preview.so \
     vendor/lge/vk810/proprietary/lib/libchromatix_imx074_video_hd.so:system/lib/libchromatix_imx074_video_hd.so \
     vendor/lge/vk810/proprietary/lib/libchromatix_imx074_zsl.so:system/lib/libchromatix_imx074_zsl.so \
-    vendor/lge/vk810/proprietary/lib/libchromatix_imx091_default_video.so:system/lib/libchromatix_imx091_default_video.so \
-    vendor/lge/vk810/proprietary/lib/libchromatix_imx091_preview.so:system/lib/libchromatix_imx091_preview.so \
-    vendor/lge/vk810/proprietary/lib/libchromatix_imx091_video_hd.so:system/lib/libchromatix_imx091_video_hd.so \
-    vendor/lge/vk810/proprietary/lib/libchromatix_imx091_zsl.so:system/lib/libchromatix_imx091_zsl.so \
     vendor/lge/vk810/proprietary/lib/libchromatix_imx119_default_video.so:system/lib/libchromatix_imx119_default_video.so \
     vendor/lge/vk810/proprietary/lib/libchromatix_imx119_preview.so:system/lib/libchromatix_imx119_preview.so \
     vendor/lge/vk810/proprietary/lib/libchromatix_imx119_vt.so:system/lib/libchromatix_imx119_vt.so \
@@ -101,19 +100,16 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vk810/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
     vendor/lge/vk810/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/lge/vk810/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
-    vendor/lge/vk810/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
+    vendor/lge/vk810/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/lge/vk810/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/lge/vk810/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/lge/vk810/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
-    vendor/lge/vk810/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/lge/vk810/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/lge/vk810/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/lge/vk810/proprietary/bin/efsks:system/bin/efsks \
     vendor/lge/vk810/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lge/vk810/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/lge/vk810/proprietary/bin/ks:system/bin/ks \
     vendor/lge/vk810/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/lge/vk810/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/lge/vk810/proprietary/bin/qcks:system/bin/qcks \
     vendor/lge/vk810/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lge/vk810/proprietary/bin/radish:system/bin/radish \
@@ -121,11 +117,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vk810/proprietary/bin/thermald:system/bin/thermald \
     vendor/lge/vk810/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/vk810/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/lge/vk810/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/lge/vk810/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/vk810/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/vk810/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/lge/vk810/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/lge/vk810/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/lge/vk810/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
     vendor/lge/vk810/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
@@ -136,29 +130,25 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vk810/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
     vendor/lge/vk810/proprietary/lib/liblgftmitem.so:system/lib/liblgftmitem.so \
     vendor/lge/vk810/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/lge/vk810/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
+    vendor/lge/vk810/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/lge/vk810/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/lge/vk810/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/lge/vk810/proprietary/lib/libxt_v02.so:system/lib/libxt_v02.so \
-    vendor/lge/vk810/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
     vendor/lge/vk810/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
     vendor/lge/vk810/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/lge/vk810/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/lge/vk810/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/lge/vk810/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
-    vendor/lge/vk810/proprietary/vendor/lib/egl/libplayback_adreno.so:system/vendor/lib/egl/libplayback_adreno.so \
     vendor/lge/vk810/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/lge/vk810/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/lge/vk810/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/lge/vk810/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/lge/vk810/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
-    vendor/lge/vk810/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/lge/vk810/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/lge/vk810/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/lge/vk810/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
-    vendor/lge/vk810/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
+    vendor/lge/vk810/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
     vendor/lge/vk810/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
-    vendor/lge/vk810/proprietary/vendor/lib/libmmosal.so:system/lib/libmmosal.so \
+    vendor/lge/vk810/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/lge/vk810/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/lge/vk810/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/lge/vk810/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
@@ -169,38 +159,30 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vk810/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/lge/vk810/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/lge/vk810/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
-    vendor/lge/vk810/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/lge/vk810/proprietary/lib/libuicc.so:system/lib/libuicc.so \
     vendor/lge/vk810/proprietary/lib/libvss_common_idl.so:system/lib/libvss_common_idl.so \
-    vendor/lge/vk810/proprietary/lib/libvss_common_iface.so:system/lib/libvss_common_iface.so \
-    vendor/lge/vk810/proprietary/lib/libvss_nv_idl.so:system/lib/libvss_nv_idl.so \
-    vendor/lge/vk810/proprietary/lib/libvss_nv_iface.so:system/lib/libvss_nv_iface.so \
     vendor/lge/vk810/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/lge/vk810/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
-    vendor/lge/vk810/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
-    vendor/lge/vk810/proprietary/vendor/lib/libdsnetutils.so:system/vendor/lib/libdsnetutils.so \
-    vendor/lge/vk810/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
-    vendor/lge/vk810/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
+    vendor/lge/vk810/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
+    vendor/lge/vk810/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
+    vendor/lge/vk810/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/lge/vk810/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
-    vendor/lge/vk810/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
-    vendor/lge/vk810/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
-    vendor/lge/vk810/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
-    vendor/lge/vk810/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
+    vendor/lge/vk810/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
+    vendor/lge/vk810/proprietary/lib/libqdi.so:system/lib/libqdi.so \
+    vendor/lge/vk810/proprietary/lib/libqdp.so:system/lib/libqdp.so \
+    vendor/lge/vk810/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/lge/vk810/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
-    vendor/lge/vk810/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
+    vendor/lge/vk810/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     vendor/lge/vk810/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/lge/vk810/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
-    vendor/lge/vk810/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
+    vendor/lge/vk810/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
     vendor/lge/vk810/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
-    vendor/lge/vk810/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
+    vendor/lge/vk810/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/lge/vk810/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/lge/vk810/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/lge/vk810/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
-    vendor/lge/vk810/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
-    vendor/lge/vk810/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
-    vendor/lge/vk810/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
-    vendor/lge/vk810/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
-    vendor/lge/vk810/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
+    vendor/lge/vk810/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
+    vendor/lge/vk810/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
+    vendor/lge/vk810/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/lge/vk810/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/lge/vk810/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/lge/vk810/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
