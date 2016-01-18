@@ -114,7 +114,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vk810/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lge/vk810/proprietary/bin/radish:system/bin/radish \
     vendor/lge/vk810/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/lge/vk810/proprietary/bin/thermald:system/bin/thermald \
+    vendor/lge/vk810/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/lge/vk810/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/vk810/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/vk810/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
