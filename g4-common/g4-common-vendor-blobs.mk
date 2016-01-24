@@ -745,7 +745,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/lge/g4-common/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/lge/g4-common/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
-    vendor/lge/g4-common/proprietary/bin/rild:system/bin/rild \
     vendor/lge/g4-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/lge/g4-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/g4-common/proprietary/bin/lowi-server:system/bin/lowi-server \
