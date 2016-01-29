@@ -131,7 +131,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/lge/g3-common/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
