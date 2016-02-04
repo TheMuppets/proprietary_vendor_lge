@@ -44,6 +44,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/w5/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
     vendor/lge/w5/proprietary/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin \
     vendor/lge/w5/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
+    vendor/lge/w5/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/lge/w5/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/lge/w5/proprietary/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
     vendor/lge/w5/proprietary/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
