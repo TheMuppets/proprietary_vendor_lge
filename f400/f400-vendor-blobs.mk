@@ -17,25 +17,13 @@
 PRODUCT_COPY_FILES += \
     vendor/lge/f400/proprietary/etc/firmware/BCM4335_003.001.009.0098.0415_B2_KR_ORC.hcd:system/etc/firmware/BCM4335_003.001.009.0098.0415_B2_KR_ORC.hcd \
     vendor/lge/f400/proprietary/etc/firmware/BCM4339_003.001.009.0105.0458_LGE_G3L_SPRINT_FM_ORC.hcd:system/etc/firmware/BCM4339_003.001.009.0105.0458_LGE_G3L_SPRINT_FM_ORC.hcd \
-    vendor/lge/f400/proprietary/bin/location-mq:system/bin/location-mq \
-    vendor/lge/f400/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
-    vendor/lge/f400/proprietary/bin/quipc_main:system/bin/quipc_main \
-    vendor/lge/f400/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
-    vendor/lge/f400/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/lge/f400/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lge/f400/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/lge/f400/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/lge/f400/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/lge/f400/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/lge/f400/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/lge/f400/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/lge/f400/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-    vendor/lge/f400/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
-    vendor/lge/f400/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/lge/f400/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/lge/f400/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
-    vendor/lge/f400/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
-    vendor/lge/f400/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
     vendor/lge/f400/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/lge/f400/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/lge/f400/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
