@@ -37,4 +37,4 @@ PRODUCT_PACKAGES += \
     libTimeService \
     TimeService
 
-$(call inherit-product, vendor/lge/v10-common/v10-common-vendor-blobs.mk)
+$(call inherit-product, vendor/lge/h901/h901-vendor-blobs.mk)
