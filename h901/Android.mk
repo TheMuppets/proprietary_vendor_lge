@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter v10 h901,$(TARGET_DEVICE)),)
+ifneq ($(filter h901,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libFlacSwDec
