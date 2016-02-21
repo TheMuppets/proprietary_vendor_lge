@@ -63,7 +63,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/jag3gds/proprietary/lib/libatd_corelib.so:system/lib/libatd_corelib.so \
     vendor/lge/jag3gds/proprietary/lib/liblgftmitem.so:system/lib/liblgftmitem.so \
     vendor/lge/jag3gds/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/lge/jag3gds/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.msm8226.so \
+    vendor/lge/jag3gds/proprietary/lib/hw/camera.vendor.msm8226.so:system/lib/hw/camera.vendor.msm8226.so \
     vendor/lge/jag3gds/proprietary/lib/libchromatix_imx219_default_video.so:system/lib/libchromatix_imx219_default_video.so \
     vendor/lge/jag3gds/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lge/jag3gds/proprietary/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
