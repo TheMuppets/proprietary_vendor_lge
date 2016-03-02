@@ -57,6 +57,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/jag3gds/proprietary/etc/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/Hdmi_cal.acdb \
     vendor/lge/jag3gds/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
     vendor/lge/jag3gds/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
+    vendor/lge/jag3gds/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/lge/jag3gds/proprietary/bin/bdaddr_loader:system/bin/bdaddr_loader \
     vendor/lge/jag3gds/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/lge/jag3gds/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \

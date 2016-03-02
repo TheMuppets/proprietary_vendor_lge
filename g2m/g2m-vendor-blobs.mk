@@ -53,6 +53,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2m/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
     vendor/lge/g2m/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
     vendor/lge/g2m/proprietary/etc/acdbdata/workspaceFile.qwsp:system/etc/acdbdata/workspaceFile.qwsp \
+    vendor/lge/g2m/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/lge/g2m/proprietary/bin/bdaddr_loader:system/bin/bdaddr_loader \
     vendor/lge/g2m/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/lge/g2m/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \

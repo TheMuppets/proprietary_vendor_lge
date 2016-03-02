@@ -52,6 +52,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/w7/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
     vendor/lge/w7/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
     vendor/lge/w7/proprietary/etc/acdbdata/workspaceFile.qwsp:system/etc/acdbdata/workspaceFile.qwsp \
+    vendor/lge/w7/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/lge/w7/proprietary/bin/bdaddr_loader:system/bin/bdaddr_loader \
     vendor/lge/w7/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/lge/w7/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
