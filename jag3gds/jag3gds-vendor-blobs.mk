@@ -57,13 +57,14 @@ PRODUCT_COPY_FILES += \
     vendor/lge/jag3gds/proprietary/etc/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/Hdmi_cal.acdb \
     vendor/lge/jag3gds/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
     vendor/lge/jag3gds/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
+    vendor/lge/jag3gds/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/lge/jag3gds/proprietary/bin/bdaddr_loader:system/bin/bdaddr_loader \
     vendor/lge/jag3gds/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/lge/jag3gds/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lge/jag3gds/proprietary/lib/libatd_corelib.so:system/lib/libatd_corelib.so \
     vendor/lge/jag3gds/proprietary/lib/liblgftmitem.so:system/lib/liblgftmitem.so \
     vendor/lge/jag3gds/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/lge/jag3gds/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.msm8226.so \
+    vendor/lge/jag3gds/proprietary/lib/hw/camera.vendor.msm8226.so:system/lib/hw/camera.vendor.msm8226.so \
     vendor/lge/jag3gds/proprietary/lib/libchromatix_imx219_default_video.so:system/lib/libchromatix_imx219_default_video.so \
     vendor/lge/jag3gds/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lge/jag3gds/proprietary/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
@@ -156,4 +157,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/jag3gds/proprietary/vendor/lib/libsensor_test.so:system/vendor/lib/libsensor_test.so \
     vendor/lge/jag3gds/proprietary/vendor/lib/libsensor_thresh.so:system/vendor/lib/libsensor_thresh.so \
     vendor/lge/jag3gds/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
-    vendor/lge/jag3gds/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so
+    vendor/lge/jag3gds/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
+    vendor/lge/jag3gds/proprietary/lib/rfsa/adsp/libadsp_denoise_skel.so:system/lib/rfsa/adsp/libadsp_denoise_skel.so \
+    vendor/lge/jag3gds/proprietary/lib/rfsa/adsp/libapps_mem_heap.so:system/lib/rfsa/adsp/libapps_mem_heap.so \
+    vendor/lge/jag3gds/proprietary/lib/rfsa/adsp/libdspCV_skel.so:system/lib/rfsa/adsp/libdspCV_skel.so \
+    vendor/lge/jag3gds/proprietary/lib/rfsa/adsp/libfastcvadsp.so:system/lib/rfsa/adsp/libfastcvadsp.so \
+    vendor/lge/jag3gds/proprietary/lib/rfsa/adsp/libfastcvadsp_skel.so:system/lib/rfsa/adsp/libfastcvadsp_skel.so \
+    vendor/lge/jag3gds/proprietary/lib/rfsa/adsp/libscveT2T_skel.so:system/lib/rfsa/adsp/libscveT2T_skel.so

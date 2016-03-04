@@ -110,7 +110,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v4xx-common/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/lge/v4xx-common/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/lge/v4xx-common/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
-    vendor/lge/v4xx-common/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
     vendor/lge/v4xx-common/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/lge/v4xx-common/proprietary/lib/librpmb.so:system/lib/librpmb.so \
     vendor/lge/v4xx-common/proprietary/lib/libssd.so:system/lib/libssd.so \
