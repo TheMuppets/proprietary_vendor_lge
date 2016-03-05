@@ -59,6 +59,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vs985/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/lge/vs985/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/lge/vs985/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/lge/vs985/proprietary/etc/sensors/sensor_def_variable.conf:system/etc/sensors/sensor_def_variable.conf \
     vendor/lge/vs985/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
     vendor/lge/vs985/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/lge/vs985/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
