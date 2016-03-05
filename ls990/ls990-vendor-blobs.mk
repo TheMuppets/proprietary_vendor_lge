@@ -17,12 +17,6 @@
 PRODUCT_COPY_FILES += \
     vendor/lge/ls990/proprietary/etc/firmware/BCM4335_003.001.009.0098.0415_B2_KR_ORC.hcd:system/etc/firmware/BCM4335_003.001.009.0098.0415_B2_KR_ORC.hcd \
     vendor/lge/ls990/proprietary/etc/firmware/BCM4339_003.001.009.0105.0458_LGE_G3L_SPRINT_FM_ORC.hcd:system/etc/firmware/BCM4339_003.001.009.0105.0458_LGE_G3L_SPRINT_FM_ORC.hcd \
-    vendor/lge/ls990/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/lge/ls990/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/lge/ls990/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
-    vendor/lge/ls990/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
-    vendor/lge/ls990/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
-    vendor/lge/ls990/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/lge/ls990/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/lge/ls990/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/lge/ls990/proprietary/vendor/lib/libdsnetutils.so:system/vendor/lib/libdsnetutils.so \
@@ -57,14 +51,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ls990/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/lge/ls990/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/lge/ls990/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
-    vendor/lge/ls990/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
-    vendor/lge/ls990/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
-    vendor/lge/ls990/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/lge/ls990/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
+    vendor/lge/ls990/proprietary/etc/sensors/sensor_def_variable.conf:system/etc/sensors/sensor_def_variable.conf \
     vendor/lge/ls990/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
     vendor/lge/ls990/proprietary/lib/hw/nfc.lg.so:system/lib/hw/nfc.lg.so \
-    vendor/lge/ls990/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
-    vendor/lge/ls990/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/lge/ls990/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/lge/ls990/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
     vendor/lge/ls990/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
