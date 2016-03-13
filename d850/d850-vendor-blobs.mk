@@ -49,7 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d850/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/lge/d850/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/lge/d850/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
-    vendor/lge/d850/proprietary/etc/sensors/sensor_def_variable.conf:system/etc/sensors/sensor_def_variable.conf \
     vendor/lge/d850/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/lge/d850/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
     vendor/lge/d850/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
