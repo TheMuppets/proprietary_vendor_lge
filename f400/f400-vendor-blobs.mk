@@ -17,7 +17,6 @@
 PRODUCT_COPY_FILES += \
     vendor/lge/f400/proprietary/etc/firmware/BCM4335_003.001.009.0098.0415_B2_KR_ORC.hcd:system/etc/firmware/BCM4335_003.001.009.0098.0415_B2_KR_ORC.hcd \
     vendor/lge/f400/proprietary/etc/firmware/BCM4339_003.001.009.0105.0458_LGE_G3L_SPRINT_FM_ORC.hcd:system/etc/firmware/BCM4339_003.001.009.0105.0458_LGE_G3L_SPRINT_FM_ORC.hcd \
-    vendor/lge/f400/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/lge/f400/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/lge/f400/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/lge/f400/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \

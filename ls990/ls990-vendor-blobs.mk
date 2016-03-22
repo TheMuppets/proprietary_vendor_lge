@@ -45,7 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ls990/proprietary/lib/libvss_common_iface.so:system/lib/libvss_common_iface.so \
     vendor/lge/ls990/proprietary/lib/libvss_nv_idl.so:system/lib/libvss_nv_idl.so \
     vendor/lge/ls990/proprietary/lib/libvss_nv_iface.so:system/lib/libvss_nv_iface.so \
-    vendor/lge/ls990/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/lge/ls990/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/lge/ls990/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/lge/ls990/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
