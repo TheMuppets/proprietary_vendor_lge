@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
     vendor/lge/g4-common/proprietary/lib64/hw/consumerir.msm8992.so:system/lib64/hw/consumerir.msm8992.so \
     vendor/lge/g4-common/proprietary/lib64/hw/wbc_hal.default.so:system/lib64/hw/wbc_hal.default.so \
-    vendor/lge/g4-common/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/lge/g4-common/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/lge/g4-common/proprietary/lib64/libvss_resim_core.so:system/lib64/libvss_resim_core.so \
     vendor/lge/g4-common/proprietary/lib64/libuicc.so:system/lib64/libuicc.so \
