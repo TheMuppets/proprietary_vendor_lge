@@ -26,8 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d851/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/lge/d851/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/lge/d851/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
-    vendor/lge/d851/proprietary/etc/firmware/BCM4335_003.001.009.0098.0415_B2_KR_ORC.hcd:system/etc/firmware/BCM4335_003.001.009.0098.0415_B2_KR_ORC.hcd \
-    vendor/lge/d851/proprietary/etc/firmware/BCM4339_003.001.009.0105.0458_LGE_G3L_SPRINT_FM_ORC.hcd:system/etc/firmware/BCM4339_003.001.009.0105.0458_LGE_G3L_SPRINT_FM_ORC.hcd \
+    vendor/lge/d851/proprietary/vendor/firmware/BCM4335_003.001.009.0098.0414_B2_TMUS_USC_ORC.hcd:system/vendor/firmware/BCM4335_003.001.009.0098.0414_B2_TMUS_USC_ORC.hcd \
     vendor/lge/d851/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/lge/d851/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/lge/d851/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
