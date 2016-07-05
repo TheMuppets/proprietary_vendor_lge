@@ -87,7 +87,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vk810/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/lge/vk810/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/lge/vk810/proprietary/lib/libAKM.so:system/lib/libAKM.so \
-    vendor/lge/vk810/proprietary/lib/libalsautils.so:system/lib/libalsautils.so \
+    vendor/lge/vk810/proprietary/lib/libalsa-intf.so:system/lib/libalsa-intf.so \
     vendor/lge/vk810/proprietary/lib/libCommandSvc.so:system/lib/libCommandSvc.so \
     vendor/lge/vk810/proprietary/lib/libconfigdb.so:system/lib/libconfigdb.so \
     vendor/lge/vk810/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
@@ -131,6 +131,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vk810/proprietary/lib/liblgftmitem.so:system/lib/liblgftmitem.so \
     vendor/lge/vk810/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lge/vk810/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
+    vendor/lge/vk810/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/lge/vk810/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/lge/vk810/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/lge/vk810/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
