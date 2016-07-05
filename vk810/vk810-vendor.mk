@@ -31,4 +31,8 @@ DEVICE_PACKAGE_OVERLAYS := vendor/lge/vk810/overlay
 
 PRODUCT_PACKAGES += libtime_genoff
 
+# Prebuilt APK(s)
+PRODUCT_PACKAGES := \
+    atfwd
+
 $(call inherit-product, vendor/lge/vk810/vk810-vendor-blobs.mk)
