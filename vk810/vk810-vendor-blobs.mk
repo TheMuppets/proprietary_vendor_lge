@@ -101,7 +101,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vk810/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/lge/vk810/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/lge/vk810/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
-    vendor/lge/vk810/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+    vendor/lge/vk810/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
     vendor/lge/vk810/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/lge/vk810/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/lge/vk810/proprietary/bin/btnvtool:system/bin/btnvtool \
