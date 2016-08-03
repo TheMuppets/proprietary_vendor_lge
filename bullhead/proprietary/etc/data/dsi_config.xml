@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <!--
      DSI Module configuration XML file
      Copyright (c) 2013 Qualcomm Technologies, Inc.  All Rights Reserved.
      Qualcomm Technologies Proprietary and Confidential.
 -->
 
-<?xml version="1.0" encoding="UTF-8"?>
 <list name="dsi_config">
    <!-- Configuration for fusion4.5 PCIe -->
    <listitem name="fusion4_5_pcie">
