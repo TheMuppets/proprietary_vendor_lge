@@ -163,6 +163,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v4xx-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+    vendor/lge/v4xx-common/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
     vendor/lge/v4xx-common/proprietary/bin/irrcServer:system/bin/irrcServer \
     vendor/lge/v4xx-common/proprietary/lib/libirrc.so:system/lib/libirrc.so \
     vendor/lge/v4xx-common/proprietary/lib/libirrcClient.so:system/lib/libirrcClient.so \
