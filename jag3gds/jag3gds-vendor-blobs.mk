@@ -148,15 +148,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/jag3gds/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/lge/jag3gds/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/lge/jag3gds/proprietary/lib/libHDR.so:system/lib/libHDR.so \
-    vendor/lge/jag3gds/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/jag3gds/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/lge/jag3gds/proprietary/vendor/lib/hw/sensors.msm8226.so:system/vendor/lib/hw/sensors.msm8226.so \
     vendor/lge/jag3gds/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
-    vendor/lge/jag3gds/proprietary/vendor/lib/libsensor_lge_cal.so:system/vendor/lib/libsensor_lge_cal.so \
-    vendor/lge/jag3gds/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
-    vendor/lge/jag3gds/proprietary/vendor/lib/libsensor_test.so:system/vendor/lib/libsensor_test.so \
-    vendor/lge/jag3gds/proprietary/vendor/lib/libsensor_thresh.so:system/vendor/lib/libsensor_thresh.so \
-    vendor/lge/jag3gds/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
     vendor/lge/jag3gds/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/lge/jag3gds/proprietary/lib/rfsa/adsp/libadsp_denoise_skel.so:system/lib/rfsa/adsp/libadsp_denoise_skel.so \
     vendor/lge/jag3gds/proprietary/lib/rfsa/adsp/libapps_mem_heap.so:system/lib/rfsa/adsp/libapps_mem_heap.so \
