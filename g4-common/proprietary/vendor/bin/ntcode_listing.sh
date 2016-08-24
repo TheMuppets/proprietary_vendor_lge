@@ -48,18 +48,9 @@
             if [ "$PRODUCT" == "g3_global_com" -a "$CUST" == "/cust/VDF_COM/CH" ]; then
                 PROPPATH=/data/.OP/${OPNAME}/prop
             else
-				if [ -d /OP ]; then
-                    PROPPATH=/OP/${OPPATH}/prop
-				else
-					PROPPATH=/data/.OP/${OPPATH}/prop
-				fi
+                PROPPATH=/data/.OP/${OPPATH}/prop
             fi
-			
-            if [ -d /OP ]; then
-                APPPATH=/OP/${OPPATH}/apps
-            else
-                APPPATH=/data/.OP/${OPPATH}/apps
-            fi
+            APPPATH=/data/.OP/${OPPATH}/apps
     
             case "$NTCODE" in 
     	        "XXX")
