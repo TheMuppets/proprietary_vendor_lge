@@ -228,7 +228,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/vendor/bin/qmuxd:$(TARGET_COPY_OUT_VENDOR)/bin/qmuxd \
     vendor/lge/g2-common/proprietary/vendor/bin/radish:$(TARGET_COPY_OUT_VENDOR)/bin/radish \
     vendor/lge/g2-common/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
-    vendor/lge/g2-common/proprietary/vendor/lib/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libuicc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuicc.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libvss_bsp_qcci.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvss_bsp_qcci.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libvss_common_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvss_common_core.so \
