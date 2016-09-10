@@ -765,6 +765,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/g4-common/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/lge/g4-common/proprietary/bin/radish:system/bin/radish \
+    vendor/lge/g4-common/proprietary/bin/rild:system/bin/rild \
     vendor/lge/g4-common/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/lge/g4-common/proprietary/bin/qseecom_security_test:system/bin/qseecom_security_test \
     vendor/lge/g4-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
