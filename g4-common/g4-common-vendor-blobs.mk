@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib64/libqdMetaData.so:system/lib64/libqdMetaData.so \
     vendor/lge/g4-common/proprietary/lib64/libvss_bsp_qcci.so:system/lib64/libvss_bsp_qcci.so \
     vendor/lge/g4-common/proprietary/lib64/libvss_dmi_qcci.so:system/lib64/libvss_dmi_qcci.so \
-    vendor/lge/g4-common/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
     vendor/lge/g4-common/proprietary/lib64/hw/consumerir.msm8992.so:system/lib64/hw/consumerir.msm8992.so \
     vendor/lge/g4-common/proprietary/lib64/hw/wbc_hal.default.so:system/lib64/hw/wbc_hal.default.so \
     vendor/lge/g4-common/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
@@ -35,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib64/libvss_resim_iface.so:system/lib64/libvss_resim_iface.so \
     vendor/lge/g4-common/proprietary/lib64/libvss_common_iface.so:system/lib64/libvss_common_iface.so \
     vendor/lge/g4-common/proprietary/lib64/libvss_common_idl.so:system/lib64/libvss_common_idl.so \
-    vendor/lge/g4-common/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/lge/g4-common/proprietary/lib64/libcir_driver.so:system/lib64/libcir_driver.so \
     vendor/lge/g4-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/lge/g4-common/proprietary/lib64/libvss_nv_iface.so:system/lib64/libvss_nv_iface.so \
@@ -45,7 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lge/g4-common/proprietary/lib/libvss_dmi_qcci.so:system/lib/libvss_dmi_qcci.so \
     vendor/lge/g4-common/proprietary/lib/libVDHDRAPI.so:system/lib/libVDHDRAPI.so \
-    vendor/lge/g4-common/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/lge/g4-common/proprietary/lib/hw/consumerir.msm8992.so:system/lib/hw/consumerir.msm8992.so \
     vendor/lge/g4-common/proprietary/lib/hw/wbc_hal.default.so:system/lib/hw/wbc_hal.default.so \
     vendor/lge/g4-common/proprietary/lib/hw/camera.msm8992.so:system/lib/hw/camera.msm8992.so \
@@ -68,7 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib/libvss_common_iface.so:system/lib/libvss_common_iface.so \
     vendor/lge/g4-common/proprietary/lib/libvss_common_idl.so:system/lib/libvss_common_idl.so \
     vendor/lge/g4-common/proprietary/lib/liblgmda.so:system/lib/liblgmda.so \
-    vendor/lge/g4-common/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/g4-common/proprietary/lib/libcir_driver.so:system/lib/libcir_driver.so \
     vendor/lge/g4-common/proprietary/lib/libVDBase.so:system/lib/libVDBase.so \
     vendor/lge/g4-common/proprietary/lib/libalmalib.so:system/lib/libalmalib.so \
@@ -700,6 +696,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib/libmmcamera_isp_sce40.so:system/vendor/lib/libmmcamera_isp_sce40.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libchromatix_imx234_cpp_video.so:system/vendor/lib/libchromatix_imx234_cpp_video.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
+    vendor/lge/g4-common/proprietary/lib64/libmdmcutback.so:system/lib64/libmdmcutback.so \
+    vendor/lge/g4-common/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
+    vendor/lge/g4-common/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
+    vendor/lge/g4-common/proprietary/lib64/libmotext_inf.so:system/lib64/libmotext_inf.so \
+    vendor/lge/g4-common/proprietary/lib64/libqmimotext.so:system/lib64/libqmimotext.so \
+    vendor/lge/g4-common/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/lge/g4-common/proprietary/vendor/qcril.db:system/vendor/qcril.db \
     vendor/lge/g4-common/proprietary/vendor/etc/scve/textreco/worddecoder/textreco_url_10000_2.bin:system/vendor/etc/scve/textreco/worddecoder/textreco_url_10000_2.bin \
     vendor/lge/g4-common/proprietary/vendor/etc/scve/textreco/chardecoder/_numpunc_font40_conc2_DEFn__BGTouchy6x6n__1_1__morph.trn32025.trn:system/vendor/etc/scve/textreco/chardecoder/_numpunc_font40_conc2_DEFn__BGTouchy6x6n__1_1__morph.trn32025.trn \
@@ -764,7 +766,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/g4-common/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/lge/g4-common/proprietary/bin/radish:system/bin/radish \
-    vendor/lge/g4-common/proprietary/bin/rild:system/bin/rild \
     vendor/lge/g4-common/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/lge/g4-common/proprietary/bin/qseecom_security_test:system/bin/qseecom_security_test \
     vendor/lge/g4-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
