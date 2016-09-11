@@ -700,7 +700,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib/libmmcamera_isp_sce40.so:system/vendor/lib/libmmcamera_isp_sce40.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libchromatix_imx234_cpp_video.so:system/vendor/lib/libchromatix_imx234_cpp_video.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
-    vendor/lge/g4-common/proprietary/vendor/lib/libtar.so:system/vendor/lib/libtar.so \
     vendor/lge/g4-common/proprietary/vendor/qcril.db:system/vendor/qcril.db \
     vendor/lge/g4-common/proprietary/vendor/etc/scve/textreco/worddecoder/textreco_url_10000_2.bin:system/vendor/etc/scve/textreco/worddecoder/textreco_url_10000_2.bin \
     vendor/lge/g4-common/proprietary/vendor/etc/scve/textreco/chardecoder/_numpunc_font40_conc2_DEFn__BGTouchy6x6n__1_1__morph.trn32025.trn:system/vendor/etc/scve/textreco/chardecoder/_numpunc_font40_conc2_DEFn__BGTouchy6x6n__1_1__morph.trn32025.trn \
@@ -711,7 +710,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/etc/scve/textreco/chardecoder/_conf_eng_num_sym_font40_conc2_meshrn__de__1_1__zscore_morph.trn10158.trn:system/vendor/etc/scve/textreco/chardecoder/_conf_eng_num_sym_font40_conc2_meshrn__de__1_1__zscore_morph.trn10158.trn \
     vendor/lge/g4-common/proprietary/vendor/etc/scve/textreco/chardecoder/_conf_eng_num_sym_font40_4transd_zscore_morph_.trn2876.trn:system/vendor/etc/scve/textreco/chardecoder/_conf_eng_num_sym_font40_4transd_zscore_morph_.trn2876.trn \
     vendor/lge/g4-common/proprietary/vendor/bin/runtime_boot_res.sh:system/vendor/bin/runtime_boot_res.sh \
-    vendor/lge/g4-common/proprietary/vendor/bin/RIDLClient.exe:system/vendor/bin/RIDLClient.exe \
     vendor/lge/g4-common/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/lge/g4-common/proprietary/vendor/bin/apk_delete.sh:system/vendor/bin/apk_delete.sh \
     vendor/lge/g4-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
