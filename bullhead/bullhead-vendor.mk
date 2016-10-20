@@ -20,14 +20,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/bin/cnd:system/bin/cnd \
     vendor/lge/bullhead/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/lge/bullhead/proprietary/bin/fingerprintd:system/bin/fingerprintd \
-    vendor/lge/bullhead/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/lge/bullhead/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/lge/bullhead/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/lge/bullhead/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/lge/bullhead/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/lge/bullhead/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/lge/bullhead/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-    vendor/lge/bullhead/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
+    vendor/lge/bullhead/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/lge/bullhead/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/lge/bullhead/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/bullhead/proprietary/bin/nl_listener:system/bin/nl_listener \
@@ -67,6 +66,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/lge/bullhead/proprietary/etc/sysconfig/whitelist_com.android.omadm.service.xml:system/etc/sysconfig/whitelist_com.android.omadm.service.xml \
     vendor/lge/bullhead/proprietary/etc/thermal-engine-8992.conf:system/etc/thermal-engine-8992.conf \
+    vendor/lge/bullhead/proprietary/lib64/hw/activity_recognition.bullhead.so:system/lib64/hw/activity_recognition.bullhead.so \
     vendor/lge/bullhead/proprietary/lib64/hw/fingerprint.bullhead.so:system/lib64/hw/fingerprint.bullhead.so \
     vendor/lge/bullhead/proprietary/lib64/hw/gps.msm8992.so:system/lib64/hw/gps.msm8992.so \
     vendor/lge/bullhead/proprietary/lib64/hw/nfc_nci.bullhead.so:system/lib64/hw/nfc_nci.bullhead.so \
@@ -76,7 +76,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/lge/bullhead/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/lge/bullhead/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
-    vendor/lge/bullhead/proprietary/lib/hw/camera.msm8992.so:system/lib/hw/camera.msm8992.so \
+    vendor/lge/bullhead/proprietary/lib/hw/activity_recognition.bullhead.so:system/lib/hw/activity_recognition.bullhead.so \
     vendor/lge/bullhead/proprietary/lib/hw/fingerprint.bullhead.so:system/lib/hw/fingerprint.bullhead.so \
     vendor/lge/bullhead/proprietary/lib/hw/gps.msm8992.so:system/lib/hw/gps.msm8992.so \
     vendor/lge/bullhead/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
@@ -97,13 +97,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/lib/soundfx/libfmas.so:system/lib/soundfx/libfmas.so
 
 PRODUCT_PACKAGES += \
-    atfwd \
     HiddenMenu \
-    qcrilmsgtunnel \
     RCSBootstraputil \
     RcsImsBootstraputil \
     TimeService \
     Tycho \
+    atfwd \
     CNEService \
     ConnMO \
     DCMO \
@@ -113,6 +112,7 @@ PRODUCT_PACKAGES += \
     GCS \
     HotwordEnrollment \
     LifeTimerService \
+    qcrilmsgtunnel \
     SprintDM \
     cneapiclient \
     com.google.widevine.software.drm \
