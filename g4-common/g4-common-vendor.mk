@@ -19,7 +19,6 @@
 
 PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
-    shutdownlistener \
     qcnvitems \
     qcrilhook
 
@@ -35,3 +34,4 @@ PRODUCT_PACKAGES += \
     libtime_genoff
 
 $(call inherit-product, vendor/lge/g4-common/g4-common-vendor-blobs.mk)
+$(call inherit-product, vendor/qcom/binaries/msm8992/graphics/graphics-vendor.mk)
