@@ -19,7 +19,6 @@
 
 PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
-    shutdownlistener \
     qcnvitems \
     qcrilhook
 
