@@ -145,7 +145,7 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_DEX_PREOPT := false
 include $(BUILD_PREBUILT)
 
-$(call inherit-product, vendor/qcom/binaries/msm8992/graphics/Android.mk)
+-include vendor/qcom/binaries/msm8992/graphics/Android.mk
 
 endif
 
