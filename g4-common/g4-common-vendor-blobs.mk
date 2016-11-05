@@ -624,6 +624,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib/libavenhancements.so:system/vendor/lib/libavenhancements.so \
     vendor/lge/g4-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/lge/g4-common/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libactuator_ov8825.so:system/vendor/lib/libactuator_ov8825.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/lge/g4-common/proprietary/vendor/lib/lib-imsrcscm.so:system/vendor/lib/lib-imsrcscm.so \
@@ -652,6 +653,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib/libmmcamera_isp_sce40.so:system/vendor/lib/libmmcamera_isp_sce40.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libchromatix_imx234_cpp_video.so:system/vendor/lib/libchromatix_imx234_cpp_video.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/libmmcamera_llvd.so:system/vendor/lib/libmmcamera_llvd.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/libllvd_smore.so:system/vendor/lib/libllvd_smore.so \
     vendor/lge/g4-common/proprietary/lib64/libmdmcutback.so:system/lib64/libmdmcutback.so \
     vendor/lge/g4-common/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
     vendor/lge/g4-common/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
@@ -729,5 +732,3 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/firmware/a420_pm4.fw:system/vendor/firmware/a420_pm4.fw \
     vendor/lge/g4-common/proprietary/vendor/lib/librs.rnr_downscale.so:system/vendor/lib/librs.rnr_downscale.so \
     vendor/lge/g4-common/proprietary/vendor/lib/librs.rnr_process.so:system/vendor/lib/librs.rnr_process.so
-
-$(call inherit-product, vendor/qcom/binaries/msm8992/graphics/graphics-vendor.mk)
