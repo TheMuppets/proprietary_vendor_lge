@@ -36,9 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib64/libcir_driver.so:system/lib64/libcir_driver.so \
     vendor/lge/g4-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/lge/g4-common/proprietary/lib64/libvss_nv_iface.so:system/lib64/libvss_nv_iface.so \
-    vendor/lge/g4-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
-    vendor/lge/g4-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
-    vendor/lge/g4-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/lge/g4-common/proprietary/lib/libvss_nv_core.so:system/lib/libvss_nv_core.so \
     vendor/lge/g4-common/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     vendor/lge/g4-common/proprietary/lib/libqdMetaData.so:system/lib/libqdMetaData.so \
