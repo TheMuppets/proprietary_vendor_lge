@@ -36,10 +36,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v500/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
     vendor/lge/v500/proprietary/etc/firmware/wcnss.b06:system/etc/firmware/wcnss.b06 \
     vendor/lge/v500/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
-    vendor/lge/v500/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/lge/v500/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
     vendor/lge/v500/proprietary/lib/hw/flp.msm8960.so:system/lib/hw/flp.msm8960.so \
-    vendor/lge/v500/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
     vendor/lge/v500/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/lge/v500/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/lge/v500/proprietary/lib/libAKM.so:system/lib/libAKM.so \
@@ -60,14 +58,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v500/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/lge/v500/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/lge/v500/proprietary/lib/libgemini.so:system/lib/libgemini.so \
-    vendor/lge/v500/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/lge/v500/proprietary/lib/libHDR.so:system/lib/libHDR.so \
     vendor/lge/v500/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/lge/v500/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/lge/v500/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/lge/v500/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
-    vendor/lge/v500/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/lge/v500/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/lge/v500/proprietary/lib/libmercury.so:system/lib/libmercury.so \
     vendor/lge/v500/proprietary/lib/libmmcamera_3a_legacy.so:system/lib/libmmcamera_3a_legacy.so \
     vendor/lge/v500/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
