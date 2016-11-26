@@ -49,6 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ls990/proprietary/lib/libvss_common_iface.so:system/lib/libvss_common_iface.so \
     vendor/lge/ls990/proprietary/lib/libvss_nv_idl.so:system/lib/libvss_nv_idl.so \
     vendor/lge/ls990/proprietary/lib/libvss_nv_iface.so:system/lib/libvss_nv_iface.so \
+    vendor/lge/ls990/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/lge/ls990/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/lge/ls990/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/lge/ls990/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
