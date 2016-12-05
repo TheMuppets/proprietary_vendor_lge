@@ -99,7 +99,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v500/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/lge/v500/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
     vendor/lge/v500/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
-    vendor/lge/v500/proprietary/lib/libthermalclient.so:system/lib/libthermalclient.so \
     vendor/lge/v500/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
     vendor/lge/v500/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
     vendor/lge/v500/proprietary/vendor/firmware/dsps.b00:system/vendor/firmware/dsps.b00 \
