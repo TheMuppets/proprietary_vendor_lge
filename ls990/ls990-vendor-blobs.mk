@@ -61,8 +61,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ls990/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/lge/ls990/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/lge/ls990/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
-    vendor/lge/ls990/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
-    vendor/lge/ls990/proprietary/lib/hw/nfc.lg.so:system/lib/hw/nfc.lg.so \
+    vendor/lge/ls990/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/lge/ls990/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/lge/ls990/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
     vendor/lge/ls990/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
