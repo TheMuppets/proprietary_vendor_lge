@@ -304,6 +304,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_imx298_raw_hdr.so:system/vendor/lib/liblg_awb_parameter_imx298_raw_hdr.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_imx298_zsl_preview.so:system/vendor/lib/liblg_awb_parameter_imx298_zsl_preview.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_imx298_zsl_video.so:system/vendor/lib/liblg_awb_parameter_imx298_zsl_video.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblgae_main.so:system/vendor/lib/liblgae_main.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblgawb_main.so:system/vendor/lib/liblgawb_main.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libllvd_smore.so:system/vendor/lib/libllvd_smore.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
