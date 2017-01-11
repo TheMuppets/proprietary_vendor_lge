@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter v20 h918 h910 vs995,$(TARGET_DEVICE)),)
+ifneq ($(filter v20 h918 h910 vs995 us996,$(TARGET_DEVICE)),)
 
 ifneq ($(TARGET_HAVE_QC_PERF),true)
 endif
