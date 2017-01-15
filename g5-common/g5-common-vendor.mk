@@ -481,6 +481,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lge/g5-common/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/lge/g5-common/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
+    vendor/lge/g5-common/proprietary/etc/qdcm_calib_data_lgd_lg4946_1440p_command_mode_panel.xml:system/etc/qdcm_calib_data_lgd_lg4946_1440p_command_mode_panel.xml \
     vendor/lge/g5-common/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/lge/g5-common/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/lge/g5-common/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
