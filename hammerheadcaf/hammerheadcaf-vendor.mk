@@ -1,4 +1,5 @@
 # Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -52,7 +53,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerheadcaf/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/lge/hammerheadcaf/proprietary/framework/serviceitems.jar:system/framework/serviceitems.jar \
     vendor/lge/hammerheadcaf/proprietary/lib/hw/flp.msm8974.so:system/lib/hw/flp.msm8974.so \
-    vendor/lge/hammerheadcaf/proprietary/lib/hw/gps.msm8974.so:system/lib/hw/gps.msm8974.so \
     vendor/lge/hammerheadcaf/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/lge/hammerheadcaf/proprietary/lib/libchromatix_imx179_common.so:system/lib/libchromatix_imx179_common.so \
     vendor/lge/hammerheadcaf/proprietary/lib/libchromatix_imx179_default_video.so:system/lib/libchromatix_imx179_default_video.so \
@@ -62,9 +62,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerheadcaf/proprietary/lib/libchromatix_mt9m114b_default_video.so:system/lib/libchromatix_mt9m114b_default_video.so \
     vendor/lge/hammerheadcaf/proprietary/lib/libchromatix_mt9m114b_preview.so:system/lib/libchromatix_mt9m114b_preview.so \
     vendor/lge/hammerheadcaf/proprietary/lib/libchromatix_mt9m114b_snapshot.so:system/lib/libchromatix_mt9m114b_snapshot.so \
-    vendor/lge/hammerheadcaf/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/lge/hammerheadcaf/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/lge/hammerheadcaf/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/lge/hammerheadcaf/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     vendor/lge/hammerheadcaf/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
     vendor/lge/hammerheadcaf/proprietary/lib/libmmcamera_imx179.so:system/lib/libmmcamera_imx179.so \
