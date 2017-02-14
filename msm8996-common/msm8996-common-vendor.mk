@@ -43,21 +43,17 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/lge/msm8996-common/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/lge/msm8996-common/proprietary/lib/hw/consumerir.msm8996.so:system/lib/hw/consumerir.msm8996.so \
-    vendor/lge/msm8996-common/proprietary/lib/hw/fingerprint.msm8996.so:system/lib/hw/fingerprint.msm8996.so \
     vendor/lge/msm8996-common/proprietary/lib/hw/gps.msm8996.so:system/lib/hw/gps.msm8996.so \
     vendor/lge/msm8996-common/proprietary/lib/hw/lgkm.default.so:system/lib/hw/lgkm.default.so \
     vendor/lge/msm8996-common/proprietary/lib/hw/lgkm.msm8996.so:system/lib/hw/lgkm.msm8996.so \
-    vendor/lge/msm8996-common/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/lge/msm8996-common/proprietary/lib/libcir_driver.so:system/lib/libcir_driver.so \
     vendor/lge/msm8996-common/proprietary/lib/libfpfactory.so:system/lib/libfpfactory.so \
     vendor/lge/msm8996-common/proprietary/lib/libfpfactory_jni.so:system/lib/libfpfactory_jni.so \
     vendor/lge/msm8996-common/proprietary/lib/liblgkm.so:system/lib/liblgkm.so \
     vendor/lge/msm8996-common/proprietary/lib64/hw/consumerir.msm8996.so:system/lib64/hw/consumerir.msm8996.so \
-    vendor/lge/msm8996-common/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
     vendor/lge/msm8996-common/proprietary/lib64/hw/gps.msm8996.so:system/lib64/hw/gps.msm8996.so \
     vendor/lge/msm8996-common/proprietary/lib64/hw/lgkm.default.so:system/lib64/hw/lgkm.default.so \
     vendor/lge/msm8996-common/proprietary/lib64/hw/lgkm.msm8996.so:system/lib64/hw/lgkm.msm8996.so \
-    vendor/lge/msm8996-common/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/lge/msm8996-common/proprietary/lib64/libcir_driver.so:system/lib64/libcir_driver.so \
     vendor/lge/msm8996-common/proprietary/lib64/libfpfactory.so:system/lib64/libfpfactory.so \
     vendor/lge/msm8996-common/proprietary/lib64/libfpfactory_jni.so:system/lib64/libfpfactory_jni.so \

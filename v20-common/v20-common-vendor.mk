@@ -1,6 +1,7 @@
 # Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
+
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
 #
@@ -29,11 +30,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v20-common/proprietary/etc/camera/imx219_chromatix.xml:system/etc/camera/imx219_chromatix.xml \
     vendor/lge/v20-common/proprietary/etc/camera/imx298_chromatix_LG.xml:system/etc/camera/imx298_chromatix_LG.xml \
     vendor/lge/v20-common/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
+    vendor/lge/v20-common/proprietary/lib/hw/fingerprint.msm8996.so:system/lib/hw/fingerprint.msm8996.so \
     vendor/lge/v20-common/proprietary/lib/libarcsoft_beauty_shot.so:system/lib/libarcsoft_beauty_shot.so \
     vendor/lge/v20-common/proprietary/lib/libarcsoft_object_tracking.so:system/lib/libarcsoft_object_tracking.so \
     vendor/lge/v20-common/proprietary/lib/libbwfocuspeaking.so:system/lib/libbwfocuspeaking.so \
     vendor/lge/v20-common/proprietary/lib/libcir_driver.so:system/lib/libcir_driver.so \
     vendor/lge/v20-common/proprietary/lib/libfilm_emulation.so:system/lib/libfilm_emulation.so \
+    vendor/lge/v20-common/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/lge/v20-common/proprietary/lib/liblghdri.so:system/lib/liblghdri.so \
     vendor/lge/v20-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/lge/v20-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
@@ -42,7 +45,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v20-common/proprietary/lib/libmorpho_superzoom.so:system/lib/libmorpho_superzoom.so \
     vendor/lge/v20-common/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/lge/v20-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/lge/v20-common/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
     vendor/lge/v20-common/proprietary/lib64/libcir_driver.so:system/lib64/libcir_driver.so \
+    vendor/lge/v20-common/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libactuator_ak7371.so:system/vendor/lib/libactuator_ak7371.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libactuator_bu24333gwl.so:system/vendor/lib/libactuator_bu24333gwl.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_csidtg_common.so:system/vendor/lib/libchromatix_csidtg_common.so \
