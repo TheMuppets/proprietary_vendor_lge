@@ -17,7 +17,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter g5 h830 h850 v20 h910 h918 us996,$(TARGET_DEVICE)),)
+ifneq ($(filter g5 h830 h850 v20 h910 h918 us996 ls997 vs995,$(TARGET_DEVICE)),)
 
 
 ifeq ($(QCPATH),)
