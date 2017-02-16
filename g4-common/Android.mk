@@ -145,7 +145,9 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_DEX_PREOPT := false
 include $(BUILD_PREBUILT)
 
--include vendor/qcom/binaries/msm8992/graphics/Android.mk
+$(shell mkdir -p $(PRODUCT_OUT)/system/vendor/lib/egl && pushd $(PRODUCT_OUT)/system/vendor/lib > /dev/null && ln -s egl/libEGL_adreno.so libEGL_adreno.so && popd > /dev/null)
+$(shell mkdir -p $(PRODUCT_OUT)/system/vendor/lib64/egl && pushd $(PRODUCT_OUT)/system/vendor/lib64 > /dev/null && ln -s egl/libEGL_adreno.so libEGL_adreno.so && popd > /dev/null)
+
 
 endif
 
