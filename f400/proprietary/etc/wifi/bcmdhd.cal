@@ -166,3 +166,7 @@ rpcal5gb2=0x00E0
 ed_thresh2g=-77
 ed_thresh5g=-77
 muxenab=0x10
+
+# Set btc_params for BT coex issue 
+btc_params80=0 
+btc_params8=25000
