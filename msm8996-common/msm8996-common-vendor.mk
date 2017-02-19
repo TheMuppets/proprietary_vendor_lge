@@ -18,7 +18,6 @@
 PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/lge/msm8996-common/proprietary/bin/fpc_early_loader:system/bin/fpc_early_loader \
-    vendor/lge/msm8996-common/proprietary/bin/rild:system/bin/rild \
     vendor/lge/msm8996-common/proprietary/etc/camera/film/0_film.dat:system/etc/camera/film/0_film.dat \
     vendor/lge/msm8996-common/proprietary/etc/camera/film/10_film.dat:system/etc/camera/film/10_film.dat \
     vendor/lge/msm8996-common/proprietary/etc/camera/film/1_film.dat:system/etc/camera/film/1_film.dat \
@@ -59,8 +58,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/lib64/libfpfactory_jni.so:system/lib64/libfpfactory_jni.so \
     vendor/lge/msm8996-common/proprietary/lib64/liblgkm.so:system/lib64/liblgkm.so \
     vendor/lge/msm8996-common/proprietary/lib64/libparam.so:system/lib64/libparam.so \
-    vendor/lge/msm8996-common/proprietary/lib64/libril.so:system/lib64/libril.so \
-    vendor/lge/msm8996-common/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
     vendor/lge/msm8996-common/proprietary/lib64/libuicc.so:system/lib64/libuicc.so \
     vendor/lge/msm8996-common/proprietary/lib64/libvss_bsp_qcci.so:system/lib64/libvss_bsp_qcci.so \
     vendor/lge/msm8996-common/proprietary/lib64/libvss_common_core.so:system/lib64/libvss_common_core.so \
