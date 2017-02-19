@@ -16,7 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib64/libqdMetaData.so:system/lib64/libqdMetaData.so \
-    vendor/lge/g4-common/proprietary/lib64/hw/consumerir.msm8992.so:system/lib64/hw/consumerir.msm8992.so \
     vendor/lge/g4-common/proprietary/lib64/hw/wbc_hal.default.so:system/lib64/hw/wbc_hal.default.so \
     vendor/lge/g4-common/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/lge/g4-common/proprietary/lib64/libuicc.so:system/lib64/libuicc.so \
@@ -27,7 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lge/g4-common/proprietary/lib/libVDHDRAPI.so:system/lib/libVDHDRAPI.so \
     vendor/lge/g4-common/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
-    vendor/lge/g4-common/proprietary/lib/hw/consumerir.msm8992.so:system/lib/hw/consumerir.msm8992.so \
     vendor/lge/g4-common/proprietary/lib/hw/wbc_hal.default.so:system/lib/hw/wbc_hal.default.so \
     vendor/lge/g4-common/proprietary/lib/hw/camera.msm8992.so:system/lib/hw/camera.msm8992.so \
     vendor/lge/g4-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
