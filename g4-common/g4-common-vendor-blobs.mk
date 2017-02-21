@@ -710,7 +710,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/lge/g4-common/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/lge/g4-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-    vendor/lge/g4-common/proprietary/bin/imswmsproxy:system/bin/imswmsproxy \
     vendor/lge/g4-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/lge/g4-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/g4-common/proprietary/bin/btnvtool:system/bin/btnvtool \
@@ -741,4 +740,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw \
     vendor/lge/g4-common/proprietary/vendor/firmware/a420_pm4.fw:system/vendor/firmware/a420_pm4.fw \
     vendor/lge/g4-common/proprietary/vendor/lib/librs.rnr_downscale.so:system/vendor/lib/librs.rnr_downscale.so \
-    vendor/lge/g4-common/proprietary/vendor/lib/librs.rnr_process.so:system/vendor/lib/librs.rnr_process.so
+    vendor/lge/g4-common/proprietary/vendor/lib/librs.rnr_process.so:system/vendor/lib/librs.rnr_process.so \
+    vendor/lge/g4-common/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
+    vendor/lge/g4-common/proprietary/app/ims/lib/arm64/libimscamera_jni.so:system/app/ims/lib/arm64/libimscamera_jni.so \
+    vendor/lge/g4-common/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
+    vendor/lge/g4-common/proprietary/app/ims/lib/arm64/libimsmedia_jni.so:system/app/ims/lib/arm64/libimsmedia_jni.so \
+    vendor/lge/g4-common/proprietary/app/ims/ims.apk:system/app/ims/ims.apk \
+    vendor/lge/g4-common/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
+    vendor/lge/g4-common/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so
