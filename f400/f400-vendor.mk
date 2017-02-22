@@ -44,7 +44,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/f400/proprietary/lib/libvss_common_iface.so:system/lib/libvss_common_iface.so \
     vendor/lge/f400/proprietary/lib/libvss_nv_idl.so:system/lib/libvss_nv_idl.so \
     vendor/lge/f400/proprietary/lib/libvss_nv_iface.so:system/lib/libvss_nv_iface.so \
-    vendor/lge/f400/proprietary/vendor/firmware/BCM4339_003.001.009.0098.0415_B2_KR_ORC.hcd:system/vendor/firmware/BCM4335_003.001.009.0098.0415_B2_KR_ORC.hcd \
+    vendor/lge/f400/proprietary/vendor/firmware/BCM4339_003.001.009.0098.0415_B2_KR_ORC.hcd:system/vendor/firmware/BCM4339_003.001.009.0098.0415_B2_KR_ORC.hcd \
     vendor/lge/f400/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/lge/f400/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/lge/f400/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
