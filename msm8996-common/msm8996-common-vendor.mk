@@ -18,7 +18,6 @@
 PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/lge/msm8996-common/proprietary/bin/fpc_early_loader:system/bin/fpc_early_loader \
-    vendor/lge/msm8996-common/proprietary/bin/rild:system/bin/rild \
     vendor/lge/msm8996-common/proprietary/etc/camera/film/0_film.dat:system/etc/camera/film/0_film.dat \
     vendor/lge/msm8996-common/proprietary/etc/camera/film/10_film.dat:system/etc/camera/film/10_film.dat \
     vendor/lge/msm8996-common/proprietary/etc/camera/film/1_film.dat:system/etc/camera/film/1_film.dat \
@@ -60,22 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/lib64/libfpfactory.so:system/lib64/libfpfactory.so \
     vendor/lge/msm8996-common/proprietary/lib64/libfpfactory_jni.so:system/lib64/libfpfactory_jni.so \
     vendor/lge/msm8996-common/proprietary/lib64/liblgkm.so:system/lib64/liblgkm.so \
-    vendor/lge/msm8996-common/proprietary/lib64/libril.so:system/lib64/libril.so \
-    vendor/lge/msm8996-common/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
-    vendor/lge/msm8996-common/proprietary/lib64/libuicc.so:system/lib64/libuicc.so \
-    vendor/lge/msm8996-common/proprietary/lib64/libvss_bsp_qcci.so:system/lib64/libvss_bsp_qcci.so \
-    vendor/lge/msm8996-common/proprietary/lib64/libvss_common_core.so:system/lib64/libvss_common_core.so \
-    vendor/lge/msm8996-common/proprietary/lib64/libvss_common_idl.so:system/lib64/libvss_common_idl.so \
-    vendor/lge/msm8996-common/proprietary/lib64/libvss_common_iface.so:system/lib64/libvss_common_iface.so \
-    vendor/lge/msm8996-common/proprietary/lib64/libvss_dmi_qcci.so:system/lib64/libvss_dmi_qcci.so \
-    vendor/lge/msm8996-common/proprietary/lib64/libvss_gnss_qcci.so:system/lib64/libvss_gnss_qcci.so \
-    vendor/lge/msm8996-common/proprietary/lib64/libvss_ims_qcci.so:system/lib64/libvss_ims_qcci.so \
-    vendor/lge/msm8996-common/proprietary/lib64/libvss_nv_core.so:system/lib64/libvss_nv_core.so \
-    vendor/lge/msm8996-common/proprietary/lib64/libvss_nv_idl.so:system/lib64/libvss_nv_idl.so \
-    vendor/lge/msm8996-common/proprietary/lib64/libvss_nv_iface.so:system/lib64/libvss_nv_iface.so \
-    vendor/lge/msm8996-common/proprietary/lib64/libvss_resim_core.so:system/lib64/libvss_resim_core.so \
-    vendor/lge/msm8996-common/proprietary/lib64/libvss_resim_idl.so:system/lib64/libvss_resim_idl.so \
-    vendor/lge/msm8996-common/proprietary/lib64/libvss_resim_iface.so:system/lib64/libvss_resim_iface.so \
     vendor/lge/msm8996-common/proprietary/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev13_S_data1_0x4E.bin:system/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev13_S_data1_0x4E.bin \
     vendor/lge/msm8996-common/proprietary/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev13_S_data2_0x4E.bin:system/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev13_S_data2_0x4E.bin \
     vendor/lge/msm8996-common/proprietary/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev14_S_data1.bin:system/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev14_S_data1.bin \
@@ -138,6 +121,26 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/msm8996-common/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/lge/msm8996-common/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
+    vendor/lge/msm8996-common/proprietary/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/etc/cne/wqeclient/ATT/ATT_profile1.xml \
+    vendor/lge/msm8996-common/proprietary/etc/cne/wqeclient/ATT/ATT_profile2.xml:system/etc/cne/wqeclient/ATT/ATT_profile2.xml \
+    vendor/lge/msm8996-common/proprietary/etc/cne/wqeclient/ATT/ATT_profile3.xml:system/etc/cne/wqeclient/ATT/ATT_profile3.xml \
+    vendor/lge/msm8996-common/proprietary/etc/cne/wqeclient/ATT/ATT_profile4.xml:system/etc/cne/wqeclient/ATT/ATT_profile4.xml \
+    vendor/lge/msm8996-common/proprietary/etc/cne/wqeclient/ROW/ROW_profile1.xml:system/etc/cne/wqeclient/ROW/ROW_profile1.xml \
+    vendor/lge/msm8996-common/proprietary/etc/cne/wqeclient/ROW/ROW_profile2.xml:system/etc/cne/wqeclient/ROW/ROW_profile2.xml \
+    vendor/lge/msm8996-common/proprietary/etc/cne/wqeclient/ROW/ROW_profile3.xml:system/etc/cne/wqeclient/ROW/ROW_profile3.xml \
+    vendor/lge/msm8996-common/proprietary/etc/cne/wqeclient/ROW/ROW_profile4.xml:system/etc/cne/wqeclient/ROW/ROW_profile4.xml \
+    vendor/lge/msm8996-common/proprietary/etc/cne/wqeclient/ROW/ROW_profile5.xml:system/etc/cne/wqeclient/ROW/ROW_profile5.xml \
+    vendor/lge/msm8996-common/proprietary/etc/cne/wqeclient/VZW/VZW_profile1.xml:system/etc/cne/wqeclient/VZW/VZW_profile1.xml \
+    vendor/lge/msm8996-common/proprietary/etc/cne/wqeclient/VZW/VZW_profile2.xml:system/etc/cne/wqeclient/VZW/VZW_profile2.xml \
+    vendor/lge/msm8996-common/proprietary/etc/cne/wqeclient/VZW/VZW_profile3.xml:system/etc/cne/wqeclient/VZW/VZW_profile3.xml \
+    vendor/lge/msm8996-common/proprietary/etc/cne/wqeclient/VZW/VZW_profile4.xml:system/etc/cne/wqeclient/VZW/VZW_profile4.xml \
+    vendor/lge/msm8996-common/proprietary/etc/cne/wqeclient/VZW/VZW_profile5.xml:system/etc/cne/wqeclient/VZW/VZW_profile5.xml \
+    vendor/lge/msm8996-common/proprietary/etc/cne/wqeclient/VZW/VZW_profile6.xml:system/etc/cne/wqeclient/VZW/VZW_profile6.xml \
+    vendor/lge/msm8996-common/proprietary/etc/cne/wqeclient/profile1.xml:system/etc/cne/wqeclient/profile1.xml \
+    vendor/lge/msm8996-common/proprietary/etc/cne/wqeclient/profile2.xml:system/etc/cne/wqeclient/profile2.xml \
+    vendor/lge/msm8996-common/proprietary/etc/cne/wqeclient/profile3.xml:system/etc/cne/wqeclient/profile3.xml \
+    vendor/lge/msm8996-common/proprietary/etc/cne/wqeclient/profile4.xml:system/etc/cne/wqeclient/profile4.xml \
+    vendor/lge/msm8996-common/proprietary/etc/cne/wqeclient/profile5.xml:system/etc/cne/wqeclient/profile5.xml \
     vendor/lge/msm8996-common/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/lge/msm8996-common/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/lge/msm8996-common/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
@@ -151,8 +154,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/lge/msm8996-common/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/lge/msm8996-common/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
+    vendor/lge/msm8996-common/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/lge/msm8996-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/lge/msm8996-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/lge/msm8996-common/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/lge/msm8996-common/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/lge/msm8996-common/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/lge/msm8996-common/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
@@ -163,17 +168,20 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/lge/msm8996-common/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/lge/msm8996-common/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
+    vendor/lge/msm8996-common/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
     vendor/lge/msm8996-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
+    vendor/lge/msm8996-common/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/lge/msm8996-common/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/lge/msm8996-common/proprietary/lib64/hw/sensors.vr.so:system/lib64/hw/sensors.vr.so \
     vendor/lge/msm8996-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
-    vendor/lge/msm8996-common/proprietary/lib64/librilqmiservices.so:system/lib64/librilqmiservices.so \
+    vendor/lge/msm8996-common/proprietary/lib64/libparam.so:system/lib64/libparam.so \
     vendor/lge/msm8996-common/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/lge/msm8996-common/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
     vendor/lge/msm8996-common/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/lge/msm8996-common/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/lge/msm8996-common/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/lge/msm8996-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/lge/msm8996-common/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
     vendor/lge/msm8996-common/proprietary/vendor/lib/hw/activity_recognition.msm8996.so:system/vendor/lib/hw/activity_recognition.msm8996.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/hw/gatekeeper.msm8996.so:system/vendor/lib/hw/gatekeeper.msm8996.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/hw/keystore.msm8996.so:system/vendor/lib/hw/keystore.msm8996.so \
@@ -211,6 +219,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libmdsprpc.so:system/vendor/lib/libmdsprpc.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
@@ -344,10 +353,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/libqti-wl.so:system/vendor/lib64/libqti-wl.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/librcc.so:system/vendor/lib64/librcc.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/librilqmiservices.so:system/vendor/lib64/librilqmiservices.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
@@ -399,6 +410,7 @@ PRODUCT_PACKAGES += \
     ims \
     imssettings \
     embmslibrary \
+    qcnvitems \
     qcrilhook
 endif
 
