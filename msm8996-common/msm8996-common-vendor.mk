@@ -172,6 +172,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/lge/msm8996-common/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/lge/msm8996-common/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
+    vendor/lge/msm8996-common/proprietary/lib/hw/gps.msm8996.so:system/lib/hw/gps.msm8996.so \
+    vendor/lge/msm8996-common/proprietary/lib64/hw/gps.msm8996.so:system/lib64/hw/gps.msm8996.so \
     vendor/lge/msm8996-common/proprietary/lib64/hw/sensors.vr.so:system/lib64/hw/sensors.vr.so \
     vendor/lge/msm8996-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/lge/msm8996-common/proprietary/lib64/libparam.so:system/lib64/libparam.so \
