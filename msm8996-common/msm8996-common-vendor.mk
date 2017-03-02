@@ -499,5 +499,3 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so
 endif
-
-$(call inherit-product, vendor/qcom/binaries/msm8996/graphics/graphics-vendor.mk)
