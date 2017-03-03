@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/lge/g2-common/proprietary/bin/hvdcp:system/bin/hvdcp \
     vendor/lge/g2-common/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
