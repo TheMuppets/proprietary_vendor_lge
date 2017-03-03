@@ -427,8 +427,6 @@ PRODUCT_PACKAGES += \
     TimeService \
     CNEService
 
-$(call inherit-product, vendor/qcom/binaries/msm8952-32/graphics/graphics-vendor.mk)
-
 ifeq ($(FORCE_64_BIT),true)
 PRODUCT_COPY_FILES += \
     vendor/lge/v521/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
@@ -457,7 +455,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libTimeService \
     libtime_genoff
-
-$(call inherit-product, vendor/qcom/binaries/msm8952-64/graphics/graphics-vendor.mk)
 endif
 endif
