@@ -32,7 +32,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/etc/camera/imx234_chromatix.xml:system/etc/camera/imx234_chromatix.xml \
     vendor/lge/g5-common/proprietary/etc/camera/imx268_chromatix.xml:system/etc/camera/imx268_chromatix.xml \
     vendor/lge/g5-common/proprietary/etc/camera/t4ka3_chromatix.xml:system/etc/camera/t4ka3_chromatix.xml \
-    vendor/lge/g5-common/proprietary/etc/qdcm_calib_data_lgd_lg4946_1440p_command_mode_panel.xml:system/etc/qdcm_calib_data_lgd_lg4946_1440p_command_mode_panel.xml \
+    vendor/lge/g5-common/proprietary/etc/qdcm_calib_data_LGD_SIC_LG4946_1440p_Dual_cmd_mode_dsi_panel.xml:system/etc/qdcm_calib_data_LGD_SIC_LG4946_1440p_Dual_cmd_mode_dsi_panel.xml \
     vendor/lge/g5-common/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
     vendor/lge/g5-common/proprietary/lib/hw/fingerprint.msm8996.so:system/lib/hw/fingerprint.msm8996.so \
     vendor/lge/g5-common/proprietary/lib/libHDR.so:system/lib/libHDR.so \
