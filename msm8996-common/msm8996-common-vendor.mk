@@ -140,11 +140,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/lge/msm8996-common/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/lge/msm8996-common/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
+    vendor/lge/msm8996-common/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
     vendor/lge/msm8996-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/lge/msm8996-common/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/lge/msm8996-common/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/lge/msm8996-common/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/lge/msm8996-common/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
+    vendor/lge/msm8996-common/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/lge/msm8996-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/lge/msm8996-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lge/msm8996-common/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
@@ -156,15 +158,15 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/lge/msm8996-common/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/lge/msm8996-common/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
+    vendor/lge/msm8996-common/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
     vendor/lge/msm8996-common/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/lge/msm8996-common/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/lge/msm8996-common/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/lge/msm8996-common/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
+    vendor/lge/msm8996-common/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/lge/msm8996-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/lge/msm8996-common/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/lge/msm8996-common/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/lge/msm8996-common/proprietary/lib/hw/gps.msm8996.so:system/lib/hw/gps.msm8996.so \
-    vendor/lge/msm8996-common/proprietary/lib64/hw/gps.msm8996.so:system/lib64/hw/gps.msm8996.so \
     vendor/lge/msm8996-common/proprietary/lib64/hw/sensors.vr.so:system/lib64/hw/sensors.vr.so \
     vendor/lge/msm8996-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/lge/msm8996-common/proprietary/lib64/libparam.so:system/lib64/libparam.so \
@@ -305,6 +307,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/libDRPlugin.so:system/vendor/lib64/libDRPlugin.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/libGPreqcancel.so:system/vendor/lib64/libGPreqcancel.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/libGPreqcancel_svc.so:system/vendor/lib64/libGPreqcancel_svc.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/libI420colorconvert.so:system/vendor/lib64/libI420colorconvert.so \
@@ -350,7 +353,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/libdpmtcm.so:system/vendor/lib64/libdpmtcm.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/libdrplugin_client.so:system/vendor/lib64/libdrplugin_client.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/libevent_observer.so:system/vendor/lib64/libevent_observer.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/libfastcvopt.so:system/vendor/lib64/libfastcvopt.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
