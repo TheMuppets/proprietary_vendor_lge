@@ -82,6 +82,24 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g6-common/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/lge/g6-common/proprietary/lib64/libfpfactory.so:system/lib64/libfpfactory.so \
     vendor/lge/g6-common/proprietary/lib64/libfpfactory_jni.so:system/lib64/libfpfactory_jni.so \
+    vendor/lge/g6-common/proprietary/etc/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev10_S_data1.bin:system/etc/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev10_S_data1.bin \
+    vendor/lge/g6-common/proprietary/etc/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev10_S_data2.bin:system/etc/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev10_S_data2.bin \
+    vendor/lge/g6-common/proprietary/etc/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev6_S_data1.bin:system/etc/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev6_S_data1.bin \
+    vendor/lge/g6-common/proprietary/etc/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev6_S_data2.bin:system/etc/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev6_S_data2.bin \
+    vendor/lge/g6-common/proprietary/etc/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev7_S_data1.bin:system/etc/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev7_S_data1.bin \
+    vendor/lge/g6-common/proprietary/etc/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev7_S_data2.bin:system/etc/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev7_S_data2.bin \
+    vendor/lge/g6-common/proprietary/etc/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev8_S_data1.bin:system/etc/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev8_S_data1.bin \
+    vendor/lge/g6-common/proprietary/etc/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev8_S_data2.bin:system/etc/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev8_S_data2.bin \
+    vendor/lge/g6-common/proprietary/etc/firmware/bu24235_dl_program_Lucy_LGITAct_OPAF_ICG1020S_rev1_S_data1_0x01.bin:system/etc/firmware/bu24235_dl_program_Lucy_LGITAct_OPAF_ICG1020S_rev1_S_data1_0x01.bin \
+    vendor/lge/g6-common/proprietary/etc/firmware/bu24235_dl_program_Lucy_LGITAct_OPAF_ICG1020S_rev1_S_data2_0x01.bin:system/etc/firmware/bu24235_dl_program_Lucy_LGITAct_OPAF_ICG1020S_rev1_S_data2_0x01.bin \
+    vendor/lge/g6-common/proprietary/etc/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev4_S_data1.bin:system/etc/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev4_S_data1.bin \
+    vendor/lge/g6-common/proprietary/etc/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev4_S_data2.bin:system/etc/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev4_S_data2.bin \
+    vendor/lge/g6-common/proprietary/etc/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev6_S_data1.bin:system/etc/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev6_S_data1.bin \
+    vendor/lge/g6-common/proprietary/etc/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev6_S_data2.bin:system/etc/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev6_S_data2.bin \
+    vendor/lge/g6-common/proprietary/etc/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev7_S_data1.bin:system/etc/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev7_S_data1.bin \
+    vendor/lge/g6-common/proprietary/etc/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev7_S_data2.bin:system/etc/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev7_S_data2.bin \
+    vendor/lge/g6-common/proprietary/etc/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev8_S_data1.bin:system/etc/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev8_S_data1.bin \
+    vendor/lge/g6-common/proprietary/etc/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev8_S_data2.bin:system/etc/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev8_S_data2.bin \
     vendor/lge/g6-common/proprietary/vendor/etc/dolby_vision.cfg:system/vendor/etc/dolby_vision.cfg \
     vendor/lge/g6-common/proprietary/vendor/lib/libactuator_ak7371.so:system/vendor/lib/libactuator_ak7371.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libactuator_bu24333gwl.so:system/vendor/lib/libactuator_bu24333gwl.so \

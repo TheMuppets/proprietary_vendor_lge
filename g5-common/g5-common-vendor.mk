@@ -51,6 +51,24 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/lge/g5-common/proprietary/lib64/libfpfactory.so:system/lib64/libfpfactory.so \
     vendor/lge/g5-common/proprietary/lib64/libfpfactory_jni.so:system/lib64/libfpfactory_jni.so \
+    vendor/lge/g5-common/proprietary/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev13_S_data1_0x4E.bin:system/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev13_S_data1_0x4E.bin \
+    vendor/lge/g5-common/proprietary/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev13_S_data2_0x4E.bin:system/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev13_S_data2_0x4E.bin \
+    vendor/lge/g5-common/proprietary/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev14_S_data1.bin:system/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev14_S_data1.bin \
+    vendor/lge/g5-common/proprietary/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev14_S_data2.bin:system/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev14_S_data2.bin \
+    vendor/lge/g5-common/proprietary/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev2_S_data1_0x18.bin:system/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev2_S_data1_0x18.bin \
+    vendor/lge/g5-common/proprietary/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev2_S_data2_0x18.bin:system/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev2_S_data2_0x18.bin \
+    vendor/lge/g5-common/proprietary/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev4_S_data1_0x36.bin:system/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev4_S_data1_0x36.bin \
+    vendor/lge/g5-common/proprietary/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev4_S_data2_0x36.bin:system/etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev4_S_data2_0x36.bin \
+    vendor/lge/g5-common/proprietary/etc/firmware/bu24234_dl_program_Alice_LGITAct_K2G2IS_rev1_S_data1_0x04.bin:system/etc/firmware/bu24234_dl_program_Alice_LGITAct_K2G2IS_rev1_S_data1_0x04.bin \
+    vendor/lge/g5-common/proprietary/etc/firmware/bu24234_dl_program_Alice_LGITAct_K2G2IS_rev1_S_data2_0x04.bin:system/etc/firmware/bu24234_dl_program_Alice_LGITAct_K2G2IS_rev1_S_data2_0x04.bin \
+    vendor/lge/g5-common/proprietary/etc/firmware/bu24234_dl_program_Alice_MTMAct_ICG1020S_rev13_S_data1.bin:system/etc/firmware/bu24234_dl_program_Alice_MTMAct_ICG1020S_rev13_S_data1.bin \
+    vendor/lge/g5-common/proprietary/etc/firmware/bu24234_dl_program_Alice_MTMAct_ICG1020S_rev13_S_data2.bin:system/etc/firmware/bu24234_dl_program_Alice_MTMAct_ICG1020S_rev13_S_data2.bin \
+    vendor/lge/g5-common/proprietary/etc/firmware/bu24234_dl_program_Alice_MTMAct_ICG1020S_rev14_S_data1.bin:system/etc/firmware/bu24234_dl_program_Alice_MTMAct_ICG1020S_rev14_S_data1.bin \
+    vendor/lge/g5-common/proprietary/etc/firmware/bu24234_dl_program_Alice_MTMAct_ICG1020S_rev14_S_data2.bin:system/etc/firmware/bu24234_dl_program_Alice_MTMAct_ICG1020S_rev14_S_data2.bin \
+    vendor/lge/g5-common/proprietary/etc/firmware/bu24234_dl_program_Alice_MTMAct_ICG1020S_rev3.1_S_data1_0x1F.bin:system/etc/firmware/bu24234_dl_program_Alice_MTMAct_ICG1020S_rev3.1_S_data1_0x1F.bin \
+    vendor/lge/g5-common/proprietary/etc/firmware/bu24234_dl_program_Alice_MTMAct_ICG1020S_rev3.1_S_data2_0x1F.bin:system/etc/firmware/bu24234_dl_program_Alice_MTMAct_ICG1020S_rev3.1_S_data2_0x1F.bin \
+    vendor/lge/g5-common/proprietary/etc/firmware/bu24234_dl_program_Alice_MTMAct_K2G2IS_rev1_S_data1_0x03.bin:system/etc/firmware/bu24234_dl_program_Alice_MTMAct_K2G2IS_rev1_S_data1_0x03.bin \
+    vendor/lge/g5-common/proprietary/etc/firmware/bu24234_dl_program_Alice_MTMAct_K2G2IS_rev1_S_data2_0x03.bin:system/etc/firmware/bu24234_dl_program_Alice_MTMAct_K2G2IS_rev1_S_data2_0x03.bin \
     vendor/lge/g5-common/proprietary/vendor/lib/libactuator_ad5816g.so:system/vendor/lib/libactuator_ad5816g.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libactuator_ad5823.so:system/vendor/lib/libactuator_ad5823.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libactuator_ak7345.so:system/vendor/lib/libactuator_ak7345.so \
