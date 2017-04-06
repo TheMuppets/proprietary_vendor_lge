@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/h872/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
     vendor/lge/h872/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
     vendor/lge/h872/proprietary/etc/firmware/fw_bcmdhd_mfg.bin:system/etc/firmware/fw_bcmdhd_mfg.bin \
+    vendor/lge/h872/proprietary/etc/wifi/4359_lg.clm_blob:system/etc/wifi/4359_lg.clm_blob \
     vendor/lge/h872/proprietary/vendor/firmware/BCM4359C0.hcd:system/vendor/firmware/BCM4359C0.hcd
 
 ifeq ($(QCPATH),)
