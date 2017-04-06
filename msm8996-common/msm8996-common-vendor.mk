@@ -248,6 +248,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib/libsymphony-1.1.1.so:system/vendor/lib/libsymphony-1.1.1.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib/libsymphonypower-1.1.1.so:system/vendor/lib/libsymphonypower-1.1.1.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libvqzip.so:system/vendor/lib/libvqzip.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
