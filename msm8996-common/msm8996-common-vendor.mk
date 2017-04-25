@@ -467,6 +467,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libdsi_netctrl \
+    libgpustats \
     libqmi_cci \
     libqmi_common_so \
     libqmiservices \
