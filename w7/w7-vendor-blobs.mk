@@ -151,8 +151,14 @@ PRODUCT_COPY_FILES += \
     vendor/lge/w7/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/lge/w7/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/lge/w7/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
+    vendor/lge/w7/proprietary/vendor/lib/hw/sensors.msm8226.so:system/vendor/lib/hw/sensors.msm8226.so \
     vendor/lge/w7/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
+    vendor/lge/w7/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
+    vendor/lge/w7/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/w7/proprietary/vendor/lib/libbmc050.so:system/vendor/lib/libbmc050.so \
+    vendor/lge/w7/proprietary/vendor/lib/libsensor_test.so:system/vendor/lib/libsensor_test.so \
+    vendor/lge/w7/proprietary/vendor/lib/libsensor_thresh.so:system/vendor/lib/libsensor_thresh.so \
+    vendor/lge/w7/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
     vendor/lge/w7/proprietary/lib/rfsa/adsp/libadsp_denoise_skel.so:system/lib/rfsa/adsp/libadsp_denoise_skel.so \
     vendor/lge/w7/proprietary/lib/rfsa/adsp/libapps_mem_heap.so:system/lib/rfsa/adsp/libapps_mem_heap.so \
     vendor/lge/w7/proprietary/lib/rfsa/adsp/libdspCV_skel.so:system/lib/rfsa/adsp/libdspCV_skel.so \
