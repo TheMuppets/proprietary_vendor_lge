@@ -129,6 +129,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so \
+    vendor/lge/hammerheadcaf/proprietary/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
+    vendor/lge/hammerheadcaf/proprietary/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so \
+    vendor/lge/hammerheadcaf/proprietary/vendor/lib/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
     vendor/lge/hammerheadcaf/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
@@ -203,6 +206,7 @@ PRODUCT_PACKAGES += \
     UpdateSetting \
     OmaDmclient \
     SprintHiddenMenu
+
 PRODUCT_COPY_FILES += \
     vendor/lge/hammerheadcaf/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/hammerheadcaf/proprietary/bin/qseecomd:system/bin/qseecomd \
