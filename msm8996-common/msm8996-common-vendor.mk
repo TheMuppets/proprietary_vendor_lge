@@ -49,6 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/lib64/hw/lgkm.msm8996.so:system/lib64/hw/lgkm.msm8996.so \
     vendor/lge/msm8996-common/proprietary/lib64/libcir_driver.so:system/lib64/libcir_driver.so \
     vendor/lge/msm8996-common/proprietary/lib64/liblgkm.so:system/lib64/liblgkm.so \
+    vendor/lge/msm8996-common/proprietary/priv-app/HotwordEnrollment/HotwordEnrollment.apk:system/priv-app/HotwordEnrollment/HotwordEnrollment.apk \
     vendor/lge/msm8996-common/proprietary/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/default/default/mcfg_hw.mbn:system/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/default/default/mcfg_hw.mbn \
     vendor/lge/msm8996-common/proprietary/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/mdm9x45/ss/mcfg_hw.mbn:system/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/mdm9x45/ss/mcfg_hw.mbn \
     vendor/lge/msm8996-common/proprietary/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/mdm9x45_/ss/mcfg_hw.mbn:system/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/mdm9x45_/ss/mcfg_hw.mbn \
