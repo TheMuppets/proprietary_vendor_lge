@@ -19,6 +19,18 @@ LOCAL_PATH := $(call my-dir)
 
 ifneq ($(filter g5 h830 h850 v20 h910 h918 us996 ls997 vs995 g6 h872,$(TARGET_DEVICE)),)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := HotwordEnrollment
+LOCAL_MODULE_OWNER := lge
+LOCAL_SRC_FILES := proprietary/priv-app/HotwordEnrollment/HotwordEnrollment.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
 
 ifeq ($(QCPATH),)
 include $(CLEAR_VARS)
