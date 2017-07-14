@@ -17,7 +17,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter g5 h830 h850 v20 h910 h918 us996 ls997 vs995 g6 h872,$(TARGET_DEVICE)),)
+ifneq ($(filter g5 h830 h850 v20 h910 h918 us996 us997 ls997 vs995 g6 h872,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := HotwordEnrollment
