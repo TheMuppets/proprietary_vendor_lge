@@ -19,7 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/h870/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
     vendor/lge/h870/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
     vendor/lge/h870/proprietary/etc/firmware/fw_bcmdhd_mfg.bin:system/etc/firmware/fw_bcmdhd_mfg.bin \
-    vendor/lge/h870/proprietary/vendor/firmware/BCM4359C0.hcd:system/vendor/firmware/BCM4359C0.hcd
+    vendor/lge/h870/proprietary/vendor/firmware/BCM4345C0.hcd:system/vendor/firmware/BCM4345C0.hcd
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
