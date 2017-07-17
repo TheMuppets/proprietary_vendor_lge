@@ -17,7 +17,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter g6 h872,$(TARGET_DEVICE)),)
+ifneq ($(filter g6 h870 h872 us997,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := DolbyVisionService
