@@ -107,6 +107,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g6-common/proprietary/etc/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev8_S_data1.bin:system/etc/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev8_S_data1.bin \
     vendor/lge/g6-common/proprietary/etc/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev8_S_data2.bin:system/etc/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev8_S_data2.bin \
     vendor/lge/g6-common/proprietary/vendor/etc/dolby_vision.cfg:system/vendor/etc/dolby_vision.cfg \
+    vendor/lge/g6-common/proprietary/vendor/lib/libCmcPdaf.so:system/vendor/lib/libCmcPdaf.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libactuator_ak7371.so:system/vendor/lib/libactuator_ak7371.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libactuator_bu24333gwl.so:system/vendor/lib/libactuator_bu24333gwl.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_csidtg_common.so:system/vendor/lib/libchromatix_csidtg_common.so \
