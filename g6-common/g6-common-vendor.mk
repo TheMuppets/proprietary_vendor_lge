@@ -294,6 +294,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_s5k3m3_zsl_video_ad5816g.so:system/vendor/lib/libchromatix_s5k3m3_zsl_video_ad5816g.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libdovi.so:system/vendor/lib/libdovi.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libiris_lc898123f40.so:system/vendor/lib/libiris_lc898123f40.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
