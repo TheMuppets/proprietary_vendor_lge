@@ -95,7 +95,7 @@ LensType :
     <EepromName>imx258_m24c64m</EepromName>
     <ChromatixName>imx258_lgit_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
-    <Position>BACK_AUX</Position>
+    <Position>BACK</Position>
     <MountAngle>90</MountAngle>
     <CSIInfo>
       <CSIDCore>0</CSIDCore>
@@ -122,7 +122,7 @@ LensType :
     <EepromName>imx258_gt24c128</EepromName>
     <ChromatixName>imx258_imtech_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
-    <Position>BACK_AUX</Position>
+    <Position>BACK</Position>
     <MountAngle>90</MountAngle>
     <CSIInfo>
       <CSIDCore>0</CSIDCore>
