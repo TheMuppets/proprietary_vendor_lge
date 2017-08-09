@@ -70,7 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib/libalmcascore.so:system/lib/libalmcascore.so \
     vendor/lge/g4-common/proprietary/lib/libalmcaswrap.so:system/lib/libalmcaswrap.so \
     vendor/lge/g4-common/proprietary/lib/libarcsoft_beauty_shot.so:system/lib/libarcsoft_beauty_shot.so \
-    vendor/lge/g4-common/proprietary/lib/libcir_driver.so:system/lib/libcir_driver.so \
     vendor/lge/g4-common/proprietary/lib/libcurl.so:system/lib/libcurl.so \
     vendor/lge/g4-common/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/lge/g4-common/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
@@ -87,7 +86,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lge/g4-common/proprietary/lib/libuicc.so:system/lib/libuicc.so \
     vendor/lge/g4-common/proprietary/lib64/hw/wbc_hal.default.so:system/lib64/hw/wbc_hal.default.so \
-    vendor/lge/g4-common/proprietary/lib64/libcir_driver.so:system/lib64/libcir_driver.so \
     vendor/lge/g4-common/proprietary/lib64/libcurl.so:system/lib64/libcurl.so \
     vendor/lge/g4-common/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/lge/g4-common/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
@@ -733,6 +731,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
+    libcir_driver \
     libloc_api_v02 \
     libloc_ds_api \
     libFlacSwDec \
