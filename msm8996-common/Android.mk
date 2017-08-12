@@ -20,6 +20,17 @@ LOCAL_PATH := $(call my-dir)
 ifneq ($(filter g5 h830 h850 v20 h910 h918 us996 ls997 vs995 g6 h870 h872 us997,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libcir_driver
+LOCAL_MODULE_OWNER := lge
+LOCAL_SRC_FILES_64 := proprietary/lib64/libcir_driver.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libcir_driver.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := VZWAPNLib
 LOCAL_MODULE_OWNER := lge
 LOCAL_SRC_FILES := proprietary/app/VZWAPNLib/VZWAPNLib.apk
