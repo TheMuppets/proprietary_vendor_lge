@@ -91,7 +91,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vk810/proprietary/lib/libCommandSvc.so:system/lib/libCommandSvc.so \
     vendor/lge/vk810/proprietary/lib/libconfigdb.so:system/lib/libconfigdb.so \
     vendor/lge/vk810/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
-    vendor/lge/vk810/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/lge/vk810/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/lge/vk810/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
     vendor/lge/vk810/proprietary/lib/libdss.so:system/lib/libdss.so \
@@ -142,12 +141,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vk810/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/lge/vk810/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/lge/vk810/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/lge/vk810/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/lge/vk810/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/lge/vk810/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/lge/vk810/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
-    vendor/lge/vk810/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/lge/vk810/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-    vendor/lge/vk810/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/lge/vk810/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/lge/vk810/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/lge/vk810/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/lge/vk810/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
@@ -189,4 +187,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vk810/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
     vendor/lge/vk810/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
     vendor/lge/vk810/proprietary/etc/firmware/wcnss.b06:system/etc/firmware/wcnss.b06 \
-    vendor/lge/vk810/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt
+    vendor/lge/vk810/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
+    vendor/lge/vk810/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+    vendor/lge/vk810/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/lge/vk810/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
+    vendor/lge/vk810/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
+    vendor/lge/vk810/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
+    vendor/lge/vk810/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so

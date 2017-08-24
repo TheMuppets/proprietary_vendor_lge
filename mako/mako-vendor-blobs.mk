@@ -40,11 +40,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/lge/mako/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
     vendor/lge/mako/proprietary/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
-    vendor/lge/mako/proprietary/etc/firmware/tzapps.b00:system/etc/firmware/tzapps.b00 \
-    vendor/lge/mako/proprietary/etc/firmware/tzapps.b01:system/etc/firmware/tzapps.b01 \
-    vendor/lge/mako/proprietary/etc/firmware/tzapps.b02:system/etc/firmware/tzapps.b02 \
-    vendor/lge/mako/proprietary/etc/firmware/tzapps.b03:system/etc/firmware/tzapps.b03 \
-    vendor/lge/mako/proprietary/etc/firmware/tzapps.mdt:system/etc/firmware/tzapps.mdt \
+    vendor/lge/mako/proprietary/vendor/firmware/tzapps.b00:system/vendor/firmware/tzapps.b00 \
+    vendor/lge/mako/proprietary/vendor/firmware/tzapps.b01:system/vendor/firmware/tzapps.b01 \
+    vendor/lge/mako/proprietary/vendor/firmware/tzapps.b02:system/vendor/firmware/tzapps.b02 \
+    vendor/lge/mako/proprietary/vendor/firmware/tzapps.b03:system/vendor/firmware/tzapps.b03 \
+    vendor/lge/mako/proprietary/vendor/firmware/tzapps.mdt:system/vendor/firmware/tzapps.mdt \
     vendor/lge/mako/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
     vendor/lge/mako/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/lge/mako/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
