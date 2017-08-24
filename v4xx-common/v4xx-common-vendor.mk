@@ -1,3 +1,4 @@
+# Copyright (C) 2014-2016 The CyanogenMod Project
 # Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -29,7 +30,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v4xx-common/proprietary/bin/radish:system/bin/radish \
     vendor/lge/v4xx-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/v4xx-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/lge/v4xx-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/lge/v4xx-common/proprietary/etc/ACDB/Bluetooth_cal.acdb:system/etc/ACDB/Bluetooth_cal.acdb \
     vendor/lge/v4xx-common/proprietary/etc/ACDB/General_cal.acdb:system/etc/ACDB/General_cal.acdb \
     vendor/lge/v4xx-common/proprietary/etc/ACDB/Global_cal.acdb:system/etc/ACDB/Global_cal.acdb \
@@ -216,8 +216,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
-    vendor/lge/v4xx-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
-    vendor/lge/v4xx-common/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
