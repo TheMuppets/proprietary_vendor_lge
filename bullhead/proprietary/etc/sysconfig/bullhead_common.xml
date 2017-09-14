@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- These are configurations that should exist on bullhead only. -->
+<config>
+    <!-- Allow tethering entitlement app in background -->
+    <allow-in-power-save package="com.lge.entitlement" />
+
+    <!-- These are telephony components that need to run in the background -->
+    <allow-in-power-save package="com.qualcomm.atfwd" />
+    <allow-in-power-save package="com.qti.qualcomm.datastatusnotification" />
+    <allow-in-power-save package="com.qualcomm.embms" />
+    <allow-in-power-save package="com.qulacomm.qcrilmsgtunnel" />
+</config>
