@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v20-common/proprietary/etc/camera/hi553_chromatix.xml:system/etc/camera/hi553_chromatix.xml \
     vendor/lge/v20-common/proprietary/etc/camera/imx219_chromatix.xml:system/etc/camera/imx219_chromatix.xml \
     vendor/lge/v20-common/proprietary/etc/camera/imx298_chromatix_LG.xml:system/etc/camera/imx298_chromatix_LG.xml \
+    vendor/lge/v20-common/proprietary/etc/camera/s5k2p7_chromatix.xml:system/etc/camera/s5k2p7_chromatix.xml \
     vendor/lge/v20-common/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
     vendor/lge/v20-common/proprietary/lib/hw/fingerprint.msm8996.so:system/lib/hw/fingerprint.msm8996.so \
     vendor/lge/v20-common/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
@@ -72,6 +73,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v20-common/proprietary/etc/firmware/bu24234_dl_program_Alice_MTMAct_K2G2IS_rev1_S_data2_0x03.bin:system/etc/firmware/bu24234_dl_program_Alice_MTMAct_K2G2IS_rev1_S_data2_0x03.bin \
     vendor/lge/v20-common/proprietary/vendor/lib/libactuator_ak7371.so:system/vendor/lib/libactuator_ak7371.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libactuator_bu24333gwl.so:system/vendor/lib/libactuator_bu24333gwl.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libactuator_bu24333gwl_s5k2p7.so:system/vendor/lib/libactuator_bu24333gwl_s5k2p7.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_csidtg_common.so:system/vendor/lib/libchromatix_csidtg_common.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_csidtg_cpp_preview.so:system/vendor/lib/libchromatix_csidtg_cpp_preview.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_csidtg_postproc.so:system/vendor/lib/libchromatix_csidtg_postproc.so \
@@ -150,46 +152,147 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_imx298_zsl_preview.so:system/vendor/lib/libchromatix_imx298_zsl_preview.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_imx298_zsl_preview_wide.so:system/vendor/lib/libchromatix_imx298_zsl_preview_wide.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_imx298_zsl_video.so:system/vendor/lib/libchromatix_imx298_zsl_video.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_s5k2p7_4K_video.so:system/vendor/lib/libchromatix_s5k2p7_4K_video.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_s5k2p7_common.so:system/vendor/lib/libchromatix_s5k2p7_common.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_s5k2p7_cpp_flash_snapshot.so:system/vendor/lib/libchromatix_s5k2p7_cpp_flash_snapshot.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_s5k2p7_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k2p7_cpp_hfr_120.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_s5k2p7_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k2p7_cpp_hfr_60.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_s5k2p7_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k2p7_cpp_liveshot.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_s5k2p7_cpp_liveshot_hdr.so:system/vendor/lib/libchromatix_s5k2p7_cpp_liveshot_hdr.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_s5k2p7_cpp_panorama.so:system/vendor/lib/libchromatix_s5k2p7_cpp_panorama.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_s5k2p7_cpp_preview.so:system/vendor/lib/libchromatix_s5k2p7_cpp_preview.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_s5k2p7_cpp_raw_hdr.so:system/vendor/lib/libchromatix_s5k2p7_cpp_raw_hdr.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_s5k2p7_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k2p7_cpp_snapshot.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_s5k2p7_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_s5k2p7_cpp_snapshot_hdr.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_s5k2p7_cpp_video.so:system/vendor/lib/libchromatix_s5k2p7_cpp_video.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_s5k2p7_default_preview.so:system/vendor/lib/libchromatix_s5k2p7_default_preview.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_s5k2p7_default_video.so:system/vendor/lib/libchromatix_s5k2p7_default_video.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_s5k2p7_hdr_video_3a.so:system/vendor/lib/libchromatix_s5k2p7_hdr_video_3a.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_s5k2p7_hfr_120.so:system/vendor/lib/libchromatix_s5k2p7_hfr_120.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_s5k2p7_hfr_120_3a.so:system/vendor/lib/libchromatix_s5k2p7_hfr_120_3a.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_s5k2p7_hfr_60.so:system/vendor/lib/libchromatix_s5k2p7_hfr_60.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_s5k2p7_hfr_60_3a.so:system/vendor/lib/libchromatix_s5k2p7_hfr_60_3a.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_s5k2p7_panorama_preview.so:system/vendor/lib/libchromatix_s5k2p7_panorama_preview.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_s5k2p7_postproc.so:system/vendor/lib/libchromatix_s5k2p7_postproc.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_s5k2p7_preview.so:system/vendor/lib/libchromatix_s5k2p7_preview.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_s5k2p7_raw_hdr.so:system/vendor/lib/libchromatix_s5k2p7_raw_hdr.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_s5k2p7_raw_hdr_3a.so:system/vendor/lib/libchromatix_s5k2p7_raw_hdr_3a.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_s5k2p7_snapshot.so:system/vendor/lib/libchromatix_s5k2p7_snapshot.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_s5k2p7_snapshot_hdr.so:system/vendor/lib/libchromatix_s5k2p7_snapshot_hdr.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_s5k2p7_snapshot_hdr_3a.so:system/vendor/lib/libchromatix_s5k2p7_snapshot_hdr_3a.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_s5k2p7_video.so:system/vendor/lib/libchromatix_s5k2p7_video.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_s5k2p7_zsl_preview.so:system/vendor/lib/libchromatix_s5k2p7_zsl_preview.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_s5k2p7_zsl_preview_wide.so:system/vendor/lib/libchromatix_s5k2p7_zsl_preview_wide.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libchromatix_s5k2p7_zsl_video.so:system/vendor/lib/libchromatix_s5k2p7_zsl_video.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_4k_preview_2P7.so:system/vendor/lib/liblg_ae_parameter_4k_preview_2P7.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_4k_preview_hi553_cowell.so:system/vendor/lib/liblg_ae_parameter_4k_preview_hi553_cowell.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_4k_preview_hi553_lgit.so:system/vendor/lib/liblg_ae_parameter_4k_preview_hi553_lgit.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_4k_video_2P7.so:system/vendor/lib/liblg_ae_parameter_4k_video_2P7.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_4k_video_hi553_cowell.so:system/vendor/lib/liblg_ae_parameter_4k_video_hi553_cowell.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_4k_video_hi553_lgit.so:system/vendor/lib/liblg_ae_parameter_4k_video_hi553_lgit.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_4k_preview_imx219.so:system/vendor/lib/liblg_ae_parameter_4k_preview_imx219.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_4k_preview_imx234.so:system/vendor/lib/liblg_ae_parameter_4k_preview_imx234.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_4k_preview_imx298.so:system/vendor/lib/liblg_ae_parameter_4k_preview_imx298.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_4k_video_2P7.so:system/vendor/lib/liblg_ae_parameter_4k_video_2P7.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_4k_video_hi553_cowell.so:system/vendor/lib/liblg_ae_parameter_4k_video_hi553_cowell.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_4k_video_hi553_lgit.so:system/vendor/lib/liblg_ae_parameter_4k_video_hi553_lgit.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_4k_video_imx219.so:system/vendor/lib/liblg_ae_parameter_4k_video_imx219.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_4k_video_imx234.so:system/vendor/lib/liblg_ae_parameter_4k_video_imx234.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_4k_video_imx298.so:system/vendor/lib/liblg_ae_parameter_4k_video_imx298.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_default_preview_2P7.so:system/vendor/lib/liblg_ae_parameter_default_preview_2P7.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_default_preview_hi553_cowell.so:system/vendor/lib/liblg_ae_parameter_default_preview_hi553_cowell.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_default_preview_hi553_lgit.so:system/vendor/lib/liblg_ae_parameter_default_preview_hi553_lgit.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_default_preview_imx219.so:system/vendor/lib/liblg_ae_parameter_default_preview_imx219.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_default_preview_imx234.so:system/vendor/lib/liblg_ae_parameter_default_preview_imx234.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_default_preview_imx298.so:system/vendor/lib/liblg_ae_parameter_default_preview_imx298.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_default_video_2P7.so:system/vendor/lib/liblg_ae_parameter_default_video_2P7.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_default_video_hi553_cowell.so:system/vendor/lib/liblg_ae_parameter_default_video_hi553_cowell.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_default_video_hi553_lgit.so:system/vendor/lib/liblg_ae_parameter_default_video_hi553_lgit.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_default_video_imx219.so:system/vendor/lib/liblg_ae_parameter_default_video_imx219.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_default_video_imx234.so:system/vendor/lib/liblg_ae_parameter_default_video_imx234.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_default_video_imx298.so:system/vendor/lib/liblg_ae_parameter_default_video_imx298.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_hdr_snapshot_2P7.so:system/vendor/lib/liblg_ae_parameter_hdr_snapshot_2P7.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_hdr_snapshot_imx234.so:system/vendor/lib/liblg_ae_parameter_hdr_snapshot_imx234.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_hdr_snapshot_imx298.so:system/vendor/lib/liblg_ae_parameter_hdr_snapshot_imx298.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_hdr_video_2P7.so:system/vendor/lib/liblg_ae_parameter_hdr_video_2P7.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_hdr_video_imx234.so:system/vendor/lib/liblg_ae_parameter_hdr_video_imx234.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_hdr_video_imx298.so:system/vendor/lib/liblg_ae_parameter_hdr_video_imx298.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_120_2P7.so:system/vendor/lib/liblg_ae_parameter_hfr_120_2P7.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_120_imx219.so:system/vendor/lib/liblg_ae_parameter_hfr_120_imx219.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_120_imx234.so:system/vendor/lib/liblg_ae_parameter_hfr_120_imx234.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_120_imx298.so:system/vendor/lib/liblg_ae_parameter_hfr_120_imx298.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_60_2P7.so:system/vendor/lib/liblg_ae_parameter_hfr_60_2P7.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_60_imx219.so:system/vendor/lib/liblg_ae_parameter_hfr_60_imx219.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_60_imx234.so:system/vendor/lib/liblg_ae_parameter_hfr_60_imx234.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_60_imx298.so:system/vendor/lib/liblg_ae_parameter_hfr_60_imx298.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_90_2P7.so:system/vendor/lib/liblg_ae_parameter_hfr_90_2P7.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_90_imx219.so:system/vendor/lib/liblg_ae_parameter_hfr_90_imx219.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_90_imx234.so:system/vendor/lib/liblg_ae_parameter_hfr_90_imx234.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_90_imx298.so:system/vendor/lib/liblg_ae_parameter_hfr_90_imx298.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_panorama_2P7.so:system/vendor/lib/liblg_ae_parameter_panorama_2P7.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_panorama_imx219.so:system/vendor/lib/liblg_ae_parameter_panorama_imx219.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_panorama_imx234.so:system/vendor/lib/liblg_ae_parameter_panorama_imx234.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_panorama_imx298.so:system/vendor/lib/liblg_ae_parameter_panorama_imx298.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_raw_hdr_2P7.so:system/vendor/lib/liblg_ae_parameter_raw_hdr_2P7.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_raw_hdr_imx234.so:system/vendor/lib/liblg_ae_parameter_raw_hdr_imx234.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_raw_hdr_imx298.so:system/vendor/lib/liblg_ae_parameter_raw_hdr_imx298.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_vt_hi553_cowell.so:system/vendor/lib/liblg_ae_parameter_vt_hi553_cowell.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_vt_hi553_lgit.so:system/vendor/lib/liblg_ae_parameter_vt_hi553_lgit.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_zsl_preview_2P7.so:system/vendor/lib/liblg_ae_parameter_zsl_preview_2P7.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_zsl_preview_hi553_cowell.so:system/vendor/lib/liblg_ae_parameter_zsl_preview_hi553_cowell.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_zsl_preview_hi553_lgit.so:system/vendor/lib/liblg_ae_parameter_zsl_preview_hi553_lgit.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_zsl_preview_imx219.so:system/vendor/lib/liblg_ae_parameter_zsl_preview_imx219.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_zsl_preview_imx234.so:system/vendor/lib/liblg_ae_parameter_zsl_preview_imx234.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_zsl_preview_imx298.so:system/vendor/lib/liblg_ae_parameter_zsl_preview_imx298.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_zsl_video_2P7.so:system/vendor/lib/liblg_ae_parameter_zsl_video_2P7.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_zsl_video_hi553_cowell.so:system/vendor/lib/liblg_ae_parameter_zsl_video_hi553_cowell.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_zsl_video_hi553_lgit.so:system/vendor/lib/liblg_ae_parameter_zsl_video_hi553_lgit.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_zsl_video_imx219.so:system/vendor/lib/liblg_ae_parameter_zsl_video_imx219.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_zsl_video_imx234.so:system/vendor/lib/liblg_ae_parameter_zsl_video_imx234.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_ae_parameter_zsl_video_imx298.so:system/vendor/lib/liblg_ae_parameter_zsl_video_imx298.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_2P7_4k_preview.so:system/vendor/lib/liblg_awb_parameter_2P7_4k_preview.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_2P7_4k_video.so:system/vendor/lib/liblg_awb_parameter_2P7_4k_video.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_2P7_default_preview.so:system/vendor/lib/liblg_awb_parameter_2P7_default_preview.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_2P7_default_video.so:system/vendor/lib/liblg_awb_parameter_2P7_default_video.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_2P7_hdr_snapshot.so:system/vendor/lib/liblg_awb_parameter_2P7_hdr_snapshot.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_2P7_hdr_video.so:system/vendor/lib/liblg_awb_parameter_2P7_hdr_video.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_2P7_hfr_120.so:system/vendor/lib/liblg_awb_parameter_2P7_hfr_120.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_2P7_hfr_60.so:system/vendor/lib/liblg_awb_parameter_2P7_hfr_60.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_2P7_hfr_90.so:system/vendor/lib/liblg_awb_parameter_2P7_hfr_90.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_2P7_panorama.so:system/vendor/lib/liblg_awb_parameter_2P7_panorama.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_2P7_raw_hdr.so:system/vendor/lib/liblg_awb_parameter_2P7_raw_hdr.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_2P7_zsl_preview.so:system/vendor/lib/liblg_awb_parameter_2P7_zsl_preview.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_2P7_zsl_video.so:system/vendor/lib/liblg_awb_parameter_2P7_zsl_video.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_hi553_cowell_4k_preview.so:system/vendor/lib/liblg_awb_parameter_hi553_cowell_4k_preview.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_hi553_cowell_4k_video.so:system/vendor/lib/liblg_awb_parameter_hi553_cowell_4k_video.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_hi553_cowell_default_preview.so:system/vendor/lib/liblg_awb_parameter_hi553_cowell_default_preview.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_hi553_cowell_default_video.so:system/vendor/lib/liblg_awb_parameter_hi553_cowell_default_video.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_hi553_cowell_hdr_snapshot.so:system/vendor/lib/liblg_awb_parameter_hi553_cowell_hdr_snapshot.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_hi553_cowell_hdr_video.so:system/vendor/lib/liblg_awb_parameter_hi553_cowell_hdr_video.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_hi553_cowell_hfr_120.so:system/vendor/lib/liblg_awb_parameter_hi553_cowell_hfr_120.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_hi553_cowell_hfr_60.so:system/vendor/lib/liblg_awb_parameter_hi553_cowell_hfr_60.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_hi553_cowell_hfr_90.so:system/vendor/lib/liblg_awb_parameter_hi553_cowell_hfr_90.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_hi553_cowell_panorama.so:system/vendor/lib/liblg_awb_parameter_hi553_cowell_panorama.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_hi553_cowell_raw_hdr.so:system/vendor/lib/liblg_awb_parameter_hi553_cowell_raw_hdr.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_hi553_cowell_zsl_preview.so:system/vendor/lib/liblg_awb_parameter_hi553_cowell_zsl_preview.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_hi553_cowell_zsl_video.so:system/vendor/lib/liblg_awb_parameter_hi553_cowell_zsl_video.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_hi553_lgit_4k_preview.so:system/vendor/lib/liblg_awb_parameter_hi553_lgit_4k_preview.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_hi553_lgit_4k_video.so:system/vendor/lib/liblg_awb_parameter_hi553_lgit_4k_video.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_hi553_lgit_default_preview.so:system/vendor/lib/liblg_awb_parameter_hi553_lgit_default_preview.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_hi553_lgit_default_video.so:system/vendor/lib/liblg_awb_parameter_hi553_lgit_default_video.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_hi553_lgit_hdr_snapshot.so:system/vendor/lib/liblg_awb_parameter_hi553_lgit_hdr_snapshot.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_hi553_lgit_hdr_video.so:system/vendor/lib/liblg_awb_parameter_hi553_lgit_hdr_video.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_hi553_lgit_hfr_120.so:system/vendor/lib/liblg_awb_parameter_hi553_lgit_hfr_120.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_hi553_lgit_hfr_60.so:system/vendor/lib/liblg_awb_parameter_hi553_lgit_hfr_60.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_hi553_lgit_hfr_90.so:system/vendor/lib/liblg_awb_parameter_hi553_lgit_hfr_90.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_hi553_lgit_panorama.so:system/vendor/lib/liblg_awb_parameter_hi553_lgit_panorama.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_hi553_lgit_raw_hdr.so:system/vendor/lib/liblg_awb_parameter_hi553_lgit_raw_hdr.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_hi553_lgit_zsl_preview.so:system/vendor/lib/liblg_awb_parameter_hi553_lgit_zsl_preview.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_hi553_lgit_zsl_video.so:system/vendor/lib/liblg_awb_parameter_hi553_lgit_zsl_video.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_imx219_4k_preview.so:system/vendor/lib/liblg_awb_parameter_imx219_4k_preview.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_imx219_4k_video.so:system/vendor/lib/liblg_awb_parameter_imx219_4k_video.so \
     vendor/lge/v20-common/proprietary/vendor/lib/liblg_awb_parameter_imx219_default_preview.so:system/vendor/lib/liblg_awb_parameter_imx219_default_preview.so \
@@ -244,6 +347,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v20-common/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libmmcamera_brcb032gwz_eeprom.so:system/vendor/lib/libmmcamera_brcb032gwz_eeprom.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libmmcamera_brcb032gwz_s5k2p7_eeprom.so:system/vendor/lib/libmmcamera_brcb032gwz_s5k2p7_eeprom.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libmmcamera_dbg.so:system/vendor/lib/libmmcamera_dbg.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libmmcamera_dummyalgo.so:system/vendor/lib/libmmcamera_dummyalgo.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libmmcamera_eebinparse.so:system/vendor/lib/libmmcamera_eebinparse.so \
@@ -311,6 +415,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v20-common/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libmmcamera_s5k2p7.so:system/vendor/lib/libmmcamera_s5k2p7.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libmmcamera_ppeiscore.so:system/vendor/lib/libmmcamera_ppeiscore.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libmmcamera_thread_services.so:system/vendor/lib/libmmcamera_thread_services.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
@@ -321,6 +426,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v20-common/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libois_bu24333gwl.so:system/vendor/lib/libois_bu24333gwl.so \
+    vendor/lge/v20-common/proprietary/vendor/lib/libois_bu24333gwl_s5k2p7.so:system/vendor/lib/libois_bu24333gwl_s5k2p7.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/lge/v20-common/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
