@@ -310,6 +310,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.imsrtpservice@1.0_vendor.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.voiceprint@1.0.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/eglSubDriverAndroid.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libEGL_adreno.so \
@@ -319,6 +320,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_adreno.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/hw/activity_recognition.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/activity_recognition.msm8996.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/hw/sensors.vr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.vr.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/hw/sound_trigger.primary.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.msm8996.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@1.0-impl.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/hw/vulkan.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.msm8996.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/lib-dplmedia.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-dplmedia.so \
@@ -480,6 +482,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.voiceprint@1.0.so \
     vendor/lge/msm8996-common/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
 
 PRODUCT_PACKAGES += \
