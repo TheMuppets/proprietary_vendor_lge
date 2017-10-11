@@ -109,7 +109,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/lge/g4-common/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/lge/g4-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/lge/g4-common/proprietary/vendor/firmware/BCM4339_003.001.009.0117.0620_LGE_P1_EU.hcd:system/vendor/firmware/BCM4339_003.001.009.0117.0620_LGE_P1_EU.hcd \
+    vendor/lge/g4-common/proprietary/vendor/firmware/BCM4339_003.001.009.0117.0620_LGE_P1_EU.hcd:system/vendor/firmware/BCM4335_003.001.009.0117.0620_LGE_P1_EU.hcd \
     vendor/lge/g4-common/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/lge/g4-common/proprietary/vendor/firmware/libpn547_fw_22.so:system/vendor/firmware/libpn547_fw_22.so \
     vendor/lge/g4-common/proprietary/vendor/firmware/libpn547_fw_C9.so:system/vendor/firmware/libpn547_fw_C9.so \
