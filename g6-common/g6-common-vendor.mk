@@ -48,7 +48,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g6-common/proprietary/etc/camera/selfie/7_selfie.dat:system/etc/camera/selfie/7_selfie.dat \
     vendor/lge/g6-common/proprietary/etc/camera/selfie/8_selfie.dat:system/etc/camera/selfie/8_selfie.dat \
     vendor/lge/g6-common/proprietary/etc/camera/selfie/9_selfie.dat:system/etc/camera/selfie/9_selfie.dat \
-    vendor/lge/g6-common/proprietary/etc/qdcm_calib_data_SW49408_1440_2880_cmd_mode_dsc_dsi_panel.xml:system/etc/qdcm_calib_data_SW49408_1440_2880_cmd_mode_dsc_dsi_panel.xml \
     vendor/lge/g6-common/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
     vendor/lge/g6-common/proprietary/lib/libAutoContrast.so:system/lib/libAutoContrast.so \
     vendor/lge/g6-common/proprietary/lib/libarcsoft_beauty_shot.so:system/lib/libarcsoft_beauty_shot.so \
@@ -98,6 +97,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/v2/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/v2/Headset_cal.acdb \
     vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/v2/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/v2/Speaker_cal.acdb \
     vendor/lge/g6-common/proprietary/vendor/etc/dolby_vision.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/dolby_vision.cfg \
+    vendor/lge/g6-common/proprietary/vendor/etc/qdcm_calib_data_SW49408_1440_2880_cmd_mode_dsc_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_SW49408_1440_2880_cmd_mode_dsc_dsi_panel.xml \
     vendor/lge/g6-common/proprietary/vendor/lib/libCmcPdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCmcPdaf.so \
     vendor/lge/g6-common/proprietary/vendor/lib/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_fpc_tac_shared.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libactuator_ak7371.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7371.so \
