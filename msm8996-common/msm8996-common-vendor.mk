@@ -49,6 +49,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/lib/liblgkm.so:system/lib/liblgkm.so \
     vendor/lge/msm8996-common/proprietary/lib64/hw/lgkm.default.so:system/lib64/hw/lgkm.default.so \
     vendor/lge/msm8996-common/proprietary/lib64/hw/lgkm.msm8996.so:system/lib64/hw/lgkm.msm8996.so \
+    vendor/lge/msm8996-common/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
+    vendor/lge/msm8996-common/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/lge/msm8996-common/proprietary/lib64/liblgkm.so:system/lib64/liblgkm.so \
     vendor/lge/msm8996-common/proprietary/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/default/default/mcfg_hw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/default/default/mcfg_hw.mbn \
     vendor/lge/msm8996-common/proprietary/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/mdm9x45/ss/mcfg_hw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/mdm9x45/ss/mcfg_hw.mbn \
@@ -70,13 +72,16 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_chromaflash_lib.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libmmcamera_llvd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_llvd.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_optizoom_lib.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib/libmmcamera_quadracfa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_quadracfa.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_stillmore_lib.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_trueportrait_lib.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ubifocus_lib.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/liboptizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboptizoom.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseemore.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libsensor_lge_cal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_lge_cal.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
+    vendor/lge/msm8996-common/proprietary/vendor/lib64/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libseemore.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/libsensor_lge_cal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_lge_cal.so
 
 PRODUCT_PACKAGES += \
@@ -107,6 +112,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/lge/msm8996-common/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/lge/msm8996-common/proprietary/lib/lib-imsvt.so:system/lib/lib-imsvt.so \
+    vendor/lge/msm8996-common/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
     vendor/lge/msm8996-common/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/lge/msm8996-common/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/lge/msm8996-common/proprietary/lib/libqti-perfd-client_system.so:system/lib/libqti-perfd-client_system.so \
@@ -120,6 +126,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
     vendor/lge/msm8996-common/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/lge/msm8996-common/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
+    vendor/lge/msm8996-common/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/lge/msm8996-common/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/lge/msm8996-common/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/lge/msm8996-common/proprietary/lib64/libparam.so:system/lib64/libparam.so \
@@ -227,9 +234,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_utils.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsp_default_listener.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
-    vendor/lge/msm8996-common/proprietary/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
-    vendor/lge/msm8996-common/proprietary/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so \
-    vendor/lge/msm8996-common/proprietary/vendor/lib/libaptXScheduler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptXScheduler.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioalsa.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbccQTI.so \
