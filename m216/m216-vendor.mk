@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/m216/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/lge/m216/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/lge/m216/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/lge/m216/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/m216/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/lge/m216/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/m216/proprietary/bin/netmgrd:system/bin/netmgrd \
