@@ -91,9 +91,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/lge/g4-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lge/g4-common/proprietary/lib/libuicc.so:system/lib/libuicc.so \
-    vendor/lge/g4-common/proprietary/lib/libvss_common_iface.so:system/lib/libvss_common_iface.so \
-    vendor/lge/g4-common/proprietary/lib/libvss_nv_iface.so:system/lib/libvss_nv_iface.so \
-    vendor/lge/g4-common/proprietary/lib/libvss_resim_iface.so:system/lib/libvss_resim_iface.so \
     vendor/lge/g4-common/proprietary/lib64/hw/lgkm.default.so:system/lib64/hw/lgkm.default.so \
     vendor/lge/g4-common/proprietary/lib64/hw/lgkm.msm8992.so:system/lib64/hw/lgkm.msm8992.so \
     vendor/lge/g4-common/proprietary/lib64/hw/sensors.msm8992.so:system/lib64/hw/sensors.msm8992.so \
@@ -105,9 +102,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib64/libqdMetaData.so:system/lib64/libqdMetaData.so \
     vendor/lge/g4-common/proprietary/lib64/libqmimotext.so:system/lib64/libqmimotext.so \
     vendor/lge/g4-common/proprietary/lib64/libuicc.so:system/lib64/libuicc.so \
-    vendor/lge/g4-common/proprietary/lib64/libvss_common_iface.so:system/lib64/libvss_common_iface.so \
-    vendor/lge/g4-common/proprietary/lib64/libvss_nv_iface.so:system/lib64/libvss_nv_iface.so \
-    vendor/lge/g4-common/proprietary/lib64/libvss_resim_iface.so:system/lib64/libvss_resim_iface.so \
     vendor/lge/g4-common/proprietary/lib64/libfilterpack_facedetect.so:system/lib64/libfilterpack_facedetect.so \
     vendor/lge/g4-common/proprietary/vendor/bin/LKCore:system/vendor/bin/LKCore \
     vendor/lge/g4-common/proprietary/vendor/bin/RIDLClient.exe:system/vendor/bin/RIDLClient.exe \
@@ -764,16 +758,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
     vendor/lge/g4-common/proprietary/vendor/qcril.db:system/vendor/qcril.db \
-    vendor/lge/g4-common/proprietary/vendor/pittpatt/models/recognition/face.face.y0-y0-71-N-tree_7-wmd.bin:system/vendor/pittpatt/models/recognition/face.face.y0-y0-71-N-tree_7-wmd.bin \
-    vendor/lge/g4-common/proprietary/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/head-y0-yi45-p0-pi45-r0-ri30.4a-v24-tree7-2-wmd.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/head-y0-yi45-p0-pi45-r0-ri30.4a-v24-tree7-2-wmd.bin \
-    vendor/lge/g4-common/proprietary/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/pose-y-r.8.1.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/pose-y-r.8.1.bin \
-    vendor/lge/g4-common/proprietary/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/pose-r.8.1.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/pose-r.8.1.bin \
-    vendor/lge/g4-common/proprietary/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/head-y0-yi45-p0-pi45-rn30-ri30.5-v24-tree7-2-wmd.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/head-y0-yi45-p0-pi45-rn30-ri30.5-v24-tree7-2-wmd.bin \
-    vendor/lge/g4-common/proprietary/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/head-y0-yi45-p0-pi45-rp30-ri30.5-v24-tree7-2-wmd.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/head-y0-yi45-p0-pi45-rp30-ri30.5-v24-tree7-2-wmd.bin \
-    vendor/lge/g4-common/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin \
-    vendor/lge/g4-common/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin \
-    vendor/lge/g4-common/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/right_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-3-tree7-wmd.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/right_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-3-tree7-wmd.bin \
-    vendor/lge/g4-common/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/landmark_group_meta_data.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/landmark_group_meta_data.bin
 
 PRODUCT_PACKAGES += \
     libcir_driver \
