@@ -528,6 +528,7 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     libthermalclient \
     libtime_genoff \
+    libqct_resampler \
     libloc_api_v02 \
     QtiTelephonyService \
     qcrilmsgtunnel \
