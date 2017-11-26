@@ -107,6 +107,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/lge/msm8996-common/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/lge/msm8996-common/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
+    vendor/lge/msm8996-common/proprietary/vendor/framework/com.qti.snapdragon.sdk.display.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/lge/msm8996-common/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
     vendor/lge/msm8996-common/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/lge/msm8996-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
