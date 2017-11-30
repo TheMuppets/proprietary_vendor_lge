@@ -1,4 +1,5 @@
-# Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2013-2016 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,13 +23,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v500/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/v500/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/v500/proprietary/bin/thermald:system/bin/thermald \
-    vendor/lge/v500/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
     vendor/lge/v500/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/lge/v500/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
     vendor/lge/v500/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
     vendor/lge/v500/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
-    vendor/lge/v500/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     vendor/lge/v500/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
+    vendor/lge/v500/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
+    vendor/lge/v500/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     vendor/lge/v500/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
     vendor/lge/v500/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
     vendor/lge/v500/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
@@ -39,8 +40,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v500/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
     vendor/lge/v500/proprietary/lib/hw/flp.msm8960.so:system/lib/hw/flp.msm8960.so \
     vendor/lge/v500/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
-    vendor/lge/v500/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/lge/v500/proprietary/lib/libAKM.so:system/lib/libAKM.so \
+    vendor/lge/v500/proprietary/lib/libHDR.so:system/lib/libHDR.so \
+    vendor/lge/v500/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
+    vendor/lge/v500/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
+    vendor/lge/v500/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/lge/v500/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/lge/v500/proprietary/lib/libchromatix_imx119_default_video.so:system/lib/libchromatix_imx119_default_video.so \
     vendor/lge/v500/proprietary/lib/libchromatix_imx119_preview.so:system/lib/libchromatix_imx119_preview.so \
@@ -58,12 +62,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v500/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/lge/v500/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/lge/v500/proprietary/lib/libgemini.so:system/lib/libgemini.so \
-    vendor/lge/v500/proprietary/lib/libHDR.so:system/lib/libHDR.so \
-    vendor/lge/v500/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/lge/v500/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/lge/v500/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/lge/v500/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/lge/v500/proprietary/lib/libmercury.so:system/lib/libmercury.so \
+    vendor/lge/v500/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/lge/v500/proprietary/lib/libmmcamera_3a_legacy.so:system/lib/libmmcamera_3a_legacy.so \
     vendor/lge/v500/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/lge/v500/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
@@ -75,10 +78,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v500/proprietary/lib/libmmcamera_tintless_algo.so:system/lib/libmmcamera_tintless_algo.so \
     vendor/lge/v500/proprietary/lib/libmmcamera_tintless_wrapper.so:system/lib/libmmcamera_tintless_wrapper.so \
     vendor/lge/v500/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
-    vendor/lge/v500/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/lge/v500/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
-    vendor/lge/v500/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lge/v500/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/lge/v500/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lge/v500/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/lge/v500/proprietary/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
     vendor/lge/v500/proprietary/lib/libmorpho_movie_stabilization.so:system/lib/libmorpho_movie_stabilization.so \
@@ -88,14 +90,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v500/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/lge/v500/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
     vendor/lge/v500/proprietary/lib/libqdi.so:system/lib/libqdi.so \
+    vendor/lge/v500/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/lge/v500/proprietary/lib/libqmi_cci.so:system/lib/libqmi_cci.so \
     vendor/lge/v500/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     vendor/lge/v500/proprietary/lib/libqmi_common_so.so:system/lib/libqmi_common_so.so \
     vendor/lge/v500/proprietary/lib/libqmi_csi.so:system/lib/libqmi_csi.so \
     vendor/lge/v500/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
     vendor/lge/v500/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
-    vendor/lge/v500/proprietary/lib/libqmi.so:system/lib/libqmi.so \
-    vendor/lge/v500/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/lge/v500/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/lge/v500/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
     vendor/lge/v500/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
@@ -140,13 +141,16 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v500/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/lge/v500/proprietary/vendor/lib/egl/libplayback_adreno.so:system/vendor/lib/egl/libplayback_adreno.so \
     vendor/lge/v500/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
-    vendor/lge/v500/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
-    vendor/lge/v500/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/lge/v500/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
-    vendor/lge/v500/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
-    vendor/lge/v500/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/lge/v500/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/lge/v500/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
+    vendor/lge/v500/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/lge/v500/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
+    vendor/lge/v500/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/lge/v500/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+    vendor/lge/v500/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
+    vendor/lge/v500/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
+    vendor/lge/v500/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
     vendor/lge/v500/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/lge/v500/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/lge/v500/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
@@ -158,11 +162,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v500/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/lge/v500/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/lge/v500/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
-    vendor/lge/v500/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/lge/v500/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
-    vendor/lge/v500/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/lge/v500/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
     vendor/lge/v500/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/lge/v500/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/lge/v500/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/lge/v500/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
