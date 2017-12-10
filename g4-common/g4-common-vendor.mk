@@ -109,7 +109,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/lge/g4-common/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/lge/g4-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/lge/g4-common/proprietary/vendor/firmware/BCM4339_003.001.009.0117.0620_LGE_P1_EU.hcd:system/vendor/firmware/BCM4335_003.001.009.0117.0620_LGE_P1_EU.hcd \
+    vendor/lge/g4-common/proprietary/vendor/firmware/BCM4335_003.001.009.0117.0620_LGE_P1_EU.hcd:system/vendor/firmware/BCM4335_003.001.009.0117.0620_LGE_P1_EU.hcd \
     vendor/lge/g4-common/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/lge/g4-common/proprietary/vendor/firmware/libpn547_fw_22.so:system/vendor/firmware/libpn547_fw_22.so \
     vendor/lge/g4-common/proprietary/vendor/firmware/libpn547_fw_C9.so:system/vendor/firmware/libpn547_fw_C9.so \
@@ -537,7 +537,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
-    vendor/lge/g4-common/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/lge/g4-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/lge/g4-common/proprietary/vendor/lib/rfsa/adsp/fastrpc_shell_0:system/vendor/lib/rfsa/adsp/fastrpc_shell_0 \
     vendor/lge/g4-common/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
@@ -753,7 +752,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
-    vendor/lge/g4-common/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/lge/g4-common/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
     vendor/lge/g4-common/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
