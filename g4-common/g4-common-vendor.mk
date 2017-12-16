@@ -69,6 +69,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/lge/g4-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/lge/g4-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/lge/g4-common/proprietary/firmware/image/keymaste.mdt:system/firmware/image/keymaste.mdt \
+    vendor/lge/g4-common/proprietary/firmware/image/keymaster.b00:system/firmware/image/keymaster.b00 \
+    vendor/lge/g4-common/proprietary/firmware/image/keymaster.b01:system/firmware/image/keymaster.b01 \
+    vendor/lge/g4-common/proprietary/firmware/image/keymaster.b02:system/firmware/image/keymaster.b02 \
+    vendor/lge/g4-common/proprietary/firmware/image/keymaster.b03:system/firmware/image/keymaster.b03 \
+    vendor/lge/g4-common/proprietary/firmware/image/keymaster.mdt:system/firmware/image/keymaster.mdt \
     vendor/lge/g4-common/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/lge/g4-common/proprietary/lib/hw/camera.msm8992.so:system/lib/hw/camera.msm8992.so \
     vendor/lge/g4-common/proprietary/lib/hw/lgkm.default.so:system/lib/hw/lgkm.default.so \
