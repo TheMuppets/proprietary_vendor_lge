@@ -738,6 +738,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/lge/g4-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lge/g4-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
+    vendor/lge/g4-common/proprietary/firmware/image/keymaste.mdt:system/firmware/image/keymaste.mdt \
+    vendor/lge/g4-common/proprietary/firmware/image/keymaster.b00:system/firmware/image/keymaster.b00 \
+    vendor/lge/g4-common/proprietary/firmware/image/keymaster.b01:system/firmware/image/keymaster.b01 \
+    vendor/lge/g4-common/proprietary/firmware/image/keymaster.b02:system/firmware/image/keymaster.b02 \
+    vendor/lge/g4-common/proprietary/firmware/image/keymaster.b03:system/firmware/image/keymaster.b03 \
+    vendor/lge/g4-common/proprietary/firmware/image/keymaster.mdt:system/firmware/image/keymaster.mdt \
     vendor/lge/g4-common/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/lge/g4-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/lge/g4-common/proprietary/bin/imswmsproxy:system/bin/imswmsproxy \
