@@ -33,8 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/lge/g4-common/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/lge/g4-common/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
-    vendor/lge/g4-common/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
-    vendor/lge/g4-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/g4-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/lge/g4-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/g4-common/proprietary/bin/pm-proxy:system/bin/pm-proxy \
@@ -76,30 +74,20 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/firmware/image/keymaster.b03:system/firmware/image/keymaster.b03 \
     vendor/lge/g4-common/proprietary/firmware/image/keymaster.mdt:system/firmware/image/keymaster.mdt \
     vendor/lge/g4-common/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/lge/g4-common/proprietary/lib/hw/camera.msm8992.so:system/lib/hw/camera.msm8992.so \
     vendor/lge/g4-common/proprietary/lib/hw/lgkm.default.so:system/lib/hw/lgkm.default.so \
     vendor/lge/g4-common/proprietary/lib/hw/lgkm.msm8992.so:system/lib/hw/lgkm.msm8992.so \
     vendor/lge/g4-common/proprietary/lib/hw/sensors.msm8992.so:system/lib/hw/sensors.msm8992.so \
     vendor/lge/g4-common/proprietary/lib/hw/wbc_hal.default.so:system/lib/hw/wbc_hal.default.so \
-    vendor/lge/g4-common/proprietary/lib/libHDR.so:system/lib/libHDR.so \
     vendor/lge/g4-common/proprietary/lib/libVDBase.so:system/lib/libVDBase.so \
     vendor/lge/g4-common/proprietary/lib/libVDLowLightAPI.so:system/lib/libVDLowLightAPI.so \
     vendor/lge/g4-common/proprietary/lib/libalhdri.so:system/lib/libalhdri.so \
     vendor/lge/g4-common/proprietary/lib/libalmcascore.so:system/lib/libalmcascore.so \
     vendor/lge/g4-common/proprietary/lib/libalmcaswrap.so:system/lib/libalmcaswrap.so \
-    vendor/lge/g4-common/proprietary/lib/libarcsoft_beauty_shot.so:system/lib/libarcsoft_beauty_shot.so \
     vendor/lge/g4-common/proprietary/lib/liblgkm.so:system/lib/liblgkm.so \
     vendor/lge/g4-common/proprietary/lib/liblgmabl.so:system/lib/liblgmabl.so \
-    vendor/lge/g4-common/proprietary/lib/liblgmda.so:system/lib/liblgmda.so \
     vendor/lge/g4-common/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
-    vendor/lge/g4-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/lge/g4-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/lge/g4-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/lge/g4-common/proprietary/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
-    vendor/lge/g4-common/proprietary/lib/libmorpho_superzoom.so:system/lib/libmorpho_superzoom.so \
     vendor/lge/g4-common/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
     vendor/lge/g4-common/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
-    vendor/lge/g4-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lge/g4-common/proprietary/lib/libuicc.so:system/lib/libuicc.so \
     vendor/lge/g4-common/proprietary/lib64/hw/lgkm.default.so:system/lib64/hw/lgkm.default.so \
     vendor/lge/g4-common/proprietary/lib64/hw/lgkm.msm8992.so:system/lib64/hw/lgkm.msm8992.so \
@@ -113,6 +101,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib64/libqmimotext.so:system/lib64/libqmimotext.so \
     vendor/lge/g4-common/proprietary/lib64/libuicc.so:system/lib64/libuicc.so \
     vendor/lge/g4-common/proprietary/lib64/libfilterpack_facedetect.so:system/lib64/libfilterpack_facedetect.so \
+    vendor/lge/g4-common/proprietary/vendor/bin/mm-qcamera-app:system/vendor/bin/mm-qcamera-app \
+    vendor/lge/g4-common/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/lge/g4-common/proprietary/vendor/bin/LKCore:system/vendor/bin/LKCore \
     vendor/lge/g4-common/proprietary/vendor/bin/RIDLClient.exe:system/vendor/bin/RIDLClient.exe \
     vendor/lge/g4-common/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
@@ -135,6 +125,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
     vendor/lge/g4-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/lge/g4-common/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/hw/camera.msm8992.so:system/vendor/lib/hw/camera.msm8992.so \
     vendor/lge/g4-common/proprietary/vendor/lib/hw/activity_recognition.msm8992.so:system/vendor/lib/hw/activity_recognition.msm8992.so \
     vendor/lge/g4-common/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/lge/g4-common/proprietary/vendor/lib/hw/gatekeeper.msm8992.so:system/vendor/lib/hw/gatekeeper.msm8992.so \
@@ -170,6 +161,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libMcClient.so:system/vendor/lib/libMcClient.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libMcRegistry.so:system/vendor/lib/libMcRegistry.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/libHDR.so:system/vendor/lib/libHDR.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
@@ -187,6 +179,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libUserAgent.so:system/vendor/lib/libUserAgent.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/libarcsoft_beauty_shot.so:system/vendor/lib/libarcsoft_beauty_shot.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -234,6 +227,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libaudiohookclient.so:system/vendor/lib/libaudiohookclient.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libavenhancements.so:system/vendor/lib/libavenhancements.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/liblgmda.so:system/vendor/lib/liblgmda.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
@@ -450,6 +444,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:system/vendor/lib/libmmcamera_trueportrait_lib.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:system/vendor/lib/libmmcamera_ubifocus_lib.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libmmcamera_vpu_module.so:system/vendor/lib/libmmcamera_vpu_module.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/libmm-qcamera.so:system/vendor/lib/libmm-qcamera.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/libmorpho_image_stab31.so:system/vendor/lib/libmorpho_image_stab31.so \
+    vendor/lge/g4-common/proprietary/vendor/lib/libmorpho_superzoom.so:system/vendor/lib/libmorpho_superzoom.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libmmhttpstack.so:system/vendor/lib/libmmhttpstack.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libmmiipstreammmihttp.so:system/vendor/lib/libmmiipstreammmihttp.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
