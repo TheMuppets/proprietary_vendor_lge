@@ -89,12 +89,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
     vendor/lge/g4-common/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/lge/g4-common/proprietary/lib/libuicc.so:system/lib/libuicc.so \
-    vendor/lge/g4-common/proprietary/lib/libloc_pla.so:system/lib/libloc_pla.so \
     vendor/lge/g4-common/proprietary/lib64/hw/lgkm.default.so:system/lib64/hw/lgkm.default.so \
     vendor/lge/g4-common/proprietary/lib64/hw/lgkm.msm8992.so:system/lib64/hw/lgkm.msm8992.so \
     vendor/lge/g4-common/proprietary/lib64/hw/sensors.msm8992.so:system/lib64/hw/sensors.msm8992.so \
     vendor/lge/g4-common/proprietary/lib64/hw/wbc_hal.default.so:system/lib64/hw/wbc_hal.default.so \
-    vendor/lge/g4-common/proprietary/lib64/libloc_pla.so:system/lib64/libloc_pla.so \
     vendor/lge/g4-common/proprietary/lib64/liblgkm.so:system/lib64/liblgkm.so \
     vendor/lge/g4-common/proprietary/lib64/liblgmabl.so:system/lib64/liblgmabl.so \
     vendor/lge/g4-common/proprietary/lib64/libmdmcutback.so:system/lib64/libmdmcutback.so \
