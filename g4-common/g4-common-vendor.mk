@@ -81,6 +81,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib/libVDBase.so:system/lib/libVDBase.so \
     vendor/lge/g4-common/proprietary/lib/libVDLowLightAPI.so:system/lib/libVDLowLightAPI.so \
     vendor/lge/g4-common/proprietary/lib/libalhdri.so:system/lib/libalhdri.so \
+    vendor/lge/g4-common/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
+    vendor/lge/g4-common/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
     vendor/lge/g4-common/proprietary/lib/libalmcascore.so:system/lib/libalmcascore.so \
     vendor/lge/g4-common/proprietary/lib/libalmcaswrap.so:system/lib/libalmcaswrap.so \
     vendor/lge/g4-common/proprietary/lib/liblgkm.so:system/lib/liblgkm.so \
@@ -89,6 +91,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
     vendor/lge/g4-common/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/lge/g4-common/proprietary/lib/libuicc.so:system/lib/libuicc.so \
+    vendor/lge/g4-common/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
+    vendor/lge/g4-common/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
     vendor/lge/g4-common/proprietary/lib64/hw/lgkm.default.so:system/lib64/hw/lgkm.default.so \
     vendor/lge/g4-common/proprietary/lib64/hw/lgkm.msm8992.so:system/lib64/hw/lgkm.msm8992.so \
     vendor/lge/g4-common/proprietary/lib64/hw/sensors.msm8992.so:system/lib64/hw/sensors.msm8992.so \
