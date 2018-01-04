@@ -222,6 +222,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
+    vendor/lge/g2-common/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/lge/g2-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/g2-common/proprietary/bin/qmuxd:system/bin/qmuxd \
