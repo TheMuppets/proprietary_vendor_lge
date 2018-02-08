@@ -84,6 +84,7 @@ PRODUCT_PACKAGES += \
     TimeService \
     Tycho \
     CNEService \
+    CarrierServices \
     ConnMO \
     DCMO \
     DMConfigUpdate \
