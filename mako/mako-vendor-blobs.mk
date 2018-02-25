@@ -86,7 +86,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/vendor/firmware/wcnss.mdt:system/vendor/firmware/wcnss.mdt \
     vendor/lge/mako/proprietary/vendor/lib/hw/flp.msm8960.so:system/vendor/lib/hw/flp.msm8960.so \
     vendor/lge/mako/proprietary/vendor/lib/hw/gps.msm8960.so:system/vendor/lib/hw/gps.msm8960.so \
-    vendor/lge/mako/proprietary/vendor/lib/hw/sensors.mako.so:system/vendor/lib/hw/sensors.mako.so \
+    vendor/lge/mako/proprietary/vendor/lib/sensors.mako.so:system/vendor/lib/sensors.mako.so \
     vendor/lge/mako/proprietary/vendor/lib/libacdbdata.so:system/vendor/lib/libacdbdata.so \
     vendor/lge/mako/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/lge/mako/proprietary/vendor/lib/libAKM.so:system/vendor/lib/libAKM.so \
