@@ -97,20 +97,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/vendor/lib/libchromatix_imx111_zsl.so:system/vendor/lib/libchromatix_imx111_zsl.so \
     vendor/lge/mako/proprietary/vendor/lib/libchromatix_imx119_default_video.so:system/vendor/lib/libchromatix_imx119_default_video.so \
     vendor/lge/mako/proprietary/vendor/lib/libchromatix_imx119_preview.so:system/vendor/lib/libchromatix_imx119_preview.so \
-    vendor/lge/mako/proprietary/vendor/lib/libchromatix_mt9e013_default_video.so:system/vendor/lib/libchromatix_mt9e013_default_video.so \
-    vendor/lge/mako/proprietary/vendor/lib/libchromatix_mt9e013_preview.so:system/vendor/lib/libchromatix_mt9e013_preview.so \
-    vendor/lge/mako/proprietary/vendor/lib/libchromatix_mt9e013_video_hfr.so:system/vendor/lib/libchromatix_mt9e013_video_hfr.so \
-    vendor/lge/mako/proprietary/vendor/lib/libchromatix_ov5647_default_video.so:system/vendor/lib/libchromatix_ov5647_default_video.so \
-    vendor/lge/mako/proprietary/vendor/lib/libchromatix_ov5647_preview.so:system/vendor/lib/libchromatix_ov5647_preview.so \
-    vendor/lge/mako/proprietary/vendor/lib/libchromatix_ov5647_video_hfr.so:system/vendor/lib/libchromatix_ov5647_video_hfr.so \
-    vendor/lge/mako/proprietary/vendor/lib/libchromatix_ov8825_default_video.so:system/vendor/lib/libchromatix_ov8825_default_video.so \
-    vendor/lge/mako/proprietary/vendor/lib/libchromatix_ov8825_preview.so:system/vendor/lib/libchromatix_ov8825_preview.so \
-    vendor/lge/mako/proprietary/vendor/lib/libchromatix_ov9726_default_video.so:system/vendor/lib/libchromatix_ov9726_default_video.so \
-    vendor/lge/mako/proprietary/vendor/lib/libchromatix_ov9726_preview.so:system/vendor/lib/libchromatix_ov9726_preview.so \
-    vendor/lge/mako/proprietary/vendor/lib/libchromatix_s5k4e1_default_video.so:system/vendor/lib/libchromatix_s5k4e1_default_video.so \
-    vendor/lge/mako/proprietary/vendor/lib/libchromatix_s5k4e1_preview.so:system/vendor/lib/libchromatix_s5k4e1_preview.so \
-    vendor/lge/mako/proprietary/vendor/lib/libchromatix_vx6953_default_video.so:system/vendor/lib/libchromatix_vx6953_default_video.so \
-    vendor/lge/mako/proprietary/vendor/lib/libchromatix_vx6953_preview.so:system/vendor/lib/libchromatix_vx6953_preview.so \
     vendor/lge/mako/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
     vendor/lge/mako/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/lge/mako/proprietary/vendor/lib/libcsd-client.so:system/vendor/lib/libcsd-client.so \
@@ -125,7 +111,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/lge/mako/proprietary/vendor/lib/libDxHdcp.so:system/vendor/lib/libDxHdcp.so \
     vendor/lge/mako/proprietary/vendor/lib/libgemini.so:system/vendor/lib/libgemini.so \
-    vendor/lge/mako/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/lge/mako/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/lge/mako/proprietary/vendor/lib/libimage-jpeg-dec-omx-comp.so:system/vendor/lib/libimage-jpeg-dec-omx-comp.so \
     vendor/lge/mako/proprietary/vendor/lib/libimage-jpeg-enc-omx-comp.so:system/vendor/lib/libimage-jpeg-enc-omx-comp.so \
@@ -137,7 +122,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/vendor/lib/libmmcamera_image_stab.so:system/vendor/lib/libmmcamera_image_stab.so \
     vendor/lge/mako/proprietary/vendor/lib/libmmcamera_statsproc31.so:system/vendor/lib/libmmcamera_statsproc31.so \
     vendor/lge/mako/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
-    vendor/lge/mako/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/lge/mako/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/lge/mako/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/lge/mako/proprietary/vendor/lib/libmmjps.so:system/vendor/lib/libmmjps.so \
@@ -164,7 +148,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/lge/mako/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/lge/mako/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
-    vendor/lge/mako/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
     vendor/lge/mako/proprietary/vendor/lib/libstagefright_hdcp.so:system/vendor/lib/libstagefright_hdcp.so \
     vendor/lge/mako/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/lge/mako/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
@@ -177,7 +160,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/lge/mako/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/lge/mako/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
-    vendor/lge/mako/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/lge/mako/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/lge/mako/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/lge/mako/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
@@ -188,6 +170,5 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/lge/mako/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/lge/mako/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
-    vendor/lge/mako/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     vendor/lge/mako/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/lge/mako/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so
