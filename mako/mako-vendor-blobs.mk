@@ -39,12 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/vendor/bin/usbhub:system/vendor/bin/usbhub \
     vendor/lge/mako/proprietary/vendor/bin/usbhub_init:system/vendor/bin/usbhub_init \
     vendor/lge/mako/proprietary/vendor/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
-    vendor/lge/mako/proprietary/vendor/etc/firmware/vidc_1080p.fw:system/vendor/etc/firmware/vidc_1080p.fw \
-    vendor/lge/mako/proprietary/vendor/etc/firmware/vidc.b00:system/vendor/etc/firmware/vidc.b00 \
-    vendor/lge/mako/proprietary/vendor/etc/firmware/vidc.b01:system/vendor/etc/firmware/vidc.b01 \
-    vendor/lge/mako/proprietary/vendor/etc/firmware/vidc.b02:system/vendor/etc/firmware/vidc.b02 \
-    vendor/lge/mako/proprietary/vendor/etc/firmware/vidc.b03:system/vendor/etc/firmware/vidc.b03 \
-    vendor/lge/mako/proprietary/vendor/etc/firmware/vidc.mdt:system/vendor/etc/firmware/vidc.mdt \
     vendor/lge/mako/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
     vendor/lge/mako/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
     vendor/lge/mako/proprietary/vendor/firmware/bcm2079x_firmware.ncd:system/vendor/firmware/bcm2079x_firmware.ncd \
@@ -78,6 +72,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/vendor/firmware/tzapps.b02:system/vendor/firmware/tzapps.b02 \
     vendor/lge/mako/proprietary/vendor/firmware/tzapps.b03:system/vendor/firmware/tzapps.b03 \
     vendor/lge/mako/proprietary/vendor/firmware/tzapps.mdt:system/vendor/firmware/tzapps.mdt \
+    vendor/lge/mako/proprietary/vendor/firmware/vidc_1080p.fw:system/vendor/firmware/vidc_1080p.fw \
+    vendor/lge/mako/proprietary/vendor/firmware/vidc.b00:system/vendor/firmware/vidc.b00 \
+    vendor/lge/mako/proprietary/vendor/firmware/vidc.b01:system/vendor/firmware/vidc.b01 \
+    vendor/lge/mako/proprietary/vendor/firmware/vidc.b02:system/vendor/firmware/vidc.b02 \
+    vendor/lge/mako/proprietary/vendor/firmware/vidc.b03:system/vendor/firmware/vidc.b03 \
+    vendor/lge/mako/proprietary/vendor/firmware/vidc.mdt:system/vendor/firmware/vidc.mdt \
     vendor/lge/mako/proprietary/vendor/firmware/wcnss.b00:system/vendor/firmware/wcnss.b00 \
     vendor/lge/mako/proprietary/vendor/firmware/wcnss.b01:system/vendor/firmware/wcnss.b01 \
     vendor/lge/mako/proprietary/vendor/firmware/wcnss.b02:system/vendor/firmware/wcnss.b02 \
