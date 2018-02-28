@@ -85,7 +85,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/vendor/firmware/wcnss.b05:system/vendor/firmware/wcnss.b05 \
     vendor/lge/mako/proprietary/vendor/firmware/wcnss.mdt:system/vendor/firmware/wcnss.mdt \
     vendor/lge/mako/proprietary/vendor/lib/hw/flp.msm8960.so:system/vendor/lib/hw/flp.msm8960.so \
-    vendor/lge/mako/proprietary/vendor/lib/hw/gps.msm8960.so:system/vendor/lib/hw/gps.msm8960.so \
     vendor/lge/mako/proprietary/vendor/lib/sensors.mako.so:system/vendor/lib/sensors.mako.so \
     vendor/lge/mako/proprietary/vendor/lib/libacdbdata.so:system/vendor/lib/libacdbdata.so \
     vendor/lge/mako/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
@@ -126,14 +125,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/lge/mako/proprietary/vendor/lib/libDxHdcp.so:system/vendor/lib/libDxHdcp.so \
     vendor/lge/mako/proprietary/vendor/lib/libgemini.so:system/vendor/lib/libgemini.so \
-    vendor/lge/mako/proprietary/vendor/lib/libgps.utils.so:system/vendor/lib/libgps.utils.so \
     vendor/lge/mako/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/lge/mako/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/lge/mako/proprietary/vendor/lib/libimage-jpeg-dec-omx-comp.so:system/vendor/lib/libimage-jpeg-dec-omx-comp.so \
     vendor/lge/mako/proprietary/vendor/lib/libimage-jpeg-enc-omx-comp.so:system/vendor/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/lge/mako/proprietary/vendor/lib/libimage-omx-common.so:system/vendor/lib/libimage-omx-common.so \
-    vendor/lge/mako/proprietary/vendor/lib/libloc_core.so:system/vendor/lib/libloc_core.so \
-    vendor/lge/mako/proprietary/vendor/lib/libloc_eng.so:system/vendor/lib/libloc_eng.so \
     vendor/lge/mako/proprietary/vendor/lib/libmercury.so:system/vendor/lib/libmercury.so \
     vendor/lge/mako/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
     vendor/lge/mako/proprietary/vendor/lib/libmmcamera_frameproc.so:system/vendor/lib/libmmcamera_frameproc.so \
