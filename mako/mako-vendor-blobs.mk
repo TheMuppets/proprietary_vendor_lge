@@ -18,14 +18,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/vendor/bin/ATFWD-daemon:system/vendor/bin/ATFWD-daemon \
     vendor/lge/mako/proprietary/vendor/bin/bridgemgrd:system/vendor/bin/bridgemgrd \
     vendor/lge/mako/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
-    vendor/lge/mako/proprietary/vendor/bin/diag_klog:system/vendor/bin/diag_klog \
-    vendor/lge/mako/proprietary/vendor/bin/diag_mdlog:system/vendor/bin/diag_mdlog \
     vendor/lge/mako/proprietary/vendor/bin/ds_fmc_appd:system/vendor/bin/ds_fmc_appd \
     vendor/lge/mako/proprietary/vendor/bin/efsks:system/vendor/bin/efsks \
     vendor/lge/mako/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/lge/mako/proprietary/vendor/bin/ks:system/vendor/bin/ks \
     vendor/lge/mako/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
-    vendor/lge/mako/proprietary/vendor/bin/mpdecision:system/vendor/bin/mpdecision \
     vendor/lge/mako/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
     vendor/lge/mako/proprietary/vendor/bin/nl_listener:system/vendor/bin/nl_listener \
     vendor/lge/mako/proprietary/vendor/bin/port-bridge:system/vendor/bin/port-bridge \
@@ -35,7 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/vendor/bin/radish:system/vendor/bin/radish \
     vendor/lge/mako/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/lge/mako/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
-    vendor/lge/mako/proprietary/vendor/bin/thermald:system/vendor/bin/thermald \
     vendor/lge/mako/proprietary/vendor/bin/usbhub:system/vendor/bin/usbhub \
     vendor/lge/mako/proprietary/vendor/bin/usbhub_init:system/vendor/bin/usbhub_init \
     vendor/lge/mako/proprietary/vendor/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
