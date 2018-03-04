@@ -104,14 +104,3 @@ PRODUCT_PACKAGES += \
     qcrilhook \
     rcsimssettings \
     rcsservice
-PRODUCT_COPY_FILES += \
-    vendor/lge/bullhead/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
-    vendor/lge/bullhead/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
-    vendor/lge/bullhead/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
-    vendor/lge/bullhead/proprietary/app/ims/lib/arm64/libimscamera_jni.so:system/app/ims/lib/arm64/libimscamera_jni.so \
-    vendor/lge/bullhead/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
-    vendor/lge/bullhead/proprietary/app/ims/lib/arm64/libimsmedia_jni.so:system/app/ims/lib/arm64/libimsmedia_jni.so
-
-PRODUCT_PACKAGES += \
-    datastatusnotification \
-    ims
