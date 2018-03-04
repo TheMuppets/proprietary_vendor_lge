@@ -265,6 +265,16 @@ LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := com.google.android.camera.experimental2016
+LOCAL_MODULE_OWNER := lge
+LOCAL_SRC_FILES := proprietary/framework/com.google.android.camera.experimental2016.jar
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := qcrilhook
 LOCAL_MODULE_OWNER := lge
 LOCAL_SRC_FILES := proprietary/framework/qcrilhook.jar
