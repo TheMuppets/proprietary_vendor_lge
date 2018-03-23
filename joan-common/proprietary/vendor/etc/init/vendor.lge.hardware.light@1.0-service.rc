@@ -1,0 +1,4 @@
+service light-lge-1-0 /vendor/bin/hw/vendor.lge.hardware.light@1.0-service
+    class hal
+    user system
+    group system

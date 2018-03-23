@@ -1,0 +1,4 @@
+service sysnode-hal-1-0 /vendor/bin/hw/vendor.lge.hardware.sysnode@1.0-service
+    class hal
+    user system
+    group system media_rw sdcard_rw
