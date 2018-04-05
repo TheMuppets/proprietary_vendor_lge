@@ -85,13 +85,11 @@ PRODUCT_PACKAGES += \
     TimeService \
     Tycho \
     CNEService \
-    CarrierServices \
     ConnMO \
     DCMO \
     DMConfigUpdate \
     DMService \
     DiagMon \
-    GCS \
     HotwordEnrollmentOKGoogleWCD9330 \
     HotwordEnrollmentTGoogleWCD9330 \
     HotwordEnrollmentXGoogleWCD9330 \
