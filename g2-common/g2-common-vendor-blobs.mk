@@ -27,13 +27,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libfastcvadsp_skel.so \
     vendor/lge/g2-common/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libfastcvadsp.so \
     vendor/lge/g2-common/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libscveT2T_skel.so \
-    vendor/lge/g2-common/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
-    vendor/lge/g2-common/proprietary/vendor/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/General_cal.acdb \
-    vendor/lge/g2-common/proprietary/vendor/etc/acdbdata/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Global_cal.acdb \
-    vendor/lge/g2-common/proprietary/vendor/etc/acdbdata/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Handset_cal.acdb \
-    vendor/lge/g2-common/proprietary/vendor/etc/acdbdata/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Hdmi_cal.acdb \
-    vendor/lge/g2-common/proprietary/vendor/etc/acdbdata/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Headset_cal.acdb \
-    vendor/lge/g2-common/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Speaker_cal.acdb \
+    vendor/lge/g2-common/proprietary/vendor/acdb/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdb/Bluetooth_cal.acdb \
+    vendor/lge/g2-common/proprietary/vendor/acdb/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdb/General_cal.acdb \
+    vendor/lge/g2-common/proprietary/vendor/acdb/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdb/Global_cal.acdb \
+    vendor/lge/g2-common/proprietary/vendor/acdb/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdb/Handset_cal.acdb \
+    vendor/lge/g2-common/proprietary/vendor/acdb/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdb/Hdmi_cal.acdb \
+    vendor/lge/g2-common/proprietary/vendor/acdb/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdb/Headset_cal.acdb \
+    vendor/lge/g2-common/proprietary/vendor/acdb/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/acdb/Speaker_cal.acdb \
     vendor/lge/g2-common/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libacdbmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbmapper.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbrtac.so \
