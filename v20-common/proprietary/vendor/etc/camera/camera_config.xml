@@ -140,6 +140,34 @@ LensInfo : Information of the lens present in the module.
     </LensInfo>
   </CameraModuleConfig>
   <CameraModuleConfig>
+    <CameraId>0</CameraId>
+    <SensorName>s5k2p7</SensorName>
+    <FlashName>pmic</FlashName>
+    <ActuatorName>bu24333gwl_s5k2p7</ActuatorName>
+    <OisName>bu24333gwl_s5k2p7</OisName>
+    <ProxyName>vl53l0</ProxyName>
+    <EepromName>brcb032gwz_s5k2p7</EepromName>
+
+    <ChromatixName>s5k2p7_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK</Position>
+    <MountAngle>90</MountAngle>
+    <CSIInfo>
+      <CSIDCore>0</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>4.18</FocalLength>
+      <FNumber>1.8</FNumber>
+      <TotalFocusDistance>10</TotalFocusDistance>
+      <HorizontalViewAngle>59.8</HorizontalViewAngle>
+      <VerticalViewAngle>46.7</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+  <CameraModuleConfig>
     <CameraId>1</CameraId>
     <SensorName>hi553</SensorName>
     <EepromName>m24c32_hi553</EepromName>
