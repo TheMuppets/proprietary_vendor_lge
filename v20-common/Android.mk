@@ -17,7 +17,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter v20 h910 h918 us996 ls997 vs995,$(TARGET_DEVICE)),)
+ifneq ($(filter v20 h910 h918 us996 ls997 vs995 h990,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := fingerprint.msm8996
