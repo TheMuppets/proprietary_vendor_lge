@@ -560,9 +560,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g6-common/proprietary/vendor/lib/libmmcamera_brcf016gwz_hi553_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_brcf016gwz_hi553_eeprom.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dbg.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libmmcamera_dummyalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dummyalgo.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/libmmcamera_edgesmooth_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_edgesmooth_lib.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libmmcamera_eebinparse.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eebinparse.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/libmmcamera_eeprom_checksum.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eeprom_checksum.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libmmcamera_eeprom_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eeprom_util.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libmmcamera_eztune_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eztune_module.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libmmcamera_facedetection_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_facedetection_lib.so \
@@ -633,7 +631,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g6-common/proprietary/vendor/lib/libmmcamera_ppeiscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppeiscore.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libmmcamera_quadracfa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_quadracfa.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libmmcamera_s5k3m3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3m3.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/libmmcamera_sat_dummy_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sat_dummy_lib.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw2d_lib.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libmmcamera_thread_services.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_thread_services.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_algo.so \
