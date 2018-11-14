@@ -95,7 +95,7 @@ LensType :
     <EepromName>imx258_m24c64m</EepromName>
     <ChromatixName>imx258_lgit_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
-    <Position>BACK</Position>
+    <Position>BACK_AUX</Position>
     <MountAngle>90</MountAngle>
     <CSIInfo>
       <CSIDCore>0</CSIDCore>
@@ -122,7 +122,7 @@ LensType :
     <EepromName>imx258_gt24c128</EepromName>
     <ChromatixName>imx258_imtech_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
-    <Position>BACK</Position>
+    <Position>BACK_AUX</Position>
     <MountAngle>90</MountAngle>
     <CSIInfo>
       <CSIDCore>0</CSIDCore>
@@ -229,7 +229,7 @@ LensType :
     </CSIInfo>
     <LensInfo>
       <LensType>WIDE</LensType>
-      <FocalLength>2.01</FocalLength>
+      <FocalLength>2.04</FocalLength>
       <FNumber>2.4</FNumber>
       <TotalFocusDistance>10</TotalFocusDistance>
       <HorizontalViewAngle>102.0</HorizontalViewAngle>
@@ -254,7 +254,7 @@ LensType :
     </CSIInfo>
     <LensInfo>
       <LensType>WIDE</LensType>
-      <FocalLength>2.10</FocalLength>
+      <FocalLength>2.04</FocalLength>
       <FNumber>2.4</FNumber>
       <TotalFocusDistance>10</TotalFocusDistance>
       <HorizontalViewAngle>114</HorizontalViewAngle>

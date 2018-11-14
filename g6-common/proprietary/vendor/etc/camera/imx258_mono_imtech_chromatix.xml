@@ -170,6 +170,30 @@ special_mode_mask values:
       <A3Preview>imx258_mono_imtech_hfr_120_bu64244gwz</A3Preview>
       <A3Video>imx258_mono_imtech_hfr_120_bu64244gwz</A3Video>
     </ChromatixName>
+    <ChromatixName sensor_resolution_index="6">
+      <ISPPreview>imx258_mono_imtech_snapshot_binning</ISPPreview>
+      <ISPSnapshot>imx258_mono_imtech_snapshot_binning</ISPSnapshot>
+      <ISPVideo>imx258_mono_imtech_video_binning</ISPVideo>
+      <CPPPreview>imx258_mono_imtech_cpp_preview_binning</CPPPreview>
+      <CPPSnapshot>imx258_mono_imtech_cpp_snapshot_binning</CPPSnapshot>
+      <CPPLiveshot>imx258_mono_imtech_cpp_liveshot</CPPLiveshot>
+      <CPPVideo>imx258_mono_imtech_cpp_video_binning</CPPVideo>
+      <CPPFlashSnapshot>imx258_mono_imtech_flash_snapshot_cpp</CPPFlashSnapshot>
+      <A3Preview>imx258_mono_imtech_binning_zsl_3a</A3Preview>
+      <A3Video>imx258_mono_imtech_binning_video_3a</A3Video>
+    </ChromatixName>
+    <ChromatixName sensor_resolution_index="7">
+      <ISPPreview>imx258_mono_imtech_snapshot_binning</ISPPreview>
+      <ISPSnapshot>imx258_mono_imtech_snapshot_binning</ISPSnapshot>
+      <ISPVideo>imx258_mono_imtech_video_binning</ISPVideo>
+      <CPPPreview>imx258_mono_imtech_cpp_preview_binning</CPPPreview>
+      <CPPSnapshot>imx258_mono_imtech_cpp_snapshot_binning</CPPSnapshot>
+      <CPPLiveshot>imx258_mono_imtech_cpp_liveshot</CPPLiveshot>
+      <CPPVideo>imx258_mono_imtech_cpp_video_binning</CPPVideo>
+      <CPPFlashSnapshot>imx258_mono_imtech_flash_snapshot_cpp</CPPFlashSnapshot>
+      <A3Preview>imx258_mono_imtech_binning_4k_3a</A3Preview>
+      <A3Video>imx258_mono_imtech_binning_video_3a</A3Video>
+    </ChromatixName>	
   </ResolutionChromatixInfo>
 </ChromatixConfigurationRoot>
 
