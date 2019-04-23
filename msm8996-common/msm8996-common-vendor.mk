@@ -88,9 +88,6 @@ PRODUCT_PACKAGES += \
     libcir_driver \
     VZWAPNLib \
     vzw_msdc_api \
-    HotwordEnrollmentOKGoogleWCD9335 \
-    HotwordEnrollmentTGoogleWCD9335 \
-    HotwordEnrollmentXGoogleWCD9335 \
     SprintDM \
     SprintHM \
     VZWAPNService \
