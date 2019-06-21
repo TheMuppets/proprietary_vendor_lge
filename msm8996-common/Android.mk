@@ -137,102 +137,6 @@ include $(BUILD_PREBUILT)
 
 ifeq ($(QCPATH),)
 include $(CLEAR_VARS)
-LOCAL_MODULE := com.quicinc.cne.api@1.1
-LOCAL_MODULE_OWNER := lge
-LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/com.quicinc.cne.api@1.1.so
-LOCAL_SRC_FILES_32 := proprietary/vendor/lib/com.quicinc.cne.api@1.1.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_PROPRIETARY_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.quicinc.cne.constants@1.0
-LOCAL_MODULE_OWNER := lge
-LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/com.quicinc.cne.constants@1.0.so
-LOCAL_SRC_FILES_32 := proprietary/vendor/lib/com.quicinc.cne.constants@1.0.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_PROPRIETARY_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.quicinc.cne.constants@2.0
-LOCAL_MODULE_OWNER := lge
-LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/com.quicinc.cne.constants@2.0.so
-LOCAL_SRC_FILES_32 := proprietary/vendor/lib/com.quicinc.cne.constants@2.0.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_PROPRIETARY_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.quicinc.cne.constants@2.1
-LOCAL_MODULE_OWNER := lge
-LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/com.quicinc.cne.constants@2.1.so
-LOCAL_SRC_FILES_32 := proprietary/vendor/lib/com.quicinc.cne.constants@2.1.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_PROPRIETARY_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.quicinc.cne.server@1.0
-LOCAL_MODULE_OWNER := lge
-LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/com.quicinc.cne.server@1.0.so
-LOCAL_SRC_FILES_32 := proprietary/vendor/lib/com.quicinc.cne.server@1.0.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_PROPRIETARY_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.quicinc.cne.server@2.0
-LOCAL_MODULE_OWNER := lge
-LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/com.quicinc.cne.server@2.0.so
-LOCAL_SRC_FILES_32 := proprietary/vendor/lib/com.quicinc.cne.server@2.0.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_PROPRIETARY_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.quicinc.cne.server@2.1
-LOCAL_MODULE_OWNER := lge
-LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/com.quicinc.cne.server@2.1.so
-LOCAL_SRC_FILES_32 := proprietary/vendor/lib/com.quicinc.cne.server@2.1.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_PROPRIETARY_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.quicinc.cne.server@2.2
-LOCAL_MODULE_OWNER := lge
-LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/com.quicinc.cne.server@2.2.so
-LOCAL_SRC_FILES_32 := proprietary/vendor/lib/com.quicinc.cne.server@2.2.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_PROPRIETARY_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := gatekeeper.msm8996
 LOCAL_MODULE_OWNER := lge
 LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/hw/gatekeeper.msm8996.so
@@ -347,18 +251,6 @@ LOCAL_MODULE := libthermalclient
 LOCAL_MODULE_OWNER := lge
 LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libthermalclient.so
 LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libthermalclient.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_PROPRIETARY_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libtime_genoff
-LOCAL_MODULE_OWNER := lge
-LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libtime_genoff.so
-LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libtime_genoff.so
 LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
