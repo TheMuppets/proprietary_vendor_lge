@@ -75,6 +75,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g6-common/proprietary/vendor/lib/hw/camera.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8996.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libAutoContrast.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAutoContrast.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libCmcPdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCmcPdaf.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libSJFingerDetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSJFingerDetect.so \
     vendor/lge/g6-common/proprietary/vendor/lib/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_fpc_tac_shared.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libactuator_ak7371.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7371.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libactuator_bu24333gwl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu24333gwl.so \
@@ -263,6 +264,44 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_s5k3m3_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3_snapshot.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_s5k3m3_zsl_preview_ad5816g.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3_zsl_preview_ad5816g.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_s5k3m3_zsl_video_ad5816g.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3_zsl_video_ad5816g.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_hi553_cowell_cpp_face_unlock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_hi553_cowell_cpp_face_unlock.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_hi553_cowell_face_unlock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_hi553_cowell_face_unlock.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_hi553_cowell_face_unlock_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_hi553_cowell_face_unlock_preview.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_hi553_lgit_cpp_face_unlock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_hi553_lgit_cpp_face_unlock.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_hi553_lgit_face_unlock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_hi553_lgit_face_unlock.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_hi553_lgit_face_unlock_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_hi553_lgit_face_unlock_preview.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_imtech_binning_4k_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_imtech_binning_4k_3a.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_imtech_binning_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_imtech_binning_video_3a.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_imtech_binning_zsl_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_imtech_binning_zsl_3a.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_imtech_cpp_preview_binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_imtech_cpp_preview_binning.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_imtech_cpp_snapshot_binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_imtech_cpp_snapshot_binning.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_imtech_cpp_video_binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_imtech_cpp_video_binning.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_imtech_snapshot_binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_imtech_snapshot_binning.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_imtech_video_binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_imtech_video_binning.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_lgit_binning_4k_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_lgit_binning_4k_3a.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_lgit_binning_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_lgit_binning_video_3a.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_lgit_binning_zsl_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_lgit_binning_zsl_3a.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_lgit_cpp_preview_binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_lgit_cpp_preview_binning.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_lgit_cpp_snapshot_binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_lgit_cpp_snapshot_binning.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_lgit_cpp_video_binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_lgit_cpp_video_binning.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_lgit_snapshot_binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_lgit_snapshot_binning.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_lgit_video_binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_lgit_video_binning.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_mono_imtech_binning_4k_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_mono_imtech_binning_4k_3a.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_mono_imtech_binning_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_mono_imtech_binning_video_3a.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_mono_imtech_binning_zsl_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_mono_imtech_binning_zsl_3a.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_mono_imtech_cpp_preview_binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_mono_imtech_cpp_preview_binning.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_mono_imtech_cpp_snapshot_binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_mono_imtech_cpp_snapshot_binning.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_mono_imtech_cpp_video_binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_mono_imtech_cpp_video_binning.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_mono_imtech_snapshot_binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_mono_imtech_snapshot_binning.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_mono_imtech_video_binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_mono_imtech_video_binning.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_mono_lgit_binning_4k_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_mono_lgit_binning_4k_3a.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_mono_lgit_binning_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_mono_lgit_binning_video_3a.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_mono_lgit_binning_zsl_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_mono_lgit_binning_zsl_3a.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_mono_lgit_cpp_preview_binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_mono_lgit_cpp_preview_binning.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_mono_lgit_cpp_snapshot_binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_mono_lgit_cpp_snapshot_binning.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_mono_lgit_cpp_video_binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_mono_lgit_cpp_video_binning.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_mono_lgit_snapshot_binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_mono_lgit_snapshot_binning.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_mono_lgit_video_binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_mono_lgit_video_binning.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libdovi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdovi.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libfilm_emulation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfilm_emulation.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
@@ -537,6 +576,30 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx298_raw_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx298_raw_hdr.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx298_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx298_zsl_preview.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx298_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx298_zsl_video.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_binning_4k_imx258_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_binning_4k_imx258_imtech.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_binning_4k_imx258_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_binning_4k_imx258_lgit.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_binning_4k_imx258_wide_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_binning_4k_imx258_wide_imtech.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_binning_4k_imx258_wide_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_binning_4k_imx258_wide_lgit.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_binning_video_imx258_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_binning_video_imx258_imtech.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_binning_video_imx258_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_binning_video_imx258_lgit.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_binning_video_imx258_wide_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_binning_video_imx258_wide_imtech.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_binning_video_imx258_wide_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_binning_video_imx258_wide_lgit.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_binning_zsl_imx258_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_binning_zsl_imx258_imtech.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_binning_zsl_imx258_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_binning_zsl_imx258_lgit.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_binning_zsl_imx258_wide_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_binning_zsl_imx258_wide_imtech.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_binning_zsl_imx258_wide_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_binning_zsl_imx258_wide_lgit.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx258_imtech_binning_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx258_imtech_binning_4k.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx258_imtech_binning_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx258_imtech_binning_video.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx258_imtech_binning_zsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx258_imtech_binning_zsl.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx258_lgit_binning_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx258_lgit_binning_4k.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx258_lgit_binning_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx258_lgit_binning_video.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx258_lgit_binning_zsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx258_lgit_binning_zsl.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx258_wide_imtech_binning_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx258_wide_imtech_binning_4k.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx258_wide_imtech_binning_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx258_wide_imtech_binning_video.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx258_wide_imtech_binning_zsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx258_wide_imtech_binning_zsl.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx258_wide_lgit_binning_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx258_wide_lgit_binning_4k.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx258_wide_lgit_binning_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx258_wide_lgit_binning_video.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx258_wide_lgit_binning_zsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx258_wide_lgit_binning_zsl.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblgae_main.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblgae_main.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblgawb_main.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblgawb_main.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblghdri.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblghdri.so \
