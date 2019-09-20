@@ -128,5 +128,16 @@ special_mode_mask values:
       <A3Preview>hi553_lgit_3a_vt</A3Preview>
       <A3Video>hi553_lgit_3a_vt</A3Video>
     </ChromatixName>
+    <ChromatixName sensor_resolution_index="4" special_mode_mask="0">
+      <ISPPreview>hi553_lgit_face_unlock</ISPPreview>
+      <ISPSnapshot>hi553_lgit_face_unlock</ISPSnapshot>
+      <ISPVideo>hi553_lgit_video</ISPVideo>
+      <CPPPreview>hi553_lgit_cpp_face_unlock</CPPPreview>
+      <CPPSnapshot>hi553_lgit_cpp_face_unlock</CPPSnapshot>
+      <CPPVideo>hi553_lgit_cpp_video</CPPVideo>
+      <CPPLiveshot>hi553_lgit_cpp_liveshot</CPPLiveshot>
+      <A3Preview>hi553_lgit_face_unlock_preview</A3Preview>
+      <A3Video>hi553_lgit_zsl_video</A3Video>
+    </ChromatixName>
   </ResolutionChromatixInfo>
 </ChromatixConfigurationRoot>
