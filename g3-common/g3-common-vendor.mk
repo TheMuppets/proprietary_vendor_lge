@@ -62,7 +62,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/vendor/lib/libmorpho_noise_reduction.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_noise_reduction.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libmorpho_video_denoiser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_video_denoiser.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/librmnetctl.so:$(TARGET_COPY_OUT_VENDOR)/lib/librmnetctl.so \
     vendor/lge/g3-common/proprietary/vendor/firmware/wcnss.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/wcnss.b00 \
     vendor/lge/g3-common/proprietary/vendor/firmware/wcnss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/wcnss.b01 \
     vendor/lge/g3-common/proprietary/vendor/firmware/wcnss.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/wcnss.b02 \
