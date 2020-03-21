@@ -33,6 +33,4 @@ PRODUCT_COPY_FILES += \
     vendor/lge/ls980/proprietary/vendor/firmware/adsp.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b11 \
     vendor/lge/ls980/proprietary/vendor/firmware/adsp.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b12 \
     vendor/lge/ls980/proprietary/vendor/firmware/adsp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.mdt \
-    vendor/lge/ls980/proprietary/vendor/lib/hw/nfc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/nfc.default.so \
-    vendor/lge/ls980/proprietary/vendor/lib/hw/nfc.lg.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/nfc.lg.so \
-    vendor/lge/ls980/proprietary/vendor/firmware/libpn544_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn544_fw.so
+    vendor/lge/ls980/proprietary/vendor/lib/hw/nfc_nci.msm8974.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/nfc_nci.msm8974.so
