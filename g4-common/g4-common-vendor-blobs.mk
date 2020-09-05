@@ -732,7 +732,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
     vendor/lge/g4-common/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/lge/g4-common/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/lge/g4-common/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/lge/g4-common/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/lge/g4-common/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/lge/g4-common/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
