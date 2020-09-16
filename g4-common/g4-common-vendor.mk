@@ -28,6 +28,9 @@ PRODUCT_PACKAGES += \
     libloc_ds_api
 
 PRODUCT_PACKAGES += \
+    sensors.msm8992
+
+PRODUCT_PACKAGES += \
     libFlacSwDec \
     libmm-abl
 
