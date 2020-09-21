@@ -39,6 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib64/libcir_driver.so:system/lib64/libcir_driver.so \
     vendor/lge/g4-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/lge/g4-common/proprietary/lib64/libvss_nv_iface.so:system/lib64/libvss_nv_iface.so \
+    vendor/lge/g4-common/proprietary/lib64/libreference-ril.so:system/lib64/libreference-ril.so \
     vendor/lge/g4-common/proprietary/lib/libvss_nv_core.so:system/lib/libvss_nv_core.so \
     vendor/lge/g4-common/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     vendor/lge/g4-common/proprietary/lib/libqdMetaData.so:system/lib/libqdMetaData.so \
@@ -78,6 +79,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/lge/g4-common/proprietary/lib/libvss_nv_iface.so:system/lib/libvss_nv_iface.so \
     vendor/lge/g4-common/proprietary/lib/libalhdri.so:system/lib/libalhdri.so \
+    vendor/lge/g4-common/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/lge/g4-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/lge/g4-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
@@ -772,6 +774,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/g4-common/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/lge/g4-common/proprietary/bin/radish:system/bin/radish \
+    vendor/lge/g4-common/proprietary/bin/rild:system/bin/rild \
     vendor/lge/g4-common/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/lge/g4-common/proprietary/bin/qseecom_security_test:system/bin/qseecom_security_test \
     vendor/lge/g4-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
