@@ -387,17 +387,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "dpmserviceapp",
-	owner: "lge",
-	apk: "proprietary/priv-app/dpmserviceapp/dpmserviceapp.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
 	name: "qcrilmsgtunnel",
 	owner: "lge",
 	apk: "proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
