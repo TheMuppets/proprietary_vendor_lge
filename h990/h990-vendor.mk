@@ -1,5 +1,5 @@
 # Copyright (C) 2016 The CyanogenMod Project
-# Copyright (C) 2017-2019 The LineageOS Project
+# Copyright (C) 2017-2020 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -31,8 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/h990/proprietary/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/msm8996/la/7+5_mode/sr_dsds/mcfg_hw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/msm8996/la/7+5_mode/sr_dsds/mcfg_hw.mbn \
     vendor/lge/h990/proprietary/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/msm8996/wp8/7+5_mode/dr_dsds/mcfg_hw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/msm8996/wp8/7+5_mode/dr_dsds/mcfg_hw.mbn \
     vendor/lge/h990/proprietary/vendor/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/msm8996/wp8/7+5_mode/sr_dsds/mcfg_hw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/image/modem_pr/mcfg/configs/mcfg_hw/generic/common/msm8996/wp8/7+5_mode/sr_dsds/mcfg_hw.mbn
-
-ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
     vendor/lge/h990/proprietary/vendor/firmware/a530_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_gpmu.fw2 \
     vendor/lge/h990/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
@@ -47,5 +45,3 @@ PRODUCT_COPY_FILES += \
     vendor/lge/h990/proprietary/vendor/firmware/a530v2_seq.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v2_seq.fw2 \
     vendor/lge/h990/proprietary/vendor/firmware/a530v3_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v3_gpmu.fw2 \
     vendor/lge/h990/proprietary/vendor/firmware/a530v3_seq.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v3_seq.fw2
-
-endif
