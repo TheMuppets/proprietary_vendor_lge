@@ -397,17 +397,6 @@ android_app_import {
 	privileged: true,
 }
 
-android_app_import {
-	name: "TimeService",
-	owner: "lge",
-	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
 dex_import {
 	name: "QtiTelephonyServicelibrary",
 	owner: "lge",
