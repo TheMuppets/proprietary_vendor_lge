@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <library name="com.verizon.embms" file="/system/app/vzw_msdc_api/vzw_msdc_api.apk" />
+</permissions>
