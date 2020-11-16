@@ -220,7 +220,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_mono_imtech_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_mono_imtech_cpp_preview.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_mono_imtech_cpp_preview_binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_mono_imtech_cpp_preview_binning.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_mono_imtech_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_mono_imtech_cpp_snapshot.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_mono_imtech_cpp_snapshot_binning.sovendor/lib/libchromatix_imx258_mono_imtech_cpp_video_binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_mono_imtech_cpp_snapshot_binning.sovendor/lib/libchromatix_imx258_mono_imtech_cpp_video_binning.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_mono_imtech_cpp_snapshot_binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_mono_imtech_cpp_snapshot_binning.so \
+    vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_mono_imtech_cpp_video_binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_mono_imtech_cpp_video_binning.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_mono_imtech_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_mono_imtech_cpp_video.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_mono_imtech_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_mono_imtech_cpp_video_4k.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libchromatix_imx258_mono_imtech_default_preview_bu64244gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_mono_imtech_default_preview_bu64244gwz.so \
