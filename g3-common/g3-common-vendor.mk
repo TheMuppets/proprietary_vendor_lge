@@ -27,7 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/vendor/bin/radish:$(TARGET_COPY_OUT_VENDOR)/bin/radish \
     vendor/lge/g3-common/proprietary/vendor/bin/sensors.qcom:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qcom \
     vendor/lge/g3-common/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
-    vendor/lge/g3-common/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
     vendor/lge/g3-common/proprietary/vendor/firmware/DLdata_rev28B_data1.ecl:$(TARGET_COPY_OUT_VENDOR)/firmware/DLdata_rev28B_data1.ecl \
     vendor/lge/g3-common/proprietary/vendor/firmware/DLdata_rev28B_data2.ecl:$(TARGET_COPY_OUT_VENDOR)/firmware/DLdata_rev28B_data2.ecl \
     vendor/lge/g3-common/proprietary/vendor/firmware/DLdata_rev28B_data3.ecl:$(TARGET_COPY_OUT_VENDOR)/firmware/DLdata_rev28B_data3.ecl \
@@ -90,7 +89,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libRSDriver_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriver_adreno.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/libTimeService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTimeService.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libactuator_dw9714.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libactuator_dw9714_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_camcorder.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libactuator_dw9714_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_camera.so \
@@ -195,6 +193,5 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
-    TimeService \
     qcrilmsgtunnel \
     shutdownlistener

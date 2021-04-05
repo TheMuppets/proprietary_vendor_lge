@@ -37,17 +37,6 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
-	name: "TimeService",
-	owner: "lge",
-	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
 	name: "qcrilmsgtunnel",
 	owner: "lge",
 	apk: "proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
