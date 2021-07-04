@@ -375,17 +375,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "WfdService",
-	owner: "lge",
-	apk: "proprietary/priv-app/WfdService/WfdService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
 	name: "qcrilmsgtunnel",
 	owner: "lge",
 	apk: "proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
@@ -400,12 +389,6 @@ dex_import {
 	name: "QtiTelephonyServicelibrary",
 	owner: "lge",
 	jars: ["proprietary/framework/QtiTelephonyServicelibrary.jar"],
-}
-
-dex_import {
-	name: "WfdCommon",
-	owner: "lge",
-	jars: ["proprietary/framework/WfdCommon.jar"],
 }
 
 dex_import {
