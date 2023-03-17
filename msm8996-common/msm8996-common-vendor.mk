@@ -287,7 +287,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssd.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libsymphony-1.1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsymphony-1.1.1.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libsymphonypower-1.1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsymphonypower-1.1.1.so \
-    vendor/lge/msm8996-common/proprietary/vendor/lib/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtime_genoff.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libts_detected_face_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_detected_face_hal.so \
