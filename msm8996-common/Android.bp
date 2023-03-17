@@ -289,17 +289,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "CNEService",
-	owner: "lge",
-	apk: "proprietary/system/priv-app/CNEService/CNEService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
 	name: "SprintDM",
 	owner: "lge",
 	apk: "proprietary/system/priv-app/SprintDM/SprintDM.apk",
@@ -376,6 +365,40 @@ android_app_import {
 	privileged: true,
 }
 
+android_app_import {
+	name: "CneApp",
+	owner: "lge",
+	apk: "proprietary/vendor/app/CneApp/CneApp.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+android_app_import {
+	name: "IWlanService",
+	owner: "lge",
+	apk: "proprietary/vendor/app/IWlanService/IWlanService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+android_app_import {
+	name: "dpmserviceapp",
+	owner: "lge",
+	apk: "proprietary/system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
 dex_import {
 	name: "QtiTelephonyServicelibrary",
 	owner: "lge",
@@ -398,6 +421,20 @@ dex_import {
 	name: "qti-telephony-common",
 	owner: "lge",
 	jars: ["proprietary/system/framework/qti-telephony-common.jar"],
+}
+
+dex_import {
+	name: "com.qti.dpmframework",
+	owner: "lge",
+	jars: ["proprietary/system_ext/framework/com.qti.dpmframework.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "dpmapi",
+	owner: "lge",
+	jars: ["proprietary/system_ext/framework/dpmapi.jar"],
+	system_ext_specific: true,
 }
 
 prebuilt_etc_xml {
