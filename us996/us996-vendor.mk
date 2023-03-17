@@ -6,7 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/lge/us996
 
 PRODUCT_COPY_FILES += \
-    vendor/lge/us996/proprietary/vendor/firmware/BCM4358A3.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM4358A3.hcd \
+    vendor/lge/us996/proprietary/vendor/firmware/BCM43xx.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM43xx.hcd \
     vendor/lge/us996/proprietary/vendor/firmware/a530_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_gpmu.fw2 \
     vendor/lge/us996/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
     vendor/lge/us996/proprietary/vendor/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
