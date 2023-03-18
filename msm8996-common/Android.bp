@@ -424,6 +424,13 @@ dex_import {
 }
 
 dex_import {
+	name: "qti-vzw-ims-internal",
+	owner: "lge",
+	jars: ["proprietary/vendor/framework/qti-vzw-ims-internal.jar"],
+	soc_specific: true,
+}
+
+dex_import {
 	name: "com.qti.dpmframework",
 	owner: "lge",
 	jars: ["proprietary/system_ext/framework/com.qti.dpmframework.jar"],
