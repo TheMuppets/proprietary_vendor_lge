@@ -303,28 +303,18 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g6-common/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_4k_preview_2P7.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_4k_preview_2P7.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_4k_preview_hi553_cowell.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_4k_preview_hi553_cowell.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_4k_preview_hi553_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_4k_preview_hi553_lgit.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_4k_preview_hi842.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_4k_preview_hi842.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_4k_preview_imx219.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_4k_preview_imx219.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_4k_preview_imx234.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_4k_preview_imx234.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_4k_preview_imx258_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_4k_preview_imx258_imtech.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_4k_preview_imx258_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_4k_preview_imx258_lgit.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_4k_preview_imx258_wide_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_4k_preview_imx258_wide_imtech.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_4k_preview_imx258_wide_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_4k_preview_imx258_wide_lgit.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_4k_preview_imx298.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_4k_preview_imx298.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_4k_video_2P7.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_4k_video_2P7.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_4k_video_hi553_cowell.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_4k_video_hi553_cowell.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_4k_video_hi553_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_4k_video_hi553_lgit.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_4k_video_hi842.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_4k_video_hi842.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_4k_video_imx219.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_4k_video_imx219.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_4k_video_imx234.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_4k_video_imx234.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_4k_video_imx258_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_4k_video_imx258_imtech.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_4k_video_imx258_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_4k_video_imx258_lgit.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_4k_video_imx258_wide_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_4k_video_imx258_wide_imtech.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_4k_video_imx258_wide_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_4k_video_imx258_wide_lgit.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_4k_video_imx298.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_4k_video_imx298.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_binning_4k_imx258_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_binning_4k_imx258_imtech.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_binning_4k_imx258_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_binning_4k_imx258_lgit.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_binning_4k_imx258_wide_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_binning_4k_imx258_wide_imtech.so \
@@ -337,122 +327,60 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_binning_zsl_imx258_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_binning_zsl_imx258_lgit.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_binning_zsl_imx258_wide_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_binning_zsl_imx258_wide_imtech.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_binning_zsl_imx258_wide_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_binning_zsl_imx258_wide_lgit.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_default_preview_2P7.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_default_preview_2P7.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_default_preview_hi553_cowell.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_default_preview_hi553_cowell.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_default_preview_hi553_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_default_preview_hi553_lgit.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_default_preview_hi842.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_default_preview_hi842.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_default_preview_imx219.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_default_preview_imx219.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_default_preview_imx234.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_default_preview_imx234.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_default_preview_imx258_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_default_preview_imx258_imtech.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_default_preview_imx258_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_default_preview_imx258_lgit.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_default_preview_imx258_wide_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_default_preview_imx258_wide_imtech.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_default_preview_imx258_wide_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_default_preview_imx258_wide_lgit.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_default_preview_imx298.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_default_preview_imx298.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_default_video_2P7.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_default_video_2P7.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_default_video_hi553_cowell.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_default_video_hi553_cowell.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_default_video_hi553_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_default_video_hi553_lgit.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_default_video_hi842.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_default_video_hi842.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_default_video_imx219.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_default_video_imx219.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_default_video_imx234.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_default_video_imx234.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_default_video_imx258_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_default_video_imx258_imtech.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_default_video_imx258_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_default_video_imx258_lgit.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_default_video_imx258_wide_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_default_video_imx258_wide_imtech.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_default_video_imx258_wide_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_default_video_imx258_wide_lgit.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_default_video_imx298.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_default_video_imx298.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hdr_snapshot_2P7.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hdr_snapshot_2P7.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hdr_snapshot_imx234.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hdr_snapshot_imx234.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hdr_snapshot_imx258_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hdr_snapshot_imx258_imtech.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hdr_snapshot_imx258_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hdr_snapshot_imx258_lgit.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hdr_snapshot_imx258_wide_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hdr_snapshot_imx258_wide_imtech.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hdr_snapshot_imx258_wide_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hdr_snapshot_imx258_wide_lgit.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hdr_snapshot_imx298.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hdr_snapshot_imx298.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hdr_video_2P7.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hdr_video_2P7.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hdr_video_imx234.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hdr_video_imx234.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hdr_video_imx258_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hdr_video_imx258_imtech.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hdr_video_imx258_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hdr_video_imx258_lgit.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hdr_video_imx258_wide_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hdr_video_imx258_wide_imtech.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hdr_video_imx258_wide_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hdr_video_imx258_wide_lgit.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hdr_video_imx298.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hdr_video_imx298.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_120_2P7.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hfr_120_2P7.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_120_hi842.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hfr_120_hi842.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_120_imx219.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hfr_120_imx219.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_120_imx234.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hfr_120_imx234.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_120_imx258_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hfr_120_imx258_imtech.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_120_imx258_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hfr_120_imx258_lgit.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_120_imx258_wide_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hfr_120_imx258_wide_imtech.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_120_imx258_wide_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hfr_120_imx258_wide_lgit.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_120_imx298.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hfr_120_imx298.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_60_2P7.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hfr_60_2P7.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_60_hi842.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hfr_60_hi842.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_60_imx219.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hfr_60_imx219.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_60_imx234.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hfr_60_imx234.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_60_imx258_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hfr_60_imx258_imtech.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_60_imx258_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hfr_60_imx258_lgit.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_60_imx258_wide_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hfr_60_imx258_wide_imtech.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_60_imx258_wide_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hfr_60_imx258_wide_lgit.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_60_imx298.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hfr_60_imx298.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_90_2P7.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hfr_90_2P7.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_90_hi842.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hfr_90_hi842.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_90_imx219.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hfr_90_imx219.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_90_imx234.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hfr_90_imx234.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_90_imx258_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hfr_90_imx258_imtech.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_90_imx258_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hfr_90_imx258_lgit.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_90_imx258_wide_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hfr_90_imx258_wide_imtech.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_90_imx258_wide_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hfr_90_imx258_wide_lgit.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_hfr_90_imx298.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_hfr_90_imx298.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_panorama_2P7.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_panorama_2P7.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_panorama_hi842.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_panorama_hi842.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_panorama_imx219.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_panorama_imx219.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_panorama_imx234.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_panorama_imx234.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_panorama_imx258_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_panorama_imx258_imtech.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_panorama_imx258_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_panorama_imx258_lgit.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_panorama_imx258_wide_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_panorama_imx258_wide_imtech.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_panorama_imx258_wide_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_panorama_imx258_wide_lgit.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_panorama_imx298.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_panorama_imx298.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_raw_hdr_2P7.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_raw_hdr_2P7.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_raw_hdr_imx234.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_raw_hdr_imx234.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_raw_hdr_imx258_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_raw_hdr_imx258_imtech.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_raw_hdr_imx258_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_raw_hdr_imx258_lgit.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_raw_hdr_imx258_wide_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_raw_hdr_imx258_wide_imtech.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_raw_hdr_imx258_wide_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_raw_hdr_imx258_wide_lgit.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_raw_hdr_imx298.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_raw_hdr_imx298.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_vt_hi553_cowell.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_vt_hi553_cowell.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_vt_hi553_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_vt_hi553_lgit.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_zsl_preview_2P7.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_zsl_preview_2P7.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_zsl_preview_hi553_cowell.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_zsl_preview_hi553_cowell.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_zsl_preview_hi553_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_zsl_preview_hi553_lgit.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_zsl_preview_hi842.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_zsl_preview_hi842.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_zsl_preview_imx219.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_zsl_preview_imx219.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_zsl_preview_imx234.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_zsl_preview_imx234.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_zsl_preview_imx258_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_zsl_preview_imx258_imtech.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_zsl_preview_imx258_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_zsl_preview_imx258_lgit.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_zsl_preview_imx258_wide_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_zsl_preview_imx258_wide_imtech.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_zsl_preview_imx258_wide_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_zsl_preview_imx258_wide_lgit.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_zsl_preview_imx298.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_zsl_preview_imx298.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_zsl_video_2P7.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_zsl_video_2P7.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_zsl_video_hi553_cowell.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_zsl_video_hi553_cowell.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_zsl_video_hi553_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_zsl_video_hi553_lgit.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_zsl_video_hi842.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_zsl_video_hi842.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_zsl_video_imx219.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_zsl_video_imx219.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_zsl_video_imx234.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_zsl_video_imx234.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_zsl_video_imx258_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_zsl_video_imx258_imtech.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_zsl_video_imx258_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_zsl_video_imx258_lgit.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_zsl_video_imx258_wide_imtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_zsl_video_imx258_wide_imtech.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_zsl_video_imx258_wide_lgit.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_zsl_video_imx258_wide_lgit.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_ae_parameter_zsl_video_imx298.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_ae_parameter_zsl_video_imx298.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_2P7_4k_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_2P7_4k_preview.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_2P7_4k_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_2P7_4k_video.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_2P7_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_2P7_default_preview.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_2P7_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_2P7_default_video.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_2P7_hdr_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_2P7_hdr_snapshot.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_2P7_hdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_2P7_hdr_video.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_2P7_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_2P7_hfr_120.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_2P7_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_2P7_hfr_60.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_2P7_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_2P7_hfr_90.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_2P7_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_2P7_panorama.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_2P7_raw_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_2P7_raw_hdr.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_2P7_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_2P7_zsl_preview.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_2P7_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_2P7_zsl_video.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_hi553_cowell_4k_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_hi553_cowell_4k_preview.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_hi553_cowell_4k_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_hi553_cowell_4k_video.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_hi553_cowell_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_hi553_cowell_default_preview.so \
@@ -479,42 +407,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_hi553_lgit_raw_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_hi553_lgit_raw_hdr.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_hi553_lgit_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_hi553_lgit_zsl_preview.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_hi553_lgit_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_hi553_lgit_zsl_video.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_hi842_4k_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_hi842_4k_preview.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_hi842_4k_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_hi842_4k_video.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_hi842_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_hi842_default_preview.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_hi842_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_hi842_default_video.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_hi842_hdr_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_hi842_hdr_snapshot.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_hi842_hdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_hi842_hdr_video.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_hi842_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_hi842_hfr_120.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_hi842_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_hi842_hfr_60.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_hi842_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_hi842_hfr_90.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_hi842_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_hi842_panorama.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_hi842_raw_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_hi842_raw_hdr.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_hi842_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_hi842_zsl_preview.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_hi842_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_hi842_zsl_video.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx219_4k_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx219_4k_preview.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx219_4k_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx219_4k_video.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx219_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx219_default_preview.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx219_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx219_default_video.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx219_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx219_hfr_120.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx219_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx219_hfr_60.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx219_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx219_hfr_90.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx219_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx219_panorama.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx219_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx219_zsl_preview.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx219_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx219_zsl_video.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx234_4k_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx234_4k_preview.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx234_4k_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx234_4k_video.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx234_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx234_default_preview.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx234_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx234_default_video.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx234_hdr_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx234_hdr_snapshot.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx234_hdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx234_hdr_video.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx234_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx234_hfr_120.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx234_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx234_hfr_60.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx234_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx234_hfr_90.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx234_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx234_panorama.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx234_raw_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx234_raw_hdr.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx234_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx234_zsl_preview.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx234_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx234_zsl_video.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx258_imtech_4k_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx258_imtech_4k_preview.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx258_imtech_4k_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx258_imtech_4k_video.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx258_imtech_binning_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx258_imtech_binning_4k.so \
@@ -579,19 +471,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx258_wide_lgit_raw_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx258_wide_lgit_raw_hdr.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx258_wide_lgit_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx258_wide_lgit_zsl_preview.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx258_wide_lgit_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx258_wide_lgit_zsl_video.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx298_4k_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx298_4k_preview.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx298_4k_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx298_4k_video.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx298_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx298_default_preview.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx298_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx298_default_video.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx298_hdr_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx298_hdr_snapshot.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx298_hdr_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx298_hdr_video.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx298_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx298_hfr_120.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx298_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx298_hfr_60.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx298_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx298_hfr_90.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx298_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx298_panorama.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx298_raw_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx298_raw_hdr.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx298_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx298_zsl_preview.so \
-    vendor/lge/g6-common/proprietary/vendor/lib/liblg_awb_parameter_imx298_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblg_awb_parameter_imx298_zsl_video.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblgae_main.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblgae_main.so \
     vendor/lge/g6-common/proprietary/vendor/lib/liblgawb_main.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblgawb_main.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
