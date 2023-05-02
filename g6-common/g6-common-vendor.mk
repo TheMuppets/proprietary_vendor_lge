@@ -588,5 +588,4 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g6-common/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_bg_pca_algo.so
 
 PRODUCT_PACKAGES += \
-    fingerprint.msm8996 \
-    DolbyVisionService
+    fingerprint.msm8996

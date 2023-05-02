@@ -23,13 +23,3 @@ cc_prebuilt_library_shared {
 	soc_specific: true,
 }
 
-android_app_import {
-	name: "DolbyVisionService",
-	owner: "lge",
-	apk: "proprietary/system/app/DolbyVisionService/DolbyVisionService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
-
