@@ -39,6 +39,22 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g6-common/proprietary/vendor/lib/libmorpho_superzoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_superzoom.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
     vendor/lge/g6-common/proprietary/system/lib64/libdovi.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdovi.so \
+    vendor/lge/g6-common/proprietary/vendor/bin/mm-qcamera-app:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-app \
+    vendor/lge/g6-common/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
+    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
+    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/General_cal.acdb \
+    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Global_cal.acdb \
+    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Handset_cal.acdb \
+    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Hdmi_cal.acdb \
+    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Headset_cal.acdb \
+    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Speaker_cal.acdb \
+    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/plus/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/plus/Bluetooth_cal.acdb \
+    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/plus/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/plus/General_cal.acdb \
+    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/plus/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/plus/Global_cal.acdb \
+    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/plus/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/plus/Handset_cal.acdb \
+    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/plus/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/plus/Hdmi_cal.acdb \
+    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/plus/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/plus/Headset_cal.acdb \
+    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/plus/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/plus/Speaker_cal.acdb \
     vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev10_S_data1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev10_S_data1.bin \
     vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev10_S_data2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev10_S_data2.bin \
     vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev6_S_data1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev6_S_data1.bin \
@@ -49,30 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev8_S_data2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Lucy_LGITAct_ICG1020S_rev8_S_data2.bin \
     vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_LGITAct_OPAF_ICG1020S_rev1_S_data1_0x01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Lucy_LGITAct_OPAF_ICG1020S_rev1_S_data1_0x01.bin \
     vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_LGITAct_OPAF_ICG1020S_rev1_S_data2_0x01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Lucy_LGITAct_OPAF_ICG1020S_rev1_S_data2_0x01.bin \
-    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev4_S_data1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev4_S_data1.bin \
-    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev4_S_data2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev4_S_data2.bin \
-    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev6_S_data1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev6_S_data1.bin \
-    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev6_S_data2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev6_S_data2.bin \
-    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev7_S_data1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev7_S_data1.bin \
-    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev7_S_data2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev7_S_data2.bin \
-    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev8_S_data1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev8_S_data1.bin \
-    vendor/lge/g6-common/proprietary/vendor/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev8_S_data2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev8_S_data2.bin \
-    vendor/lge/g6-common/proprietary/vendor/bin/mm-qcamera-app:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-app \
-    vendor/lge/g6-common/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
-    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
-    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/General_cal.acdb \
-    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Global_cal.acdb \
-    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Handset_cal.acdb \
-    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Hdmi_cal.acdb \
-    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Headset_cal.acdb \
-    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Speaker_cal.acdb \
-    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/v2/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/v2/Bluetooth_cal.acdb \
-    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/v2/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/v2/General_cal.acdb \
-    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/v2/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/v2/Global_cal.acdb \
-    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/v2/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/v2/Handset_cal.acdb \
-    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/v2/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/v2/Hdmi_cal.acdb \
-    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/v2/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/v2/Headset_cal.acdb \
-    vendor/lge/g6-common/proprietary/vendor/etc/acdbdata/v2/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/v2/Speaker_cal.acdb \
     vendor/lge/g6-common/proprietary/vendor/etc/qdcm_calib_data_SW49408_1440_2880_cmd_mode_dsc_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_SW49408_1440_2880_cmd_mode_dsc_dsi_panel.xml \
     vendor/lge/g6-common/proprietary/vendor/lib/hw/camera.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8996.so \
     vendor/lge/g6-common/proprietary/vendor/lib/libCmcPdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCmcPdaf.so \
