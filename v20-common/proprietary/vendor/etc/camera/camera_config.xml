@@ -119,7 +119,6 @@ LensInfo : Information of the lens present in the module.
     <OisName>bu24333gwl</OisName>
     <ProxyName>vl53l0</ProxyName>
     <EepromName>brcb032gwz</EepromName>
-
     <ChromatixName>imx298_chromatix_LG</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>BACK</Position>
@@ -147,7 +146,6 @@ LensInfo : Information of the lens present in the module.
     <OisName>bu24333gwl_s5k2p7</OisName>
     <ProxyName>vl53l0</ProxyName>
     <EepromName>brcb032gwz_s5k2p7</EepromName>
-
     <ChromatixName>s5k2p7_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>BACK</Position>
