@@ -6,11 +6,24 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/lge/g5-common
 
 PRODUCT_COPY_FILES += \
+    vendor/lge/g5-common/proprietary/vendor/bin/fpc_early_loader:$(TARGET_COPY_OUT_VENDOR)/bin/fpc_early_loader \
     vendor/lge/g5-common/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
     vendor/lge/g5-common/proprietary/vendor/etc/camera/imx219_alice_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx219_alice_chromatix.xml \
     vendor/lge/g5-common/proprietary/vendor/etc/camera/imx234_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx234_chromatix.xml \
     vendor/lge/g5-common/proprietary/vendor/etc/camera/imx268_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx268_chromatix.xml \
     vendor/lge/g5-common/proprietary/vendor/etc/camera/t4ka3_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/t4ka3_chromatix.xml \
+    vendor/lge/g5-common/proprietary/vendor/lib/libHDR.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHDR.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_fpc_tac_shared.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libarcsoft_beauty_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beauty_shot.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libbwfocuspeaking.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbwfocuspeaking.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libfilm_emulation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfilm_emulation.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libfpfactory.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfpfactory.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libfpfactory_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfpfactory_jni.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libmorpho_image_stab31.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_image_stab31.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libmorpho_superzoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_superzoom.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_fpc_tac_shared.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libfpfactory.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpfactory.so \
+    vendor/lge/g5-common/proprietary/vendor/lib64/libfpfactory_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpfactory_jni.so \
     vendor/lge/g5-common/proprietary/vendor/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev13_S_data1_0x4E.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev13_S_data1_0x4E.bin \
     vendor/lge/g5-common/proprietary/vendor/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev13_S_data2_0x4E.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev13_S_data2_0x4E.bin \
     vendor/lge/g5-common/proprietary/vendor/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev14_S_data1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev14_S_data1.bin \
@@ -29,7 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/firmware/bu24234_dl_program_Alice_MTMAct_ICG1020S_rev3.1_S_data2_0x1F.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24234_dl_program_Alice_MTMAct_ICG1020S_rev3.1_S_data2_0x1F.bin \
     vendor/lge/g5-common/proprietary/vendor/firmware/bu24234_dl_program_Alice_MTMAct_K2G2IS_rev1_S_data1_0x03.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24234_dl_program_Alice_MTMAct_K2G2IS_rev1_S_data1_0x03.bin \
     vendor/lge/g5-common/proprietary/vendor/firmware/bu24234_dl_program_Alice_MTMAct_K2G2IS_rev1_S_data2_0x03.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24234_dl_program_Alice_MTMAct_K2G2IS_rev1_S_data2_0x03.bin \
-    vendor/lge/g5-common/proprietary/vendor/bin/fpc_early_loader:$(TARGET_COPY_OUT_VENDOR)/bin/fpc_early_loader \
     vendor/lge/g5-common/proprietary/vendor/bin/mm-qcamera-app:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-app \
     vendor/lge/g5-common/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/lge/g5-common/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
@@ -39,10 +51,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/etc/acdbdata/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Hdmi_cal.acdb \
     vendor/lge/g5-common/proprietary/vendor/etc/acdbdata/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Headset_cal.acdb \
     vendor/lge/g5-common/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Speaker_cal.acdb \
-    vendor/lge/g5-common/proprietary/vendor/etc/qdcm_calib_data_LGD_SIC_LG4946_1440p_Dual_cmd_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_LGD_SIC_LG4946_1440p_Dual_cmd_mode_dsi_panel.xml \
     vendor/lge/g5-common/proprietary/vendor/lib/hw/camera.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8996.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libHDR.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHDR.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_fpc_tac_shared.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libactuator_ad5816g.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ad5816g.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libactuator_ad5823.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ad5823.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libactuator_ak7345.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7345.so \
@@ -59,8 +68,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/lib/libactuator_lc898212xd_qc2002.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_lc898212xd_qc2002.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libactuator_lc898217xc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_lc898217xc.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64243gwz.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libarcsoft_beauty_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beauty_shot.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libbwfocuspeaking.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbwfocuspeaking.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_csidtg_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_common.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_csidtg_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_cpp_preview.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_csidtg_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_postproc.so \
@@ -156,10 +163,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_t4ka3_vt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_t4ka3_vt.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_t4ka3_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_t4ka3_zsl_preview.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_t4ka3_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_t4ka3_zsl_video.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libfilm_emulation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfilm_emulation.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libfpfactory.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfpfactory.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libfpfactory_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfpfactory_jni.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
@@ -334,17 +338,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libmmqjpegdma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpegdma.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libmorpho_image_stab31.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_image_stab31.so \
-    vendor/lge/g5-common/proprietary/vendor/lib/libmorpho_superzoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_superzoom.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libois_bu24333gwl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_bu24333gwl.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libois_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_lc898122.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libqomx_jpegdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegdec.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_fpc_tac_shared.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libfpfactory.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpfactory.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libfpfactory_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpfactory_jni.so \
     vendor/lge/g5-common/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_frame_algorithm.so \
     vendor/lge/g5-common/proprietary/vendor/lib64/libmmcamera2_is.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_is.so \
     vendor/lge/g5-common/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_stats_algorithm.so \
