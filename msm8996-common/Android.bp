@@ -279,16 +279,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "vzw_msdc_api",
-	owner: "lge",
-	apk: "proprietary/system/app/vzw_msdc_api/vzw_msdc_api.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-}
-
-android_app_import {
 	name: "SprintDM",
 	owner: "lge",
 	apk: "proprietary/system/priv-app/SprintDM/SprintDM.apk",
@@ -311,42 +301,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "VZWAPNService",
+	name: "UnifiedSettingsApp",
 	owner: "lge",
-	apk: "proprietary/system/priv-app/VZWAPNService/VZWAPNService.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
-	name: "VZWAVS",
-	owner: "lge",
-	apk: "proprietary/system/priv-app/VZWAVS/VZWAVS.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
-	name: "VzwLcSilent",
-	owner: "lge",
-	apk: "proprietary/system/priv-app/VzwLcSilent/VzwLcSilent.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
-	name: "VzwOmaTrigger",
-	owner: "lge",
-	apk: "proprietary/system/priv-app/VzwOmaTrigger/VzwOmaTrigger.apk",
+	apk: "proprietary/system/priv-app/UnifiedSettingsApp/UnifiedSettingsApp.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -406,9 +363,9 @@ dex_import {
 }
 
 dex_import {
-	name: "VerizonUnifiedSettings",
+	name: "VZWAVSLibrary",
 	owner: "lge",
-	jars: ["proprietary/system/framework/VerizonUnifiedSettings.jar"],
+	jars: ["proprietary/system/framework/VZWAVSLibrary.jar"],
 }
 
 dex_import {

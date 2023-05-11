@@ -3,3 +3,4 @@
     <library name="com.vzw.apnlib"
             file="/system/app/VZWAPNLib/VZWAPNLib.apk"/>
 </permissions>
+

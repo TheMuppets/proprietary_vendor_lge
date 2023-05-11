@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <library name="com.vzw.android"
+        file="/system/framework/com.vzw.android.jar"
+    />
+</permissions>

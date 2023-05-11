@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <library name="com.verizon.sdm"
+        file="/system/framework/com.verizon.sdm.jar"
+    />
+</permissions>

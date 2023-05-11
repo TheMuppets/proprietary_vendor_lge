@@ -62,13 +62,27 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/vendor/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw \
     vendor/lge/msm8996-common/proprietary/system/etc/permissions/com.verizon.apn.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.verizon.apn.xml \
     vendor/lge/msm8996-common/proprietary/system/etc/permissions/com.verizon.embms.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.verizon.embms.xml \
+    vendor/lge/msm8996-common/proprietary/system/etc/permissions/com.verizon.epdg.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.verizon.epdg.xml \
+    vendor/lge/msm8996-common/proprietary/system/etc/permissions/com.verizon.hardware.telephony.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.verizon.hardware.telephony.xml \
+    vendor/lge/msm8996-common/proprietary/system/etc/permissions/com.verizon.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.verizon.ims.xml \
+    vendor/lge/msm8996-common/proprietary/system/etc/permissions/com.verizon.net.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.verizon.net.xml \
+    vendor/lge/msm8996-common/proprietary/system/etc/permissions/com.verizon.os.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.verizon.os.xml \
+    vendor/lge/msm8996-common/proprietary/system/etc/permissions/com.verizon.phone.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.verizon.phone.xml \
     vendor/lge/msm8996-common/proprietary/system/etc/permissions/com.verizon.provider.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.verizon.provider.xml \
+    vendor/lge/msm8996-common/proprietary/system/etc/permissions/com.verizon.sdm.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.verizon.sdm.xml \
+    vendor/lge/msm8996-common/proprietary/system/etc/permissions/com.verizon.sdmservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.verizon.sdmservice.xml \
+    vendor/lge/msm8996-common/proprietary/system/etc/permissions/com.vzw.android.hux.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.vzw.android.hux.xml \
+    vendor/lge/msm8996-common/proprietary/system/etc/permissions/com.vzw.android.lg.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.vzw.android.lg.xml \
+    vendor/lge/msm8996-common/proprietary/system/etc/permissions/com.vzw.android.smart.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.vzw.android.smart.xml \
+    vendor/lge/msm8996-common/proprietary/system/etc/permissions/com.vzw.android.vzw1638.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.vzw.android.vzw1638.xml \
+    vendor/lge/msm8996-common/proprietary/system/etc/permissions/com.vzw.android.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.vzw.android.xml \
+    vendor/lge/msm8996-common/proprietary/system/etc/permissions/com.vzw.avs.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.vzw.avs.xml \
+    vendor/lge/msm8996-common/proprietary/system/etc/permissions/com.vzw.vzwapnlib.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.vzw.vzwapnlib.xml \
     vendor/lge/msm8996-common/proprietary/system/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qcrilhook.xml \
     vendor/lge/msm8996-common/proprietary/system/etc/permissions/qti-vzw-ims-internal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/lge/msm8996-common/proprietary/system/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_libpermissions.xml \
     vendor/lge/msm8996-common/proprietary/system/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_permissions.xml \
     vendor/lge/msm8996-common/proprietary/system/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/telephonyservice.xml \
-    vendor/lge/msm8996-common/proprietary/system/etc/permissions/vzw_sso_permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vzw_sso_permissions.xml \
     vendor/lge/msm8996-common/proprietary/system/lib/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/lge/msm8996-common/proprietary/system/lib/hw/lgkm.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/lgkm.default.so \
     vendor/lge/msm8996-common/proprietary/system/lib/hw/lgkm.msm8996.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/lgkm.msm8996.so \
@@ -529,19 +543,15 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     QtiTelephonyService \
     VZWAPNLib \
-    vzw_msdc_api \
     SprintDM \
     SprintHM \
-    VZWAPNService \
-    VZWAVS \
-    VzwLcSilent \
-    VzwOmaTrigger \
+    UnifiedSettingsApp \
     qcrilmsgtunnel \
     CneApp \
     IWlanService \
     dpmserviceapp \
     QtiTelephonyServicelibrary \
-    VerizonUnifiedSettings \
+    VZWAVSLibrary \
     qcrilhook \
     qti-telephony-common \
     qti-vzw-ims-internal \
