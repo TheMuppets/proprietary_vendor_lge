@@ -23,8 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/system_ext/lib64/libdpmfdmgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmfdmgr.so \
     vendor/lge/msm8996-common/proprietary/system_ext/lib64/libdpmframework.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmframework.so \
     vendor/lge/msm8996-common/proprietary/system_ext/lib64/libdpmtcm.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdpmtcm.so \
-    vendor/lge/msm8996-common/proprietary/system_ext/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimscamera_jni.so \
-    vendor/lge/msm8996-common/proprietary/system_ext/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsmedia_jni.so \
     vendor/lge/msm8996-common/proprietary/vendor/etc/camera/film/0_film.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/film/0_film.dat \
     vendor/lge/msm8996-common/proprietary/vendor/etc/camera/film/10_film.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/film/10_film.dat \
     vendor/lge/msm8996-common/proprietary/vendor/etc/camera/film/1_film.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/film/1_film.dat \
@@ -86,6 +84,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/system/lib/hw/lgkm.msm8996.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/lgkm.msm8996.so \
     vendor/lge/msm8996-common/proprietary/system/lib/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFileMux.so \
     vendor/lge/msm8996-common/proprietary/system/lib/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOmxMux.so \
+    vendor/lge/msm8996-common/proprietary/system/lib/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdiag_system.so \
     vendor/lge/msm8996-common/proprietary/system/lib/liblgkm.so:$(TARGET_COPY_OUT_SYSTEM)/lib/liblgkm.so \
     vendor/lge/msm8996-common/proprietary/system/lib/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmosal.so \
     vendor/lge/msm8996-common/proprietary/system/lib/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmparser_lite.so \
@@ -94,6 +93,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/system/lib64/hw/lgkm.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/lgkm.default.so \
     vendor/lge/msm8996-common/proprietary/system/lib64/hw/lgkm.msm8996.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/lgkm.msm8996.so \
     vendor/lge/msm8996-common/proprietary/system/lib64/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libFileMux.so \
+    vendor/lge/msm8996-common/proprietary/system/lib64/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdiag_system.so \
     vendor/lge/msm8996-common/proprietary/system/lib64/liblgkm.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/liblgkm.so \
     vendor/lge/msm8996-common/proprietary/system/lib64/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmosal.so \
     vendor/lge/msm8996-common/proprietary/system/lib64/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmparser_lite.so \
